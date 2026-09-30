@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#17333a">
+    <title>Constitución en imágenes · Artículos 1–55</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #17333a;
+            --muted: #52636a;
+            --paper: #f6f3ec;
+            --card: #fffefa;
+            --line: #dedbd2;
+            --teal: #176b61;
+            --teal-soft: #e5f2ec;
+            --gold: #e8b85d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font: 16px/1.6 "Segoe UI", Arial, sans-serif;
+        }
+
+        button,
+        input {
+            font: inherit;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        button:focus-visible,
+        input:focus-visible {
+            outline: 3px solid var(--gold);
+            outline-offset: 3px;
+        }
+
+        .skip-link {
+            position: absolute;
+            left: 16px;
+            top: -60px;
+            z-index: 10;
+            padding: 8px 14px;
+            background: white;
+            color: var(--ink);
+        }
+
+        .skip-link:focus {
+            top: 12px;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            background: #17333a;
+            color: #fffefa;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            width: 360px;
+            height: 360px;
+            right: -70px;
+            top: -165px;
+            border: 60px solid rgba(232, 184, 93, .12);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-inner,
+        .toolbar-inner,
+        .page-inner {
+            width: min(100% - 36px, 1060px);
+            margin-inline: auto;
+        }
+
+        .hero-inner {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(240px, 300px);
+            align-items: end;
+            gap: 32px;
+            padding: 56px 0 48px;
+        }
+
+        .eyebrow {
+            margin: 0 0 12px;
+            color: #ecd39d;
+            font-size: .78rem;
+            font-weight: 800;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 620px;
+            margin: 0;
+            font: 700 clamp(2.35rem, 5vw, 4.2rem)/1.08 Georgia, "Times New Roman", serif;
+            letter-spacing: -.035em;
+        }
+
+        .hero-description {
+            max-width: 610px;
+            margin: 20px 0 0;
+            color: #dbe5e1;
+            font-size: 1.08rem;
+        }
+
+        .progress-panel {
+            padding: 21px 22px;
+            border: 1px solid rgba(255, 255, 255, .25);
+            border-radius: 18px;
+            background: rgba(255, 255, 255, .09);
+        }
+
+        .progress-label {
+            margin: 0;
+            color: #dbe5e1;
+            font-size: .82rem;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+        }
+
+        .progress-count {
+            margin: 2px 0 13px;
+            font-size: 1.4rem;
+            font-weight: 800;
+        }
+
+        .progress-track {
+            height: 9px;
+            overflow: hidden;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, .23);
+        }
+
+        .progress-fill {
+            width: 0;
+            height: 100%;
+            border-radius: inherit;
+            background: var(--gold);
+            transition: width .2s ease;
+        }
+
+        .toolbar {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background: rgba(246, 243, 236, .97);
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(12px);
+        }
+
+        .toolbar-inner {
+            padding: 16px 0;
+        }
+
+        .tools-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .search-wrap {
+            flex: 1;
+        }
+
+        .search-wrap label {
+            display: block;
+            margin-bottom: 4px;
+            color: var(--muted);
+            font-size: .78rem;
+            font-weight: 700;
+        }
+
+        .search-wrap input {
+            width: 100%;
+            min-height: 44px;
+            padding: 9px 14px;
+            border: 1px solid #b9c5c2;
+            border-radius: 10px;
+            background: white;
+            color: var(--ink);
+        }
+
+        .search-wrap input::placeholder {
+            color: #68777a;
+        }
+
+        .mode-buttons {
+            display: flex;
+            align-self: end;
+            gap: 8px;
+        }
+
+        .mode-toggle {
+            min-height: 44px;
+            padding: 8px 16px;
+            border: 1px solid var(--teal);
+            border-radius: 10px;
+            background: var(--teal);
+            color: white;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .mode-toggle[aria-pressed="true"] {
+            background: white;
+            color: var(--teal);
+        }
+
+        .super-toggle {
+            border-color: #a87423;
+            background: #f5d990;
+            color: #46310e;
+        }
+
+        .super-toggle[aria-pressed="true"] {
+            background: white;
+            color: #755014;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+            margin-top: 13px;
+        }
+
+        .filters button {
+            padding: 5px 11px;
+            border: 1px solid transparent;
+            border-radius: 100px;
+            background: transparent;
+            color: var(--muted);
+            font-size: .85rem;
+            font-weight: 700;
+        }
+
+        .filters button:hover {
+            background: #ebe9e0;
+        }
+
+        .filters button[aria-pressed="true"] {
+            border-color: #a7c6bb;
+            background: var(--teal-soft);
+            color: #135c52;
+        }
+
+        .page-inner {
+            padding: 28px 0 64px;
+        }
+
+        .list-meta {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: baseline;
+            margin: 0 0 15px;
+            color: var(--muted);
+            font-size: .9rem;
+        }
+
+        .list-meta p {
+            margin: 0;
+        }
+
+        .cards {
+            display: grid;
+            gap: 15px;
+        }
+
+        .study-card {
+            padding: 25px 30px 27px;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: var(--card);
+            box-shadow: 0 5px 20px rgba(23, 51, 58, .035);
+            scroll-margin-top: 180px;
+        }
+
+        .study-card[hidden],
+        .empty-state[hidden] {
+            display: none;
+        }
+
+        .study-card.is-learned {
+            border-color: #a8c8bc;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 18px;
+            align-items: flex-start;
+        }
+
+        .card-eyebrow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 12px;
+            align-items: center;
+            margin: 0 0 5px;
+            font-size: .78rem;
+            font-weight: 800;
+            letter-spacing: .07em;
+            text-transform: uppercase;
+        }
+
+        .article-number {
+            color: var(--teal);
+        }
+
+        .super-number {
+            display: none;
+            padding: 0;
+            border: 0;
+            background: transparent;
+            color: var(--teal);
+            font: 700 1.65rem/1.2 Georgia, "Times New Roman", serif;
+            text-align: left;
+        }
+
+        .group-name {
+            color: #718084;
+        }
+
+        .card-heading h2 {
+            margin: 0;
+            font: 700 clamp(1.35rem, 2.4vw, 1.85rem)/1.25 Georgia, "Times New Roman", serif;
+            letter-spacing: -.015em;
+        }
+
+        .card-heading h2 strong {
+            font-weight: inherit;
+        }
+
+        .learned-toggle {
+            flex: 0 0 auto;
+            margin-top: 3px;
+            padding: 6px 11px;
+            border: 1px solid #b7c8c2;
+            border-radius: 9px;
+            background: white;
+            color: #245d54;
+            font-size: .82rem;
+            font-weight: 700;
+        }
+
+        .learned-toggle[aria-pressed="true"] {
+            border-color: #8cb7a5;
+            background: var(--teal-soft);
+        }
+
+        .memory {
+            margin-top: 20px;
+            padding: 17px 19px;
+            border-left: 4px solid var(--gold);
+            border-radius: 0 12px 12px 0;
+            background: #f8f6f0;
+        }
+
+        .memory-top {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px 12px;
+        }
+
+        .memory-label {
+            color: var(--muted);
+            font-size: .75rem;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+        }
+
+        .cue {
+            color: var(--ink);
+            font-weight: 800;
+        }
+
+        .answer {
+            margin-top: 11px;
+        }
+
+        .answer small {
+            display: block;
+            color: #243e42;
+            font-size: 1rem;
+            line-height: 1.65;
+        }
+
+        .answer .chain {
+            display: block;
+            width: fit-content;
+            max-width: 100%;
+            margin-top: 14px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: #e9eee8;
+            color: #315449;
+            font-size: .9rem;
+            font-weight: 800;
+            line-height: 1.45;
+        }
+
+        .legal-text {
+            margin-top: 19px;
+            padding-top: 16px;
+            border-top: 1px solid var(--line);
+        }
+
+        .legal-text summary {
+            width: fit-content;
+            color: var(--teal);
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .legal-text summary:hover {
+            text-decoration: underline;
+        }
+
+        .legal-text summary:focus-visible {
+            outline: 3px solid var(--gold);
+            outline-offset: 4px;
+            border-radius: 3px;
+        }
+
+        .legal-caption {
+            margin-left: 7px;
+            color: var(--muted);
+            font-size: .78rem;
+            font-weight: 500;
+        }
+
+        .legal-body {
+            max-width: 78ch;
+            padding: 8px 0 4px 19px;
+            color: #273e42;
+        }
+
+        .legal-body p {
+            margin: 12px 0;
+            line-height: 1.75;
+        }
+
+        .legal-body mark {
+            padding: 1px 3px;
+            border-radius: 3px;
+            background: #ffe7a1;
+            color: #283d37;
+            font-weight: 700;
+            box-decoration-break: clone;
+        }
+
+        .source-link {
+            display: inline-block;
+            margin-top: 9px;
+            color: var(--teal);
+            font-size: .86rem;
+            font-weight: 700;
+        }
+
+        .reveal-button {
+            display: none;
+            margin-top: 13px;
+            padding: 7px 11px;
+            border: 1px solid #9bbeb2;
+            border-radius: 8px;
+            background: white;
+            color: #155e54;
+            font-size: .86rem;
+            font-weight: 700;
+        }
+
+        .review-mode .reveal-button {
+            display: inline-block;
+        }
+
+        .review-mode .answer {
+            display: none;
+        }
+
+        .review-mode .study-card.is-revealed .answer {
+            display: block;
+        }
+
+        .super-review-mode .study-card {
+            padding-block: 18px;
+        }
+
+        .super-review-mode .study-card .super-number {
+            display: inline-block;
+        }
+
+        .super-review-mode .study-card .card-eyebrow,
+        .super-review-mode .study-card .card-heading h2,
+        .super-review-mode .study-card .learned-toggle,
+        .super-review-mode .study-card .memory,
+        .super-review-mode .study-card .legal-text {
+            display: none;
+        }
+
+        .super-review-mode .study-card.is-super-revealed .card-heading h2 {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .super-review-mode .study-card.is-super-revealed .learned-toggle {
+            display: inline-block;
+        }
+
+        .super-review-mode .study-card.is-super-revealed .memory,
+        .super-review-mode .study-card.is-super-revealed .legal-text {
+            display: block;
+        }
+
+        .empty-state {
+            padding: 35px;
+            border: 1px dashed #c4c8be;
+            border-radius: 16px;
+            text-align: center;
+            color: var(--muted);
+        }
+
+        .empty-state h2 {
+            margin: 0 0 5px;
+            color: var(--ink);
+            font: 700 1.4rem Georgia, serif;
+        }
+
+        .empty-state p {
+            margin: 0;
+        }
+
+        .footer {
+            padding: 0 0 42px;
+            color: var(--muted);
+            font-size: .86rem;
+            text-align: center;
+        }
+
+        @media (max-width: 700px) {
+            .hero-inner {
+                grid-template-columns: 1fr;
+                gap: 23px;
+                padding: 42px 0 36px;
+            }
+
+            .progress-panel {
+                max-width: 360px;
+            }
+
+            .toolbar {
+                position: static;
+            }
+
+            .study-card {
+                padding: 20px;
+                scroll-margin-top: 15px;
+            }
+
+            .card-header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .tools-row {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
+            .mode-buttons {
+                align-self: stretch;
+            }
+
+            .mode-toggle {
+                flex: 1;
+                padding-inline: 9px;
+            }
+
+            .list-meta {
+                flex-direction: column;
+                gap: 2px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            .progress-fill {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a class="skip-link" href="#articulos">Saltar a los artículos</a>
+    <header class="hero">
+        <div class="hero-inner">
+            <div>
+                <p class="eyebrow">Casillero numérico · Artículos 1–55</p>
+                <h1>Constitución en imágenes</h1>
+                <p class="hero-description">Una imagen memorable para cada artículo. Repasa la asociación y consulta el
+                    texto constitucional completo con las ideas clave resaltadas.</p>
+            </div>
+            <div class="progress-panel" aria-label="Progreso de estudio">
+                <p class="progress-label">Tu progreso</p>
+                <p class="progress-count" id="progress-count">0 de 55 estudiados</p>
+                <div class="progress-track" aria-hidden="true">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="toolbar">
+        <div class="toolbar-inner">
+            <div class="tools-row">
+                <div class="search-wrap">
+                    <label for="search">Buscar un artículo o una palabra</label>
+                    <input id="search" type="search" placeholder="Ej. 55, Lulú, derechos…" autocomplete="off">
+                </div>
+                <div class="mode-buttons" role="group" aria-label="Modos de estudio">
+                    <button type="button" class="mode-toggle" id="review-toggle" aria-pressed="false">Modo
+                        repaso</button>
+                    <button type="button" class="mode-toggle super-toggle" id="super-toggle"
+                        aria-pressed="false">Super-repaso</button>
+                </div>
+            </div>
+            <nav class="filters" aria-label="Filtrar artículos por bloque">
+                <button type="button" data-filter="all" aria-pressed="true">Todos</button>
+                <button type="button" data-filter="preliminar" aria-pressed="false">Preliminar · 1–9</button>
+                <button type="button" data-filter="derechos" aria-pressed="false">Derechos · 10–38</button>
+                <button type="button" data-filter="principios" aria-pressed="false">Principios · 39–52</button>
+                <button type="button" data-filter="garantias" aria-pressed="false">Garantías · 53–55</button>
+            </nav>
+        </div>
+    </div>
+    <main id="articulos" class="page-inner">
+        <div class="list-meta">
+            <p id="visible-count" aria-live="polite">55 artículos</p>
+            <p id="mode-hint">Marca los que ya dominas; el progreso se guarda en este navegador.</p>
+        </div>
+        <div class="cards" id="cards">
+
+            <article>
+                Artículo 1. <strong>Monarquía</strong> Parlamentaria <small>Tea -> el rey sostiene una tea gigante y
+                    entra en el
+                    parlamento</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. España se constituye en un <mark>Estado social y democrático de Derecho</mark>, que
+                            propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la
+                            igualdad y el pluralismo político.</p>
+                        <p>2. <mark>La soberanía nacional reside en el pueblo español</mark>, del que emanan los poderes
+                            del Estado.</p>
+                        <p>3. La forma política del Estado español es la <mark>Monarquía parlamentaria</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a1"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 1 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 2. <strong>Nación</strong> <small>Noé -> Una nación donde todos son Noé</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>La Constitución se fundamenta en la <mark>indisoluble unidad de la Nación española</mark>,
+                            patria común e indivisible de todos los españoles, y reconoce y garantiza el <mark>derecho a
+                                la autonomía</mark> de las nacionalidades y regiones que la integran y la
+                            <mark>solidaridad entre todas ellas</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a2"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 2 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 3. <strong>Lengua</strong> <small>Humo -> Me sale humo de la lengua de tanto hablar</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. <mark>El castellano es la lengua española oficial del Estado</mark>. Todos los españoles
+                            tienen el deber de conocerla y el derecho a usarla.</p>
+                        <p>2. <mark>Las demás lenguas españolas serán también oficiales</mark> en las respectivas
+                            Comunidades Autónomas de acuerdo con sus Estatutos.</p>
+                        <p>3. La riqueza de las distintas modalidades lingüísticas de España es un patrimonio cultural
+                            que será objeto de especial respeto y protección.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a3"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 3 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 4. <strong>Bandera</strong> <small>Oca -> Una oca sale volando se estrella sobre una bandera y
+                    esta bandera
+                    queda con la oca estampada</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. La bandera de España está formada por <mark>tres franjas horizontales, roja, amarilla y
+                                roja</mark>, siendo la amarilla de doble anchura que cada una de las rojas.</p>
+                        <p>2. Los Estatutos podrán reconocer <mark>banderas y enseñas propias de las Comunidades
+                                Autónomas</mark>. Estas se utilizarán junto a la bandera de España en sus edificios
+                            públicos y en sus actos oficiales.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a4"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 4 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 5. <strong>Villa</strong> <small>Ola -> una Ola gigante arrasa la villa de Madrid</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p><mark>La capital del Estado es la villa de Madrid</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a5"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 5 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 6. <strong>Partidos Políticos</strong> <small>Oso -> Osos políticos politiqueando</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p><mark>Los partidos políticos expresan el pluralismo político</mark>, concurren a la formación
+                            y manifestación de la voluntad popular y son <mark>instrumento fundamental para la
+                                participación política</mark>. Su creación y el ejercicio de su actividad son libres
+                            dentro del respeto a la Constitución y a la ley. Su estructura interna y
+                            <mark>funcionamiento deberán ser democráticos</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a6"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 6 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 7. <strong>Síndicatos y Empresas</strong> <small>ufo -> de un UFO con el símbolo de la UGT
+                    grabado sale un
+                    grupo sindical manifestándose y llega otro platillo volante y desciende por un tunel de luz
+                    representantes
+                    empresariales con sus trajes y maletines de piel</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p><mark>Los sindicatos de trabajadores y las asociaciones empresariales</mark> contribuyen a la
+                            <mark>defensa y promoción de los intereses económicos y sociales</mark> que les son propios.
+                            Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y
+                            a la ley. Su estructura interna y <mark>funcionamiento deberán ser democráticos</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a7"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 7 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 8. <strong>Fuerzas Armadas</strong><small>Hacha -> Soldados sostienen hachas como si fueran
+                    fusiles</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del
+                            Aire, tienen como misión <mark>garantizar la soberanía e independencia de España</mark>,
+                            <mark>defender su integridad territorial y el ordenamiento constitucional</mark>.</p>
+                        <p>2. Una ley orgánica regulará las bases de la organización militar conforme a los principios
+                            de la presente Constitución.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a8"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 8 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 9. <strong>Ordenamiento Jurídico</strong><small>Ave -> Un águila de 2m de altura es un juez
+                    sentado en un
+                    juzgado y pone 'orden en la sala'</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los ciudadanos y los poderes públicos <mark>están sujetos a la Constitución y al resto del
+                                ordenamiento jurídico</mark>.</p>
+                        <p>2. Corresponde a los poderes públicos promover las condiciones para que <mark>la libertad y
+                                la igualdad del individuo y de los grupos en que se integra sean reales y
+                                efectivas</mark>; remover los obstáculos que impidan o dificulten su plenitud y
+                            facilitar la participación de todos los ciudadanos en la vida política, económica, cultural
+                            y social.</p>
+                        <p>3. La Constitución garantiza el <mark>principio de legalidad</mark>, la jerarquía normativa,
+                            la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no
+                            favorables o restrictivas de derechos individuales, la seguridad jurídica, la
+                            responsabilidad y la <mark>interdicción de la arbitrariedad de los poderes públicos</mark>.
+                        </p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a9"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 9 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 10. <strong>Dignidad</strong><small>Toro -> 🐂 TORO → cabeza alta, solemne, toga → 🏅
+                    DIGNIDAD</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. <mark>La dignidad de la persona</mark>, los derechos inviolables que le son inherentes, el
+                            libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son
+                            <mark>fundamento del orden político y de la paz social</mark>.</p>
+                        <p>2. Las normas relativas a los derechos fundamentales y a las libertades que la Constitución
+                            reconoce se interpretarán de conformidad con la <mark>Declaración Universal de Derechos
+                                Humanos</mark> y los tratados y acuerdos internacionales sobre las mismas materias
+                            ratificados por España.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a10"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 10 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 11. <strong>Nacionalidad</strong><small>teta -> teta enorme con un pasaporte español
+                    colgado</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. <mark>La nacionalidad española se adquiere, se conserva y se pierde</mark> de acuerdo con
+                            lo establecido por la ley.</p>
+                        <p>2. <mark>Ningún español de origen podrá ser privado de su nacionalidad</mark>.</p>
+                        <p>3. El Estado podrá concertar <mark>tratados de doble nacionalidad</mark> con los países
+                            iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con
+                            España. En estos mismos países, aun cuando no reconozcan a sus ciudadanos un derecho
+                            recíproco, podrán naturalizarse los españoles sin perder su nacionalidad de origen.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a11"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 11 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 12. <strong>Mayor de adad 18</strong><small>atún -> Un atún feliz comprando alcohol para su
+                    grupo de amigos
+                    porque acaba de cumplir 18</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p><mark>Los españoles son mayores de edad a los dieciocho años</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a12"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 12 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 13. <strong>Extranjeros</strong><small>átomo -> Un átomo donde los electrones flotando
+                    alrededor del núcleo
+                    son extranjeros</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. <mark>Los extranjeros gozarán en España de las libertades públicas</mark> que garantiza el
+                            presente Título en los términos que establezcan los tratados y la ley.</p>
+                        <p>2. Solamente los españoles serán titulares de los derechos reconocidos en el artículo 23,
+                            salvo lo que, atendiendo a criterios de reciprocidad, pueda establecerse por tratado o ley
+                            para el derecho de <mark>sufragio activo y pasivo en las elecciones municipales</mark>.</p>
+                        <p>3. La extradición sólo se concederá en cumplimiento de un tratado o de la ley, atendiendo al
+                            principio de reciprocidad. Quedan excluidos de la extradición los delitos políticos, no
+                            considerándose como tales los actos de terrorismo.</p>
+                        <p>4. La ley establecerá los términos en que los ciudadanos de otros países y los apátridas
+                            podrán gozar del <mark>derecho de asilo en España</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a13"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 13 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 14. <strong>No discriminación</strong><small>Taco -> Taco de billar muy raro, que es muy
+                    diferente a los
+                    demás, álguien lo coge de donde estaba apartado y lo pone con el resto de tacos</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p><mark>Los españoles son iguales ante la ley</mark>, <mark>sin que pueda prevalecer
+                                discriminación alguna</mark> por razón de nacimiento, raza, sexo, religión, opinión o
+                            cualquier otra condición o circunstancia personal o social.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a14"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 14 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 15. <strong>Derecho a la vida</strong><small>Tela -> una gran tela blanca que envuelve y
+                    protege a un bebé
+                    recién nacido y en la tela pone escrito en grande 'VIDA'</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Todos tienen <mark>derecho a la vida y a la integridad física y moral</mark>, sin que, en
+                            ningún caso, puedan ser <mark>sometidos a tortura ni a penas o tratos inhumanos o
+                                degradantes</mark>. <mark>Queda abolida la pena de muerte</mark>, salvo lo que puedan
+                            disponer las leyes penales militares para tiempos de guerra.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a15"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 15 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 16. <strong>Libertad</strong><small>Tos -> William Wakkace, protagonista de Braveheart,
+                    tosiendo a tope
+                    justo antes de gritar 'Libertaaadddd!!' </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se garantiza la <mark>libertad ideológica, religiosa y de culto</mark> de los individuos y
+                            las comunidades sin más limitación, en sus manifestaciones, que la necesaria para el
+                            mantenimiento del orden público protegido por la ley.</p>
+                        <p>2. <mark>Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias</mark>.
+                        </p>
+                        <p>3. <mark>Ninguna confesión tendrá carácter estatal</mark>. Los poderes públicos tendrán en
+                            cuenta las creencias religiosas de la sociedad española y mantendrán las consiguientes
+                            relaciones de cooperación con la Iglesia Católica y las demás confesiones.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a16"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 16 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 17. <strong>Seguridad</strong><small>Tufo -> tufo potente saliendo de unos seguratas muy
+                    raros</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Toda persona tiene <mark>derecho a la libertad y a la seguridad</mark>. Nadie puede ser
+                            privado de su libertad, sino con la observancia de lo establecido en este artículo y en los
+                            casos y en la forma previstos en la ley.</p>
+                        <p>2. La detención preventiva no podrá durar más del tiempo estrictamente necesario para la
+                            realización de las averiguaciones tendentes al esclarecimiento de los hechos, y, en todo
+                            caso, en el <mark>plazo máximo de setenta y dos horas</mark>, el detenido deberá ser puesto
+                            en libertad o a disposición de la autoridad judicial.</p>
+                        <p>3. Toda persona detenida debe ser informada de forma inmediata, y de modo que le sea
+                            comprensible, de sus derechos y de las razones de su detención, no pudiendo ser obligada a
+                            declarar. Se garantiza la <mark>asistencia de abogado al detenido</mark> en las diligencias
+                            policiales y judiciales, en los términos que la ley establezca.</p>
+                        <p>4. La ley regulará un procedimiento de <mark>«habeas corpus»</mark> para producir la
+                            inmediata puesta a disposición judicial de toda persona detenida ilegalmente. Asimismo, por
+                            ley se determinará el plazo máximo de duración de la prisión provisional.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a17"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 17 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 18. <strong>Intimidad</strong><small>Techo -> del techo baja una persiana gigante para que
+                    nadie pueda ver
+                    que pasa dentro </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se garantiza el <mark>derecho al honor, a la intimidad personal y familiar y a la propia
+                                imagen</mark>.</p>
+                        <p>2. <mark>El domicilio es inviolable</mark>. Ninguna entrada o registro podrá hacerse en él
+                            sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito.</p>
+                        <p>3. Se garantiza el <mark>secreto de las comunicaciones</mark> y, en especial, de las
+                            postales, telegráficas y telefónicas, salvo resolución judicial.</p>
+                        <p>4. La ley limitará el uso de la informática para garantizar el honor y la intimidad personal
+                            y familiar de los ciudadanos y el pleno ejercicio de sus derechos.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a18"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 18 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 19. <strong>Residencia</strong><small>Tubo -> Un tubo gigante lleva a una residencia </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Los españoles tienen derecho a <mark>elegir libremente su residencia y a circular por el
+                                territorio nacional</mark>.</p>
+                        <p>Asimismo, tienen derecho a <mark>entrar y salir libremente de España</mark> en los términos
+                            que la ley establezca. Este derecho no podrá ser limitado por motivos políticos o
+                            ideológicos.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a19"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 19 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 20. <strong>Expresión</strong><small>Niro -> KIA NIRO con una cara humana enorme en el frontal:
+                    los faros
+                    son los ojos y la parrilla es la boca. Va cambiando exageradamente de gesto: ríe, llora, se enfada,
+                    se
+                    sorprende…</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se reconocen y protegen los derechos:</p>
+                        <p>a) <mark>A expresar y difundir libremente los pensamientos, ideas y opiniones</mark> mediante
+                            la palabra, el escrito o cualquier otro medio de reproducción.</p>
+                        <p>b) A la producción y creación literaria, artística, científica y técnica.</p>
+                        <p>c) A la libertad de cátedra.</p>
+                        <p>d) <mark>A comunicar o recibir libremente información veraz</mark> por cualquier medio de
+                            difusión. La ley regulará el derecho a la cláusula de conciencia y al secreto profesional en
+                            el ejercicio de estas libertades.</p>
+                        <p>2. El ejercicio de estos derechos no puede restringirse mediante <mark>ningún tipo de censura
+                                previa</mark>.</p>
+                        <p>3. La ley regulará la organización y el control parlamentario de los medios de comunicación
+                            social dependientes del Estado o de cualquier ente público y garantizará el acceso a dichos
+                            medios de los grupos sociales y políticos significativos, respetando el pluralismo de la
+                            sociedad y de las diversas lenguas de España.</p>
+                        <p>4. Estas libertades tienen su límite en el respeto a los derechos reconocidos en este Título,
+                            en los preceptos de las leyes que lo desarrollen y, especialmente, en el derecho al honor, a
+                            la intimidad, a la propia imagen y a la protección de la juventud y de la infancia.</p>
+                        <p>5. Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de
+                            información en virtud de <mark>resolución judicial</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a20"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 20 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 21. <strong>Reunión Pacífica</strong><small>nata -> De un bote de nata gigante salen palomas
+                    blancas de la
+                    paz durante una reunión pacífica</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se reconoce el <mark>derecho de reunión pacífica y sin armas</mark>. El ejercicio de este
+                            derecho <mark>no necesitará autorización previa</mark>.</p>
+                        <p>2. En los casos de reuniones en lugares de tránsito público y manifestaciones se dará
+                            <mark>comunicación previa a la autoridad</mark>, que sólo podrá prohibirlas cuando existan
+                            razones fundadas de alteración del orden público, con peligro para personas o bienes.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a21"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 21 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 22. <strong>Asociación</strong><small>Niño -> NIÑO que va reuniendo a otros niños de la mano
+                    hasta formar
+                    un gran círculo. Todos llevan una camiseta con la palabra “ASOCIACIÓN”.</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se reconoce el <mark>derecho de asociación</mark>.</p>
+                        <p>2. Las asociaciones que persigan fines o utilicen medios tipificados como delito son
+                            ilegales.</p>
+                        <p>3. Las asociaciones constituidas al amparo de este artículo deberán inscribirse en un
+                            registro a los solos efectos de publicidad.</p>
+                        <p>4. Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de
+                            <mark>resolución judicial motivada</mark>.</p>
+                        <p>5. <mark>Se prohíben las asociaciones secretas y las de carácter paramilitar</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a22"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 22 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 23. <strong>Participación en asuntos públicos</strong><small>Nemo -> Nemo entra al ayuntamiento
+                    donde hay
+                    un pleno y levata la aleta para pedir la palabra</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los ciudadanos tienen el derecho a <mark>participar en los asuntos públicos</mark>,
+                            directamente o por medio de representantes, libremente elegidos en elecciones periódicas por
+                            <mark>sufragio universal</mark>.</p>
+                        <p>2. Asimismo, tienen derecho a <mark>acceder en condiciones de igualdad a las funciones y
+                                cargos públicos</mark>, con los requisitos que señalen las leyes.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a23"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 23 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 24. <strong>Tutela Jueces y Tribunales</strong><small>Nuca -> una nuca gigante está “bajo
+                    tutela judicial”.
+                    NUCA enorme protegida por un juez con toga, que coloca detrás de ella un escudo judicial mientras
+                    varios
+                    tribunales la rodean para defenderla. <strong>NUCA → juez protege la nuca con un escudo → TUTELA DE
+                        JUECES Y
+                        TRIBUNALES</strong></small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todas las personas tienen derecho a obtener la <mark>tutela efectiva de los jueces y
+                                tribunales</mark> en el ejercicio de sus derechos e intereses legítimos, <mark>sin que,
+                                en ningún caso, pueda producirse indefensión</mark>.</p>
+                        <p>2. Asimismo, todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y
+                            a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un
+                            proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de
+                            prueba pertinentes para su defensa, a no declarar contra sí mismos, a no confesarse
+                            culpables y a la <mark>presunción de inocencia</mark>.</p>
+                        <p>La ley regulará los casos en que, por razón de parentesco o de secreto profesional, no se
+                            estará obligado a declarar sobre hechos presuntamente delictivos.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a24"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 24 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 25. <strong>No condena sin delito</strong><small>NILO entre las pirámides y, en la orilla, un
+                    juez egipcio
+                    a punto de condenar a una momia. De repente pregunta:
+                    “¿Qué delito ha cometido?”
+                    Nadie sabe responder, así que rompe la sentencia y dice:
+                    “SIN DELITO, NO HAY CONDENA.”</small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. <mark>Nadie puede ser condenado o sancionado</mark> por acciones u omisiones que en el
+                            momento de producirse <mark>no constituyan delito, falta o infracción administrativa</mark>,
+                            según la legislación vigente en aquel momento.</p>
+                        <p>2. Las penas privativas de libertad y las medidas de seguridad estarán orientadas hacia la
+                            <mark>reeducación y reinserción social</mark> y no podrán consistir en trabajos forzados. El
+                            condenado a pena de prisión que estuviere cumpliendo la misma gozará de los derechos
+                            fundamentales de este Capítulo, a excepción de los que se vean expresamente limitados por el
+                            contenido del fallo condenatorio, el sentido de la pena y la ley penitenciaria. En todo
+                            caso, tendrá derecho a un trabajo remunerado y a los beneficios correspondientes de la
+                            Seguridad Social, así como al acceso a la cultura y al desarrollo integral de su
+                            personalidad.</p>
+                        <p>3. <mark>La Administración civil no podrá imponer sanciones</mark> que, directa o
+                            subsidiariamente, impliquen privación de libertad.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a25"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 25 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 26. <strong>No tribunales de honor</strong>
+                <small>N.A.S.A -> la NASA en plena misión espacial, pero dentro del centro de control han montado un
+                    “Tribunal
+                    de Honor” con jueces vestidos de astronauta.
+                    De repente despega un cohete y se lleva por los aires el tribunal entero, mientras una pantalla
+                    gigante
+                    muestra:
+                    “PROHIBIDOS LOS TRIBUNALES DE HONOR”</small>
+                <span>NASA → cohete elimina un tribunal de honor → NO TRIBUNALES DE HONOR</span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p><mark>Se prohíben los Tribunales de Honor</mark> en el ámbito de la Administración civil y de
+                            las organizaciones profesionales.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a26"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 26 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 27. <strong>Educación</strong>
+                <small>
+                    Nife -> Se abre una grieta gigante que nos permite ver el nife y ahí vemos que hay gente dando clase
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todos tienen el <mark>derecho a la educación</mark>. Se reconoce la <mark>libertad de
+                                enseñanza</mark>.</p>
+                        <p>2. La educación tendrá por objeto el pleno desarrollo de la personalidad humana en el respeto
+                            a los principios democráticos de convivencia y a los derechos y libertades fundamentales.
+                        </p>
+                        <p>3. Los poderes públicos garantizan el derecho que asiste a los padres para que sus hijos
+                            reciban la formación religiosa y moral que esté de acuerdo con sus propias convicciones.</p>
+                        <p>4. <mark>La enseñanza básica es obligatoria y gratuita</mark>.</p>
+                        <p>5. Los poderes públicos garantizan el derecho de todos a la educación, mediante una
+                            programación general de la enseñanza, con participación efectiva de todos los sectores
+                            afectados y la creación de centros docentes.</p>
+                        <p>6. Se reconoce a las personas físicas y jurídicas la libertad de creación de centros
+                            docentes, dentro del respeto a los principios constitucionales.</p>
+                        <p>7. Los profesores, los padres y, en su caso, los alumnos intervendrán en el control y gestión
+                            de todos los centros sostenidos por la Administración con fondos públicos, en los términos
+                            que la ley establezca.</p>
+                        <p>8. Los poderes públicos inspeccionarán y homologarán el sistema educativo para garantizar el
+                            cumplimiento de las leyes.</p>
+                        <p>9. Los poderes públicos ayudarán a los centros docentes que reúnan los requisitos que la ley
+                            establezca.</p>
+                        <p>10. Se reconoce la <mark>autonomía de las Universidades</mark>, en los términos que la ley
+                            establezca.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a27"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 27 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 28. <strong>Sindicatos huelga</strong>
+                <small>
+                    Nicho -> NICHO del cementerio del que, de repente, salen un montón de trabajadores con pancartas de
+                    SINDICATO gritando:
+                    “¡HUELGA! ¡HUELGA!”
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todos tienen <mark>derecho a sindicarse libremente</mark>. La ley podrá limitar o
+                            exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás
+                            Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para
+                            los funcionarios públicos. La libertad sindical comprende el derecho a fundar sindicatos y a
+                            afiliarse al de su elección, así como el derecho de los sindicatos a formar confederaciones
+                            y a fundar organizaciones sindicales internacionales o a afiliarse a las mismas. <mark>Nadie
+                                podrá ser obligado a afiliarse a un sindicato</mark>.</p>
+                        <p>2. Se reconoce el <mark>derecho a la huelga</mark> de los trabajadores para la defensa de sus
+                            intereses. La ley que regule el ejercicio de este derecho establecerá las garantías precisas
+                            para asegurar el mantenimiento de los servicios esenciales de la comunidad.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a28"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 28 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 29. <strong>Petición individual colectiva</strong>
+                <small>
+                    Nube -> Imagina una NUBE que recibe cartas de petición.
+                    Primero sube una sola persona y mete una carta en la nube: petición individual. Después llega una
+                    multitud y
+                    entre todos meten una carta gigantesca: petición colectiva.
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todos los españoles tendrán el <mark>derecho de petición individual y colectiva, por
+                                escrito</mark>, en la forma y con los efectos que determine la ley.</p>
+                        <p>2. Los miembros de las Fuerzas o Institutos armados o de los Cuerpos sometidos a disciplina
+                            militar podrán ejercer este derecho sólo individualmente y con arreglo a lo dispuesto en su
+                            legislación específica.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a29"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 29 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 30. <strong>Defender España</strong>
+                <small>
+                    Meru -> MERU con una capa de España y un escudo enorme con la bandera, plantada delante del mapa del
+                    país
+                    mientras lo protege y defiende.
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los españoles tienen el <mark>derecho y el deber de defender a España</mark>.</p>
+                        <p>2. La ley fijará las obligaciones militares de los españoles y regulará, con las debidas
+                            garantías, la <mark>objeción de conciencia</mark>, así como las demás causas de exención del
+                            servicio militar obligatorio, pudiendo imponer, en su caso, una prestación social
+                            sustitutoria.</p>
+                        <p>3. Podrá establecerse un servicio civil para el cumplimiento de fines de interés general.</p>
+                        <p>4. Mediante ley podrán regularse los deberes de los ciudadanos en los casos de <mark>grave
+                                riesgo, catástrofe o calamidad pública</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a30"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 30 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 31. <strong>Sostener gasto público</strong>
+                <small>
+                    meta -> META de atletismo que, en vez de estar sujeta por postes, está sostenida por montones de
+                    monedas y
+                    billetes públicos. Si dejan de aportar dinero, la meta se cae.
+                </small>
+                <span>META → dinero que la mantiene en pie → SOSTENER EL GASTO PÚBLICO</span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todos contribuirán al <mark>sostenimiento de los gastos públicos de acuerdo con su
+                                capacidad económica</mark> mediante un sistema tributario justo inspirado en los
+                            principios de <mark>igualdad y progresividad</mark> que, <mark>en ningún caso, tendrá
+                                alcance confiscatorio</mark>.</p>
+                        <p>2. El gasto público realizará una asignación equitativa de los recursos públicos, y su
+                            programación y ejecución responderán a los criterios de eficiencia y economía.</p>
+                        <p>3. Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con
+                            arreglo a la ley.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a31"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 31 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 32. <strong>Matrimonio</strong>
+                <small>
+                    Mano -> Una mano gigante se abre y hay dos personas dentro contrayendo matrimonio.
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. El hombre y la mujer tienen <mark>derecho a contraer matrimonio con plena igualdad
+                                jurídica</mark>.</p>
+                        <p>2. La ley regulará las formas de matrimonio, la edad y capacidad para contraerlo, los
+                            derechos y deberes de los cónyuges, las causas de separación y disolución y sus efectos.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a32"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 32 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 33. <strong>Propiedad privada y herencia</strong>
+                <small>
+                    Mimo -> Imagina un MIMO que protege con gestos exagerados una casa y un cofre de monedas como
+                    diciendo: “¡Esto es mío!”. Después entrega solemnemente las llaves y el cofre a su hijo.
+                </small>
+                <span>
+                    MIMO → protege su casa y bienes → los deja a su hijo → PROPIEDAD PRIVADA Y HERENCIA
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se reconoce el <mark>derecho a la propiedad privada y a la herencia</mark>.</p>
+                        <p>2. <mark>La función social de estos derechos</mark> delimitará su contenido, de acuerdo con
+                            las leyes.</p>
+                        <p>3. Nadie podrá ser privado de sus bienes y derechos sino por <mark>causa justificada de
+                                utilidad pública o interés social</mark>, mediante la <mark>correspondiente
+                                indemnización</mark> y de conformidad con lo dispuesto por las leyes.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a33"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 33 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 34. <strong>Fundación</strong>
+                <small>
+                    Hamaca -> Imagina una HAMACA gigantesca en la que se meten muchas personas juntas hasta formar una
+                    asociación. Imaginar un cartel colgado de la hamaca que pone “ASOCIACIÓN” y a todos intentando
+                    organizarse sin caerse
+                </small>
+                <span>
+                    HAMACA → muchas personas reunidas dentro → ASOCIACIÓN
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se reconoce el <mark>derecho de fundación para fines de interés general</mark>, con
+                            arreglo a la ley.</p>
+                        <p>2. Regirá también para las fundaciones lo dispuesto en los apartados 2 y 4 del artículo 22.
+                        </p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a34"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 34 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 35. <strong>Trabajo</strong>
+                <small>
+                    Mula -> Trabajar como una mula.
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todos los españoles tienen el <mark>deber de trabajar y el derecho al trabajo</mark>, a la
+                            <mark>libre elección de profesión u oficio</mark>, a la promoción a través del trabajo y a
+                            una <mark>remuneración suficiente</mark> para satisfacer sus necesidades y las de su
+                            familia, <mark>sin que en ningún caso pueda hacerse discriminación por razón de sexo</mark>.
+                        </p>
+                        <p>2. La ley regulará un estatuto de los trabajadores.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a35"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 35 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 36. <strong>Colegios profesionales</strong>
+                <small>
+                    Mesa -> Una MESA enorme alrededor de la cual están sentados distintos profesionales: un médico, un
+                    abogado, un arquitecto, un ingeniero… Cada uno lleva una placa de su colegio profesional.
+                </small>
+                <span>
+                    MESA → profesionales colegiados reunidos alrededor → COLEGIOS PROFESIONALES
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>La ley regulará las peculiaridades propias del <mark>régimen jurídico de los Colegios
+                                Profesionales</mark> y el ejercicio de las profesiones tituladas. La estructura interna
+                            y el <mark>funcionamiento de los Colegios deberán ser democráticos</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a36"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 36 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 37. <strong>Negociación (representantes y trabajadores)</strong>
+                <small>
+                    Mafia -> una MAFIA sentada alrededor de una mesa de negociación. A un lado están los representantes
+                    de la empresa y al otro los trabajadores, todos negociando condiciones mientras el “capo” hace de
+                    mediador.
+                </small>
+                <span>
+                    MAFIA → mesa de negociación → REPRESENTANTES + TRABAJADORES
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. La ley garantizará el <mark>derecho a la negociación colectiva laboral</mark> entre los
+                            representantes de los trabajadores y empresarios, así como la <mark>fuerza vinculante de los
+                                convenios</mark>.</p>
+                        <p>2. Se reconoce el derecho de los trabajadores y empresarios a adoptar <mark>medidas de
+                                conflicto colectivo</mark>. La ley que regule el ejercicio de este derecho, sin
+                            perjuicio de las limitaciones que puedan establecer, incluirá las garantías precisas para
+                            asegurar el funcionamiento de los servicios esenciales de la comunidad.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a37"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 37 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 38. <strong>Libertad empresa</strong>
+                <small>
+                    Mecha -> Una MECHA prende las cadenas que atan una tienda; al romperse, la tienda despliega alas y
+                    abre por su cuenta bajo un enorme cartel de «EMPRESA LIBRE».
+                </small>
+                <span>
+                    MECHA → rompe las cadenas de una tienda → LIBERTAD DE EMPRESA
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Se reconoce la <mark>libertad de empresa en el marco de la economía de mercado</mark>. Los
+                            poderes públicos garantizan y protegen su ejercicio y la defensa de la productividad, de
+                            acuerdo con las exigencias de la economía general y, en su caso, de la planificación.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a38"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 38 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 39. <strong>Familia</strong>
+                <small>
+                    Mopa -> Una MOPA gigante recoge a padres, hijos y abuelos con sus flecos y los abraza a todos como
+                    si fueran una sola FAMILIA.
+                </small>
+                <span>
+                    MOPA → abraza a padres, hijos y abuelos → FAMILIA
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los poderes públicos aseguran la <mark>protección social, económica y jurídica de la
+                                familia</mark>.</p>
+                        <p>2. Los poderes públicos aseguran, asimismo, la <mark>protección integral de los hijos</mark>,
+                            iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que
+                            sea su estado civil. La ley posibilitará la investigación de la paternidad.</p>
+                        <p>3. <mark>Los padres deben prestar asistencia de todo orden a los hijos</mark> habidos dentro
+                            o fuera del matrimonio, durante su minoría de edad y en los demás casos en que legalmente
+                            proceda.</p>
+                        <p>4. Los niños gozarán de la protección prevista en los acuerdos internacionales que velan por
+                            sus derechos.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a39"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 39 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 40. <strong>Empleo</strong>
+                <small>
+                    Coro -> Un CORO canta tan fuerte en una oficina de empleo que del techo llueven contratos de
+                    trabajo; cada cantante atrapa uno y empieza a trabajar sin dejar de cantar.
+                </small>
+                <span>
+                    CORO → llueven contratos de trabajo → EMPLEO
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los poderes públicos promoverán las condiciones favorables para el progreso social y
+                            económico y para una distribución de la renta regional y personal más equitativa, en el
+                            marco de una política de estabilidad económica. De manera especial realizarán una
+                            <mark>política orientada al pleno empleo</mark>.</p>
+                        <p>2. Asimismo, los poderes públicos fomentarán una política que garantice la <mark>formación y
+                                readaptación profesionales</mark>; velarán por la <mark>seguridad e higiene en el
+                                trabajo</mark> y garantizarán el descanso necesario, mediante la limitación de la
+                            jornada laboral, las <mark>vacaciones periódicas retribuidas</mark> y la promoción de
+                            centros adecuados.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a40"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 40 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 41. <strong>Seguridad Social</strong>
+                <small>
+                    Cohete -> Un COHETE con el rótulo «SEGURIDAD SOCIAL» despega y despliega una red de seguridad enorme
+                    que recoge a quienes necesitan ayuda.
+                </small>
+                <span>
+                    COHETE → despliega una red de protección → SEGURIDAD SOCIAL
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Los poderes públicos mantendrán un <mark>régimen público de Seguridad Social para todos los
+                                ciudadanos</mark>, que garantice la <mark>asistencia y prestaciones sociales
+                                suficientes</mark> ante situaciones de necesidad, <mark>especialmente en caso de
+                                desempleo</mark>. La asistencia y prestaciones complementarias serán libres.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a41"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 41 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 42. <strong>Extranjero</strong>
+                <small>
+                    Cono -> Un CONO de tráfico con maleta y pasaporte español cruza la frontera para ir a trabajar; al
+                    llegar a otro país se coloca en la cabeza un cartel luminoso de «EXTRANJERO».
+                </small>
+                <span>
+                    CONO → cruza la frontera para trabajar → EXTRANJERO
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>El Estado velará especialmente por la salvaguardia de los <mark>derechos económicos y
+                                sociales de los trabajadores españoles en el extranjero</mark> y <mark>orientará su
+                                política hacia su retorno</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a42"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 42 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 43. <strong>Salud</strong>
+                <small>
+                    Cama -> Una CAMA de hospital cobra vida, se pone un fonendoscopio y persigue a los enfermos para
+                    curarlos con una almohada gigante que lleva escrita la palabra «SALUD».
+                </small>
+                <span>
+                    CAMA → cura con su almohada → SALUD
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Se reconoce el <mark>derecho a la protección de la salud</mark>.</p>
+                        <p>2. Compete a los poderes públicos <mark>organizar y tutelar la salud pública</mark> a través
+                            de medidas preventivas y de las prestaciones y servicios necesarios. La ley establecerá los
+                            derechos y deberes de todos al respecto.</p>
+                        <p>3. Los poderes públicos fomentarán la <mark>educación sanitaria, la educación física y el
+                                deporte</mark>. Asimismo facilitarán la adecuada utilización del ocio.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a43"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 43 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 44. <strong>Cultura</strong>
+                <small>
+                    Coco -> Un COCO se abre de golpe y de su interior salen una biblioteca, un teatro y un museo
+                    diminutos; los libros y cuadros bailan alrededor formando la palabra «CULTURA».
+                </small>
+                <span>
+                    COCO → se abre y salen libros, teatro y museo → CULTURA
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los poderes públicos promoverán y tutelarán el <mark>acceso a la cultura</mark>, a la que
+                            todos tienen derecho.</p>
+                        <p>2. Los poderes públicos promoverán <mark>la ciencia y la investigación científica y
+                                técnica</mark> en beneficio del interés general.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a44"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 44 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 45. <strong>Medio ambiente</strong>
+                <small>
+                    Culo -> Un CULO gigante se sienta sobre una chimenea que contamina; al taponarla, brotan árboles y
+                    vuelve a correr un río cristalino por todo el paisaje.
+                </small>
+                <span>
+                    CULO → tapona la contaminación y brotan árboles → MEDIO AMBIENTE
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Todos tienen el <mark>derecho a disfrutar de un medio ambiente adecuado</mark> para el
+                            desarrollo de la persona, así como el <mark>deber de conservarlo</mark>.</p>
+                        <p>2. Los poderes públicos velarán por la utilización racional de todos los recursos naturales,
+                            con el fin de proteger y mejorar la calidad de la vida y defender y restaurar el medio
+                            ambiente, apoyándose en la indispensable solidaridad colectiva.</p>
+                        <p>3. Para quienes violen lo dispuesto en el apartado anterior, en los términos que la ley fije
+                            se establecerán sanciones penales o, en su caso, administrativas, así como la
+                            <mark>obligación de reparar el daño causado</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a45"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 45 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 46. <strong>Patrimonio</strong>
+                <small>
+                    Casa -> Una CASA antigua abre sus paredes como brazos y protege un castillo, una estatua y un cuadro
+                    gigantesco de una lluvia de martillos: todo ese tesoro es el PATRIMONIO.
+                </small>
+                <span>
+                    CASA → protege monumentos y obras de arte → PATRIMONIO
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del
+                            <mark>patrimonio histórico, cultural y artístico de los pueblos de España</mark> y de los
+                            bienes que lo integran, cualquiera que sea su régimen jurídico y su titularidad. La ley
+                            penal sancionará los atentados contra este patrimonio.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a46"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 46 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 47. <strong>Vivienda</strong>
+                <small>
+                    Cafe -> Una taza de CAFÉ se derrama sobre un solar vacío y, en lugar de un charco, crece una casa
+                    entera con puerta, ventanas y gente viviendo dentro.
+                </small>
+                <span>
+                    CAFÉ → se derrama y hace crecer una casa → VIVIENDA
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Todos los españoles tienen derecho a disfrutar de una <mark>vivienda digna y adecuada</mark>.
+                            Los poderes públicos promoverán las condiciones necesarias y establecerán las normas
+                            pertinentes para hacer efectivo este derecho, regulando la utilización del suelo de acuerdo
+                            con el interés general para <mark>impedir la especulación</mark>. <mark>La comunidad
+                                participará en las plusvalías</mark> que genere la acción urbanística de los entes
+                            públicos.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a47"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 47 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 48. <strong>Juventud</strong>
+                <small>
+                    Coche -> Un COCHE diminuto abre el maletero y de él salen cientos de jóvenes con mochilas y
+                    monopatines, hasta llenar la calle con un desfile de «JUVENTUD».
+                </small>
+                <span>
+                    COCHE → del maletero sale un desfile de jóvenes → JUVENTUD
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Los poderes públicos promoverán las condiciones para la <mark>participación libre y eficaz de
+                                la juventud</mark> en el desarrollo político, social, económico y cultural.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a48"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 48 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 49. <strong>Discapacidad</strong>
+                <small>
+                    Cubo -> Un CUBO mágico gira y se transforma primero en rampa, luego en audífono y después en letras
+                    braille para abrir las puertas de un edificio a personas con discapacidad.
+                </small>
+                <span>
+                    CUBO → se convierte en apoyos accesibles → DISCAPACIDAD
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Las personas con discapacidad ejercen los derechos previstos en este Título en
+                            <mark>condiciones de libertad e igualdad reales y efectivas</mark>. Se regulará por ley la
+                            protección especial que sea necesaria para dicho ejercicio.</p>
+                        <p>2. Los poderes públicos impulsarán las políticas que garanticen la <mark>plena autonomía
+                                personal y la inclusión social</mark> de las personas con discapacidad, en
+                            <mark>entornos universalmente accesibles</mark>. Asimismo, fomentarán la participación de
+                            sus organizaciones, en los términos que la ley establezca. Se atenderán particularmente las
+                            <mark>necesidades específicas de las mujeres y los menores con discapacidad</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a49"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 49 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 50. <strong>Tercera Edad</strong>
+                <small>
+                    Loro -> Imaginamos un Loro anciano
+                </small>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Los poderes públicos garantizarán, mediante <mark>pensiones adecuadas y periódicamente
+                                actualizadas</mark>, la <mark>suficiencia económica a los ciudadanos durante la tercera
+                                edad</mark>. Asimismo, y con independencia de las obligaciones familiares, promoverán su
+                            bienestar mediante un <mark>sistema de servicios sociales</mark> que atenderán sus problemas
+                            específicos de salud, vivienda, cultura y ocio.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a50"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 50 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 51. <strong>Consumidores/Usuarios</strong>
+                <small>
+                    Lata -> Una LATA con piernas empuja un carrito por el supermercado; cuando la caja intenta cobrarle
+                    de más, saca un escudo gigante que dice «DERECHOS DE CONSUMIDORES Y USUARIOS».
+                </small>
+                <span>
+                    LATA → compra y alza el escudo de sus derechos → CONSUMIDORES/USUARIOS
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los poderes públicos garantizarán la <mark>defensa de los consumidores y usuarios</mark>,
+                            protegiendo, mediante procedimientos eficaces, <mark>la seguridad, la salud y los legítimos
+                                intereses económicos</mark> de los mismos.</p>
+                        <p>2. Los poderes públicos promoverán la <mark>información y la educación de los consumidores y
+                                usuarios</mark>, fomentarán sus organizaciones y oirán a éstas en las cuestiones que
+                            puedan afectar a aquéllos, en los términos que la ley establezca.</p>
+                        <p>3. En el marco de lo dispuesto por los apartados anteriores, la ley regulará el comercio
+                            interior y el régimen de autorización de productos comerciales.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a51"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 51 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 52. <strong>Defensa Intereses Económicos</strong>
+                <small>
+                    Luna -> La LUNA baja del cielo con armadura y protege con un escudo enorme un montón de monedas y
+                    billetes mientras llueven flechas: defiende los intereses económicos.
+                </small>
+                <span>
+                    LUNA → escudo que protege monedas → DEFENSA DE INTERESES ECONÓMICOS
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>La ley regulará las <mark>organizaciones profesionales</mark> que contribuyan a la
+                            <mark>defensa de los intereses económicos</mark> que les sean propios. Su estructura interna
+                            y <mark>funcionamiento deberán ser democráticos</mark>.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a52"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 52 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 53. <strong>Derechos y libertades</strong>
+                <small>
+                    Lima -> Una LIMA gigante rompe los candados de una jaula donde están encerrados los DERECHOS y las
+                    LIBERTADES, escritos en pancartas que salen volando al quedar libres.
+                </small>
+                <span>
+                    LIMA → abre la jaula de los derechos → DERECHOS Y LIBERTADES
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título
+                            <mark>vinculan a todos los poderes públicos</mark>. <mark>Sólo por ley</mark>, que en todo
+                            caso deberá respetar su <mark>contenido esencial</mark>, podrá regularse el ejercicio de
+                            tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161,
+                            1, a).</p>
+                        <p>2. Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el
+                            artículo 14 y la Sección primera del Capítulo segundo ante los Tribunales ordinarios por un
+                            procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través
+                            del <mark>recurso de amparo ante el Tribunal Constitucional</mark>. Este último recurso será
+                            aplicable a la objeción de conciencia reconocida en el artículo 30.</p>
+                        <p>3. El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo
+                            tercero informarán la legislación positiva, la práctica judicial y la actuación de los
+                            poderes públicos. <mark>Sólo podrán ser alegados ante la Jurisdicción ordinaria</mark> de
+                            acuerdo con lo que dispongan las leyes que los desarrollen.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a53"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 53 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 54. <strong>Defensa del pueblo</strong>
+                <small>
+                    Loco -> Un LOCO con un embudo por sombrero y una capa de superhéroe se planta ante una multitud y
+                    despliega un escudo enorme con las palabras «DEFENSOR DEL PUEBLO».
+                </small>
+                <span>
+                    LOCO → escudo que protege a la multitud → DEFENSA DEL PUEBLO
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>Una ley orgánica regulará la institución del <mark>Defensor del Pueblo</mark>, como
+                            <mark>alto comisionado de las Cortes Generales</mark>, designado por éstas para la defensa
+                            de los derechos comprendidos en este Título, a cuyo efecto podrá <mark>supervisar la
+                                actividad de la Administración</mark>, dando cuenta a las Cortes Generales.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a54"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 54 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+            <article>
+                Artículo 55. <strong>Suspensión de derechos y libertades</strong>
+                <small>
+                    Lulú (perrito blanco) -> LULÚ, el perrito blanco, tira de una cuerda y deja colgados en el aire
+                    varios carteles de DERECHOS. Suena una sirena y aparecen dos letreros gigantes: «ESTADO DE
+                    EXCEPCIÓN» y «ESTADO DE SITIO».
+                </small>
+                <span>
+                    LULÚ → cuelga ciertos derechos en estado de excepción o sitio → SUSPENSIÓN DE DERECHOS Y LIBERTADES
+                </span>
+
+                <details class="legal-text">
+                    <summary>Artículo completo <span class="legal-caption">Texto constitucional</span></summary>
+                    <div class="legal-body">
+                        <p>1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20,
+                            apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2,
+                            <mark>podrán ser suspendidos cuando se acuerde la declaración del estado de excepción o de
+                                sitio</mark> en los términos previstos en la Constitución. Se exceptúa de lo establecido
+                            anteriormente el apartado 3 del artículo 17 para el supuesto de declaración de estado de
+                            excepción.</p>
+                        <p>2. Una ley orgánica podrá determinar la forma y los casos en los que, <mark>de forma
+                                individual y con la necesaria intervención judicial y el adecuado control
+                                parlamentario</mark>, los derechos reconocidos en los artículos 17, apartado 2, y 18,
+                            apartados 2 y 3, pueden ser suspendidos para personas determinadas, en relación con las
+                            investigaciones correspondientes a la actuación de <mark>bandas armadas o elementos
+                                terroristas</mark>.</p>
+                        <p>La utilización injustificada o abusiva de las facultades reconocidas en dicha ley orgánica
+                            <mark>producirá responsabilidad penal</mark>, como violación de los derechos y libertades
+                            reconocidos por las leyes.</p>
+                        <a class="source-link"
+                            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1#a55"
+                            target="_blank" rel="noopener noreferrer">Consultar el artículo 55 en el BOE ↗</a>
+                    </div>
+                </details>
+            </article>
+
+
+
+
+        </div>
+        <div class="empty-state" id="empty-state" hidden>
+            <h2>No hay artículos con esa búsqueda</h2>
+            <p>Prueba con otro número, palabra o bloque.</p>
+        </div>
+    </main>
+    <footer class="footer">Los resaltados son ayudas de estudio. Texto consolidado del <a
+            href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1" target="_blank"
+            rel="noopener noreferrer">BOE</a>, actualizado el 20/05/2026.</footer>
+    <script>
+        (function () {
+            "use strict";
+            const groups = [
+                { key: "preliminar", label: "Título preliminar", until: 9 },
+                { key: "derechos", label: "Derechos y deberes", until: 38 },
+                { key: "principios", label: "Principios rectores", until: 52 },
+                { key: "garantias", label: "Garantías y suspensión", until: 55 }
+            ];
+            const storageKey = "constitucion-imagenes-estudiados-v1";
+            const articles = Array.from(document.querySelectorAll("#cards > article"));
+            const filters = Array.from(document.querySelectorAll("[data-filter]"));
+            const search = document.getElementById("search");
+            const reviewToggle = document.getElementById("review-toggle");
+            const superToggle = document.getElementById("super-toggle");
+            const modeHint = document.getElementById("mode-hint");
+            const visibleCount = document.getElementById("visible-count");
+            const progressCount = document.getElementById("progress-count");
+            const progressFill = document.getElementById("progress-fill");
+            const emptyState = document.getElementById("empty-state");
+            let activeFilter = "all";
+            let mode = "normal";
+            let studied = new Set();
+
+            try {
+                const saved = JSON.parse(localStorage.getItem(storageKey) || "[]");
+                if (Array.isArray(saved)) studied = new Set(saved.filter(n => Number.isInteger(n) && n >= 1 && n <= 55));
+            } catch (_) { /* El marcado sigue disponible durante esta sesión. */ }
+
+            function normalize(value) {
+                return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es");
+            }
+            function saveProgress() {
+                try { localStorage.setItem(storageKey, JSON.stringify(Array.from(studied).sort((a, b) => a - b))); }
+                catch (_) { /* Algunos navegadores no permiten guardar archivos locales. */ }
+            }
+            function updateProgress() {
+                progressCount.textContent = studied.size + " de " + articles.length + " estudiados";
+                progressFill.style.width = (100 * studied.size / articles.length) + "%";
+            }
+
+            articles.forEach(article => {
+                const numberMatch = article.textContent.match(/Artículo\s+(\d+)\./);
+                const small = article.querySelector(":scope > small");
+                if (!numberMatch || !small) return;
+                const number = Number(numberMatch[1]);
+                const group = groups.find(item => number <= item.until);
+                const chain = article.querySelector(":scope > span");
+                const rawMnemonic = small.textContent.trim();
+                const arrowPosition = rawMnemonic.indexOf("->");
+                const cue = arrowPosition >= 0 ? rawMnemonic.slice(0, arrowPosition).trim() : rawMnemonic.split(/\s+/)[0];
+                article.classList.add("study-card");
+                article.id = "articulo-" + number;
+                article.dataset.number = String(number);
+                article.dataset.group = group.key;
+
+                const heading = document.createElement("header");
+                heading.className = "card-header";
+                const headingText = document.createElement("div");
+                headingText.className = "card-heading";
+                const eyebrow = document.createElement("p");
+                eyebrow.className = "card-eyebrow";
+                const numberLabel = document.createElement("span");
+                numberLabel.className = "article-number";
+                numberLabel.textContent = "Artículo " + number;
+                const groupLabel = document.createElement("span");
+                groupLabel.className = "group-name";
+                groupLabel.textContent = group.label;
+                eyebrow.append(numberLabel, groupLabel);
+                const superNumber = document.createElement("button");
+                superNumber.type = "button";
+                superNumber.className = "super-number";
+                superNumber.textContent = String(number);
+                superNumber.setAttribute("aria-expanded", "false");
+                superNumber.setAttribute("aria-label", "Artículo " + number + ". Mostrar contenido");
+                superNumber.addEventListener("click", () => {
+                    const revealed = article.classList.toggle("is-super-revealed");
+                    superNumber.setAttribute("aria-expanded", String(revealed));
+                    superNumber.setAttribute("aria-label", "Artículo " + number + ". " + (revealed ? "Ocultar contenido" : "Mostrar contenido"));
+                });
+                const title = document.createElement("h2");
+                const firstText = Array.from(article.childNodes).find(node => node.nodeType === Node.TEXT_NODE && /Artículo\s+\d+\./.test(node.textContent));
+                if (firstText) firstText.textContent = firstText.textContent.replace(/Artículo\s+\d+\.\s*/, "");
+                while (article.firstChild && article.firstChild !== small) title.appendChild(article.firstChild);
+                headingText.append(superNumber, eyebrow, title);
+
+                const learnedButton = document.createElement("button");
+                learnedButton.type = "button";
+                learnedButton.className = "learned-toggle";
+                function refreshLearned() {
+                    const isLearned = studied.has(number);
+                    article.classList.toggle("is-learned", isLearned);
+                    learnedButton.setAttribute("aria-pressed", String(isLearned));
+                    learnedButton.textContent = isLearned ? "✓ Estudiado" : "Marcar estudiado";
+                    learnedButton.setAttribute("aria-label", (isLearned ? "Desmarcar" : "Marcar") + " el artículo " + number + " como estudiado");
+                }
+                learnedButton.addEventListener("click", () => {
+                    if (studied.has(number)) studied.delete(number); else studied.add(number);
+                    refreshLearned();
+                    saveProgress();
+                    updateProgress();
+                });
+                refreshLearned();
+                heading.append(headingText, learnedButton);
+                article.prepend(heading);
+
+                const memory = document.createElement("div");
+                memory.className = "memory";
+                const memoryTop = document.createElement("div");
+                memoryTop.className = "memory-top";
+                const cueLabel = document.createElement("span");
+                cueLabel.className = "memory-label";
+                cueLabel.textContent = "Casillero";
+                const cueValue = document.createElement("span");
+                cueValue.className = "cue";
+                cueValue.textContent = cue;
+                memoryTop.append(cueLabel, cueValue);
+                const revealButton = document.createElement("button");
+                revealButton.type = "button";
+                revealButton.className = "reveal-button";
+                revealButton.textContent = "Mostrar imagen y asociación";
+                revealButton.setAttribute("aria-expanded", "false");
+                const answer = document.createElement("div");
+                answer.className = "answer";
+                answer.id = "respuesta-" + number;
+                revealButton.setAttribute("aria-controls", answer.id);
+                revealButton.addEventListener("click", () => {
+                    const revealed = article.classList.toggle("is-revealed");
+                    revealButton.setAttribute("aria-expanded", String(revealed));
+                    revealButton.textContent = revealed ? "Ocultar imagen y asociación" : "Mostrar imagen y asociación";
+                });
+                if (small.firstChild && small.firstChild.nodeType === Node.TEXT_NODE) {
+                    const marker = small.firstChild.textContent.indexOf("->");
+                    if (marker >= 0) small.firstChild.textContent = small.firstChild.textContent.slice(marker + 2).trimStart();
+                }
+                answer.appendChild(small);
+                if (chain) { chain.classList.add("chain"); answer.appendChild(chain); }
+                memory.append(memoryTop, revealButton, answer);
+                article.insertBefore(memory, article.querySelector(":scope > details"));
+                article.dataset.search = normalize(article.textContent + " " + number);
+            });
+
+            function updateVisible() {
+                const query = normalize(search.value.trim());
+                let count = 0;
+                articles.forEach(article => {
+                    const matches = (activeFilter === "all" || article.dataset.group === activeFilter) && article.dataset.search.includes(query);
+                    article.hidden = !matches;
+                    if (matches) count++;
+                });
+                visibleCount.textContent = count + (count === 1 ? " artículo" : " artículos");
+                emptyState.hidden = count !== 0;
+            }
+            filters.forEach(button => button.addEventListener("click", () => {
+                activeFilter = button.dataset.filter;
+                filters.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
+                updateVisible();
+            }));
+            search.addEventListener("input", updateVisible);
+            function setMode(nextMode) {
+                mode = mode === nextMode ? "normal" : nextMode;
+                const isReview = mode === "review";
+                const isSuper = mode === "super";
+                document.body.classList.toggle("review-mode", isReview);
+                document.body.classList.toggle("super-review-mode", isSuper);
+                reviewToggle.setAttribute("aria-pressed", String(isReview));
+                superToggle.setAttribute("aria-pressed", String(isSuper));
+                reviewToggle.textContent = isReview ? "Salir del repaso" : "Modo repaso";
+                superToggle.textContent = isSuper ? "Salir de super-repaso" : "Super-repaso";
+                modeHint.textContent = isSuper
+                    ? "Recuerda el contenido y pulsa el número para comprobarlo."
+                    : isReview
+                        ? "Intenta recordar la imagen antes de mostrar la asociación."
+                        : "Marca los que ya dominas; el progreso se guarda en este navegador.";
+                articles.forEach(article => {
+                    article.classList.remove("is-revealed");
+                    article.classList.remove("is-super-revealed");
+                    const button = article.querySelector(".reveal-button");
+                    button.setAttribute("aria-expanded", "false");
+                    button.textContent = "Mostrar imagen y asociación";
+                    const numberButton = article.querySelector(".super-number");
+                    numberButton.setAttribute("aria-expanded", "false");
+                    numberButton.setAttribute("aria-label", "Artículo " + article.dataset.number + ". Mostrar contenido");
+                    if (isSuper) article.querySelector(".legal-text").open = false;
+                });
+            }
+            reviewToggle.addEventListener("click", () => setMode("review"));
+            superToggle.addEventListener("click", () => setMode("super"));
+            updateProgress();
+            updateVisible();
+        }());
+    </script>
+</body>
+
+</html>
