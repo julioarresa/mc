@@ -613,6 +613,59 @@
                 transition: none;
             }
         }
+        [hidden] { display: none !important; }
+
+        .view-tabs { display: flex; gap: 8px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+        .view-tab { padding: 7px 15px 11px; border: 0; border-bottom: 3px solid transparent; background: transparent; color: var(--muted); font-weight: 800; }
+        .view-tab[aria-pressed="true"] { border-bottom-color: var(--teal); color: var(--teal); }
+        .test-view .progress-panel { display: none; }
+        .test-view .hero-inner { grid-template-columns: 1fr; }
+
+        .quiz-page { max-width: 900px; }
+        .quiz-intro { margin-bottom: 20px; }
+        .quiz-intro .eyebrow { color: var(--teal); }
+        .quiz-intro h2 { margin: 0 0 8px; font: 700 clamp(2rem, 4vw, 2.8rem)/1.15 Georgia, "Times New Roman", serif; }
+        .quiz-intro p:last-child { margin: 0; color: var(--muted); }
+        .quiz-card { padding: 28px 32px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); box-shadow: 0 5px 20px rgba(23, 51, 58, .035); }
+        .quiz-card h3 { margin: 0 0 10px; font: 700 1.6rem/1.25 Georgia, "Times New Roman", serif; }
+        .quiz-card p { margin-top: 0; }
+        .quiz-meta { color: var(--muted); font-size: .9rem; }
+        #quiz-block-picker { margin: 16px 0; }
+        #quiz-block-picker label { display: block; margin-bottom: 5px; color: var(--muted); font-size: .85rem; font-weight: 700; }
+        #quiz-block-select { min-height: 44px; width: min(100%, 380px); padding: 8px 11px; border: 1px solid #b9c5c2; border-radius: 9px; background: white; color: var(--ink); }
+        .quiz-check-label { display: flex; align-items: center; gap: 10px; width: fit-content; margin: 16px 0 24px; }
+        .quiz-check-label input { width: 18px; height: 18px; accent-color: var(--teal); }
+        .quiz-button { min-height: 44px; padding: 9px 18px; border: 1px solid var(--teal); border-radius: 10px; background: var(--teal); color: white; font-weight: 800; }
+        .quiz-button:hover:not(:disabled) { background: #10564e; }
+        .quiz-button:disabled { cursor: not-allowed; opacity: .5; }
+        .quiz-button.secondary { background: white; color: var(--teal); }
+        .quiz-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        .quiz-progress-row { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: .85rem; font-weight: 700; }
+        .quiz-progress-track { height: 8px; overflow: hidden; margin: 8px 0 24px; border-radius: 100px; background: #e2e7e1; }
+        .quiz-progress-fill { height: 100%; width: 0; border-radius: inherit; background: var(--teal); transition: width .2s ease; }
+        .quiz-fieldset { margin: 0; padding: 0; border: 0; }
+        .quiz-fieldset legend { width: 100%; margin-bottom: 20px; padding: 0; color: var(--ink); font: 700 clamp(1.3rem, 2.6vw, 1.7rem)/1.35 Georgia, "Times New Roman", serif; }
+        .quiz-options { display: grid; gap: 10px; }
+        .quiz-option { display: flex; align-items: flex-start; gap: 11px; padding: 13px 15px; border: 1px solid #cdd7d2; border-radius: 10px; background: white; cursor: pointer; line-height: 1.45; }
+        .quiz-option.selected { border-color: var(--teal); background: var(--teal-soft); }
+        .quiz-option.correct { border-color: #74a88e; background: #e3f2e8; }
+        .quiz-option.incorrect { border-color: #cd8c81; background: #fae9e6; }
+        .quiz-option input { flex: 0 0 auto; width: 18px; height: 18px; margin: 3px 0 0; accent-color: var(--teal); }
+        .quiz-feedback { margin-top: 19px; padding: 16px 18px; border-left: 4px solid var(--teal); border-radius: 0 10px 10px 0; background: #e9f3ed; }
+        .quiz-feedback.wrong { border-left-color: #ab5344; background: #f9eee9; }
+        .quiz-feedback strong { display: block; margin-bottom: 5px; }
+        .quiz-feedback p { margin: 0 0 7px; }
+        .quiz-feedback a, .quiz-results a { color: var(--teal); font-weight: 700; }
+        .quiz-score { margin: 4px 0 14px; color: var(--teal); font: 700 2.4rem/1.1 Georgia, "Times New Roman", serif; }
+        .missed-list { display: grid; gap: 12px; margin: 18px 0 0; padding: 0; list-style: none; }
+        .missed-list li { padding: 14px 16px; border: 1px solid var(--line); border-radius: 10px; background: #f8f6f0; }
+        .missed-list strong { display: block; margin-bottom: 5px; }
+        .missed-list p { margin: 4px 0; }
+
+        @media (max-width: 700px) {
+            .quiz-card { padding: 21px; }
+            .quiz-option { padding: 12px; }
+        }
     </style>
 </head>
 
@@ -637,6 +690,11 @@
     </header>
     <div class="toolbar">
         <div class="toolbar-inner">
+            <nav class="view-tabs" aria-label="Secciones del documento">
+                <button type="button" class="view-tab" id="articles-tab" aria-pressed="true">Artículos</button>
+                <button type="button" class="view-tab" id="tests-tab" aria-pressed="false">Test</button>
+            </nav>
+            <div id="study-controls">
             <div class="tools-row">
                 <div class="search-wrap">
                     <label for="search">Buscar un artículo o una palabra</label>
@@ -656,6 +714,7 @@
                 <button type="button" data-filter="principios" aria-pressed="false">Principios · 39–52</button>
                 <button type="button" data-filter="garantias" aria-pressed="false">Garantías · 53–55</button>
             </nav>
+            </div>
         </div>
     </div>
     <main id="articulos" class="page-inner">
@@ -2004,6 +2063,81 @@
             <p>Prueba con otro número, palabra o bloque.</p>
         </div>
     </main>
+    <section id="tests" class="page-inner quiz-page" aria-labelledby="quiz-title" hidden>
+        <div class="quiz-intro">
+            <p class="eyebrow" id="quiz-block-eyebrow">Bloque 1 · 30 preguntas</p>
+            <h2 id="quiz-title">Test de la Constitución</h2>
+            <p id="quiz-intro-description">Preámbulo, Título Preliminar y una pregunta de repaso sobre patrimonio. Responde una a una y comprueba cada respuesta.</p>
+        </div>
+        <div id="quiz-start" class="quiz-card">
+            <h3 id="quiz-block-title">Primer bloque de preguntas</h3>
+            <p id="quiz-block-description">30 preguntas de opción múltiple. Al terminar verás tu puntuación y podrás repetir solo las falladas.</p>
+            <div id="quiz-block-picker" hidden><label for="quiz-block-select">Elegir bloque</label> <select id="quiz-block-select"></select></div>
+            <label class="quiz-check-label"><input id="quiz-shuffle" type="checkbox"> Mezclar el orden de las preguntas</label>
+            <button type="button" id="quiz-start-button" class="quiz-button">Empezar test</button>
+        </div>
+        <div id="quiz-active" class="quiz-card" hidden>
+            <div class="quiz-progress-row"><span id="quiz-position">Pregunta 1 de 30</span><span id="quiz-current-score">0 aciertos</span></div>
+            <div class="quiz-progress-track" aria-hidden="true"><div class="quiz-progress-fill" id="quiz-progress-fill"></div></div>
+            <form id="quiz-form">
+                <fieldset class="quiz-fieldset">
+                    <legend id="quiz-question" tabindex="-1"></legend>
+                    <div id="quiz-options" class="quiz-options"></div>
+                </fieldset>
+                <div class="quiz-actions"><button type="submit" id="quiz-check" class="quiz-button" disabled>Comprobar respuesta</button></div>
+            </form>
+            <div id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite" hidden></div>
+            <div class="quiz-actions">
+                <button type="button" id="quiz-next" class="quiz-button" hidden>Siguiente pregunta</button>
+                <button type="button" id="quiz-exit" class="quiz-button secondary">Salir del test</button>
+            </div>
+        </div>
+        <div id="quiz-results" class="quiz-card quiz-results" hidden>
+            <h3 tabindex="-1">Resultado del test</h3>
+            <p id="quiz-final-score" class="quiz-score"></p>
+            <p id="quiz-final-message"></p>
+            <div class="quiz-actions">
+                <button type="button" id="quiz-retry-all" class="quiz-button">Repetir el bloque</button>
+                <button type="button" id="quiz-choose-block" class="quiz-button secondary" hidden>Elegir otro bloque</button>
+                <button type="button" id="quiz-retry-missed" class="quiz-button secondary" hidden>Repasar falladas</button>
+            </div>
+            <ol id="quiz-missed-list" class="missed-list"></ol>
+        </div>
+    </section>
+    <script type="application/json" id="quiz-bank">
+    {"blocks":[{"id":"bloque-1","title":"Preámbulo y Título Preliminar","description":"Preámbulo, Título Preliminar y una pregunta de repaso sobre patrimonio.","questions":[
+      {"id":1,"question":"Según el artículo 1 de la Constitución Española, España se constituye en:","options":["En un Estado integral y unitario de derecho","En un Estado social y democrático de derecho","En una Nación de derecho democrática","En un Estado del bienestar, social y democrático"],"correct":1,"source":"Artículo 1.1","anchor":"a1"},
+      {"id":2,"question":"¿Cuántos artículos tiene el Título Preliminar de la Constitución Española?","options":["Once","Ocho","Diez","Nueve"],"correct":3,"source":"Título Preliminar (artículos 1–9)","anchor":"tpreliminar"},
+      {"id":3,"question":"¿En qué Título de la Constitución Española se regulan los principios básicos o generales del Estado Español?","options":["En el Título II","En el Título I","En el Título Preliminar","Ninguna es correcta"],"correct":2,"source":"Título Preliminar","anchor":"tpreliminar"},
+      {"id":4,"question":"En el Preámbulo de la Constitución se proclama la voluntad de colaborar en el fortalecimiento de unas relaciones:","options":["Pacíficas y de eficaz cooperación entre todas las Comunidades Autónomas","Igualitarias y de eficaz cooperación entre todos los habitantes de España","Pacíficas y de eficaz cooperación entre todos los pueblos de la Tierra","Todas son incorrectas"],"correct":2,"source":"Preámbulo","anchor":"preambulo"},
+      {"id":5,"question":"En el Preámbulo de la Constitución se proclama la voluntad de establecer una sociedad democrática:","options":["Integrada","Afianzada","Generalizada","Avanzada"],"correct":3,"source":"Preámbulo","anchor":"preambulo"},
+      {"id":6,"question":"Según el Preámbulo de la Constitución, la Nación Española deseaba:","options":["Establecer la justicia, la libertad y la seguridad","Promover la justicia y la libertad","Establecer la seguridad ideológica","Fomentar la libertad, la justicia y la igualdad"],"correct":0,"source":"Preámbulo","anchor":"preambulo"},
+      {"id":7,"question":"¿Quién aprueba y ratifica la Constitución Española de 1978?","options":["El pueblo español","Las Cortes aprueban y el pueblo español ratifica","El Rey aprueba y el pueblo español ratifica","El Gobierno aprueba y el pueblo español ratifica"],"correct":1,"source":"Preámbulo","anchor":"preambulo"},
+      {"id":8,"question":"La riqueza de las distintas modalidades lingüísticas de España es un:","options":["patrimonio nacional que será objeto de especial respeto y protección","patrimonio cultural que será objeto de especial respeto y protección","patrimonio nacional que no será objeto de especial respeto y protección","patrimonio cultural que no será objeto de especial respeto y protección"],"correct":1,"source":"Artículo 3.3","anchor":"a3"},
+      {"id":9,"question":"Las demás lenguas españolas:","options":["serán también oficiales en todo el Estado","serán también oficiales en las respectivas Comunidades Autónomas","no son oficiales en las respectivas Comunidades Autónomas","ninguna es correcta"],"correct":1,"source":"Artículo 3.2","anchor":"a3"},
+      {"id":10,"question":"La lengua española oficial del Estado:","options":["es el castellano","es el castellano y las demás lenguas españolas","el castellano salvo en aquellas regiones con lengua propia","ninguna es correcta"],"correct":0,"source":"Artículo 3.1","anchor":"a3"},
+      {"id":11,"question":"La Constitución:","options":["no reconoce el derecho a la autonomía de las nacionalidades y regiones que la integran","reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones que la integran","reconoce y garantiza el derecho a la autonomía de las comunidades y regiones que la integran","reconoce y garantiza el derecho a la autonomía de las comunidades y municipios que la integran"],"correct":1,"source":"Artículo 2","anchor":"a2"},
+      {"id":12,"question":"La Constitución se fundamenta en la:","options":["disoluble unidad de la Nación española, patria común y divisible de todos los españoles","indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles","pluralidad de la Nación española, patria común y particular de todos los españoles","pluralidad de la Nación española, patria común e indivisible de todos los españoles"],"correct":1,"source":"Artículo 2","anchor":"a2"},
+      {"id":13,"question":"La Constitución garantiza:","options":["el principio de legalidad","la jerarquía normativa","la publicidad de las normas","todas son correctas"],"correct":3,"source":"Artículo 9.3","anchor":"a9"},
+      {"id":14,"question":"Los poderes del Estado emanan de:","options":["la Nación","el pueblo español","el Gobierno","el Jefe de Estado"],"correct":1,"source":"Artículo 1.2","anchor":"a1"},
+      {"id":15,"question":"España propugna como valores superiores de su ordenamiento jurídico:","options":["la libertad, la imparcialidad, la equidad y el pluralismo social","la autonomía, la justicia, la equidad y el pluralismo social","la autonomía, la imparcialidad, la igualdad y el pluralismo político","la libertad, la justicia, la igualdad y el pluralismo político"],"correct":3,"source":"Artículo 1.1","anchor":"a1"},
+      {"id":16,"question":"España se constituye en un Estado:","options":["político y democrático de Derecho","social y democrático de Derecho","político y totalitario de Derecho","social y totalitario de Derecho"],"correct":1,"source":"Artículo 1.1","anchor":"a1"},
+      {"id":17,"question":"Expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política:","options":["los sindicatos de trabajadores y las asociaciones empresariales","los partidos políticos","las Fuerzas Armadas","todas son correctas"],"correct":1,"source":"Artículo 6","anchor":"a6"},
+      {"id":18,"question":"La forma política del Estado español es:","options":["la Monarquía parlamentaria","la soberanía nacional","el pluralismo político","la sociedad democrática"],"correct":0,"source":"Artículo 1.3","anchor":"a1"},
+      {"id":19,"question":"Tiene/n como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional:","options":["el Gobierno","el Jefe de Estado","los tribunales","las Fuerzas Armadas"],"correct":3,"source":"Artículo 8.1","anchor":"a8"},
+      {"id":20,"question":"Señala la formulación completa del artículo 9.1:","options":["los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico","los ciudadanos están sujetos a la Constitución y al resto del ordenamiento jurídico","los ciudadanos y los poderes públicos están sujetos a la Constitución","los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico"],"correct":3,"source":"Artículo 9.1","anchor":"a9"},
+      {"id":21,"question":"La riqueza de las distintas modalidades lingüísticas de España:","options":["Es un patrimonio histórico que deberá ser desarrollado exclusivamente por las Comunidades Autónomas afectadas.","Es un patrimonio cultural cuya gestión corresponderá al Estado.","Es un patrimonio cultural que será objeto de especial respeto y protección.","Es un patrimonio histórico que precisa de la coordinación entre las administraciones públicas."],"correct":2,"source":"Artículo 3.3","anchor":"a3"},
+      {"id":22,"question":"Los partidos políticos:","options":["Son instrumento fundamental para la participación política.","Expresan el pluralismo ideológico en todos los campos.","Concurren a la formación de la voluntad institucional.","Participan en la manifestación de la voluntad de las agrupaciones políticas."],"correct":0,"source":"Artículo 6","anchor":"a6"},
+      {"id":23,"question":"Según la redacción literal del artículo 3.1, la lengua oficial del Estado es:","options":["El idioma autóctono en aquellas comunidades que gocen de lengua propia.","El castellano.","El español.","El castellano en aquellas comunidades autónomas que no sean bilingües."],"correct":1,"source":"Artículo 3.1","anchor":"a3"},
+      {"id":24,"question":"Las bases de la organización militar conforme a los principios constitucionales:","options":["Se regulan por Ley Ordinaria, conforme al mandato constitucional.","Se regulan por Ley Orgánica, conforme al mandato constitucional.","Se regulan en la propia Constitución, en el Título Octavo.","Se regulan en la propia Constitución, en el Título Preliminar."],"correct":1,"source":"Artículo 8.2","anchor":"a8"},
+      {"id":25,"question":"Todos los españoles, con respecto al idioma oficial del Estado:","options":["Tienen el deber y el derecho de conocerlo.","Tienen el deber de conocerlo y el derecho de usarlo.","Tienen el deber y el derecho de usarlo.","Tienen el deber de usarlo."],"correct":1,"source":"Artículo 3.1","anchor":"a3"},
+      {"id":26,"question":"Una de las siguientes afirmaciones relativa a los sindicatos y asociaciones empresariales no es correcta:","options":["El ejercicio de su actividad será libre dentro del respeto a la Constitución y a la Ley.","Su estructura interna deberá ser jerárquica.","Su funcionamiento interno deberá ser democrático.","Su creación será libre dentro del respeto a la Constitución y a la Ley."],"correct":1,"source":"Artículo 7","anchor":"a7"},
+      {"id":27,"question":"Corresponde a los poderes públicos:","options":["Garantizar la conservación del patrimonio histórico.","Afianzar los obstáculos que impidan o dificulten la plenitud de la libertad e igualdad del individuo y los grupos.","Regular la economía de mercado de acuerdo con las exigencias de la planificación general.","Fomentar el derecho de los padres a que sus hijos reciban una formación religiosa y moral conforme a sus propias convicciones."],"correct":0,"source":"Artículo 46","anchor":"a46"},
+      {"id":28,"question":"La soberanía nacional:","options":["Reside en los ciudadanos mayores de edad.","Reside en el pueblo español","Reside en el Rey.","Reside en el Congreso y en el Senado."],"correct":1,"source":"Artículo 1.2","anchor":"a1"},
+      {"id":29,"question":"La capital del Estado es:","options":["La ciudad de Madrid.","El Madrid metropolitano.","La villa de Madrid.","La localidad de Madrid."],"correct":2,"source":"Artículo 5","anchor":"a5"},
+      {"id":30,"question":"La bandera de España está formada por tres franjas, roja, amarilla y roja:","options":["Horizontalmente colocadas, siendo la roja de doble anchura que cada una de las amarillas.","Verticalmente colocadas, siendo la amarilla de doble anchura que cada una de las rojas.","Horizontalmente colocadas, siendo las tres franjas de igual anchura.","Horizontalmente colocadas, siendo la amarilla de doble anchura que cada una de las rojas."],"correct":3,"source":"Artículo 4.1","anchor":"a4"}
+    ]}]}
+    </script>
     <footer class="footer">Los resaltados son ayudas de estudio. Texto consolidado del <a
             href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&amp;p=20260520&amp;tn=1" target="_blank"
             rel="noopener noreferrer">BOE</a>, actualizado el 20/05/2026.</footer>
@@ -2197,6 +2331,210 @@
             superToggle.addEventListener("click", () => setMode("super"));
             updateProgress();
             updateVisible();
+        }());
+    </script>
+    <script>
+        (function () {
+            "use strict";
+            const blocks = JSON.parse(document.getElementById("quiz-bank").textContent).blocks;
+            const boeUrl = "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1";
+            const articlesPage = document.getElementById("articulos");
+            const testsPage = document.getElementById("tests");
+            const studyControls = document.getElementById("study-controls");
+            const articlesTab = document.getElementById("articles-tab");
+            const testsTab = document.getElementById("tests-tab");
+            const blockPicker = document.getElementById("quiz-block-picker");
+            const blockSelect = document.getElementById("quiz-block-select");
+            const shuffleToggle = document.getElementById("quiz-shuffle");
+            const startPanel = document.getElementById("quiz-start");
+            const activePanel = document.getElementById("quiz-active");
+            const resultsPanel = document.getElementById("quiz-results");
+            const quizForm = document.getElementById("quiz-form");
+            const questionTitle = document.getElementById("quiz-question");
+            const optionsBox = document.getElementById("quiz-options");
+            const checkButton = document.getElementById("quiz-check");
+            const nextButton = document.getElementById("quiz-next");
+            const feedback = document.getElementById("quiz-feedback");
+            const progressFill = document.getElementById("quiz-progress-fill");
+            const positionLabel = document.getElementById("quiz-position");
+            const scoreLabel = document.getElementById("quiz-current-score");
+            const finalScore = document.getElementById("quiz-final-score");
+            const finalMessage = document.getElementById("quiz-final-message");
+            const missedList = document.getElementById("quiz-missed-list");
+            const retryMissed = document.getElementById("quiz-retry-missed");
+            const chooseBlock = document.getElementById("quiz-choose-block");
+            let order = [];
+            let position = 0;
+            let attempts = [];
+            let missed = [];
+
+            blocks.forEach((block, index) => {
+                const option = document.createElement("option");
+                option.value = block.id;
+                option.textContent = "Bloque " + (index + 1) + " · " + block.title;
+                blockSelect.appendChild(option);
+            });
+            blockPicker.hidden = blocks.length < 2;
+            chooseBlock.hidden = blocks.length < 2;
+
+            function currentBlock() { return blocks.find(block => block.id === blockSelect.value); }
+            function updateBlockIntro() {
+                const block = currentBlock();
+                const index = blocks.indexOf(block) + 1;
+                document.getElementById("quiz-block-eyebrow").textContent = "Bloque " + index + " · " + block.questions.length + " preguntas";
+                document.getElementById("quiz-intro-description").textContent = block.description + " Responde una a una y comprueba cada respuesta.";
+                document.getElementById("quiz-block-title").textContent = block.title;
+                document.getElementById("quiz-block-description").textContent = block.questions.length + " preguntas de opción múltiple. Al terminar verás tu puntuación y podrás repetir solo las falladas.";
+                document.getElementById("quiz-retry-all").textContent = "Repetir el bloque completo";
+            }
+            blockSelect.addEventListener("change", updateBlockIntro);
+            updateBlockIntro();
+
+            function showView(view) {
+                const showTest = view === "test";
+                articlesPage.hidden = showTest;
+                testsPage.hidden = !showTest;
+                studyControls.hidden = showTest;
+                document.body.classList.toggle("test-view", showTest);
+                articlesTab.setAttribute("aria-pressed", String(!showTest));
+                testsTab.setAttribute("aria-pressed", String(showTest));
+                window.scrollTo(0, 0);
+            }
+            articlesTab.addEventListener("click", () => showView("articles"));
+            testsTab.addEventListener("click", () => showView("test"));
+
+            function sourceLink(question) {
+                const link = document.createElement("a");
+                link.href = boeUrl + "#" + encodeURIComponent(question.anchor);
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+                link.textContent = "Ver " + question.source + " en el BOE ↗";
+                return link;
+            }
+            function showStart() {
+                startPanel.hidden = false;
+                activePanel.hidden = true;
+                resultsPanel.hidden = true;
+            }
+            function startQuiz(ids, shuffle) {
+                const bank = currentBlock().questions;
+                order = ids.map(id => bank.find(question => question.id === id));
+                if (shuffle) {
+                    for (let i = order.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [order[i], order[j]] = [order[j], order[i]];
+                    }
+                }
+                position = 0;
+                attempts = [];
+                missed = [];
+                startPanel.hidden = true;
+                resultsPanel.hidden = true;
+                activePanel.hidden = false;
+                renderQuestion();
+            }
+            function aciertos(count) { return count + (count === 1 ? " acierto" : " aciertos"); }
+            function renderQuestion() {
+                const question = order[position];
+                positionLabel.textContent = "Pregunta " + (position + 1) + " de " + order.length;
+                scoreLabel.textContent = aciertos(attempts.filter(item => item.correct).length);
+                progressFill.style.width = (100 * position / order.length) + "%";
+                questionTitle.textContent = question.question;
+                optionsBox.replaceChildren();
+                question.options.forEach((answer, index) => {
+                    const label = document.createElement("label");
+                    label.className = "quiz-option";
+                    label.dataset.choice = String(index);
+                    const radio = document.createElement("input");
+                    radio.type = "radio";
+                    radio.name = "answer";
+                    radio.value = String(index);
+                    const text = document.createElement("span");
+                    text.textContent = answer;
+                    label.append(radio, text);
+                    optionsBox.appendChild(label);
+                });
+                checkButton.disabled = true;
+                checkButton.hidden = false;
+                nextButton.hidden = true;
+                feedback.hidden = true;
+                feedback.classList.remove("wrong");
+                questionTitle.focus();
+            }
+            optionsBox.addEventListener("change", () => {
+                optionsBox.querySelectorAll(".quiz-option").forEach(label => {
+                    label.classList.toggle("selected", label.querySelector("input").checked);
+                });
+                checkButton.disabled = false;
+            });
+            quizForm.addEventListener("submit", event => {
+                event.preventDefault();
+                const selected = optionsBox.querySelector("input:checked");
+                if (!selected) return;
+                const question = order[position];
+                const choice = Number(selected.value);
+                const correct = choice === question.correct;
+                attempts.push({ question, choice, correct });
+                optionsBox.querySelectorAll(".quiz-option").forEach(label => {
+                    const index = Number(label.dataset.choice);
+                    label.querySelector("input").disabled = true;
+                    label.classList.toggle("correct", index === question.correct);
+                    label.classList.toggle("incorrect", index === choice && !correct);
+                });
+                feedback.replaceChildren();
+                const title = document.createElement("strong");
+                title.textContent = correct ? "¡Correcto!" : "Respuesta incorrecta";
+                const answer = document.createElement("p");
+                answer.textContent = "Respuesta correcta: " + question.options[question.correct];
+                feedback.append(title, answer, sourceLink(question));
+                feedback.classList.toggle("wrong", !correct);
+                feedback.hidden = false;
+                checkButton.hidden = true;
+                nextButton.hidden = false;
+                nextButton.textContent = position === order.length - 1 ? "Ver resultados" : "Siguiente pregunta";
+                scoreLabel.textContent = aciertos(attempts.filter(item => item.correct).length);
+                progressFill.style.width = (100 * (position + 1) / order.length) + "%";
+                nextButton.focus();
+            });
+            function showResults() {
+                activePanel.hidden = true;
+                resultsPanel.hidden = false;
+                const score = attempts.filter(item => item.correct).length;
+                missed = attempts.filter(item => !item.correct);
+                finalScore.textContent = score + " / " + order.length;
+                finalMessage.textContent = missed.length === 0
+                    ? "¡Has acertado todas las preguntas!"
+                    : missed.length === 1
+                        ? "Puedes revisar la pregunta fallada y repetirla."
+                        : "Puedes revisar las " + missed.length + " preguntas falladas y repetirlas.";
+                retryMissed.hidden = missed.length === 0;
+                missedList.replaceChildren();
+                missed.forEach(item => {
+                    const row = document.createElement("li");
+                    const heading = document.createElement("strong");
+                    heading.textContent = "Pregunta " + item.question.id + ". " + item.question.question;
+                    const chosen = document.createElement("p");
+                    chosen.textContent = "Tu respuesta: " + item.question.options[item.choice];
+                    const right = document.createElement("p");
+                    right.textContent = "Correcta: " + item.question.options[item.question.correct];
+                    row.append(heading, chosen, right, sourceLink(item.question));
+                    missedList.appendChild(row);
+                });
+                resultsPanel.querySelector("h3").focus();
+            }
+            nextButton.addEventListener("click", () => {
+                if (position === order.length - 1) showResults();
+                else { position++; renderQuestion(); }
+            });
+            document.getElementById("quiz-start-button").addEventListener("click", () => {
+                startQuiz(currentBlock().questions.map(question => question.id), shuffleToggle.checked);
+            });
+            document.getElementById("quiz-retry-all").addEventListener("click", () => {
+                startQuiz(currentBlock().questions.map(question => question.id), shuffleToggle.checked);
+            });
+            retryMissed.addEventListener("click", () => startQuiz(missed.map(item => item.question.id), false));
+            document.getElementById("quiz-exit").addEventListener("click", showStart);
+            chooseBlock.addEventListener("click", showStart);
         }());
     </script>
 </body>
