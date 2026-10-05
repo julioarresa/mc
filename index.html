@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#23483f">
+  <meta name="description" content="Tus cuadernos de estudio: Constitución, Explosiones, Legislación SEPA e Incendios Forestales.">
+  <title>Temas de estudio · Mi cuaderno</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2323483f'/%3E%3Cpath d='M12 17c8-3 14-2 20 2 6-4 12-5 20-2v30c-8-3-14-2-20 2-6-4-12-5-20-2Z' fill='none' stroke='%23d4dfb0' stroke-width='3'/%3E%3Cpath d='M32 19v30' stroke='%23d4dfb0' stroke-width='3'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light; --ink: #243b34; --muted: #5c6c64; --forest: #23483f; --paper: #fffef9; --bg: #f3f3eb; --line: #d7ddcf; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--bg); font-family: "Segoe UI", system-ui, sans-serif; line-height: 1.5; }
+    a { color: inherit; }
+    .skip { position: absolute; left: 1rem; top: -5rem; padding: .75rem 1rem; background: var(--paper); z-index: 5; }
+    .skip:focus { top: .75rem; }
+    .masthead { background: var(--forest); color: #fffef9; }
+    .masthead-inner { max-width: 1120px; margin: auto; padding: 1.1rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; gap: .8rem; align-items: center; font-size: 1.05rem; font-weight: 650; }
+    .brand svg { width: 34px; height: 34px; color: #d4dfb0; }
+    .project { color: #d4dfb0; font-size: .875rem; }
+    main { max-width: 1120px; padding: 2.6rem 2rem 2rem; margin: auto; }
+    .intro { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; margin-bottom: 1.6rem; }
+    .eyebrow { margin: 0 0 .3rem; color: var(--muted); font-size: .875rem; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.1rem, 4.5vw, 3rem); line-height: 1.15; letter-spacing: -.035em; }
+    .topic-count { flex-shrink: 0; padding: .4rem .8rem; border: 1px solid var(--line); border-radius: 2rem; color: var(--muted); font-size: .875rem; }
+    .topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+    .topic { --accent: #496945; --tint: #e8eedc; --illustration: #eef1e6; position: relative; display: flex; flex-direction: column; min-height: 246px; padding: 1.6rem 1.7rem 1.35rem; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; overflow: hidden; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+    .topic:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 8px 22px #243b3410; }
+    .topic:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+    .topic-top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 1.15rem; }
+    .category { padding: .3rem .65rem; border-radius: 5px; background: var(--tint); color: var(--accent); font-size: .875rem; font-weight: 600; }
+    .icon { width: 48px; height: 48px; color: var(--accent); flex-shrink: 0; }
+    .icon svg { width: 100%; height: 100%; }
+    h2 { margin: 0 0 .4rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.75rem; font-weight: 400; line-height: 1.2; letter-spacing: -.02em; }
+    .topic p { margin: 0; color: var(--muted); font-size: 1rem; max-width: 39ch; }
+    .topic-bottom { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: auto; padding-top: 1.4rem; }
+    .detail { color: var(--muted); font-size: .875rem; }
+    .open { display: inline-flex; align-items: center; gap: .5rem; color: var(--accent); font-size: .9375rem; font-weight: 650; white-space: nowrap; }
+    .open svg { width: 18px; height: 18px; transition: transform .18s ease; }
+    .topic:hover .open svg { transform: translateX(3px); }
+    .explosiones { --accent: #a34b2e; --tint: #f6e6db; }
+    .sepa { --accent: #25657a; --tint: #e0edf1; }
+    .forestales { --accent: #41643f; --tint: #e5edda; }
+    footer { max-width: 1120px; margin: auto; padding: 0 2rem 1.8rem; }
+    .footer-inner { border-top: 1px solid var(--line); padding-top: 1rem; display: flex; justify-content: space-between; gap: 1rem; font-size: .875rem; color: var(--muted); }
+    @media (max-width: 680px) {
+      .masthead-inner { padding: 1rem 1.1rem; }
+      .project { max-width: 9rem; text-align: right; }
+      main { padding: 1.8rem 1.1rem 1.5rem; }
+      .intro { align-items: center; }
+      .topics { grid-template-columns: 1fr; gap: 1rem; }
+      .topic { min-height: 235px; padding: 1.35rem; }
+      h2 { font-size: 1.6rem; }
+      footer { padding: 0 1.1rem 1.5rem; }
+      .footer-inner { flex-wrap: wrap; gap: .25rem; }
+    }
+    @media (max-width: 370px) { .intro { align-items: flex-start; } .topic-count { margin-top: .2rem; } .topic-bottom { align-items: flex-start; flex-direction: column; gap: .4rem; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+    @media print { .masthead { background: none; color: var(--ink); } .project { color: var(--muted); } .topic { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#temas">Saltar a los temas</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M5 9c6-2 10-1 15 2 5-3 9-4 15-2v23c-6-2-10-1-15 2-5-3-9-4-15-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M20 11v23M10 16c3-.5 5 0 7 1M10 22c3-.5 5 0 7 1M23 17c2-1 4-1.5 7-1M23 23c2-1 4-1.5 7-1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Mi cuaderno</span>
+      </div>
+      <span class="project">Técnicas de estudio</span>
+    </div>
+  </header>
+  <main id="temas">
+    <div class="intro">
+      <div><p class="eyebrow">Elige qué repasar hoy</p><h1>Temas de estudio</h1></div>
+      <span class="topic-count">4 temas</span>
+    </div>
+    <nav class="topics" aria-label="Cuadernos de estudio">
+      <a class="topic constitucion" href="https://julioarresa.github.io/mc/index-c.html" aria-labelledby="titulo-constitucion">
+        <div class="topic-top">
+          <span class="category">Constitución</span>
+          <span class="icon"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M11 7h22l5 5v29H11Z" fill="#edf1e3" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M33 7v7h5M17 24h15M17 29h15M17 34h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="m23 11 1.6 3.3 3.6.5-2.6 2.6.6 3.6-3.2-1.7-3.2 1.7.6-3.6-2.6-2.6 3.6-.5Z" fill="currentColor"/></svg></span>
+        </div>
+        <h2 id="titulo-constitucion">Constitución</h2>
+        <p>Derechos, libertades y garantías, con una imagen memorable para cada artículo.</p>
+        <div class="topic-bottom"><span class="detail">Artículos 1–55 · Casillero</span><span class="open">Abrir tema <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="topic explosiones" href="https://julioarresa.github.io/mc/index-exp.html" aria-labelledby="titulo-explosiones">
+        <div class="topic-top">
+          <span class="category">Fenómenos</span>
+          <span class="icon"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="m24 7 4 10 10-5-5 10 9 5-11 3 2 10-9-7-9 7 2-10-11-3 9-5-5-10 10 5Z" fill="#f7e7dc" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="24" cy="25" r="4" fill="currentColor"/></svg></span>
+        </div>
+        <h2 id="titulo-explosiones">Explosiones</h2>
+        <p>Mecanismos, tipos de explosión y efectos. Distingue los fenómenos y fija los datos clave.</p>
+        <div class="topic-bottom"><span class="detail">Resumen · Tarjetas · Test</span><span class="open">Abrir tema <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="topic sepa" href="https://julioarresa.github.io/mc/index-sepa.html" aria-labelledby="titulo-sepa">
+        <div class="topic-top">
+          <span class="category">Legislación · Asturias</span>
+          <span class="icon"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="m6 16 18-9 18 9Z" fill="#e0edf1" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 20h32M10 37h28M7 41h34M13 20v17M21 20v17M27 20v17M35 20v17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="24" cy="13" r="1.5" fill="currentColor"/></svg></span>
+        </div>
+        <h2 id="titulo-sepa">Legislación SEPA</h2>
+        <p>SEPA y Protección Civil: quién decide, quién coordina y quién actúa.</p>
+        <div class="topic-bottom"><span class="detail">Tres normas · Plazos y órganos</span><span class="open">Abrir tema <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="topic forestales" href="https://julioarresa.github.io/mc/index-for.html" aria-labelledby="titulo-forestales">
+        <div class="topic-top">
+          <span class="category">Incendios</span>
+          <span class="icon"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M20 6 8 24h7L8 35h24l-7-11h7Z" fill="#e5edda" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M20 35v7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M36 25c1 5-4 7-3 11 1 6 10 6 11 0 1-5-4-7-4-11-1 3-1 4-2 5Z" fill="#e8b087" stroke="#a34b2e" stroke-width="1.3" stroke-linejoin="round"/></svg></span>
+        </div>
+        <h2 id="titulo-forestales">Incendios Forestales</h2>
+        <p>Comportamiento del fuego, extinción, herramientas y seguridad, con apoyo visual.</p>
+        <div class="topic-bottom"><span class="detail">Imágenes · Historias · Repaso</span><span class="open">Abrir tema <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+    </nav>
+  </main>
+  <footer><div class="footer-inner"><span>Comprender · Recordar · Comprobar</span><span>Tu punto de partida para repasar.</span></div></footer>
+</body>
+</html>
