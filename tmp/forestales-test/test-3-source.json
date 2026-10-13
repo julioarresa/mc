@@ -1,0 +1,392 @@
+[
+  {
+    "number": 1,
+    "q": "La interfaz urbano forestal es una zona que incluye tanto edificaciones dentro o próximas a espacios de vegetación forestal. Esta interacción representa un escenario diferenciado respecto al riesgo de incendio que se conoce como incendios de:",
+    "options": [
+      "segunda generación",
+      "tercera generación",
+      "cuarta generación",
+      "quinta generación"
+    ],
+    "correct": 2,
+    "answer": "cuarta generación",
+    "notes": ""
+  },
+  {
+    "number": 2,
+    "q": "Según la superficie afectada, un conato afecta a superficies:",
+    "options": [
+      "inferiores a 2 ha",
+      "inferiores a 1 ha",
+      "inferiores a 1,5 ha",
+      "inferiores a 2,5 ha"
+    ],
+    "correct": 1,
+    "answer": "inferiores a 1 ha",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "q": "Según la superficie afectada, un gran incendio forestas afecta a superficies:",
+    "options": [
+      "superiores o iguales a 50 ha",
+      "superiores o iguales a 500 ha",
+      "superiores o iguales a 100 ha",
+      "superiores o iguales a 10 ha"
+    ],
+    "correct": 1,
+    "answer": "superiores o iguales a 500 ha",
+    "notes": ""
+  },
+  {
+    "number": 4,
+    "q": "Los fuegos de subsuelo se suelen dar en zonas de:",
+    "options": [
+      "gayuba",
+      "brezo",
+      "musgo",
+      "hojarasca bajo arbolado"
+    ],
+    "correct": 0,
+    "answer": "gayuba",
+    "notes": ""
+  },
+  {
+    "number": 5,
+    "q": "Cuando el fuego avanza por las copas de los árboles acoplado a un fuego de superficie y no independiente de él, se conoce como:",
+    "options": [
+      "antorcheo",
+      "copas activo",
+      "copas pasivo",
+      "lineal"
+    ],
+    "correct": 2,
+    "answer": "copas pasivo",
+    "notes": ""
+  },
+  {
+    "number": 6,
+    "q": "El área de un incendio forestal que no se ha quemado entre el incendio principal y cualquiera de los dedos se denomina:",
+    "options": [
+      "lengua",
+      "isla",
+      "golfo",
+      "bolsa"
+    ],
+    "correct": 3,
+    "answer": "bolsa",
+    "notes": ""
+  },
+  {
+    "number": 7,
+    "q": "En el desarrollo de incendios forestales es frecuente la proyección a distancia del frente del fuego de partículas vegetales incandescentes o inflamadas, las cuales se denominan:",
+    "options": [
+      "brasas",
+      "chispas",
+      "pavesas",
+      "testas"
+    ],
+    "correct": 2,
+    "answer": "pavesas",
+    "notes": ""
+  },
+  {
+    "number": 8,
+    "q": "La cantidad de vapor de agua por unidad de volumen de aire ambiente es:",
+    "options": [
+      "humedad relativa",
+      "humedad absoluta",
+      "punto de rocío",
+      "punto de saturación"
+    ],
+    "correct": 1,
+    "answer": "humedad absoluta",
+    "notes": ""
+  },
+  {
+    "number": 9,
+    "q": "El viento se mueve por las diferencias de temperatura, diferencias de presión, rotación de la tierra y por:",
+    "options": [
+      "efecto Fourier",
+      "efecto Eolos",
+      "fuerza Coriolis",
+      "fuerza Windtrasser"
+    ],
+    "correct": 2,
+    "answer": "fuerza Coriolis",
+    "notes": ""
+  },
+  {
+    "number": 10,
+    "q": "1 nudo equivale a:",
+    "options": [
+      "1,523 Km/h",
+      "1,852 Km/h",
+      "2,183 Km/h",
+      "2,217 Km/h"
+    ],
+    "correct": 1,
+    "answer": "1,852 Km/h",
+    "notes": ""
+  },
+  {
+    "number": 11,
+    "q": "Un viento de 270º proviene del:",
+    "options": [
+      "este",
+      "suroeste",
+      "sureste",
+      "oeste"
+    ],
+    "correct": 3,
+    "answer": "oeste",
+    "notes": ""
+  },
+  {
+    "number": 12,
+    "q": "Vientos muy cálidos, secos y de gran intensidad que soplan desde regiones altas hacia las bajas y su velocidad y características desecantes sobre la vegetación pueden tener como consecuencia que los incendios forestales sean realmente incontrolables son:",
+    "options": [
+      "Olas de montaña",
+      "vientos de valle",
+      "inversión térmica",
+      "Foehn"
+    ],
+    "correct": 3,
+    "answer": "Foehn",
+    "notes": ""
+  },
+  {
+    "number": 13,
+    "q": "Una inversión térmica donde la temperatura aumenta con la altura porque las capas de aire a nivel medio, vinculado a un anticiclón, se hunden progresivamente y se calientan por compresión al caer desde lo alto, con el resultado de una capa de aire caliente, seco y muy estable, que se puede prolongar durante días se denomina:",
+    "options": [
+      "inversión por subsidencia",
+      "inversión de radiación",
+      "inversión frontal",
+      "inversión marina"
+    ],
+    "correct": 0,
+    "answer": "inversión por subsidencia",
+    "notes": ""
+  },
+  {
+    "number": 14,
+    "q": "A la tormenta de fuego se la conoce también como:",
+    "options": [
+      "tormenta cálida",
+      "tormenta pyrea",
+      "tormenta de convección",
+      "tormenta ígnea"
+    ],
+    "correct": 3,
+    "answer": "tormenta ígnea",
+    "notes": ""
+  },
+  {
+    "number": 15,
+    "q": "Las nubes que acompañan incendios o actividades volcánicas y que se producen por un gran calentamiento del aire desde el propio incendio se conocen como:",
+    "options": [
+      "cumulus",
+      "nimbostratus",
+      "cirrocumulus",
+      "pyrocumulus"
+    ],
+    "correct": 3,
+    "answer": "pyrocumulus",
+    "notes": ""
+  },
+  {
+    "number": 16,
+    "q": "Dentro de las características del combustible vegetal, según su tamaño y forma, un matorral con 35 mm de diámetro se considera:",
+    "options": [
+      "fino",
+      "regular",
+      "mediano",
+      "grueso"
+    ],
+    "correct": 2,
+    "answer": "mediano",
+    "notes": ""
+  },
+  {
+    "number": 17,
+    "q": "El tiempo que tarda un combustible muerto en equilibrar su contenido en humedad con la humedad relativa del ambiente se conoce como:",
+    "options": [
+      "tiempo de desecación",
+      "tiempo relativo",
+      "tiempo de balance",
+      "tiempo de retardo"
+    ],
+    "correct": 3,
+    "answer": "tiempo de retardo",
+    "notes": ""
+  },
+  {
+    "number": 18,
+    "q": "Según la escala de Rothermel, los modelos que van del 4 al 7 son:",
+    "options": [
+      "pastos",
+      "matorral",
+      "hojarasca",
+      "restos de corta"
+    ],
+    "correct": 1,
+    "answer": "matorral",
+    "notes": ""
+  },
+  {
+    "number": 19,
+    "q": "Matorrales mayores de 2 metros, pinares con sotobosque de especies inflamables, pertenecen según la escala de Rothermel al modelo:",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 3,
+    "answer": "7",
+    "notes": ""
+  },
+  {
+    "number": 20,
+    "q": "¿Cuál de las siguientes no es una especie muy inflamable durante casi todo el año?",
+    "options": [
+      "eucalipto",
+      "encina",
+      "romero",
+      "pino rodeno"
+    ],
+    "correct": 3,
+    "answer": "pino rodeno",
+    "notes": ""
+  },
+  {
+    "number": 21,
+    "q": "¿Cuál de las siguientes no es una especie muy inflamable sólo durante el verano?",
+    "options": [
+      "alcornoque",
+      "madroño",
+      "espliego",
+      "tomillo"
+    ],
+    "correct": 1,
+    "answer": "madroño",
+    "notes": ""
+  },
+  {
+    "number": 22,
+    "q": "¿Cuál de las siguientes no es una especie medianamente inflamable?",
+    "options": [
+      "frambuesa",
+      "madroño",
+      "enebro",
+      "carrasca"
+    ],
+    "correct": 0,
+    "answer": "frambuesa",
+    "notes": ""
+  },
+  {
+    "number": 23,
+    "q": "Un humo de color gris café procede de la quema de:",
+    "options": [
+      "matorrales densos",
+      "combustible húmedo",
+      "arbustos ralos",
+      "encinares"
+    ],
+    "correct": 2,
+    "answer": "arbustos ralos",
+    "notes": ""
+  },
+  {
+    "number": 24,
+    "q": "Un humo de color gris negro procede de la quema de:",
+    "options": [
+      "pinares",
+      "pastizales",
+      "combustibles secos",
+      "arbustos ralos"
+    ],
+    "correct": 0,
+    "answer": "pinares",
+    "notes": ""
+  },
+  {
+    "number": 25,
+    "q": "El factor topográfico más importante en el comportamiento del fuego es:",
+    "options": [
+      "la pendiente",
+      "la exposición",
+      "la configuración",
+      "todos son igual de importantes"
+    ],
+    "correct": 0,
+    "answer": "la pendiente",
+    "notes": ""
+  },
+  {
+    "number": 26,
+    "q": "El mecanismo de transmisión de calor que contribuye con más eficacia en un incendio forestal es el de:",
+    "options": [
+      "conducción",
+      "radiación",
+      "convección",
+      "ninguna es correcta"
+    ],
+    "correct": 2,
+    "answer": "convección",
+    "notes": ""
+  },
+  {
+    "number": 27,
+    "q": "Al área de combustible vegetal que no se ha quemado dentro del perímetro del incendio se le conoce como:",
+    "options": [
+      "bolsa",
+      "isla",
+      "burbuja",
+      "entrante"
+    ],
+    "correct": 1,
+    "answer": "isla",
+    "notes": ""
+  },
+  {
+    "number": 28,
+    "q": "El fuego que avanza por las copas de los árboles independientemente de lo que ocurre en la superficie se conoce como:",
+    "options": [
+      "copas pasivo",
+      "copas activo",
+      "antorcheo",
+      "copas independiente"
+    ],
+    "correct": 1,
+    "answer": "copas activo",
+    "notes": ""
+  },
+  {
+    "number": 29,
+    "q": "No tienen la consideración de incendio forestal los que afecten a:",
+    "options": [
+      "terrenos yermos, roquedos y arenales",
+      "construcciones e infraestructuras destinadas al servicio del monte en el que se ubican",
+      "terrenos agrícolas abandonados",
+      "todos son incendios forestales"
+    ],
+    "correct": 3,
+    "answer": "todos son incendios forestales",
+    "notes": ""
+  },
+  {
+    "number": 30,
+    "q": "La cola del incendio se suele ubicar en:",
+    "options": [
+      "donde comenzamos a trabajar",
+      "el origen del incendio",
+      "en los focos secundarios",
+      "en el punto de anclaje"
+    ],
+    "correct": 1,
+    "answer": "el origen del incendio",
+    "notes": ""
+  }
+]

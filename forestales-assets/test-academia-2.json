@@ -1,0 +1,651 @@
+[
+  {
+    "id": "academia-forestales-2-01",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Según el estrato afectado, los incendios forestales se clasifican en:",
+    "options": [
+      "copas, superficie y subsuelo",
+      "árboles, arbustos y hierbas",
+      "coníferas, frondosas y arbustivas",
+      "altos, medios y bajos"
+    ],
+    "correct": 0,
+    "sourceNumber": 1,
+    "block": "tipos",
+    "page": 8,
+    "explanation": "La clasificación por estrato distingue dónde se produce la combustión: subsuelo, superficie y copas. Subsuelo afecta a la materia orgánica bajo la superficie; superficie, a hierbas, hojarasca y matorral; copas, a la parte alta del arbolado.",
+    "contrast": "No es una clasificación por forma del perímetro ni por grupo botánico. Árboles, arbustos y hierbas describen vegetación, pero no sustituyen los tres estratos de esta clasificación."
+  },
+  {
+    "id": "academia-forestales-2-02",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "¿Qué tipo de vegetación en su conjunto forman una barrera resistente al fuego?",
+    "options": [
+      "hidrófitas",
+      "pirófita activa",
+      "ninguna es correcta",
+      "por un igual las hidrófitas y las pirófitas activas"
+    ],
+    "correct": 0,
+    "sourceNumber": 2,
+    "block": "combustibles",
+    "page": null,
+    "explanation": "La academia identifica las hidrófitas como la vegetación que, agrupada, forma una barrera resistente al fuego. La asociación de estudio es hidro → agua y ambientes húmedos → mayor resistencia a la propagación en el contexto de esta pregunta.",
+    "contrast": "La adaptación de una planta al fuego no equivale a formar una barrera contra él. Las pirófitas activas se relacionan en este test con una regeneración estimulada por el fuego."
+  },
+  {
+    "id": "academia-forestales-2-03",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "La recurrencia en los incendios forestales en un mismo lugar afecta a las especies vegetales del mismo modo que favorece a:",
+    "options": [
+      "que la vegetación instalada en la zona sea cada vez menos pirófila",
+      "que las especies mejor adaptadas al fuego sean las predominantes",
+      "la supervivencia, crecimiento y reproducción de plantas",
+      "no favorece en nada"
+    ],
+    "correct": 1,
+    "sourceNumber": 3,
+    "block": "combustibles",
+    "page": null,
+    "explanation": "La recurrencia del fuego actúa como un filtro: en el esquema que pregunta la academia, favorece el predominio de especies mejor adaptadas a sobrevivir o regenerarse después del incendio. Por eso la clave no es una vegetación cada vez menos pirófila.",
+    "contrast": "No significa que todo incendio beneficie a todas las plantas. La pregunta trata de qué adaptaciones resultan favorecidas por la repetición del fuego, no de ausencia de daños."
+  },
+  {
+    "id": "academia-forestales-2-04",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Las laderas con orientación a la solana tienen:",
+    "options": [
+      "mayor temperatura, menor humedad y menor superficie que las zonas de umbría",
+      "menor humedad y menor vegetación que las zonas de umbría",
+      "mayor temperatura y menor vegetación que las zonas de umbría",
+      "mayor temperatura, menor humedad y menor vegetación que las zonas de umbría"
+    ],
+    "correct": 3,
+    "sourceNumber": 4,
+    "block": "topografia",
+    "page": 16,
+    "explanation": "En el esquema general del material, la solana recibe más radiación solar y presenta mayor temperatura, menor humedad y menor vegetación que la umbría. La opción correcta reúne los tres rasgos que pide el test.",
+    "contrast": "Los distractores que solo mencionan dos rasgos resultan incompletos. La orientación de una ladera tampoco implica por sí sola que tenga menor superficie: ese añadido hace incorrecta la primera opción."
+  },
+  {
+    "id": "academia-forestales-2-05",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Un combustible leñoso genera:",
+    "options": [
+      "más intensidad calorífica",
+      "más llamas",
+      "más humo",
+      "más llamas y más humo"
+    ],
+    "correct": 0,
+    "sourceNumber": 5,
+    "block": "combustibles",
+    "page": null,
+    "explanation": "La clave de la academia asocia el combustible leñoso con más intensidad calorífica. Lo que se pregunta es el efecto térmico que atribuye a ese tipo de combustible, no la cantidad de humo o el número de llamas visibles.",
+    "contrast": "Intensidad, longitud de llama y producción de humo son conceptos distintos. El enunciado no precisa con qué combustible se compara; conserva esta asociación como criterio del test, sin inferir una intensidad fija para toda madera."
+  },
+  {
+    "id": "academia-forestales-2-06",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Un fuego de roble y encina la llama será de color:",
+    "options": [
+      "verde",
+      "amarillo",
+      "azul",
+      "naranja"
+    ],
+    "correct": 2,
+    "sourceNumber": 6,
+    "block": "combustibles",
+    "page": null,
+    "explanation": "La clave proporcionada por la academia es azul para la llama de un fuego de roble y encina. Para este test, la asociación que se evalúa es roble/encina → llama azul; el objeto de la pregunta es la llama, no el humo.",
+    "contrast": "No mezcles esta asociación con la pregunta de humo de pinos. Son dos claves diferentes y no permiten deducir una especie a partir de un único color.",
+    "review": {
+      "title": "Asociación de la academia pendiente de contraste",
+      "text": "Esta asociación de color no está documentada en las páginas del temario que se han comprobado. Se conserva como clave del cuestionario compartido y se identifica su alcance, sin inventar una explicación química ni presentarla como regla universal de identificación de especies.",
+      "links": []
+    }
+  },
+  {
+    "id": "academia-forestales-2-07",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El fuego de pinos producirá humos de color:",
+    "options": [
+      "gris",
+      "amarillo",
+      "azul",
+      "negro"
+    ],
+    "correct": 1,
+    "sourceNumber": 7,
+    "block": "combustibles",
+    "page": null,
+    "explanation": "La academia marca amarillo para el humo de un fuego de pinos. La pareja que pide este cuestionario es pinos → humo amarillo. El enunciado habla del humo; no pregunta por el color de las llamas.",
+    "contrast": "La pregunta anterior relaciona roble y encina con llama azul en la clave de la academia. Mantén separados combustible, fenómeno observado y color.",
+    "review": {
+      "title": "Asociación de la academia pendiente de contraste",
+      "text": "La clave de color procede del test resuelto. No se ha encontrado una justificación de esa asociación en las páginas aportadas que se han comprobado, por lo que se mantiene identificada como criterio de la academia y no como una señal exclusiva de un tipo de vegetación.",
+      "links": []
+    }
+  },
+  {
+    "id": "academia-forestales-2-08",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "La velocidad del frente se duplica:",
+    "options": [
+      "en pendientes del 10%",
+      "en pendientes del 20%",
+      "en pendientes del 30%",
+      "ninguna es correcta"
+    ],
+    "correct": 0,
+    "sourceNumber": 8,
+    "block": "topografia",
+    "page": 16,
+    "explanation": "La respuesta que da la academia es una pendiente del 10 %. La relación cualitativa sí está en tus apuntes: ladera arriba, la pendiente acerca el combustible al frente y favorece su precalentamiento por radiación y convección, aumentando la propagación.",
+    "contrast": "La pendiente está expresada en porcentaje, no en grados. El «doble» es un multiplicador de velocidad, no una categoría de intensidad del incendio.",
+    "review": {
+      "title": "El factor de duplicación necesita contexto",
+      "text": "La p. 16 no establece una duplicación universal al alcanzar el 10 %. NWCG explica que el efecto sobre la propagación depende de la pendiente de partida, el viento y los combustibles. Se conserva 10 % como clave de este test, pero la regla cuantitativa queda señalada para contrastar con la academia.",
+      "links": [
+        {
+          "title": "NWCG · Efecto de la pendiente en la propagación",
+          "url": "https://www.nwcg.gov/course/ffm/fire-behavior/firefighter-math-87-slope-effect-on-ros"
+        }
+      ]
+    }
+  },
+  {
+    "id": "academia-forestales-2-09",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El fenómeno de la vegetación de generación de brotes estimulados por el fuego, se define como:",
+    "options": [
+      "pirófita pasiva",
+      "pirófita activa",
+      "hidrofitas",
+      "ninguna es correcta"
+    ],
+    "correct": 1,
+    "sourceNumber": 9,
+    "block": "combustibles",
+    "page": null,
+    "explanation": "En el vocabulario que utiliza la academia, pirófita activa es la que presenta regeneración o brotes estimulados por el fuego. El matiz decisivo es que el fuego activa la respuesta de regeneración, no solo que la planta pueda resistirlo.",
+    "contrast": "Activa → estímulo de regeneración; pasiva → resistencia o supervivencia frente al fuego. Las hidrófitas se relacionan con el agua y los ambientes húmedos."
+  },
+  {
+    "id": "academia-forestales-2-10",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Indica el fenómeno que ayuda a que se produzca la inversión térmica",
+    "options": [
+      "relieve",
+      "viento",
+      "solana",
+      "solana y umbría"
+    ],
+    "correct": 0,
+    "sourceNumber": 10,
+    "block": "meteorologia",
+    "page": 17,
+    "explanation": "El relieve de un valle cerrado y resguardado favorece la inversión: el aire frío desciende por las laderas y se acumula en el fondo, por debajo de capas más cálidas. Por eso el relieve es la opción que explica la configuración del fenómeno en este material.",
+    "contrast": "Solana y umbría describen exposición solar. La pregunta se centra en la acumulación de aire frío facilitada por la forma del terreno, no en la clasificación de orientaciones."
+  },
+  {
+    "id": "academia-forestales-2-11",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "La forma más correcta de aplicar el agua a través de la lanza en un incendio forestal para conseguir una mayor penetración en el borde del incendio es:",
+    "options": [
+      "con la pantalla de protección",
+      "con el cono abierto para obtener un mayor alcance de la zona a extinguir",
+      "con agua pulverizada",
+      "con el chorro sólido"
+    ],
+    "correct": 3,
+    "sourceNumber": 11,
+    "block": "tecnicas",
+    "page": 22,
+    "explanation": "Para conseguir mayor penetración en el borde, la clave es el chorro sólido: concentra el agua sobre una zona y favorece su entrada en el combustible. La palabra que decide la respuesta es penetración.",
+    "contrast": "La pulverización distribuye el agua en gotas y aumenta la superficie de intercambio térmico. Un cono abierto o una pantalla no equivale a un chorro concentrado para penetrar."
+  },
+  {
+    "id": "academia-forestales-2-12",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "¿Cómo hay que aplicar un contrafuego?",
+    "options": [
+      "de arriba hacia abajo",
+      "de abajo hacia arriba",
+      "siempre en la cabeza del frente de llamas",
+      "ninguna es correcta"
+    ],
+    "correct": 0,
+    "sourceNumber": 12,
+    "block": "metodos",
+    "page": 26,
+    "extraPages": [
+      27
+    ],
+    "explanation": "La clave de este cuestionario es de arriba hacia abajo. La pregunta da una dirección genérica, pero el contrafuego del temario se define por una dirección y un momento prefijados dentro del plan, según combustible, topografía y meteorología.",
+    "contrast": "No se aplica siempre en la cabeza del incendio por definición. La orden corresponde al Director de Extinción y el material exige que no haya personas entre ambos fuegos.",
+    "review": {
+      "title": "Dirección simplificada en el enunciado",
+      "text": "Las páginas 26–27 no establecen «arriba hacia abajo» como una regla válida para cualquier contrafuego. Se conserva la respuesta marcada por la academia, diferenciándola de las condiciones y la dirección concreta que debe fijar el plan de la operación.",
+      "links": []
+    }
+  },
+  {
+    "id": "academia-forestales-2-13",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "¿Cómo actúa la tierra como método de extinción?",
+    "options": [
+      "sofocando el fuego actuando sobre el comburente",
+      "no es un método efectivo",
+      "sofocando y enfriando",
+      "desalimentando el combustible"
+    ],
+    "correct": 2,
+    "sourceNumber": 13,
+    "block": "tecnicas",
+    "page": 22,
+    "explanation": "La tierra puede sofocar al cubrir el combustible y separarlo del aire, y también contribuir al enfriamiento al absorber calor. Por eso, entre las respuestas propuestas, sofocando y enfriando es la más completa y coincide con la clave de la academia.",
+    "contrast": "La opción que menciona solo el comburente describe un efecto pero omite el otro que pregunta el test. Desalimentación significa retirar combustible; no es lo mismo que cubrirlo con tierra."
+  },
+  {
+    "id": "academia-forestales-2-14",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "¿Qué anchura como mínimo debe de tener una línea de defensa de un fuego de subsuelo?",
+    "options": [
+      "20 cm hasta descubrir la cubierta vegetal",
+      "30 cm hasta descubrir la cubierta vegetal",
+      "de 30 a 40 cm",
+      "de 20 a 30 cm"
+    ],
+    "correct": 1,
+    "sourceNumber": 14,
+    "block": "lineas",
+    "page": 21,
+    "extraPages": [
+      29
+    ],
+    "explanation": "La clave de la academia es la opción de 30 cm. La tabla de la p. 21 también atribuye 30 cm a la línea de defensa en fuego de subsuelo. Para cortar la continuidad de la materia orgánica, el material exige alcanzar suelo mineral.",
+    "contrast": "No confundas la anchura de la línea con la profundidad necesaria para eliminar la capa orgánica. La tabla da dimensiones distintas para subsuelo, suelo y copas.",
+    "review": {
+      "title": "La redacción de la opción es imprecisa",
+      "text": "Se conserva la opción «30 cm hasta descubrir la cubierta vegetal» porque es la marcada por la academia. Sin embargo, «descubrir la cubierta vegetal» no expresa correctamente el objetivo técnico: retirar la materia orgánica hasta descubrir suelo mineral, como precisa el temario. La medida y esa redacción deben estudiarse por separado.",
+      "links": []
+    }
+  },
+  {
+    "id": "academia-forestales-2-15",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "¿En qué etapa del incendio realizaremos un cortafuego?",
+    "options": [
+      "cuando no podamos realizar un ataque directo",
+      "cuando la previsión del incendio es que se nos vaya fuera de control",
+      "cuando el terreno y la vegetación nos lo permitan",
+      "en ninguna"
+    ],
+    "correct": 3,
+    "sourceNumber": 15,
+    "block": "tecnicas",
+    "page": 21,
+    "explanation": "En ninguna etapa del incendio, según la distinción del material: el cortafuego es una actuación preventiva ejecutada antes. Durante el incendio se construyen líneas de defensa. La propia corrección de la academia explica esa diferencia temporal.",
+    "contrast": "Las otras opciones describen circunstancias del combate, pero no cambian el carácter preventivo que el temario atribuye al cortafuego."
+  },
+  {
+    "id": "academia-forestales-2-16",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El ataque que desplaza la línea de fuego a corta distancia es:",
+    "options": [
+      "ataque paralelo",
+      "ataque en pinza",
+      "ataque indirecto",
+      "ataque directo"
+    ],
+    "correct": 0,
+    "sourceNumber": 16,
+    "block": "metodos",
+    "page": 27,
+    "explanation": "El ataque paralelo trabaja próximo al frente y avanza con una faja o línea en paralelo a él, a corta distancia. Ese desplazamiento cercano es el rasgo con el que la academia identifica el método.",
+    "contrast": "El directo actúa sobre la línea de fuego; el indirecto prepara el control a mayor distancia. La pinza describe la actuación sobre ambos flancos, no este criterio de distancia."
+  },
+  {
+    "id": "academia-forestales-2-17",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El peso de un batefuego es:",
+    "options": [
+      "igual o inferior a 2,5 kg",
+      "igual o inferior a 2 kg",
+      "igual o inferior a 1,5 kg",
+      "igual o inferior a 1 kg"
+    ],
+    "correct": 0,
+    "sourceNumber": 17,
+    "block": "herramientas",
+    "page": 35,
+    "explanation": "El peso máximo de referencia del batefuegos descrito es 2,5 kg: la opción correcta dice igual o inferior a esa cifra. Se pregunta el límite de la herramienta del temario, no el peso que deba tener cualquier modelo comercial.",
+    "contrast": "No confundas sus 2,5 kg con el peso aproximado de 2 kg de otras herramientas del material o con los 20 kg de la mochila cargada."
+  },
+  {
+    "id": "academia-forestales-2-18",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "La capacidad del depósito del mechero forestal es de:",
+    "options": [
+      "5 L",
+      "6 L",
+      "4 L",
+      "3,5 L"
+    ],
+    "correct": 0,
+    "sourceNumber": 18,
+    "block": "herramientas",
+    "page": 35,
+    "explanation": "El mechero forestal o antorcha de goteo del material tiene un depósito de unos 5 litros. Esa capacidad corresponde al equipo descrito y coincide con la clave del test.",
+    "contrast": "Capacidad y proporción son datos distintos: 5 L es el volumen del depósito; 1/3 gasolina y 2/3 gasóleo es la composición de la mezcla indicada."
+  },
+  {
+    "id": "academia-forestales-2-19",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El ancho de pala de un batefuego es de:",
+    "options": [
+      "20 cm",
+      "25 cm",
+      "30 cm",
+      "35 cm"
+    ],
+    "correct": 2,
+    "sourceNumber": 19,
+    "block": "herramientas",
+    "page": 35,
+    "explanation": "El ancho de la pala del batefuegos que describe el temario es 30 cm. La longitud total de la herramienta es de unos 2 m; no son la misma medida.",
+    "contrast": "Asocia cada cifra a su dimensión: pala → 30 cm; herramienta → 2 m; masa máxima → 2,5 kg. Así evitas intercambiar ancho, longitud y peso."
+  },
+  {
+    "id": "academia-forestales-2-20",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "En el tronzado de un tronco apoyado en los dos extremos, existe riesgo de atasco de la cadena, por lo que debemos:",
+    "options": [
+      "comenzar cortando desde arriba hasta terminar el corte",
+      "comenzar cortando desde abajo hasta terminar el corte",
+      "comenzar cortando desde abajo y terminar desde arriba",
+      "comenzar cortando desde arriba y terminar desde abajo"
+    ],
+    "correct": 3,
+    "sourceNumber": 20,
+    "block": "maquinaria",
+    "page": 42,
+    "explanation": "En el esquema del temario, para un tronco apoyado en ambos extremos se empieza por arriba y se termina por abajo. El primer corte trabaja la zona superior de compresión y el segundo la zona inferior de tensión, reduciendo el riesgo de que el cierre del corte aprisione la cadena.",
+    "contrast": "Para el caso del tronco apoyado solo en un extremo, el material invierte el orden: primero abajo y después arriba. La posición de los apoyos es el dato que distingue ambas preguntas."
+  },
+  {
+    "id": "academia-forestales-2-21",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Para los desplazamientos con la motosierra debemos:",
+    "options": [
+      "transportarla con el motor parado, la cadena con el freno y la espada hacia atrás",
+      "con el freno puesto y la espada hacia atrás",
+      "con el motor parado y la espada hacia atrás",
+      "con el freno puesto y la espada siempre hacia delante"
+    ],
+    "correct": 0,
+    "sourceNumber": 21,
+    "block": "maquinaria",
+    "page": 43,
+    "explanation": "La opción completa reúne motor parado, freno de cadena activado y espada hacia atrás. Son las tres condiciones de transporte que enumera el material. Para desplazamientos largos también menciona la funda de la espada.",
+    "contrast": "Las opciones que solo dicen freno o motor parado omiten una de las condiciones. La espada hacia delante contradice la orientación indicada en los apuntes."
+  },
+  {
+    "id": "academia-forestales-2-22",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Si nos vemos en la situación de que la descarga de agua del helicóptero nos va a caer encima:",
+    "options": [
+      "hay que correr ladera arriba",
+      "hay que correr ladera abajo",
+      "echarse en el suelo y la cabeza hacia donde viene la aeronave",
+      "echarse en el suelo y los pies hacia donde viene la aeronave"
+    ],
+    "correct": 2,
+    "sourceNumber": 22,
+    "block": "seguridad",
+    "page": 49,
+    "explanation": "Para la situación de exposición inevitable descrita, el material indica echarse boca abajo con la cabeza hacia la aeronave. La opción correcta conserva esa orientación; el protocolo añade protección de cabeza y casco, y herramientas separadas.",
+    "contrast": "Es distinto de la retirada preventiva del lugar previsto para la descarga, que el temario describe en ángulo recto respecto a la trayectoria. No confundas ambos momentos."
+  },
+  {
+    "id": "academia-forestales-2-23",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El acercamiento al helicóptero se debe de realizar:",
+    "options": [
+      "por la parte delantera o por cualquiera de los dos laterales",
+      "por la parte delantera y siempre a expensas de que el piloto o la tripulación lo autorice",
+      "por la parte delantera o por cualquiera de los laterales y siempre a expensas de que el piloto o la tripulación lo autorice",
+      "por la parte delantera"
+    ],
+    "correct": 1,
+    "sourceNumber": 23,
+    "block": "seguridad",
+    "page": 47,
+    "explanation": "La aproximación que exige este test es por delante y solo cuando el piloto o la tripulación la autoricen. La autorización y permanecer visible son parte de la respuesta; no basta con nombrar una dirección.",
+    "contrast": "La opción «por la parte delantera» es incompleta porque omite el permiso. La que añade cualquiera de los laterales introduce una libertad de aproximación que no concede el protocolo estudiado."
+  },
+  {
+    "id": "academia-forestales-2-24",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El riesgo anual de incendios se define como:",
+    "options": [
+      "el número de incendios por cada 10.000 ha forestales",
+      "la probabilidad de número de incendios en cada zona",
+      "el número de ha quemadas cada año",
+      "la estadística anual de incendios en cada zona"
+    ],
+    "correct": 0,
+    "sourceNumber": 24,
+    "block": "peligro",
+    "page": 52,
+    "explanation": "El indicador de riesgo anual de los apuntes se define como número de incendios por cada 10.000 ha forestales. Relaciona una frecuencia de incendios con una superficie de referencia, no con las hectáreas que hayan ardido.",
+    "contrast": "La gravedad anual se expresa como porcentaje de superficie forestal quemada en el año. Riesgo anual → número de incendios; gravedad anual → proporción de superficie quemada."
+  },
+  {
+    "id": "academia-forestales-2-25",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "¿Qué es el fuego prescrito?",
+    "options": [
+      "un incendio forestal que se escapa del ataque ampliado",
+      "una quema de ensanche",
+      "un tipo de contrafuego",
+      "una quema controlada"
+    ],
+    "correct": 3,
+    "sourceNumber": 25,
+    "block": "tecnicas",
+    "page": 52,
+    "explanation": "Entre las opciones, quema controlada es la que corresponde al fuego prescrito. El concepto completo es una ignición planificada, sujeta a condiciones definidas y dirigida a objetivos concretos, como reducir acumulaciones de combustible.",
+    "contrast": "Un contrafuego o una quema de ensanche persiguen objetivos específicos del combate. Un incendio que escapa al ataque ampliado no es por ello un fuego prescrito.",
+    "review": {
+      "title": "La clave breve y la definición completa",
+      "text": "«Quema controlada» es la opción correcta del test, pero el término prescrito añade planificación, condiciones y objetivos. La definición de NWCG también exige ignición planificada conforme a las normas aplicables para alcanzar objetivos específicos.",
+      "links": [
+        {
+          "title": "NWCG · Definición de fuego prescrito",
+          "url": "https://www.nwcg.gov/publications/pms205/nwcg-glossary-of-wildland-fire-pms-205/prescribed-fire-982"
+        }
+      ]
+    }
+  },
+  {
+    "id": "academia-forestales-2-26",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "El factor topográfico más importante en el comportamiento del fuego es:",
+    "options": [
+      "la exposición de la ladera",
+      "la configuración",
+      "la pendiente",
+      "el relieve"
+    ],
+    "correct": 2,
+    "sourceNumber": 26,
+    "block": "topografia",
+    "page": 16,
+    "explanation": "La pendiente es el factor topográfico que el temario destaca como más importante. Ladera arriba acerca el combustible a las llamas y favorece la transmisión de calor por radiación y convección, aumentando el precalentamiento.",
+    "contrast": "Exposición y configuración también influyen, pero no son el factor que el texto califica de mayor importancia en esta pregunta."
+  },
+  {
+    "id": "academia-forestales-2-27",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Especies moderadamente o poco inflamables:",
+    "options": [
+      "madroño, cedro y alcornoque",
+      "enebro, cedro y romero",
+      "encina, tojo y tomillo",
+      "madroño, enebro y cedro"
+    ],
+    "correct": 3,
+    "sourceNumber": 27,
+    "block": "magnitudes",
+    "page": 15,
+    "explanation": "El grupo que el material clasifica como de inflamabilidad moderada o poca es madroño, enebro y cedro. La única opción que mantiene esos tres miembros es la última.",
+    "contrast": "El alcornoque y el romero figuran entre los muy inflamables en verano; encina y tomillo, entre los muy inflamables todo el año. Cambiar una especie de grupo hace incorrecto el distractor."
+  },
+  {
+    "id": "academia-forestales-2-28",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "La humedad de los combustibles vegetales puede variar entre:",
+    "options": [
+      "0-300%",
+      "0-100%",
+      "1-100%",
+      "1-200%"
+    ],
+    "correct": 0,
+    "sourceNumber": 28,
+    "block": "combustibles",
+    "page": 13,
+    "extraPages": [
+      15
+    ],
+    "explanation": "La academia utiliza 0–300 % como intervalo de referencia. La humedad del combustible se calcula respecto al peso seco, por lo que puede superar el 100 %: 100 g de materia seca y 200 g de agua equivalen a 200 % de humedad en base seca.",
+    "contrast": "No es humedad relativa del aire, cuyo porcentaje compara vapor presente con saturación. Los apuntes hablan incluso de más del 300 %: el intervalo del test es orientativo, no un máximo físico absoluto."
+  },
+  {
+    "id": "academia-forestales-2-29",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "La capacidad del combustible para entrar en ignición se llama:",
+    "options": [
+      "combustibilidad",
+      "consumibilidad",
+      "sostenibilidad",
+      "ignitabilidad"
+    ],
+    "correct": 3,
+    "sourceNumber": 29,
+    "block": "bases",
+    "page": 6,
+    "explanation": "Ignitabilidad es la capacidad del combustible para iniciar la combustión ante una fuente de calor suficiente. La pregunta que la identifica es «¿puede entrar en ignición?».",
+    "contrast": "Sostenibilidad → mantener la combustión; combustibilidad → velocidad de quema; consumibilidad → capacidad para consumirse. No confundas comenzar con continuar."
+  },
+  {
+    "id": "academia-forestales-2-30",
+    "origin": "academia",
+    "test": "academia-2",
+    "sourceTest": "Incendios forestales 2",
+    "sourceLabel": "Academia · Forestales 2",
+    "q": "Disminuyen el diámetro de las gotas de agua y provocan una mayor penetración:",
+    "options": [
+      "retardantes",
+      "humectantes",
+      "viscosantes",
+      "espuma"
+    ],
+    "correct": 1,
+    "sourceNumber": 30,
+    "block": "tecnicas",
+    "page": 52,
+    "explanation": "La clave es humectantes. El material los vincula a una mayor penetración y lo expresa como reducción del diámetro de las gotas. Su efecto humectante se entiende por la reducción de la tensión superficial del agua, facilitando el mojado del combustible.",
+    "contrast": "Los retardantes del cuadro se relacionan con mayor viscosidad y menor escurrimiento. No intercambies penetración con retención del producto sobre el combustible."
+  }
+]

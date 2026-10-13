@@ -1,0 +1,392 @@
+[
+  {
+    "number": 1,
+    "q": "Los incendios forestales se clasifican según al estrato al que afecten en:",
+    "options": [
+      "copas, superficie y subsuelo",
+      "arboles, arbustos y hierbas",
+      "coníferas, frondosas y arbustivas",
+      "altos, medios y bajos"
+    ],
+    "correct": 0,
+    "answer": "copas, superficie y subsuelo",
+    "notes": ""
+  },
+  {
+    "number": 2,
+    "q": "¿Qué tipo de vegetación en su conjunto forman una barrera resistente al fuego?",
+    "options": [
+      "hidrófitas",
+      "pirófita activa",
+      "ninguna es correcta",
+      "por un igual las hidrófitas y las pirófitas activas"
+    ],
+    "correct": 0,
+    "answer": "hidrófitas",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "q": "La recurrencia en los incendios forestales en un mismo lugar afecta a las especies vegetales del mismo modo que favorece a:",
+    "options": [
+      "que la vegetación instalada en la zona sea cada vez menos pirófila",
+      "que las especies mejor adaptadas al fuego sean las predominantes",
+      "la supervivencia, crecimiento y reprobación de plantas",
+      "no favorece en nada"
+    ],
+    "correct": 1,
+    "answer": "que las especies mejor adaptadas al fuego sean las predominantes",
+    "notes": ""
+  },
+  {
+    "number": 4,
+    "q": "Las laderas con orientación a las solana tienen:",
+    "options": [
+      "mayor temperatura, menor humedad y menor superficie que las zonas de umbría",
+      "menor humedad y menor vegetación que las zonas de umbría",
+      "mayor temperatura y menor vegetación que las zonas de umbría",
+      "mayor temperatura, menor humedad y menor vegetación que las zonas de umbría"
+    ],
+    "correct": 3,
+    "answer": "mayor temperatura, menor humedad y menor vegetación que las zonas de umbría",
+    "notes": ""
+  },
+  {
+    "number": 5,
+    "q": "Un combustible leñoso genera:",
+    "options": [
+      "más intensidad calorífica",
+      "más llamas",
+      "más humo",
+      "más llamas y más humo"
+    ],
+    "correct": 0,
+    "answer": "más intensidad calorífica",
+    "notes": ""
+  },
+  {
+    "number": 6,
+    "q": "Un fuego de roble y encina la llama será de color:",
+    "options": [
+      "verde",
+      "amarillo",
+      "azul",
+      "naranja"
+    ],
+    "correct": 2,
+    "answer": "azul",
+    "notes": ""
+  },
+  {
+    "number": 7,
+    "q": "El fuego de pinos producirá humos de color:",
+    "options": [
+      "gris",
+      "amarillo",
+      "azul",
+      "negro"
+    ],
+    "correct": 1,
+    "answer": "amarillo",
+    "notes": ""
+  },
+  {
+    "number": 8,
+    "q": "La velocidad el frente se duplica:",
+    "options": [
+      "en pendientes del 10%",
+      "en pendientes del 20%",
+      "en pendientes del 30%",
+      "ninguna es correcta"
+    ],
+    "correct": 0,
+    "answer": "en pendientes del 10%",
+    "notes": ""
+  },
+  {
+    "number": 9,
+    "q": "El fenómeno de la vegetación de generación de brotes estimulados por el fuego, se define como:",
+    "options": [
+      "pirófita pasiva",
+      "pirófita activa",
+      "hidrofitas",
+      "ninguna es correcta"
+    ],
+    "correct": 1,
+    "answer": "pirófita activa",
+    "notes": ""
+  },
+  {
+    "number": 10,
+    "q": "Indica el fenómeno que ayuda a que se produzca la inversión térmica",
+    "options": [
+      "relieve",
+      "viento",
+      "solana",
+      "solana y umbría"
+    ],
+    "correct": 0,
+    "answer": "relieve",
+    "notes": ""
+  },
+  {
+    "number": 11,
+    "q": "La forma más correcta de aplicar el agua a través de la lanza en un incendio forestal para conseguir una mayor penetración en el borde del incendio es:",
+    "options": [
+      "con la pantalla de protección",
+      "con el cono abierto para obtener un mayor alcance de la zona a extinguir",
+      "con agua pulverizada",
+      "con el chorro sólido"
+    ],
+    "correct": 3,
+    "answer": "con el chorro sólido",
+    "notes": ""
+  },
+  {
+    "number": 12,
+    "q": "¿Cómo hay que aplicar un contrafuego?",
+    "options": [
+      "de arriba hacia abajo",
+      "de abajo hacia arriba",
+      "siempre en la cabeza del frente de llamas",
+      "ninguna es correcta"
+    ],
+    "correct": 0,
+    "answer": "de arriba hacia abajo",
+    "notes": ""
+  },
+  {
+    "number": 13,
+    "q": "¿Cómo actúa la tierra como método de extinción?",
+    "options": [
+      "sofocando el fuego actuando sobre el comburente",
+      "no es un método efectivo",
+      "sofocando y enfriando",
+      "desalimentando el combustible"
+    ],
+    "correct": 2,
+    "answer": "sofocando y enfriando",
+    "notes": ""
+  },
+  {
+    "number": 14,
+    "q": "¿Qué anchura como mínimo debe de tener una línea de defensa de un fuego de subsuelo?",
+    "options": [
+      "20 cm hasta descubrir la cubierta vegetal",
+      "30 cm hasta descubrir la cubierta vegetal",
+      "de 30 a 40 cm",
+      "de 20 a 30 cm"
+    ],
+    "correct": 1,
+    "answer": "30 cm hasta descubrir la cubierta vegetal",
+    "notes": ""
+  },
+  {
+    "number": 15,
+    "q": "¿En que etapa del incendio realizaremos un cortafuego?",
+    "options": [
+      "cuando no podamos realizar un ataque directo",
+      "cuando la previsión del incendio es que se nos vaya fuera de control",
+      "cuando el terreno y la vegetación nos lo permitan",
+      "en ninguna"
+    ],
+    "correct": 3,
+    "answer": "en ninguna",
+    "notes": "los cortafuegos son una acción preventiva que se realizan antes del incendio"
+  },
+  {
+    "number": 16,
+    "q": "El ataque que desplaza la línea de fuego a corta distancia es:",
+    "options": [
+      "ataque paralelo",
+      "ataque en pinza",
+      "ataque indirecto",
+      "ataque directo"
+    ],
+    "correct": 0,
+    "answer": "ataque paralelo",
+    "notes": ""
+  },
+  {
+    "number": 17,
+    "q": "El peso de un batefuego es:",
+    "options": [
+      "igual o inferior a 2,5 Kg",
+      "igual o inferior a 2 Kg",
+      "igual o inferior a 1,5 Kg",
+      "igual o inferior a 1 Kg"
+    ],
+    "correct": 0,
+    "answer": "igual o inferior a 2,5 Kg",
+    "notes": ""
+  },
+  {
+    "number": 18,
+    "q": "La capacidad del deposito del mechero forestal es de:",
+    "options": [
+      "5 L",
+      "6 L",
+      "4 L",
+      "3,5 L"
+    ],
+    "correct": 0,
+    "answer": "5 L",
+    "notes": ""
+  },
+  {
+    "number": 19,
+    "q": "El ancho de pala de un batefuego es de:",
+    "options": [
+      "20 cm",
+      "25 cm",
+      "30 cm",
+      "35 cm"
+    ],
+    "correct": 2,
+    "answer": "30 cm",
+    "notes": ""
+  },
+  {
+    "number": 20,
+    "q": "En el tronzado de un tronco apoyado en los dos extremos, existe riesgo de atasco de la cadena, por lo que debemos:",
+    "options": [
+      "comenzar cortando desde arriba hasta terminar el corte",
+      "comenzar cortando desde abajo hasta terminar el corte",
+      "comenzar cortando desde abajo y terminar desde arriba",
+      "comenzar cortando desde arriba y terminar desde abajo"
+    ],
+    "correct": 3,
+    "answer": "comenzar cortando desde arriba y terminar desde abajo",
+    "notes": ""
+  },
+  {
+    "number": 21,
+    "q": "Para los desplazamientos con la motosierra debemos:",
+    "options": [
+      "transportarla con el motor parado, la cadena con el freno y la espada hacia atrás",
+      "con el freno puesto y la espada hacia atrás",
+      "con el motor parado y la espada hacia atrás",
+      "con el freno puesto y la espada siempre hacia delante"
+    ],
+    "correct": 0,
+    "answer": "transportarla con el motor parado, la cadena con el freno y la espada hacia atrás",
+    "notes": ""
+  },
+  {
+    "number": 22,
+    "q": "Si nos vemos en la situación de que la descarga de agua del helicóptero nos va a caer encima:",
+    "options": [
+      "hay que correr ladera arriba",
+      "hay que correr ladera abajo",
+      "echarse en el suelo y la cabeza hacia donde viene la aeronave",
+      "echarse en el suelo y los pies hacia donde viene la aeronave"
+    ],
+    "correct": 2,
+    "answer": "echarse en el suelo y la cabeza hacia donde viene la aeronave",
+    "notes": ""
+  },
+  {
+    "number": 23,
+    "q": "El acercamiento al helicóptero se debe de realizar:",
+    "options": [
+      "por la parte delantera o por cualquiera de los dos laterales",
+      "por la parte delantera y siempre a expensas de que el piloto o la tripulación lo autorice",
+      "por la parte delantera o por cualquiera de los laterales y siempre a expensas de que el piloto o la tripulación lo autorice",
+      "por la parte delantera"
+    ],
+    "correct": 1,
+    "answer": "por la parte delantera y siempre a expensas de que el piloto o la tripulación lo autorice",
+    "notes": ""
+  },
+  {
+    "number": 24,
+    "q": "El riesgo anual de incendios se define como:",
+    "options": [
+      "el numero de incendios por cada 10.000 ha forestales",
+      "la probabilidad de numero de incendios en cada zona",
+      "el numero de ha quemadas cada año",
+      "la estadística anual de incendios en cada zona"
+    ],
+    "correct": 0,
+    "answer": "el numero de incendios por cada 10.000 ha forestales",
+    "notes": ""
+  },
+  {
+    "number": 25,
+    "q": "¿Qué es el fuego prescrito?",
+    "options": [
+      "un incendio forestal que se escapa del ataque ampliado",
+      "una quema de ensanche",
+      "un tipo de contrafuego",
+      "una quema controlada"
+    ],
+    "correct": 3,
+    "answer": "una quema controlada",
+    "notes": ""
+  },
+  {
+    "number": 26,
+    "q": "El factor topográfico más importante en el comportamiento del fuego es:",
+    "options": [
+      "la exposición de la ladera",
+      "la configuración",
+      "la pendiente",
+      "el relieve"
+    ],
+    "correct": 2,
+    "answer": "la pendiente",
+    "notes": ""
+  },
+  {
+    "number": 27,
+    "q": "Especies moderadamente o poco inflamables:",
+    "options": [
+      "madroño, cedro y alcornoque",
+      "enebro, cedro y romero",
+      "encina, tojo y tomillo",
+      "madroño, enebro y cedro"
+    ],
+    "correct": 3,
+    "answer": "madroño, enebro y cedro",
+    "notes": ""
+  },
+  {
+    "number": 28,
+    "q": "La humedad de los combustibles vegetales puede variar entre:",
+    "options": [
+      "0-300%",
+      "0-100%",
+      "1-100%",
+      "1-200%"
+    ],
+    "correct": 0,
+    "answer": "0-300%",
+    "notes": ""
+  },
+  {
+    "number": 29,
+    "q": "La capacidad del combustible para entrar en ignición se llama:",
+    "options": [
+      "combustibilidad",
+      "consumibilidad",
+      "sostenibilidad",
+      "ignitabilidad"
+    ],
+    "correct": 3,
+    "answer": "ignitabilidad",
+    "notes": ""
+  },
+  {
+    "number": 30,
+    "q": "Disminuyen el diámetro de las gotas de agua y provocan una mayor penetración:",
+    "options": [
+      "retardantes",
+      "humectantes",
+      "viscosantes",
+      "espuma"
+    ],
+    "correct": 1,
+    "answer": "humectantes",
+    "notes": ""
+  }
+]

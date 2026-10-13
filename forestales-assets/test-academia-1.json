@@ -1,0 +1,637 @@
+[
+  {
+    "id": "academia-forestales-1-01",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Con una longitud de la llama de 1,5 m, ¿podemos realizar un ataque directo?",
+    "options": [
+      "Sí",
+      "No",
+      "depende de las condiciones meteorológicas",
+      "depende del modelo de combustible"
+    ],
+    "correct": 1,
+    "sourceNumber": 1,
+    "block": "metodos",
+    "page": 14,
+    "extraPages": [
+      25
+    ],
+    "explanation": "La clave de la academia es «no». La p. 14 del temario sitúa el ataque directo manual efectivo por debajo de 1,2 m: 1,5 m supera esa referencia y encaja en la fila que considera el directo no efectivo y pide apoyo de otros medios. Esta es la tabla que explica la respuesta del test.",
+    "contrast": "Longitud de llama y altura vertical de la llama son medidas distintas. Además, «ataque directo» describe la actuación sobre el combustible que arde, no un único medio de extinción.",
+    "review": {
+      "title": "Matiz del enunciado y anotación manuscrita",
+      "text": "El enunciado no especifica el medio de ataque. En la p. 25 hay una anotación «longitud de llama < 2 m», distinta de la referencia impresa de 1,2 m en la p. 14. NWCG también distingue el ataque manual —referencia de unos 4 pies, 1,22 m— de la intervención con otros medios. Se conserva la clave de la academia y se hace visible la diferencia entre fuentes.",
+      "links": [
+        {
+          "title": "NWCG · Ataque directo y longitud de llama",
+          "url": "https://training.nwcg.gov/dl/s130/s-130-ig07.pdf"
+        },
+        {
+          "title": "NWCG · Longitud frente a altura de llama",
+          "url": "https://www.nwcg.gov/publications/pms437/fire-assessment/observing-current-fire-behavior"
+        }
+      ]
+    },
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-02",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Un angledózer puede trabajar en pendientes de hasta:",
+    "options": [
+      "40-50%",
+      "50-60%",
+      "30-40%",
+      "35-45%"
+    ],
+    "correct": 1,
+    "sourceNumber": 2,
+    "block": "maquinaria",
+    "page": 44,
+    "explanation": "El intervalo de referencia que dan la academia y el temario para el angledózer es 50–60 % de pendiente. Es una limitación que el material relaciona con el empleo de maquinaria pesada, junto con el acceso, el traslado y el peso de la máquina.",
+    "contrast": "El dato está expresado en porcentaje de pendiente, no en grados: una pendiente del 60 % no equivale a 60°. Los demás intervalos no son el que figura en este material.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-03",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Qué proporción de combustible usaremos en una motosierra?",
+    "options": [
+      "95% de gasolina y 5% de aceite",
+      "98% de gasolina y 2% de aceite",
+      "1/3 de aceite y 2/3 de gasolina",
+      "1/3 de gasoil y 2/3 de gasolina"
+    ],
+    "correct": 1,
+    "sourceNumber": 3,
+    "block": "maquinaria",
+    "page": 44,
+    "explanation": "La mezcla indicada en este temario es 98 % de gasolina y 2 % de aceite. Por ejemplo, 1 litro de mezcla contiene 980 ml de gasolina y 20 ml de aceite. La motosierra lleva, además, un depósito de aceite específico para lubricar la cadena.",
+    "contrast": "No confundas esta mezcla con la antorcha de goteo, que el material describe con gasolina y gasóleo en proporción 1/3 y 2/3, respectivamente.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-04",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Qué es lo que explica el viento Foehn?",
+    "options": [
+      "proceso adiabático",
+      "escala de Beaufort",
+      "inversión térmica",
+      "el tipo de vegetación"
+    ],
+    "correct": 0,
+    "sourceNumber": 4,
+    "block": "meteorologia",
+    "page": 18,
+    "explanation": "El Foehn se explica por los cambios térmicos asociados al ascenso y descenso del aire sobre un relieve: al ascender, el aire se expande y se enfría; al descender, se comprime y se calienta. La condensación y la pérdida de humedad en barlovento contribuyen a que llegue más cálido y seco a sotavento.",
+    "contrast": "Beaufort clasifica la intensidad del viento. La inversión térmica describe una distribución de temperatura con la altura; no es el proceso que explica el Foehn.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-05",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cómo se llama la temperatura a la qué debe enfriar el aire para llegar al punto de saturación?",
+    "options": [
+      "gradiente vertical húmeda",
+      "gradiente vertical seca",
+      "efecto Foehn",
+      "punto de rocío"
+    ],
+    "correct": 3,
+    "sourceNumber": 5,
+    "block": "meteorologia",
+    "page": 20,
+    "explanation": "El punto de rocío es la temperatura a la que el aire alcanza la saturación al enfriarse sin cambiar su contenido de vapor de agua. En ese punto la humedad relativa llega al 100 % y puede comenzar la condensación.",
+    "contrast": "Los gradientes son variaciones de temperatura por unidad de altura, expresadas aquí en °C/100 m. El punto de rocío es una temperatura, no un gradiente.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-06",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "La gradiente vertical seca es de:",
+    "options": [
+      "-0,6 °C cada 100 m",
+      "-0,6 °C cada 10 m",
+      "entre -0,4 y 1 °C cada 10 m",
+      "-1 °C cada 100 m"
+    ],
+    "correct": 3,
+    "sourceNumber": 6,
+    "block": "meteorologia",
+    "page": 20,
+    "explanation": "El gradiente adiabático seco de referencia es aproximadamente −1 °C por cada 100 m de ascenso de una parcela de aire no saturada. Si desciende, la parcela se calienta aproximadamente a ese ritmo.",
+    "contrast": "El −0,6 °C/100 m corresponde al gradiente normal de referencia del temario. Cambiar 100 m por 10 m multiplica por diez la variación y hace incorrecto el distractor.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-07",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "En una inversión térmica, ¿ a qué altura se sitúa el cinturón térmico?",
+    "options": [
+      "a 1/3 del fondo del valle",
+      "a la mitad del fondo del valle",
+      "a 2/3 del fondo del valle",
+      "a ¾ del fondo del valle"
+    ],
+    "correct": 2,
+    "sourceNumber": 7,
+    "block": "meteorologia",
+    "page": 17,
+    "explanation": "El material sitúa el cinturón térmico hacia los 2/3 desde el fondo del valle. Durante la inversión, el aire frío se acumula en las zonas bajas y queda por debajo de una banda más cálida: esa banda es el cinturón térmico.",
+    "contrast": "La respuesta reproduce la posición esquemática del apunte y de la academia; no es una altura fija que deba cumplirse en todos los valles. No confundas la banda cálida con la bolsa de aire frío del fondo.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-08",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Una velocidad de propagación de 75 m/min es:",
+    "options": [
+      "extrema",
+      "muy alta",
+      "lenta",
+      "alta"
+    ],
+    "correct": 0,
+    "sourceNumber": 8,
+    "block": "magnitudes",
+    "page": 14,
+    "explanation": "En la escala del temario, una propagación superior a 10 m/min se clasifica como extrema. Por tanto, 75 m/min está claramente en esa categoría. La conversión es 75 × 60 = 4.500 m/h, es decir, 4,5 km/h.",
+    "contrast": "La categoría alta corresponde al intervalo 2–10 m/min. «Muy alta» no es la denominación de la categoría superior en la tabla utilizada por este test.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-09",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Según la clasificación del combustible por tamaño y tiempo de retardación, ¿cuánto tiempo de retardación tendría si su tamaño es de 30 mm?",
+    "options": [
+      "1 hora",
+      "10 horas",
+      "100 horas",
+      "1.000 horas"
+    ],
+    "correct": 2,
+    "sourceNumber": 9,
+    "block": "combustibles",
+    "page": 13,
+    "explanation": "30 mm cae dentro del intervalo 25–75 mm: combustible mediano, asociado en el material a 100 horas de retardación. Primero localiza el tamaño en la tabla y después recupera su tiempo.",
+    "contrast": "La serie es < 5 mm → 1 h; 5–25 mm → 10 h; 25–75 mm → 100 h; > 75 mm → 1.000 h. El tiempo de retardación describe el ajuste de humedad, no cuánto tarda en consumirse el combustible.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-10",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cuánto tiene que caer la humedad del combustible vegetal para qué esté disponible para arder?",
+    "options": [
+      "por debajo del 15-20%",
+      "por debajo del 15-25%",
+      "por debajo del 20-30%",
+      "por debajo del 25-35%"
+    ],
+    "correct": 1,
+    "sourceNumber": 10,
+    "block": "combustibles",
+    "page": 13,
+    "explanation": "El intervalo que da este material para la disponibilidad del combustible vegetal es una humedad por debajo del 15–25 %. Es humedad del combustible, expresada respecto de su peso seco, y no humedad relativa del aire.",
+    "contrast": "No confundas este intervalo de combustible con la humedad relativa < 30 % de la regla del 30. Los límites de humedad de extinción varían con el combustible; aquí se pregunta el dato de los apuntes.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-11",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cómo consideramos una cantidad de combustible de 25 t/ha?",
+    "options": [
+      "desecho de bosque o clareo",
+      "pasto y arbusto",
+      "desierto",
+      "matorral"
+    ],
+    "correct": 3,
+    "sourceNumber": 11,
+    "block": "combustibles",
+    "page": 12,
+    "explanation": "La carga de 25 t/ha encaja en el intervalo de matorral del material: 20–100 t/ha. Como conversión, 25 t/ha equivalen a 2,5 kg/m² de masa seca.",
+    "contrast": "La tabla cita desierto 0–3 t/ha; pasto y arbusto 2–12; matorral 20–100; y cargas de referencia superiores para restos de clareo o explotación. La pregunta utiliza esa tabla, no identifica una vegetación solo por su masa en cualquier contexto.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-12",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Una quéma de matorral autorizada se considera:",
+    "options": [
+      "Incendio controlado",
+      "Incendio forestal",
+      "Incendio autorizado",
+      "No se considera incendio"
+    ],
+    "correct": 3,
+    "sourceNumber": 12,
+    "block": "bases",
+    "page": 11,
+    "explanation": "Una quema autorizada, prevista y mantenida bajo control no se considera incendio forestal en la definición del tema: se trata de vegetación destinada a arder. El incendio forestal implica propagación sin control sobre vegetación que no estaba destinada a quemarse.",
+    "contrast": "La autorización no evita que una quema pueda originar un incendio si se escapa de control. La respuesta presupone que la quema se ejecuta dentro de las condiciones previstas.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-13",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿A partir de que temperatura entran en combustión los gases de la madera?",
+    "options": [
+      "300 °C",
+      "600 °C",
+      "200 °C",
+      "80 °C"
+    ],
+    "correct": 0,
+    "sourceNumber": 13,
+    "block": "bases",
+    "page": 5,
+    "explanation": "El temario sitúa la combustión de los gases de la madera alrededor de 300 °C. Es la combustión gaseosa que produce las llamas y forma el frente visible del incendio.",
+    "contrast": "200 °C se asocia a la destilación de resinas; por encima de 600 °C, a la combustión del carbón. Son referencias de fases distintas, no temperaturas intercambiables.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-14",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cuál de estos es un incendio especialmente peligroso?",
+    "options": [
+      "El que se escapa de un ataque ampliado con duración superior a 24 horas o superficie afectada superior a 100 ha",
+      "El que se escapa de un ataque directo con duración superior a 48 horas o superficie afectada superior a 100 ha",
+      "El que se escapa de un ataque directo con duración superior a 24 horas o superficie quemada superior a 100 ha",
+      "El que se escapa al ataque ampliado con duración superior a 48 horas o superficie afectada superior a 100 ha"
+    ],
+    "correct": 3,
+    "sourceNumber": 14,
+    "block": "peligro",
+    "page": 52,
+    "explanation": "La opción que reproduce el criterio de las notas es: incendio que escapa al ataque ampliado, con duración superior a 48 horas o superficie afectada superior a 100 ha. La estructura que debes recordar es «ataque ampliado + (más de 48 h O más de 100 ha)».",
+    "contrast": "Los distractores cambian ampliado por directo o 48 horas por 24. La conjunción es «o»: el enunciado no exige superar a la vez ambos umbrales. El dato de 500 ha aparece por separado en el material.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-15",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Si tenemos una autorización de quema con el número 2 y el índice de riesgo publicado es el 3, ¿podemos realizar la quéma?",
+    "options": [
+      "No",
+      "si, siempre que nos encontremos a más de 15 metros de una zona arbolada",
+      "Sí",
+      "si, siempre que según las escala del 30 no nos indique que el incendio pueda ser peligroso"
+    ],
+    "correct": 0,
+    "sourceNumber": 15,
+    "block": "peligro",
+    "page": 52,
+    "explanation": "Según la regla numérica que acompaña al test, el valor de la autorización debe ser igual o superior al índice publicado. Con autorización 2 e índice 3, la condición 2 ≥ 3 no se cumple: la respuesta es «no».",
+    "contrast": "Ni alejarse 15 metros del arbolado ni cumplir aisladamente la regla del 30 modifica los valores permitidos por la autorización.",
+    "review": {
+      "title": "Alcance de la regla del test",
+      "text": "La comparación numérica procede de la explicación de la academia y del díptico IRIF de 2017. El anexo I de la Resolución de 3 de septiembre de 2024 establece que cada autorización debe indicar expresamente los valores de IRIF con los que permite la quema. Para interpretar una autorización concreta, hay que comprobar esos valores y las restricciones aplicables; la desigualdad del test no resume toda la regulación.",
+      "links": [
+        {
+          "title": "Principado de Asturias · Díptico IRIF de 2017",
+          "url": "https://www.asturias.es/Asturias/descargas/PDF_TEMAS/Agricultura/Politica%20Forestal/incendios/2017_01_10_diptico_IRIF.pdf"
+        },
+        {
+          "title": "Principado de Asturias · Uso del fuego y normativa",
+          "url": "https://www.asturias.es/temas/agricultura-gestion-forestal/incendios-forestales-prevencion/uso-del-fuego"
+        }
+      ]
+    },
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-16",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cómo llamamos a los bordes de lo quemado sin posibilidad de reproducirse?",
+    "options": [
+      "perímetro",
+      "borde",
+      "líneas negras",
+      "línea de fuego"
+    ],
+    "correct": 2,
+    "sourceNumber": 16,
+    "block": "lineas",
+    "page": 52,
+    "explanation": "Las líneas negras son bordes de terreno ya quemado en los que se ha eliminado la posibilidad de reproducción del fuego, según la definición del material. Se relacionan con la liquidación y el aseguramiento del perímetro.",
+    "contrast": "Perímetro solo nombra el contorno. Línea de fuego se refiere al borde con combustión activa. Para responder «línea negra» es decisivo el matiz «sin posibilidad de reproducirse».",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-17",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cómo se llama el dispositivo que permite al helicóptero echar agua en un incendio forestal?",
+    "options": [
+      "cambi",
+      "cesta",
+      "balde",
+      "helibalde"
+    ],
+    "correct": 3,
+    "sourceNumber": 17,
+    "block": "seguridad",
+    "page": 50,
+    "explanation": "El dispositivo suspendido del helicóptero para transportar y descargar agua se denomina helibalde. El material también lo identifica como bambi bucket.",
+    "contrast": "«Balde» es un nombre genérico; helibalde es la denominación específica que pide el test para el equipo aéreo.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-18",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Formas de un incendio forestal:",
+    "options": [
+      "circular, irregular y elíptico",
+      "ovalado, irregular y triangular",
+      "regular e irregular",
+      "regular, irregular y circular"
+    ],
+    "correct": 0,
+    "sourceNumber": 18,
+    "block": "anatomia",
+    "page": 8,
+    "explanation": "Las formas que distingue el temario son circular, elíptica e irregular. La circular se asocia a propagación más uniforme; viento o pendiente dominantes pueden alargar la forma; la heterogeneidad de combustible y relieve favorece perímetros irregulares.",
+    "contrast": "El test pregunta esta clasificación de formas. No la confundas con las partes del incendio —cabeza, flancos y cola— ni con los tipos por estrato —subsuelo, superficie y copas—.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-19",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cuál es el peso máximo de una mochila extintor?",
+    "options": [
+      "15 kg",
+      "20 kg",
+      "25 kg",
+      "30 kg"
+    ],
+    "correct": 1,
+    "sourceNumber": 19,
+    "block": "herramientas",
+    "page": 36,
+    "explanation": "El peso máximo indicado para la mochila extintora cargada es 20 kg. La explicación de la academia lo relaciona con el límite de masa de un extintor portátil.",
+    "contrast": "Se pregunta por masa, no por capacidad: 20 kg no significa un depósito de 20 litros de agua, porque también pesa la propia mochila y su equipo.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-20",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Qué es un Pulaski?",
+    "options": [
+      "Un helicóptero polaco de extinción de incendios",
+      "una herramienta con 6 dientes en un lado y corte en el opuesto",
+      "una herramienta con una azada y un pico",
+      "una herramienta con un hacha y una azada"
+    ],
+    "correct": 3,
+    "sourceNumber": 20,
+    "block": "herramientas",
+    "page": 36,
+    "explanation": "El Pulaski combina un hacha y una azada en la misma cabeza. Permite cortar vegetación y raíces, y trabajar el suelo en la construcción de líneas de defensa.",
+    "contrast": "La herramienta con seis dientes por un lado y filo por el opuesto es el MacLeod. Hacha–azada → Pulaski; rastrillo–azada → MacLeod.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-21",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Qué proporción de combustible contiene una antorcha de goteo?",
+    "options": [
+      "1/3 de gasolina y 2/3 de gasoil",
+      "1/3 de gasoil y 2/3 de gasolina",
+      "½ de gasolina y ½ de gasoil",
+      "gasolina con un 5% de aceite"
+    ],
+    "correct": 0,
+    "sourceNumber": 21,
+    "block": "herramientas",
+    "page": 35,
+    "explanation": "La mezcla de la antorcha descrita en el material es una parte de gasolina por dos de gasóleo: 1/3 y 2/3, respectivamente. La gasolina facilita el encendido y el gasóleo contribuye a mantener la combustión del combustible goteado.",
+    "contrast": "No inviertas las fracciones. La mezcla 98 % gasolina + 2 % aceite corresponde a la motosierra o desbrozadora del temario, no a la antorcha.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-22",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Con qué parte del batefuego se realiza la extinción de fuego?",
+    "options": [
+      "Con la parte de las estrías",
+      "Con la parte plana",
+      "Con cualquiera de las dos partes",
+      "ninguna es correcta"
+    ],
+    "correct": 1,
+    "sourceNumber": 22,
+    "block": "herramientas",
+    "page": 35,
+    "explanation": "En el batefuegos descrito se utiliza la parte plana de la pala para trabajar sobre la base de la llama. El mecanismo estudiado es la sofocación, al separar el aire de la zona de combustión.",
+    "contrast": "El distractor de las estrías cambia la cara de trabajo que pide la academia. No confundas la parte de la herramienta empleada —cara plana— con el mecanismo de extinción —sofocación—.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-23",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "La gradiente vertical normal está próxima a:",
+    "options": [
+      "-1 °C cada 100 m",
+      "entre -0,4 °C y 1 °C cada 100 m",
+      "-0,6 °C cada 100 m",
+      "entre 0,6 °C y 1 °C cada 100 m"
+    ],
+    "correct": 2,
+    "sourceNumber": 23,
+    "block": "meteorologia",
+    "page": 20,
+    "explanation": "El gradiente vertical normal de referencia del temario es aproximadamente −0,6 °C por cada 100 m de aumento de altura. Por ejemplo, 500 m representan una disminución de referencia de 3 °C.",
+    "contrast": "No lo confundas con el gradiente adiabático seco de −1 °C/100 m. El gradiente normal describe una referencia de la atmósfera; el seco describe el cambio de una parcela no saturada que asciende o desciende.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-24",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Según la escala de Beaufort, ¿a qué número de esta escala pertenece un viento de 50 km/h?",
+    "options": [
+      "7",
+      "10",
+      "5",
+      "11"
+    ],
+    "correct": 0,
+    "sourceNumber": 24,
+    "block": "meteorologia",
+    "page": 20,
+    "explanation": "50 km/h es el extremo inferior del grado 7 de Beaufort en la tabla del temario: 50–61 km/h, denominado frescachón. El grado 6 llega hasta 49 km/h.",
+    "contrast": "Beaufort es una escala de fuerza del viento: el número 7 no son 7 km/h. Mantén la unidad de la columna, porque las tablas pueden incluir también nudos o m/s.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-25",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "En un incendio de suelo, ¿que anchura debe de tener la línea de defensa?",
+    "options": [
+      "de 0,50 m a 3 m",
+      "de 0,15 m a 4 m",
+      "de 0,15 m a 3 m"
+    ],
+    "correct": 1,
+    "sourceNumber": 25,
+    "block": "lineas",
+    "page": 21,
+    "explanation": "La academia marca 0,15–4 m para el incendio de suelo. Ese mismo intervalo aparece escrito en la p. 21 del temario. Es la opción que conserva ambos extremos: 0,15 m por abajo y 4 m por arriba.",
+    "contrast": "En la misma tabla, subsuelo figura con 30 cm y copas con 4–10 m. No cambies de fila al memorizar las anchuras.",
+    "review": {
+      "title": "Cifra del material a contrastar",
+      "text": "El resumen ya señalaba el extremo inferior de 0,15 m como una cifra a contrastar. Que el test repita ese valor permite identificar su clave, pero no resuelve por sí solo la duda del dato. Se mantiene la reserva y la referencia a la imagen original.",
+      "links": []
+    },
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-26",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "En un incendio donde tenemos 29 °C de temperatura ambiente, una pendiente de 45%, una humedad relativa de 21% y un viento de 32 km/h, como calificaríamos esta situación:",
+    "options": [
+      "Leve",
+      "Moderada",
+      "Controlada",
+      "Peligrosa"
+    ],
+    "correct": 3,
+    "sourceNumber": 26,
+    "block": "peligro",
+    "page": 32,
+    "explanation": "Cumple tres factores de la regla del 30: pendiente 45 % > 30 %, humedad relativa 21 % < 30 % y viento 32 km/h > 30 km/h. La temperatura, 29 °C, no supera 30 °C. El material considera peligrosa la concurrencia de dos o más factores; aquí hay tres.",
+    "contrast": "En temperatura, viento y pendiente se supera 30; en humedad relativa se baja de 30. El signo de la humedad es el contrario.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-27",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Según la escala de Rothermel un matorral denso y verde de menos de 1 m de altura corresponde al modelo:",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "13"
+    ],
+    "correct": 0,
+    "sourceNumber": 27,
+    "block": "combustibles",
+    "page": 12,
+    "explanation": "El modelo 5 de Rothermel corresponde en el material a matorral denso y verde de menos de 1 m. Está dentro de la familia de matorral, modelos 4–7.",
+    "contrast": "La Ola de tu casillero, número 5, puede cubrir un matorral verde y bajo. Modelo 4: matorral muy denso de más de 2 m; modelo 7: matorral muy inflamable. Modelos 10 y 13 pertenecen a otras familias.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-28",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "La temperatura a la cual la madera comienza a destilar las resinas es:",
+    "options": [
+      "100 °C",
+      "200 °C",
+      "300 °C",
+      "600 °C"
+    ],
+    "correct": 1,
+    "sourceNumber": 28,
+    "block": "bases",
+    "page": 5,
+    "explanation": "El temario sitúa el inicio de la destilación de resinas alrededor de 200 °C. Es un dato asociado al calentamiento y a la liberación de sustancias volátiles, anterior a la referencia de combustión gaseosa de 300 °C.",
+    "contrast": "Secuencia de referencias del material: 100 °C → eliminación de humedad; 200 °C → resinas; 300 °C → gases ardiendo; más de 600 °C → combustión del carbón.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-29",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "¿Cuál es el método de ataque mas peligroso para los bomberos?",
+    "options": [
+      "El ataque directo",
+      "El ataque en paralelo",
+      "El ataque en pinza",
+      "El contrafuego"
+    ],
+    "correct": 1,
+    "sourceNumber": 29,
+    "block": "metodos",
+    "page": 27,
+    "explanation": "El método señalado como más peligroso para el personal en este temario es el ataque paralelo. Se trabaja próximo al frente, abriendo y apoyando una faja en paralelo al avance, con tratamiento del combustible entre los bordes.",
+    "contrast": "La pregunta pide la caracterización del material, no una clasificación universal del riesgo de cualquier operación. No cambies la respuesta a contrafuego solo porque este también requiera planificación y control específicos.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  },
+  {
+    "id": "academia-forestales-1-30",
+    "origin": "academia",
+    "sourceTest": "Incendios forestales 1",
+    "q": "Los vientos ascendentes se producen:",
+    "options": [
+      "Durante la noche",
+      "Al atardecer",
+      "Durante el día",
+      "Al amanecer"
+    ],
+    "correct": 2,
+    "sourceNumber": 30,
+    "block": "meteorologia",
+    "page": 20,
+    "explanation": "La regla de vientos locales del material es: ascendentes durante el día y descendentes durante la noche. El calentamiento diurno de las laderas favorece el ascenso; el enfriamiento nocturno favorece el drenaje de aire frío hacia las zonas bajas.",
+    "contrast": "Se está preguntando por el ciclo local de ladera. El viento general puede superponerse y modificar la situación observada; la respuesta del test corresponde al esquema diurno/nocturno.",
+    "test": "academia-1",
+    "sourceLabel": "Academia · Forestales 1"
+  }
+]
