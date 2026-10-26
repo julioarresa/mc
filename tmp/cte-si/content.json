@@ -1,0 +1,2122 @@
+{
+  "blocks": [
+    {
+      "id": "marco",
+      "title": "Marco y seis exigencias",
+      "heading": "Seis formas de proteger a las personas",
+      "pages": [
+        2,
+        7
+      ],
+      "essential": "El DB-SI desarrolla el requisito de <b>seguridad en caso de incendio</b>: reducir a límites aceptables los daños a usuarios por incendios accidentales. Memoriza la secuencia <b>interior → exterior → evacuación → instalaciones → bomberos → estructura</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Sección</th><th scope=\"col\">Qué resuelve</th></tr></thead><tbody><tr><td>SI 1</td><td>Limitar la propagación interior.</td></tr><tr><td>SI 2</td><td>Limitar la propagación exterior, al propio edificio y a otros.</td></tr><tr><td>SI 3</td><td>Abandonar el edificio o alcanzar un lugar seguro en su interior.</td></tr><tr><td>SI 4</td><td>Detección, control, extinción y transmisión de la alarma.</td></tr><tr><td>SI 5</td><td>Facilitar rescate y extinción por los bomberos.</td></tr><tr><td>SI 6</td><td>Mantener la resistencia de la estructura el tiempo necesario.</td></tr></tbody></table></div><div class=\"extra\"><h3>Aplicación y versión</h3><p>Este cuaderno sigue el <b>PDF aportado, de 4 de marzo de 2025</b>, incluidas las modificaciones del RD 164/2025. La p. 2 indica que se trata de un texto consolidado sin valor jurídico. Las referencias del cuaderno usan el número de página del PDF.</p><p>El DB excluye los edificios, establecimientos y zonas industriales a los que se aplica el RSCIEI. Para el <b>uso Almacén</b>, la introducción combina la tabla SI 1-1.1 con la caracterización y los requisitos constructivos y dotacionales de los anexos I a IV del RSCIEI; la ocupación se obtiene de SI 3.</p><p>Los establecimientos de alquiler de trasteros se consideran uso Almacén: con altura de almacenamiento ≤ 3 m, NRI medio, subnivel 5; por encima de 3 m, NRI alto, calculando su subnivel. No se confunden con los trasteros vinculados a viviendas.</p><h3>Usos y reformas</h3><p>Los ocupantes que mayoritariamente necesitan ayuda para evacuar llevan a las condiciones de uso Hospitalario; la asistencia sanitaria ambulatoria, a Administrativo. Un cambio parcial de uso afecta también a sus medios de evacuación hasta el espacio exterior seguro, con la excepción indicada para transformación a vivienda en edificios de vivienda existentes. Una reforma no puede empeorar las condiciones de seguridad preexistentes.</p><p>Los informes de ensayo de productos sin marcado CE tienen antigüedad menor que <b>5 años para reacción</b> y <b>10 años para resistencia</b> en la fecha de suministro a obra.</p></div>",
+      "recall": "Recita las seis secciones y explica dónde se aplica el RSCIEI.",
+      "answer": "SI 1 interior; SI 2 exterior; SI 3 evacuación; SI 4 instalaciones; SI 5 bomberos; SI 6 estructura. El uso industrial sujeto al RSCIEI sigue ese reglamento; el uso Almacén tiene la combinación de reglas de la introducción.",
+      "questions": [
+        [
+          3,
+          "¿Qué sección facilita la intervención de rescate y extinción?",
+          "SI 5",
+          [
+            "SI 3",
+            "SI 6"
+          ],
+          "SI 5 trata de la intervención de los bomberos; SI 3, de evacuación; SI 6, de resistencia estructural."
+        ],
+        [
+          5,
+          "Un centro sanitario exclusivamente ambulatorio sigue las condiciones de uso…",
+          "Administrativo",
+          [
+            "Hospitalario en todo caso",
+            "Residencial Público"
+          ],
+          "La introducción distingue la asistencia ambulatoria de los usos con ocupantes que necesitan ayuda para evacuar."
+        ],
+        [
+          7,
+          "En productos sin marcado CE, los informes de ensayo de reacción y resistencia deben tener, respectivamente, antigüedad…",
+          "Menor que 5 y menor que 10 años",
+          [
+            "Menor que 10 y menor que 5 años",
+            "Menor que 5 años en ambos casos"
+          ],
+          "La fecha de referencia es el suministro a la obra. Reacción y resistencia tienen plazos diferentes."
+        ]
+      ]
+    },
+    {
+      "id": "terminos",
+      "title": "Conceptos que no se mezclan",
+      "heading": "Reacción, resistencia y evacuación",
+      "pages": [
+        42,
+        49
+      ],
+      "essential": "<b>Reacción:</b> cómo contribuye un material al desarrollo del fuego. <b>Resistencia:</b> cuánto tiempo mantiene un elemento sus funciones. <b>R</b> = capacidad portante; <b>E</b> = integridad; <b>I</b> = aislamiento térmico. El número de la clase expresa minutos bajo el ensayo correspondiente.",
+      "body": "<div class=\"grid three\"><div class=\"card\"><h3>R · Sostener</h3><p>La estructura conserva capacidad portante.</p></div><div class=\"card\"><h3>E · Separar</h3><p>El elemento mantiene su integridad frente al paso de llamas y gases calientes.</p></div><div class=\"card\"><h3>I · Aislar</h3><p>Limita la transmisión térmica a la cara no expuesta.</p></div></div><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Término</th><th scope=\"col\">Diferencia que debes recordar</th></tr></thead><tbody><tr><td>Altura de evacuación</td><td>Máxima diferencia de cotas entre un origen de evacuación y la salida de edificio correspondiente. No cuentan las plantas más altas con solo zonas de ocupación nula.</td></tr><tr><td>Sector de incendio</td><td>Recinto separado mediante elementos resistentes al fuego. Los locales de riesgo especial no se consideran sectores.</td></tr><tr><td>Salida de planta</td><td>Puede ser el acceso a una escalera protegida, a un pasillo protegido, al vestíbulo de una especialmente protegida, el paso a un sector alternativo con condiciones o una salida de edificio.</td></tr><tr><td>Salida de edificio</td><td>Puerta o hueco a espacio exterior seguro; existe la alternativa condicionada para un máximo de 500 personas de la p. 48.</td></tr><tr><td>Salida de emergencia</td><td>Prevista exclusivamente para emergencia y señalizada como tal.</td></tr><tr><td>Recorridos alternativos</td><td>Forman un ángulo <b>&gt; 45°</b> o están separados por elementos <b>EI 30</b> que impiden su bloqueo simultáneo por humo.</td></tr></tbody></table></div><div class=\"extra\"><h3>Espacio exterior seguro</h3><p>Debe permitir dispersión, disipación del calor y humo y acceso de bomberos. Para comprobar la dispersión se toma una superficie <b>0,5P m²</b> dentro de un radio <b>0,1P m</b> desde la salida; esta comprobación no es necesaria si P ≤ 50. Las demás condiciones de la definición siguen siendo exigibles.</p><p>El recorrido se mide sobre el eje de pasillos, escaleras y rampas. Alcanzada una salida de planta, la longitud posterior no computa en el límite hasta dicha salida. Las escaleras mecánicas no son recorridos válidos.</p></div>",
+      "recall": "¿EI 60 y R 60 expresan la misma función? ¿Dos salidas hacen siempre alternativos los recorridos?",
+      "answer": "EI 60 mantiene integridad y aislamiento; R 60, capacidad portante. Dos recorridos deben cumplir la condición de ángulo o separación para considerarse alternativos.",
+      "questions": [
+        [
+          46,
+          "La contribución de un material al desarrollo del incendio define su…",
+          "Reacción al fuego",
+          [
+            "Resistencia al fuego",
+            "Altura de evacuación"
+          ],
+          "La reacción se refiere a la contribución del material por su propia combustión. La resistencia se refiere a funciones mantenidas por un elemento durante un tiempo."
+        ],
+        [
+          48,
+          "Dos recorridos pueden ser alternativos si forman un ángulo…",
+          "Mayor que 45°",
+          [
+            "Igual a 45° en todos los casos",
+            "Mayor que 15°"
+          ],
+          "La otra opción es separarlos mediante elementos EI 30 que eviten el bloqueo simultáneo por humo."
+        ],
+        [
+          45,
+          "Para P > 50, la comprobación geométrica de dispersión del espacio exterior seguro utiliza…",
+          "0,5P m² dentro de un radio 0,1P m",
+          [
+            "0,1P m² dentro de un radio 0,5P m",
+            "1 m² por persona sin condición de radio"
+          ],
+          "Esta comprobación se suma a las demás condiciones del espacio exterior seguro. Con P ≤ 50 no es necesario comprobar esa condición concreta."
+        ]
+      ]
+    },
+    {
+      "id": "sectores",
+      "title": "SI 1 · Sectores",
+      "heading": "Compartimentar según el uso",
+      "pages": [
+        10,
+        12
+      ],
+      "essential": "El tamaño del sector depende del uso. Referencias base: <b>2.500 m²</b> en vivienda, administrativo y residencial público; <b>4.000 m²</b> en docente con más de una planta; <b>1.500 m²</b> por sector en hospitalización, con al menos dos sectores salvo la excepción de la tabla.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Uso</th><th scope=\"col\">Condición destacada de la tabla 1.1</th></tr></thead><tbody><tr><td>Residencial Vivienda</td><td>≤ 2.500 m² por sector. Separación entre viviendas: EI 60.</td></tr><tr><td>Administrativo / Residencial Público</td><td>≤ 2.500 m². En residencial público: habitaciones y oficios, paredes EI 60; puertas EI₂ 30-C5 si la superficie construida del establecimiento excede de 500 m².</td></tr><tr><td>Docente</td><td>Más de una planta: ≤ 4.000 m². Una sola planta: no se exige compartimentación en sectores.</td></tr><tr><td>Hospitalización y unidades especiales</td><td>Al menos dos sectores por planta, ≤ 1.500 m² cada uno y capacidad para recibir pacientes de un sector contiguo. Excepción: planta ≤ 1.500 m², salidas directas a exterior seguro y recorridos ≤ 25 m.</td></tr><tr><td>Comercial / Pública concurrencia</td><td>Regla base ≤ 2.500 m², con alternativas específicas de la tabla 1.1.</td></tr><tr><td>Aparcamiento integrado en otros usos</td><td>Sector diferenciado y comunicación por vestíbulo de independencia. Robotizado bajo otro uso: sectores ≤ 10.000 m³.</td></tr></tbody></table></div><div class=\"extra\"><h3>Reglas generales y usos subsidiarios</h3><p>Todo establecimiento constituye sector diferenciado, con la excepción de la tabla para establecimientos ≤ 500 m² de determinados usos en edificios de vivienda. Las superficies máximas indicadas pueden duplicarse con extinción automática, salvo las condiciones específicas de la propia tabla.</p><p>Una zona subsidiaria de vivienda se sectoriza en todo caso; alojamiento, administrativo, comercial o docente, si supera 500 m² (250 m² si el uso principal es Almacén); pública concurrencia, si supera 500 personas (o 250 m² en Almacén); aparcamiento, si supera 100 m², o cualquier superficie si es robotizado. Consulta también las reglas de zonas mixtas y uso Almacén.</p><p>Los sectores de riesgo mínimo no tienen límite de superficie. La excepción de espacio diáfano exige simultáneamente 90% de superficie en una planta, salidas al exterior, 75% de perímetro en fachada y ausencia de zonas habitables encima.</p></div>",
+      "recall": "Asocia 2.500, 4.000 y 1.500 con sus usos. ¿El aparcamiento robotizado se limita en m² o m³?",
+      "answer": "2.500 m²: base de vivienda, administrativo y residencial público. 4.000 m²: docente de más de una planta. 1.500 m²: sectores de hospitalización. El robotizado bajo otro uso se limita a 10.000 m³.",
+      "questions": [
+        [
+          11,
+          "En Docente con más de una planta, la superficie máxima base por sector es…",
+          "4.000 m²",
+          [
+            "2.500 m²",
+            "1.500 m²"
+          ],
+          "La tabla diferencia los edificios docentes de una sola planta, donde no exige compartimentación en sectores."
+        ],
+        [
+          12,
+          "En un aparcamiento robotizado bajo otro uso, el límite por sector es…",
+          "10.000 m³",
+          [
+            "10.000 m²",
+            "2.500 m³"
+          ],
+          "La unidad es volumen construido, no superficie."
+        ],
+        [
+          12,
+          "Como regla, una planta con hospitalización se divide en…",
+          "Al menos dos sectores, cada uno de hasta 1.500 m²",
+          [
+            "Un sector de 4.000 m²",
+            "Dos sectores de hasta 5.000 m² cada uno"
+          ],
+          "Cada sector debe poder albergar a los pacientes de un sector contiguo. Existe la excepción para planta ≤ 1.500 m² con salidas directas a exterior seguro y recorridos ≤ 25 m."
+        ]
+      ]
+    },
+    {
+      "id": "resistencia-sector",
+      "title": "SI 1 · Paredes y puertas",
+      "heading": "El cerramiento debe conservar la separación",
+      "pages": [
+        13,
+        13
+      ],
+      "essential": "La tabla SI 1-1.2 exige <b>EI</b> para paredes; un techo portante que separa de otra planta debe aportar <b>REI</b>. Las puertas entre sectores: <b>EI₂ t-C5</b>, con <b>t = ½</b> del tiempo de la pared, o <b>¼</b> si hay vestíbulo y dos puertas.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Uso del sector</th><th scope=\"col\">Sótano</th><th scope=\"col\">Sobre rasante h ≤ 15 m</th><th scope=\"col\">15 < h ≤ 28 m</th><th scope=\"col\">h > 28 m</th></tr></thead><tbody><tr><td>Vivienda, Residencial Público, Docente, Administrativo</td><td>EI 120</td><td>EI 60</td><td>EI 90</td><td>EI 120</td></tr><tr><td>Comercial, Pública concurrencia, Hospitalario</td><td>EI 120*</td><td>EI 90</td><td>EI 120</td><td>EI 180</td></tr><tr><td>Aparcamiento</td><td>EI 120**</td><td>EI 120</td><td>EI 120</td><td>EI 120</td></tr></tbody></table></div><p class=\"note\">* EI 180 en sótano si la altura de evacuación del edificio es mayor que 28 m. ** EI 180 si el aparcamiento es robotizado. Tabla resumida: las notas de SI 1-1.2 determinan la función, la cara expuesta y los casos de cubierta y suelo.</p><div class=\"extra\"><h3>Ejemplo de puerta</h3><p>Una pared EI 120 implica una puerta <b>EI₂ 60-C5</b>. Si el paso se hace mediante vestíbulo de independencia y dos puertas, cada una puede ser <b>EI₂ 30-C5</b>, respetando el resto de condiciones del vestíbulo.</p><p>La resistencia exigida a un suelo se relaciona con el uso de la zona inferior. Una cubierta sin actividad ni evacuación puede requerir solo la función R, salvo las franjas de SI 2. El mismo elemento puede tener exigencias diferentes desde cada cara.</p></div>",
+      "recall": "Para una pared EI 120, ¿qué puertas corresponden con paso directo y con vestíbulo?",
+      "answer": "Paso directo: EI₂ 60-C5. Paso mediante vestíbulo y dos puertas: dos EI₂ 30-C5, sin olvidar las demás condiciones del vestíbulo.",
+      "questions": [
+        [
+          13,
+          "Una puerta directa entre sectores en una pared EI 120 será, por la regla general…",
+          "EI₂ 60-C5",
+          [
+            "EI₂ 30-C5",
+            "R 120"
+          ],
+          "El tiempo de la puerta directa es la mitad del requerido a la pared."
+        ],
+        [
+          13,
+          "Con vestíbulo y dos puertas en una separación EI 120, cada puerta puede ser…",
+          "EI₂ 30-C5",
+          [
+            "EI₂ 15-C5",
+            "EI₂ 120-C5 obligatoriamente"
+          ],
+          "La cuarta parte se aplica cuando el paso se realiza mediante vestíbulo de independencia y dos puertas."
+        ],
+        [
+          13,
+          "Un techo portante que separa el sector de una planta superior debe aportar…",
+          "REI, con el tiempo exigible a la separación",
+          [
+            "Solo E",
+            "Solo reacción al fuego clase B"
+          ],
+          "Además de separar y aislar, el elemento tiene función portante; por eso la clasificación pasa de EI a REI."
+        ]
+      ]
+    },
+    {
+      "id": "riesgo",
+      "title": "SI 1 · Riesgo especial",
+      "heading": "Primero clasifica; después protege",
+      "pages": [
+        14,
+        16
+      ],
+      "essential": "Riesgo especial <b>bajo / medio / alto</b>: estructura <b>R 90 / 120 / 180</b>; separación <b>EI 90 / 120 / 180</b>; vestíbulo en <b>medio y alto</b>; recorrido interior hasta alguna salida del local <b>≤ 25 m</b>, ampliable 25% con extinción automática.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Ejemplo</th><th scope=\"col\">Bajo</th><th scope=\"col\">Medio</th><th scope=\"col\">Alto</th></tr></thead><tbody><tr><td>Almacenes combustibles / talleres / archivos</td><td>100 < V ≤ 200 m³</td><td>200 < V ≤ 400 m³</td><td>V > 400 m³</td></tr><tr><td>Residuos</td><td>5 < S ≤ 15 m²</td><td>15 < S ≤ 30 m²</td><td>S > 30 m²</td></tr><tr><td>Cocinas, potencia instalada</td><td>20 < P ≤ 30 kW</td><td>30 < P ≤ 50 kW</td><td>P > 50 kW</td></tr><tr><td>Calderas, potencia útil nominal</td><td>70 < P ≤ 200 kW</td><td>200 < P ≤ 600 kW</td><td>P > 600 kW</td></tr><tr><td>Trasteros vinculados a viviendas</td><td>50 < S ≤ 100 m²</td><td>100 < S ≤ 500 m²</td><td>S > 500 m²</td></tr></tbody></table></div><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Protección</th><th scope=\"col\">Bajo</th><th scope=\"col\">Medio</th><th scope=\"col\">Alto</th></tr></thead><tbody><tr><td>Puertas al resto del edificio</td><td>EI₂ 45-C5</td><td>2 × EI₂ 30-C5</td><td>2 × EI₂ 45-C5</td></tr><tr><td>Vestíbulo en cada comunicación</td><td>No exigido por esta tabla</td><td>Sí</td><td>Sí</td></tr></tbody></table></div><div class=\"extra\"><h3>Excepciones que cambian la clasificación</h3><p>En cocinas de usos distintos de Hospitalario y Residencial Público, los aparatos protegidos con extinción automática permiten no considerarlas local de riesgo especial; siguen siendo aplicables las condiciones de extracción de la nota 3. Las freidoras y sartenes basculantes computan 1 kW por litro de capacidad.</p><p>La resistencia no puede quedar por debajo de la exigida al sector al que sirve el local, con la excepción condicionada de cubiertas de la nota 2. En algunos almacenes de más de 500 m³ y QT ≥ 3 millones de MJ se pasa a uso Almacén: comprueba la nota 1 de la tabla 2.1.</p><p>Los garajes de vivienda unifamiliar y los aparcamientos convencionales de hasta 100 m² se clasifican como riesgo especial bajo. El recorrido interno de una zona de riesgo especial también cuenta al medir hasta la salida de planta, con la excepción del garaje unifamiliar indicada en la nota 5.</p></div>",
+      "recall": "¿Qué cambia del riesgo bajo al medio? ¿Una cocina de exactamente 50 kW es de riesgo alto?",
+      "answer": "Aparece el vestíbulo y aumenta la resistencia de estructura y cerramientos. En la clasificación por potencia, 50 kW entra en riesgo medio; alto exige P > 50 kW, sin olvidar las excepciones por uso y extinción.",
+      "questions": [
+        [
+          16,
+          "Las puertas de una zona de riesgo especial medio son…",
+          "Dos EI₂ 30-C5 con vestíbulo",
+          [
+            "Una EI₂ 30-C5 sin vestíbulo",
+            "Dos EI₂ 45-C5 obligatoriamente"
+          ],
+          "El riesgo alto exige dos EI₂ 45-C5. El medio exige dos EI₂ 30-C5 y vestíbulo."
+        ],
+        [
+          14,
+          "Según la fila de potencia, una cocina de exactamente 50 kW se clasifica como…",
+          "Riesgo medio",
+          [
+            "Riesgo bajo",
+            "Riesgo alto"
+          ],
+          "El tramo medio es 30 < P ≤ 50; el alto comienza por encima de 50. Se aplican además las excepciones de la nota 2."
+        ],
+        [
+          16,
+          "El recorrido máximo base hasta alguna salida del local de riesgo especial es…",
+          "25 m",
+          [
+            "10 m",
+            "50 m"
+          ],
+          "Puede aumentarse un 25% con extinción automática. No confundas este recorrido de evacuación con los 10 o 15 m hasta extintores de SI 4."
+        ]
+      ]
+    },
+    {
+      "id": "reaccion",
+      "title": "SI 1 · Espacios y materiales",
+      "heading": "La compartimentación debe ser continua",
+      "pages": [
+        16,
+        18
+      ],
+      "essential": "La separación se mantiene en patinillos, falsos techos y pasos de instalaciones. Se excluyen de la exigencia de los pasos las penetraciones de sección <b>≤ 50 cm²</b>. Para revestimientos, distingue <b>zona ocupable / recorrido protegido / aparcamiento o riesgo especial</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Situación</th><th scope=\"col\">Techos y paredes</th><th scope=\"col\">Suelos</th></tr></thead><tbody><tr><td>Zonas ocupables</td><td>C-s2,d0</td><td>E<sub>FL</sub></td></tr><tr><td>Pasillos y escaleras protegidos</td><td>B-s1,d0</td><td>C<sub>FL</sub>-s1</td></tr><tr><td>Aparcamientos y recintos de riesgo especial</td><td>B-s1,d0</td><td>B<sub>FL</sub>-s1</td></tr><tr><td>Espacios ocultos de la tabla 4.1</td><td>B-s3,d0</td><td>B<sub>FL</sub>-s2, en la parte inferior de la cavidad cuando proceda</td></tr></tbody></table></div><div class=\"extra\"><h3>Lee las notas de la tabla</h3><p>Estas clases se exigen cuando el revestimiento supera el <b>5%</b> del conjunto de paredes, techos o suelos correspondiente. La fila de zonas ocupables excluye el interior de viviendas; en Hospitalario se aplican las condiciones de los pasillos y escaleras protegidos. Los componentes de instalaciones eléctricas tienen su reglamentación específica.</p><h3>Espacios ocultos y pasos</h3><p>Si el espacio oculto se compartimenta respecto del ocupable con igual resistencia, se conserva la separación; los registros de mantenimiento pueden reducirla a la mitad. Las instalaciones pueden mantener la resistencia mediante obturación automática o mediante elementos pasantes con resistencia equivalente.</p><h3>Textiles y mobiliario</h3><p>Las carpas: nivel T2 o C-s2,d0 en los términos de SI 1-4. En Pública concurrencia, las butacas fijas tapizadas del proyecto deben superar los ensayos de cigarrillo y cerilla; los textiles suspendidos deben ser clase 1 según UNE-EN 13773:2003.</p></div>",
+      "recall": "¿Qué suelo distingue un pasillo protegido de un aparcamiento? ¿Se aplica la misma fila al interior de viviendas?",
+      "answer": "Protegido: C_FL-s1. Aparcamiento: B_FL-s1. La fila general de zonas ocupables excluye el interior de viviendas.",
+      "questions": [
+        [
+          16,
+          "La exclusión por sección de paso de una penetración llega hasta…",
+          "50 cm² inclusive",
+          [
+            "50 m²",
+            "5 cm²"
+          ],
+          "SI 1-3 excluye las penetraciones cuya sección no excede de 50 cm²."
+        ],
+        [
+          17,
+          "El revestimiento de suelo de un pasillo protegido será, según tabla 4.1…",
+          "C_FL-s1",
+          [
+            "E_FL",
+            "B-s3,d0"
+          ],
+          "C_FL-s1 corresponde a suelos de pasillos y escaleras protegidos; B-s1,d0 a sus paredes y techos."
+        ],
+        [
+          17,
+          "El porcentaje que activa las condiciones de revestimientos de la tabla 4.1 es…",
+          "Más del 5% de la superficie del conjunto correspondiente",
+          [
+            "Más del 50%",
+            "Cualquier porcentaje en todos los casos"
+          ],
+          "Se comprueba por separado el conjunto de paredes, el de techos o el de suelos del recinto."
+        ]
+      ]
+    },
+    {
+      "id": "exterior",
+      "title": "SI 2 · Fachadas y cubiertas",
+      "heading": "Separar las llamas también por fuera",
+      "pages": [
+        19,
+        21
+      ],
+      "essential": "<b>Medianería: EI 120.</b> Propagación vertical por fachada: franja <b>EI 60 de al menos 1 m</b>, reducible por un saliente apto. Cubierta: franjas <b>REI 60 de 0,50 m</b> junto al edificio colindante y de <b>1 m</b> sobre el elemento compartimentador, o prolongación de este <b>0,60 m</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Ángulo entre fachadas</th><th scope=\"col\">0°</th><th scope=\"col\">45°</th><th scope=\"col\">60°</th><th scope=\"col\">90°</th><th scope=\"col\">135°</th><th scope=\"col\">180°</th></tr></thead><tbody><tr><td>Separación d entre puntos no EI 60</td><td>3 m</td><td>2,75 m</td><td>2,50 m</td><td>2 m</td><td>1,25 m</td><td>0,50 m</td></tr></tbody></table></div><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Altura total de fachada</th><th scope=\"col\">Sistema de fachada > 10% de superficie</th><th scope=\"col\">Aislamiento en cámara ventilada</th></tr></thead><tbody><tr><td>Hasta 10 m</td><td>D-s3,d0</td><td>D-s3,d0</td></tr><tr><td>Más de 10 hasta 18 m</td><td>C-s3,d0</td><td>B-s3,d0</td></tr><tr><td>Más de 18 hasta 28 m</td><td>B-s3,d0</td><td>B-s3,d0</td></tr><tr><td>Más de 28 m</td><td>B-s3,d0</td><td>A2-s3,d0</td></tr></tbody></table></div><div class=\"extra\"><p>Para ángulos intermedios se permite interpolación lineal. Entre edificios colindantes, cada edificio cumple el 50% de d hasta la bisectriz. La separación horizontal se aplica entre sectores, desde riesgo especial alto y hacia recorridos protegidos en los casos del apartado 1.2.</p><p>En fachadas de altura ≤ 18 m con arranque accesible al público, se exige al menos <b>B-s3,d0 hasta 3,5 m</b>. Las cámaras ventiladas deben limitar su continuidad vertical; las barreras E 30 son un procedimiento válido.</p><p>En encuentros cubierta-fachada se aplica la tabla distancia-altura de la p. 21. Los materiales de cubierta y lucernarios de los supuestos del apartado 2.3 deben ser <b>B_ROOF(t1)</b>. No sustituyas esa tabla por la regla de las franjas.</p></div>",
+      "recall": "Distingue 1 m de fachada, 0,50 m de cubierta y 0,60 m de prolongación.",
+      "answer": "Fachada: franja vertical EI 60 de 1 m; cubierta junto a colindante: franja REI 60 de 0,50 m; alternativa: prolongar la medianería o elemento compartimentador 0,60 m sobre la cubierta.",
+      "questions": [
+        [
+          19,
+          "La separación mínima de puntos no EI 60 en fachadas a 90° es…",
+          "2 m",
+          [
+            "3 m",
+            "0,50 m"
+          ],
+          "La tabla SI 2-1 relaciona ángulo y distancia: a 90°, 2 m; a 0°, 3 m; a 180°, 0,50 m."
+        ],
+        [
+          20,
+          "La franja base para limitar propagación vertical por fachada es…",
+          "EI 60 y 1 m de altura",
+          [
+            "EI 120 y 0,50 m",
+            "REI 30 y 2 m"
+          ],
+          "Su altura puede reducirse en la dimensión de un saliente apto para impedir el paso de las llamas."
+        ],
+        [
+          20,
+          "En una cámara ventilada de fachada de más de 28 m, el aislamiento será al menos…",
+          "A2-s3,d0",
+          [
+            "C-s3,d0",
+            "D-s3,d0"
+          ],
+          "No confundas la clasificación del aislamiento de la cámara con la del sistema constructivo de fachada."
+        ]
+      ]
+    },
+    {
+      "id": "ocupacion",
+      "title": "SI 3 · Ocupación",
+      "heading": "Menos m² por persona significa más ocupantes",
+      "pages": [
+        22,
+        24
+      ],
+      "essential": "La ocupación se calcula con <b>superficie útil / densidad en m² por persona</b>, salvo ocupación previsible mayor o menor exigida legalmente. Considera usos simultáneos o alternativos. <b>0,25 m²/persona equivale a 4 personas/m².</b>",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Zona</th><th scope=\"col\">m²/persona</th></tr></thead><tbody><tr><td>Vivienda / alojamiento residencial público</td><td>20</td></tr><tr><td>Oficinas / conjunto docente</td><td>10</td></tr><tr><td>Aulas, excepto infantil</td><td>1,5</td></tr><tr><td>Infantil / lectura de bibliotecas</td><td>2</td></tr><tr><td>Espectadores de pie</td><td>0,25</td></tr><tr><td>Discoteca / espectadores sentados sin asientos definidos</td><td>0,5</td></tr><tr><td>Público de pie en bares / salones de uso múltiple</td><td>1</td></tr><tr><td>Público sentado en bares y restaurantes</td><td>1,5</td></tr><tr><td>Archivos y almacenes</td><td>40</td></tr><tr><td>Aparcamiento vinculado a actividad con horario</td><td>15</td></tr><tr><td>Otros aparcamientos convencionales</td><td>40</td></tr><tr><td>Acceso ocasional solo para mantenimiento</td><td>Ocupación nula</td></tr></tbody></table></div><div class=\"extra\"><h3>Ejemplo de cálculo</h3><p>Un aula ordinaria de 90 m² útiles: <b>90 / 1,5 = 60 personas</b>, si no se prevé una ocupación mayor ni existe otra limitación legal aplicable. Un espacio de espectadores de pie de 90 m²: <b>90 / 0,25 = 360 personas</b>.</p><p>Con asientos definidos, se computa una persona por asiento. En uso Comercial se distingue área de venta, planta, zonas comunes y baja afluencia. La tabla completa incluye también hospitales, piscinas, gimnasios y terminales.</p><h3>Compatibilidad de evacuación</h3><p>Los establecimientos Comercial o Pública concurrencia de cualquier superficie, y Docente, Hospitalario, Residencial Público o Administrativo de más de 1.500 m², integrados en otro uso principal, tienen condiciones de independencia de salidas habituales y recorridos. Las salidas de emergencia pueden comunicar con un elemento común mediante vestíbulo y dimensionado adecuado. Consulta la excepción de Pública concurrencia ≤ 500 m² en centros comerciales.</p></div>",
+      "recall": "Calcula el aula de 90 m² y explica por qué 0,25 no significa poca ocupación.",
+      "answer": "90 / 1,5 = 60 ocupantes. Una densidad expresada como 0,25 m²/persona significa que caben cuatro personas en cada metro cuadrado.",
+      "questions": [
+        [
+          23,
+          "La densidad para plantas de vivienda es…",
+          "20 m²/persona",
+          [
+            "10 m²/persona",
+            "2 m²/persona"
+          ],
+          "La tabla usa superficie útil por persona. Las zonas de alojamiento residencial público también tienen 20 m²/persona."
+        ],
+        [
+          23,
+          "Un aula ordinaria de 90 m² útiles, con la densidad de tabla y sin otras condiciones, tiene…",
+          "60 ocupantes",
+          [
+            "135 ocupantes",
+            "45 ocupantes"
+          ],
+          "Se divide la superficie útil entre 1,5 m²/persona."
+        ],
+        [
+          23,
+          "0,25 m²/persona para espectadores de pie equivale a…",
+          "4 personas/m²",
+          [
+            "0,25 personas/m²",
+            "2 personas/m²"
+          ],
+          "La densidad está expresada en superficie por persona; para invertirla, 1 / 0,25 = 4."
+        ]
+      ]
+    },
+    {
+      "id": "salidas",
+      "title": "SI 3 · Salidas y recorridos",
+      "heading": "Una cifra solo vale con sus condiciones",
+      "pages": [
+        24,
+        25
+      ],
+      "essential": "Con una salida, la referencia general es <b>≤ 100 personas y ≤ 25 m</b>, junto con las condiciones de altura y uso. Con más de una salida: <b>≤ 50 m</b>, reducido a <b>35 m</b> en los casos de ocupantes que duermen, hospitalización y enseñanza indicados en la tabla.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Supuesto</th><th scope=\"col\">Condición destacada</th></tr></thead><tbody><tr><td>Una salida: ocupación</td><td>≤ 100 en general; ≤ 50 en zonas con ascenso > 2 m y en alumnado de infantil, primaria o secundaria; salida de edificio de viviendas: ≤ 500 en el conjunto.</td></tr><tr><td>Una salida: recorrido</td><td>≤ 25 m general; ≤ 35 m en aparcamiento; ≤ 50 m con salida directa a exterior seguro y ≤ 25 personas, o en espacios al aire libre de riesgo irrelevante.</td></tr><tr><td>Una salida: altura</td><td>Descendente ≤ 28 m; ascendente ≤ 10 m. Residencial Público: máximo segunda planta sobre la salida, con excepción de ≤ 20 plazas y detección y alarma.</td></tr><tr><td>Más de una salida</td><td>≤ 50 m general; ≤ 35 m en zonas con ocupantes que duermen, hospitalización/tratamiento intensivo e infantil/primaria; ≤ 75 m en espacios al aire libre de riesgo irrelevante.</td></tr><tr><td>Tramo hasta dos alternativas</td><td>≤ 15 m en hospitalización o tratamiento intensivo; en el resto, el máximo que se admite con una salida.</td></tr></tbody></table></div><div class=\"extra\"><p>No se admite una única salida en plantas de hospitalización o tratamiento intensivo ni en salas/unidades de pacientes hospitalizados de más de 90 m². Las longitudes de la tabla pueden aumentar un <b>25%</b> en sectores con extinción automática.</p><p>Cuando la altura descendente obliga a más de una salida o más de 50 personas deben ascender más de 2 m, al menos dos salidas conducen a dos escaleras diferentes. La planta de salida tiene sus propias condiciones de número de salidas en la nota 3.</p></div>",
+      "recall": "¿Basta con tener menos de 100 personas para disponer de una sola salida?",
+      "answer": "No. También se comprueban recorrido, altura, uso y excepciones. Las condiciones deben cumplirse conjuntamente.",
+      "questions": [
+        [
+          25,
+          "Con una única salida, el recorrido máximo específico en Aparcamiento es…",
+          "35 m",
+          [
+            "25 m en todos los casos",
+            "75 m"
+          ],
+          "La regla general de una salida es 25 m; Aparcamiento tiene 35 m. Hay además el supuesto de salida directa a exterior seguro y ≤ 25 personas."
+        ],
+        [
+          25,
+          "Con varias salidas, el recorrido máximo en zonas donde se prevé que duerman ocupantes es…",
+          "35 m",
+          [
+            "50 m sin excepción",
+            "15 m"
+          ],
+          "Los 15 m son el tramo hasta alternativas en plantas de hospitalización/tratamiento intensivo, no el recorrido total de todas las zonas donde se duerme."
+        ],
+        [
+          25,
+          "La extinción automática permite aumentar las longitudes de la tabla 3.1 en…",
+          "25%",
+          [
+            "50%",
+            "100%"
+          ],
+          "La nota 1 se refiere a sectores protegidos con instalación automática de extinción. No duplica automáticamente las longitudes."
+        ]
+      ]
+    },
+    {
+      "id": "anchuras",
+      "title": "SI 3 · Dimensionado",
+      "heading": "Asignar personas antes de calcular anchuras",
+      "pages": [
+        25,
+        28
+      ],
+      "essential": "Si deben existir varias salidas, calcula con <b>una inutilizada en la hipótesis más desfavorable</b>. Puertas: <b>A ≥ P/200 y ≥ 0,80 m</b>. Pasillos: <b>A ≥ P/200 y ≥ 1 m</b>. Escalera no protegida descendente: <b>A ≥ P/160</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Elemento</th><th scope=\"col\">Expresión de SI 3-4.1</th></tr></thead><tbody><tr><td>Puertas y pasos</td><td>A ≥ P/200; mínimo general 0,80 m. Hoja entre 0,60 y 1,23 m.</td></tr><tr><td>Pasillos y rampas</td><td>A ≥ P/200; mínimo general 1,00 m.</td></tr><tr><td>Escalera no protegida descendente</td><td>A ≥ P/160.</td></tr><tr><td>Escalera no protegida ascendente</td><td>A ≥ P/(160 − 10h).</td></tr><tr><td>Escalera protegida</td><td>E ≤ 3S + 160A<sub>S</sub>.</td></tr><tr><td>Pasillo protegido</td><td>P ≤ 3S + 200A.</td></tr><tr><td>Zonas al aire libre</td><td>Pasos/pasillos/rampas: A ≥ P/600; escaleras: A ≥ P/480, con las condiciones de la nota 10.</td></tr></tbody></table></div><div class=\"extra\"><p><b>A:</b> anchura en metros; <b>P:</b> personas por el punto; <b>h:</b> altura ascendente en metros; <b>S:</b> superficie útil del recinto protegido; <b>A<sub>S</sub>:</b> anchura de desembarco de la escalera protegida; <b>E:</b> ocupantes asignados a la escalera hasta la salida, según el sentido.</p><p>En Hospitalario: puerta ≥ 1,05 m, incluso de habitación; pasillo ≥ 2,20 m y paso por puertas ≥ 2,10 m. En Comercio hay mínimos específicos por superficie y uso de carros; la nota 5 admite 0,80 m en pasillos para como máximo 10 usuarios habituales.</p><p>No hay que inutilizar por completo una escalera protegida, especialmente protegida o compartimentada como sector. Sí se aplica el bloqueo total a una no protegida y no compartimentada cuando deben existir varias. Al desembarcar, se añade el flujo de la escalera a la salida correspondiente.</p><p><b>Ejemplo didáctico:</b> para P = 240 por una puerta, P/200 = 1,20 m; es superior al mínimo general. Todavía se comprueban hojas, accesibilidad, uso y demás condiciones.</p></div>",
+      "recall": "¿Qué anchura da P/200 para 240 personas? ¿Qué se comprueba después?",
+      "answer": "1,20 m. Se contrasta con el mínimo por uso y con las condiciones de las hojas, accesibilidad y asignación con bloqueo.",
+      "questions": [
+        [
+          26,
+          "Para P = 240 asignadas a una puerta, P/200 da…",
+          "1,20 m",
+          [
+            "0,80 m",
+            "1,50 m"
+          ],
+          "El mínimo de 0,80 m no sustituye a la anchura que resulte del número de personas."
+        ],
+        [
+          26,
+          "La fórmula de una escalera no protegida para evacuación ascendente es…",
+          "A ≥ P/(160 − 10h)",
+          [
+            "A ≥ P/200",
+            "A ≥ P/600"
+          ],
+          "El término de altura h reduce la capacidad de la escalera ascendente."
+        ],
+        [
+          25,
+          "Si deben existir varias escaleras protegidas, el cálculo…",
+          "No exige inutilizar completamente una de ellas",
+          [
+            "Exige cerrar todas excepto una",
+            "Ignora la asignación de ocupantes"
+          ],
+          "La excepción al bloqueo total se aplica a protegidas, especialmente protegidas y compartimentadas como sector; no elimina el resto de hipótesis de asignación."
+        ]
+      ]
+    },
+    {
+      "id": "escaleras",
+      "title": "SI 3 · Protección de escaleras",
+      "heading": "El uso decide cuándo proteger",
+      "pages": [
+        28,
+        28,
+        44,
+        45
+      ],
+      "essential": "Descendente: vivienda, administrativo y docente admiten no protegida hasta <b>14 m</b> y protegida hasta <b>28 m</b>; comercial y pública concurrencia, hasta <b>10 / 20 m</b>. En aparcamiento se exige <b>especialmente protegida</b>, en ambos sentidos.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Uso, evacuación descendente</th><th scope=\"col\">No protegida</th><th scope=\"col\">Protegida</th></tr></thead><tbody><tr><td>Vivienda / Administrativo / Docente</td><td>h ≤ 14 m</td><td>h ≤ 28 m</td></tr><tr><td>Comercial / Pública concurrencia</td><td>h ≤ 10 m</td><td>h ≤ 20 m</td></tr><tr><td>Residencial Público</td><td>Baja más una</td><td>h ≤ 28 m, con nota 3</td></tr><tr><td>Hospitalario: hospitalización/intensivos</td><td>No admitida</td><td>h ≤ 14 m</td></tr><tr><td>Hospitalario: otras zonas</td><td>h ≤ 10 m</td><td>h ≤ 20 m</td></tr><tr><td>Aparcamiento</td><td>No admitida</td><td>No admitida: especialmente protegida</td></tr></tbody></table></div><div class=\"extra\"><h3>Ascendente, otros usos</h3><p>No protegida: admitida hasta 2,80 m; entre 2,80 y 6 m, solo si sirve a ≤ 100 personas; por encima de 6 m no se admite. Protegida y especialmente protegida se admiten en todo caso en esa fila.</p><h3>Qué significa protegida</h3><p>Recinto de circulación continuo, paredes EI 120, accesos EI₂ 60-C5, como máximo dos por planta, y protección frente al humo. Esta puede resolverse mediante ventanas/huecos con <b>1 m² útil por planta</b>, dos conductos independientes con condiciones o un sistema de presión diferencial.</p><p>La especialmente protegida añade un vestíbulo distinto en cada acceso, con excepciones para abiertas al exterior y para la planta de salida en evacuación ascendente. La escalera abierta al exterior puede considerarse especialmente protegida si cumple su definición.</p><p>En Residencial Público de <b>menos de 20 plazas</b>, la nota 3 permite detección y alarma como alternativa a escalera protegida. No confundas «menos de 20» con las «20 plazas como máximo» de la excepción de salidas.</p></div>",
+      "recall": "¿Qué protección necesita la escalera de un aparcamiento? ¿Y una descendente de vivienda con h = 18 m?",
+      "answer": "Aparcamiento: especialmente protegida. Vivienda a 18 m: como mínimo protegida, con el resto de condiciones de la tabla y su definición.",
+      "questions": [
+        [
+          28,
+          "Una escalera descendente de vivienda con h = 18 m exige como mínimo…",
+          "Protegida",
+          [
+            "No protegida",
+            "Ninguna condición por altura"
+          ],
+          "La no protegida llega hasta 14 m; la protegida se admite hasta 28 m."
+        ],
+        [
+          28,
+          "En Aparcamiento, las escaleras de evacuación deben ser…",
+          "Especialmente protegidas",
+          [
+            "No protegidas si h < 14 m",
+            "Protegidas sin vestíbulo en todo caso"
+          ],
+          "La tabla no admite las dos categorías inferiores en Aparcamiento, tanto para evacuación descendente como ascendente."
+        ],
+        [
+          45,
+          "La opción de ventilación natural de una escalera protegida exige, por planta…",
+          "Al menos 1 m² útil de ventilación",
+          [
+            "0,20 m² en total",
+            "5 m² por cada ocupante"
+          ],
+          "Es una de las tres opciones de protección frente al humo; no es la definición de escalera abierta al exterior."
+        ]
+      ]
+    },
+    {
+      "id": "puertas",
+      "title": "SI 3 · Puertas y señales",
+      "heading": "Abrir con rapidez y orientar sin dudas",
+      "pages": [
+        29,
+        30
+      ],
+      "essential": "Abrir en el sentido de evacuación: puertas de salida para <b>&gt; 200 personas en vivienda</b> o <b>&gt; 100 en otros usos</b>, o para <b>&gt; 50 ocupantes del recinto</b>. Mantén separados estos umbrales de los que obligan a puerta abatible y apertura sin llave.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Regla</th><th scope=\"col\">Condición</th></tr></thead><tbody><tr><td>Puerta abatible de eje vertical y apertura fácil</td><td>Salidas de planta/edificio y puertas previstas para evacuar > 50 personas; sin llave ni más de un mecanismo, en los términos del apartado 6.1. Hay régimen específico para automáticas.</td></tr><tr><td>Usuarios familiarizados</td><td>Manilla o pulsador conforme a UNE-EN 179.</td></tr><tr><td>Usuarios no familiarizados, con apertura en sentido de evacuación</td><td>Barra horizontal de empuje o deslizamiento UNE-EN 1125.</td></tr><tr><td>SALIDA</td><td>Señal para salidas con las excepciones de vivienda y determinados recintos ≤ 50 m².</td></tr><tr><td>Salida de emergencia</td><td>Se reserva a salidas de uso exclusivo en emergencia.</td></tr><tr><td>Sin salida</td><td>Junto a la puerta que pueda inducir a error; nunca sobre sus hojas.</td></tr></tbody></table></div><div class=\"extra\"><p>Las direcciones se señalizan cuando no se percibe la salida, en alternativas confusas y frente a accesos laterales a pasillos desde recintos de más de 100 personas. Las señales deben ser visibles incluso si falla el alumbrado normal. Los itinerarios accesibles se acompañan del SIA y, cuando corresponda, del rótulo ZONA DE REFUGIO.</p><p>Las automáticas tienen requisitos propios ante fallo eléctrico o señal de emergencia: consulta los casos de correderas, plegables y abatibles de la p. 29 y sus fuerzas de apertura. No apliques el umbral de 220 N a cualquier puerta ni a cualquier itinerario accesible.</p></div>",
+      "recall": "¿Una puerta que sirve a 60 personas de un recinto debe abrir en el sentido de evacuación? ¿Dónde va «Sin salida»?",
+      "answer": "Sí, supera 50 ocupantes del recinto. «Sin salida» se coloca junto a la puerta, nunca sobre las hojas.",
+      "questions": [
+        [
+          29,
+          "Una puerta de salida de un recinto con 60 ocupantes debe abrir…",
+          "En el sentido de evacuación",
+          [
+            "En cualquier sentido por no llegar a 100",
+            "Solo hacia dentro"
+          ],
+          "El criterio de más de 50 ocupantes del recinto es independiente del de 100 o 200 personas por puerta."
+        ],
+        [
+          29,
+          "Para usuarios no familiarizados, la barra horizontal de apertura se asocia a…",
+          "UNE-EN 1125",
+          [
+            "UNE-EN 179",
+            "UNE 23034"
+          ],
+          "UNE-EN 179 corresponde a manilla o pulsador para usuarios familiarizados. La señalización se regula en UNE 23034."
+        ],
+        [
+          30,
+          "La señal «Sin salida» se coloca…",
+          "Junto a la puerta, nunca sobre sus hojas",
+          [
+            "Sobre la hoja a la altura de la manilla",
+            "Solo en el techo del recinto"
+          ],
+          "Debe ser fácilmente visible sin colocarse sobre las hojas de la puerta."
+        ]
+      ]
+    },
+    {
+      "id": "humo-refugio",
+      "title": "SI 3 · Humo y accesibilidad",
+      "heading": "Proteger el tiempo y el lugar de evacuación",
+      "pages": [
+        30,
+        31,
+        52,
+        52
+      ],
+      "essential": "Control de humo en aparcamientos no abiertos; comercial o pública concurrencia con <b>&gt; 1.000 personas</b>; atrios con <b>&gt; 500</b> según ocupación o evacuación. En los supuestos de SI 3-9: <b>sector alternativo accesible o zona de refugio</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Evacuación accesible: supuesto</th><th scope=\"col\">Umbral que activa SI 3-9.1</th></tr></thead><tbody><tr><td>Residencial Vivienda</td><td>h > 28 m</td></tr><tr><td>Residencial Público / Administrativo / Docente</td><td>h > 14 m</td></tr><tr><td>Comercial / Pública concurrencia</td><td>h > 10 m</td></tr><tr><td>Planta de Aparcamiento</td><td>S > 1.500 m²</td></tr></tbody></table></div><div class=\"extra\"><p>En esos supuestos, toda planta que no sea de ocupación nula y carezca de salida de edificio accesible debe disponer de salida de planta accesible a sector alternativo o zona de refugio. Dotación: <b>1 plaza para silla de ruedas por cada 100 ocupantes o fracción</b>; salvo vivienda, <b>1 para otra movilidad reducida por cada 33 o fracción</b>.</p><p>Plazas: silla <b>1,20 × 0,80 m</b>; otra movilidad reducida <b>0,80 × 0,60 m</b>. Se sitúan sin invadir la anchura de paso y con círculo próximo de <b>Ø 1,50 m</b>, que puede invadir una plaza de silla. El Anejo A fija la comunicación con un puesto de control permanente cuando corresponda.</p><h3>Ventilación mecánica de aparcamientos</h3><p>Cuando se adopta la solución de DB HS 3 para control de humo: extracción <b>150 l/(plaza·s)</b>, aportación máxima <b>120 l/(plaza·s)</b> y activación automática por detección. Ventiladores F300 60; conductos de un sector E300 60; si atraviesan separaciones de sectores, EI 60. Consulta las compuertas para plantas de más de 4 m de altura.</p></div>",
+      "recall": "Para 220 ocupantes en un uso distinto de vivienda, cuando procede una zona de refugio, ¿cuántas plazas requiere?",
+      "answer": "3 para silla de ruedas y 7 para otra movilidad reducida: se redondea por fracciones de 100 y 33, respectivamente.",
+      "questions": [
+        [
+          31,
+          "Para 220 ocupantes, cuando procede refugio en uso distinto de vivienda, la dotación es…",
+          "3 plazas de silla y 7 de otra movilidad reducida",
+          [
+            "2 plazas de silla y 6 de otra movilidad reducida",
+            "3 plazas de silla y ninguna otra"
+          ],
+          "Se aplica una plaza por cada 100 y por cada 33 ocupantes o fracción. La excepción de la segunda dotación corresponde a vivienda."
+        ],
+        [
+          30,
+          "En Comercial o Pública concurrencia, SI 3 exige control de humo por ocupación cuando esta…",
+          "Excede de 1.000 personas",
+          [
+            "Excede de 100 personas",
+            "Alcanza exactamente 500 personas"
+          ],
+          "El umbral de 500 se refiere a los atrios en los términos del apartado, no a estos dos usos en general."
+        ],
+        [
+          30,
+          "La solución mecánica de aparcamiento de SI 3 indica extracción y aportación máxima de…",
+          "150 y 120 l/(plaza·s), respectivamente",
+          [
+            "120 y 150 l/(plaza·s)",
+            "150 y 120 m³/(plaza·s)"
+          ],
+          "No intercambies los valores ni cambies litros por metros cúbicos. Se requiere activación automática por detección."
+        ]
+      ]
+    },
+    {
+      "id": "instalaciones",
+      "title": "SI 4 · Dotación general",
+      "heading": "El equipo y su distancia importan",
+      "pages": [
+        32,
+        35
+      ],
+      "essential": "Extintor portátil <b>21A-113B</b>, a <b>≤ 15 m de recorrido</b> desde todo origen de evacuación en cada planta. Ascensor de emergencia en plantas con <b>h &gt; 28 m</b>. Extinción automática general si el edificio tiene <b>h &gt; 80 m</b>, salvo indicación por uso.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Instalación</th><th scope=\"col\">Condición general destacada</th></tr></thead><tbody><tr><td>Extintores en riesgo especial</td><td>Uno exterior próximo al acceso; en el interior, los necesarios para ≤ 15 m hasta alguno en bajo/medio y ≤ 10 m en alto, incluido el exterior.</td></tr><tr><td>BIE en riesgo especial alto</td><td>Cuando predominen combustibles sólidos: 45 mm; en vivienda, 25 mm. Las BIE exigidas por las filas de uso de la tabla son de 25 mm.</td></tr><tr><td>Hidrantes por altura</td><td>Altura descendente > 28 m o ascendente > 6 m. También existe el supuesto de densidad > 1 persona/5 m² y superficie de 2.000 a 10.000 m².</td></tr><tr><td>Hidrantes: cómputo</td><td>Al menos uno hasta 10.000 m² y uno más por cada 10.000 m² adicionales o fracción en los supuestos exigidos. Cuentan los de vía pública a menos de 100 m de la fachada accesible.</td></tr><tr><td>Cocinas: extinción automática</td><td>P > 20 kW en Hospitalario o Residencial Público; P > 50 kW en los demás usos.</td></tr></tbody></table></div><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>La tela del extintor</h3><p>Una <b>Tela (15)</b> se estira por el recorrido hasta llegar al extintor. En la etiqueta del extintor lees <b>21A-113B</b>.</p><p class=\"note\"><b>Dato exacto:</b> En general, el recorrido desde todo origen de evacuación hasta un extintor no supera 15 m. La eficacia exigida es 21A-113B.</p></div><div class=\"extra\"><p>SI 4 establece la dotación y remite el diseño, ejecución, puesta en servicio y mantenimiento al <b>RIPCI</b> y a la reglamentación específica. La señalización de instalaciones manuales también remite al RIPCI. Los locales y zonas subsidiarias disponen de su dotación propia y nunca inferior a la exigencia general del uso principal.</p><p>No confundas la potencia de cocina que clasifica el riesgo especial con la que activa la extinción automática: en Hospitalario y Residencial Público esta última ya se exige por encima de 20 kW.</p></div>",
+      "recall": "Distingue 15 m de extintor, 10 m en riesgo alto y los umbrales de cocina.",
+      "answer": "15 m general y en riesgo especial bajo/medio; 10 m hasta extintor en riesgo alto. Extinción de cocinas: > 20 kW en Hospitalario/Residencial Público y > 50 kW en el resto.",
+      "questions": [
+        [
+          32,
+          "La referencia general de eficacia y recorrido hasta extintor es…",
+          "21A-113B y máximo 15 m",
+          [
+            "13A-89B y máximo 25 m",
+            "21A-113B y máximo 50 m"
+          ],
+          "Se mide recorrido desde todo origen de evacuación, en cada planta."
+        ],
+        [
+          33,
+          "En una cocina de uso Hospitalario, la extinción automática se exige si la potencia…",
+          "Excede de 20 kW",
+          [
+            "Alcanza 50 kW exclusivamente",
+            "Excede de 80 kW"
+          ],
+          "El umbral para Hospitalario y Residencial Público es mayor que 20 kW; para los demás usos, mayor que 50 kW."
+        ],
+        [
+          35,
+          "En riesgo especial alto, el recorrido real hasta algún extintor no será mayor que…",
+          "10 m",
+          [
+            "15 m",
+            "25 m"
+          ],
+          "Se cuenta también el extintor exterior próximo a la puerta. Los 25 m de SI 1 se refieren a evacuación hasta alguna salida del local."
+        ]
+      ]
+    },
+    {
+      "id": "dotacion-usos",
+      "title": "SI 4 · Dotación por uso",
+      "heading": "No traslades un umbral a otro uso",
+      "pages": [
+        33,
+        35,
+        42,
+        42
+      ],
+      "essential": "Columna seca: <b>h &gt; 24 m</b> en vivienda y varios usos; <b>h &gt; 15 m</b> en Hospitalario. BIE: <b>&gt; 2.000 m²</b> en Administrativo/Docente; <b>&gt; 500 m²</b> en Comercial/Pública concurrencia/Aparcamiento convencional; <b>siempre</b> en Hospitalario.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Uso</th><th scope=\"col\">BIE</th><th scope=\"col\">Detección / alarma y otras claves</th></tr></thead><tbody><tr><td>Vivienda</td><td>Según exigencias generales de zonas especiales</td><td>Detección y alarma si h > 50 m; columna seca si h > 24 m.</td></tr><tr><td>Administrativo / Docente</td><td>S > 2.000 m²</td><td>Alarma si S > 1.000; detección en riesgo alto si S > 2.000 y en todo el edificio si S > 5.000 m².</td></tr><tr><td>Residencial Público</td><td>S > 1.000 m² o > 50 alojados</td><td>Detección y alarma si S > 500 m²; extinción automática si h > 28 m o S > 5.000 m².</td></tr><tr><td>Hospitalario</td><td>En todo caso</td><td>Detección y alarma en todo caso; columna seca > 15 m; ascensor de emergencia en hospitalización/intensivos > 15 m.</td></tr><tr><td>Comercial</td><td>S > 500 m²</td><td>Alarma > 1.000 m²; detección > 2.000 m². Extinción en el supuesto combinado de área de ventas > 1.500 m² y carga de fuego > 500 MJ/m².</td></tr><tr><td>Pública concurrencia</td><td>S > 500 m²</td><td>Alarma con megafonía si P > 500; detección si S > 1.000 m².</td></tr><tr><td>Aparcamiento convencional</td><td>S > 500 m²</td><td>Detección si S > 500 m²; columna seca si > 3 plantas bajo rasante o > 4 sobre rasante.</td></tr><tr><td>Aparcamiento robotizado</td><td>Excluido de la BIE de la fila de uso</td><td>Pulsadores de alarma y extinción automática en todo caso.</td></tr></tbody></table></div><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>La nuca y la columna</h3><p>Una <b>Nuca (24)</b> se endereza como una columna seca. La etiqueta dice «se exige por encima de 24 m».</p><p class=\"note\"><b>Dato exacto:</b> En vivienda, Administrativo, Docente, Comercial, Pública concurrencia y Residencial Público, columna seca si h > 24 m; Hospitalario usa > 15 m. El aparcamiento tiene otra regla por plantas.</p></div><div class=\"extra\"><h3>Ascensor de emergencia: Anejo A</h3><p>Carga mínima <b>630 kg</b>; cabina <b>1,10 × 1,40 m</b>; paso <b>1 m</b>; todo el recorrido en <b>menos de 60 s</b>; alimentación propia con autonomía mínima <b>1 h</b>. En Hospitalario la cabina es al menos <b>1,20 × 2,10 m</b>. Dotación: uno accesible por cada 1.000 ocupantes o fracción.</p><p>El municipio puede sustituir la exigencia de columna seca por BIE en las circunstancias previstas en la nota 5. Los umbrales resumidos no sustituyen las notas ni las exigencias generales de SI 4.</p></div>",
+      "recall": "¿En qué uso baja a 15 m la columna seca? ¿Qué exige un aparcamiento robotizado?",
+      "answer": "Hospitalario. El robotizado exige pulsadores de alarma y extinción automática en todo caso; se excluye de la BIE de la fila de Aparcamiento.",
+      "questions": [
+        [
+          33,
+          "La columna seca se exige en Hospitalario si la altura de evacuación…",
+          "Excede de 15 m",
+          [
+            "Excede de 24 m",
+            "Excede de 50 m"
+          ],
+          "El umbral hospitalario es distinto al de vivienda y varios de los demás usos."
+        ],
+        [
+          34,
+          "En Pública concurrencia, el sistema de alarma con megafonía se exige si…",
+          "La ocupación excede de 500 personas",
+          [
+            "La superficie supera 500 m² en todos los casos",
+            "La altura alcanza 28 m"
+          ],
+          "No confundas el umbral de ocupación de alarma con el de superficie para BIE."
+        ],
+        [
+          35,
+          "Un aparcamiento robotizado debe disponer en todo caso de…",
+          "Pulsadores de alarma y extinción automática",
+          [
+            "Solo BIE de 25 mm",
+            "Solo detectores si supera 2.000 m²"
+          ],
+          "La tabla impone estos dos sistemas sin umbral de superficie para el robotizado."
+        ]
+      ]
+    },
+    {
+      "id": "aproximacion",
+      "title": "SI 5 · Aproximación",
+      "heading": "Que el vehículo pueda llegar",
+      "pages": [
+        36,
+        36
+      ],
+      "essential": "Vial de aproximación: <b>3,5 m</b> de anchura libre, <b>4,5 m</b> de gálibo y <b>20 kN/m²</b> de capacidad portante. Curvas: radios mínimos <b>5,30 y 12,50 m</b>, con anchura libre de circulación de <b>7,20 m</b>.",
+      "body": "<div class=\"grid three\"><div class=\"card\"><h3>3,5 m</h3><p>Anchura mínima libre del vial.</p></div><div class=\"card\"><h3>4,5 m</h3><p>Altura mínima libre o gálibo.</p></div><div class=\"card\"><h3>20 kN/m²</h3><p>Capacidad portante del vial.</p></div></div><div class=\"visual\"><svg viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Vial de aproximación: anchura 3,5 metros y gálibo 4,5 metros\"><path d=\"M65 155V25H465V155\" fill=\"none\" stroke=\"#23483f\" stroke-width=\"5\"/><rect x=\"185\" y=\"78\" width=\"170\" height=\"67\" rx=\"7\" fill=\"#b94f2b\"/><rect x=\"305\" y=\"88\" width=\"38\" height=\"22\" fill=\"#fffef8\"/><circle cx=\"218\" cy=\"147\" r=\"13\" fill=\"#23483f\"/><circle cx=\"329\" cy=\"147\" r=\"13\" fill=\"#23483f\"/><path d=\"M80 170H450M490 30V155\" stroke=\"#487253\" stroke-width=\"2\"/><g fill=\"#243b34\" font-family=\"Segoe UI, sans-serif\" font-size=\"17\"><text x=\"226\" y=\"187\">≥ 3,5 m</text><text x=\"505\" y=\"99\">≥ 4,5 m</text><text x=\"168\" y=\"56\">Vial ≥ 20 kN/m²</text></g></svg></div><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>La noria lleva el camión</h3><p>Una <b>Noria (20)</b> sostiene el camión de bomberos sobre el vial. En el arco de entrada lees 3,5 de ancho y 4,5 de alto.</p><p class=\"note\"><b>Dato exacto:</b> Vial: capacidad portante de 20 kN/m²; anchura libre ≥ 3,5 m; gálibo ≥ 4,5 m.</p></div><div class=\"extra\"><p>Estos viales conducen a los espacios de maniobra del apartado 1.2. La corona circular de los tramos curvos debe satisfacer simultáneamente radios y anchura libre. No confundas <b>20 kN/m² de capacidad del vial</b> con <b>100 kN sobre Ø 20 cm de punzonamiento</b> del espacio de maniobra.</p></div>",
+      "recall": "Recita ancho, alto, capacidad y los tres datos de la curva.",
+      "answer": "3,5 m; 4,5 m; 20 kN/m². Curva: radios 5,30 y 12,50 m; anchura libre 7,20 m.",
+      "questions": [
+        [
+          36,
+          "El vial de aproximación debe tener anchura y gálibo mínimos de…",
+          "3,5 y 4,5 m",
+          [
+            "5 y 3,5 m",
+            "4,5 y 3,5 m"
+          ],
+          "La anchura de 5 m pertenece al espacio de maniobra, no al vial."
+        ],
+        [
+          36,
+          "La capacidad portante del vial de aproximación es…",
+          "20 kN/m²",
+          [
+            "100 kN/m²",
+            "20 kN sobre Ø 20 cm"
+          ],
+          "Es una carga por superficie. El requisito de punzonamiento del espacio de maniobra usa otra magnitud."
+        ],
+        [
+          36,
+          "En curva, los radios mínimos interior y exterior son…",
+          "5,30 y 12,50 m",
+          [
+            "3,50 y 4,50 m",
+            "7,20 y 20 m"
+          ],
+          "La anchura libre de circulación correspondiente es 7,20 m."
+        ]
+      ]
+    },
+    {
+      "id": "maniobra",
+      "title": "SI 5 · Espacio de maniobra",
+      "heading": "Acercarse a la fachada y poder trabajar",
+      "pages": [
+        36,
+        37
+      ],
+      "essential": "Con altura de evacuación descendente <b>&gt; 9 m</b> se exige el espacio de maniobra del apartado 1.2. Anchura <b>≥ 5 m</b>; pendiente <b>≤ 10%</b>; distancia a accesos <b>≤ 30 m</b>. Separación máxima a fachada: <b>23 / 18 / 10 m</b> según altura.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Altura de evacuación del edificio</th><th scope=\"col\">Separación máxima vehículo-fachada</th></tr></thead><tbody><tr><td>h ≤ 15 m</td><td>23 m</td></tr><tr><td>15 < h ≤ 20 m</td><td>18 m</td></tr><tr><td>h > 20 m</td><td>10 m</td></tr></tbody></table></div><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Otras condiciones</th><th scope=\"col\">Valor</th></tr></thead><tbody><tr><td>Altura libre</td><td>La del edificio.</td></tr><tr><td>Resistencia al punzonamiento</td><td>100 kN sobre un círculo de Ø 20 cm.</td></tr><tr><td>Acceso a conexión de columna seca</td><td>Equipo de bombeo a menos de 18 m; conexión visible desde el camión.</td></tr><tr><td>Vía sin salida</td><td>Si mide más de 20 m, espacio suficiente para maniobrar.</td></tr></tbody></table></div><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>El techo señala la conexión</h3><p>Un <b>Techo (18)</b> lleva un cartel que el conductor ve desde el camión: «conexión de columna seca a menos de 18 m».</p><p class=\"note\"><b>Dato exacto:</b> Debe existir acceso para un equipo de bombeo a menos de 18 m de cada conexión de columna seca; el punto será visible desde el camión.</p></div><div class=\"extra\"><p>El espacio de maniobra se sitúa a lo largo de las fachadas con accesos al edificio o al espacio abierto interior que los contenga. Debe permanecer libre de mobiliario, árboles, jardines y otros obstáculos. Para escaleras o plataformas hidráulicas se evitan también cables aéreos y ramas.</p><p>El punzonamiento se comprueba también en tapas de registro mayores de 0,15 × 0,15 m en las condiciones indicadas por SI 5. No conviertas la pendiente máxima del 10% en grados.</p></div>",
+      "recall": "Para h = 18 m, ¿qué distancia máxima a fachada corresponde? ¿Y con h = 24 m?",
+      "answer": "A 18 m de altura, separación máxima 18 m. A 24 m de altura, máximo 10 m. La tabla usa altura de evacuación.",
+      "questions": [
+        [
+          36,
+          "Para altura de evacuación de 18 m, la separación máxima a fachada es…",
+          "18 m",
+          [
+            "23 m",
+            "10 m"
+          ],
+          "18 m pertenece al tramo mayor de 15 y hasta 20 m de altura de evacuación."
+        ],
+        [
+          36,
+          "El espacio de maniobra se exige por el apartado 1.2 con altura descendente…",
+          "Mayor que 9 m",
+          [
+            "Mayor que 28 m",
+            "Igual o mayor que 3,5 m"
+          ],
+          "No confundas la altura que activa el requisito con los tramos que fijan la separación a fachada."
+        ],
+        [
+          37,
+          "La distancia del equipo de bombeo a cada conexión de columna seca debe ser…",
+          "Menor que 18 m",
+          [
+            "Hasta 30 m inclusive",
+            "Menor que 23 m"
+          ],
+          "Además, el punto de conexión debe ser visible desde el camión de bombeo. Los 30 m se refieren al acceso al edificio."
+        ]
+      ]
+    },
+    {
+      "id": "fachada-forestal",
+      "title": "SI 5 · Huecos y entorno forestal",
+      "heading": "Entrar por fachada y disponer de accesos",
+      "pages": [
+        37,
+        37
+      ],
+      "essential": "Hueco de acceso: <b>≥ 0,80 m horizontal × 1,20 m vertical</b>; alféizar <b>≤ 1,20 m</b>; ejes consecutivos <b>≤ 25 m</b>. En entorno forestal: franja de <b>25 m</b> y camino perimetral de <b>5 m</b>, que puede estar incluido en ella.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Condición</th><th scope=\"col\">Qué exige SI 5</th></tr></thead><tbody><tr><td>Huecos</td><td>Acceso a cada planta en las fachadas del apartado 1.2; sin elementos que dificulten la entrada, con la excepción de seguridad en plantas con h ≤ 9 m.</td></tr><tr><td>Entorno forestal</td><td>Franja de 25 m libre de arbustos o vegetación que pueda propagar el incendio, con camino perimetral de 5 m.</td></tr><tr><td>Vías alternativas</td><td>Preferentemente dos accesos, ambos con las condiciones de aproximación.</td></tr><tr><td>Si solo puede haber un acceso</td><td>Final en fondo de saco circular de radio 12,50 m, con las condiciones indicadas.</td></tr><tr><td>Aparcamiento robotizado</td><td>Vía hasta cada nivel con elementos EI 120, puertas EI₂ 60-C5 y extracción mecánica de 3 renovaciones/hora.</td></tr></tbody></table></div><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>El Nilo rodea el edificio</h3><p>El <b>Nilo (25)</b> rodea el edificio y deja una franja sin vegetación propagadora. Dentro de ella, una <b>Ola (5)</b> dibuja el camino perimetral.</p><p class=\"note\"><b>Dato exacto:</b> Franja forestal de 25 m; camino perimetral de 5 m, que puede estar incluido en la franja. La distancia entre ejes de huecos también tiene un máximo de 25 m, pero es otro requisito.</p></div><div class=\"caution\"><b>Dos datos de 1,20 m:</b> la altura mínima del hueco y la altura máxima del alféizar. Uno es un mínimo de apertura; el otro, un máximo sobre el suelo de la planta.</div>",
+      "recall": "Di las dos medidas de 1,20 m y explica si 25 + 5 obliga a sumar 30 m.",
+      "answer": "Hueco vertical ≥ 1,20 m; alféizar ≤ 1,20 m. El camino de 5 m puede ir dentro de la franja de 25 m: no se exige sumar siempre 30 m.",
+      "questions": [
+        [
+          37,
+          "Las dimensiones mínimas horizontal y vertical del hueco de acceso son…",
+          "0,80 × 1,20 m",
+          [
+            "1,20 × 0,80 m",
+            "1,00 × 1,00 m"
+          ],
+          "Además, alféizar ≤ 1,20 m y separación entre ejes consecutivos ≤ 25 m."
+        ],
+        [
+          37,
+          "El camino perimetral de 5 m en entorno forestal…",
+          "Puede estar incluido en la franja de 25 m",
+          [
+            "Debe sumarse siempre a la franja para llegar a 30 m",
+            "Sustituye por sí solo a la franja"
+          ],
+          "La franja y el camino son requisitos relacionados; el texto permite incluir el camino en la franja."
+        ],
+        [
+          37,
+          "Si no hay dos vías de acceso alternativas en la zona forestal, el acceso único acaba en…",
+          "Fondo de saco circular de radio 12,50 m",
+          [
+            "Fondo de saco de diámetro 12,50 m",
+            "Un pasillo de 0,80 m"
+          ],
+          "12,50 m es el radio, no el diámetro. También se mantienen las condiciones de espacio sin obstáculos."
+        ]
+      ]
+    },
+    {
+      "id": "estructura",
+      "title": "SI 6 · Estructura",
+      "heading": "Mantener la capacidad durante el incendio",
+      "pages": [
+        38,
+        41
+      ],
+      "essential": "Resistencia estructural suficiente: el efecto de las acciones no supera la resistencia del elemento durante la exposición. Tablas: vivienda y usos afines sobre rasante <b>R 60 / 90 / 120</b>; comercial, pública concurrencia y hospitalario <b>R 90 / 120 / 180</b>, según <b>≤ 15 / ≤ 28 / &gt; 28 m</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Uso del sector</th><th scope=\"col\">Sótano</th><th scope=\"col\">h ≤ 15 m</th><th scope=\"col\">15 < h ≤ 28 m</th><th scope=\"col\">h > 28 m</th></tr></thead><tbody><tr><td>Vivienda, Residencial Público, Docente, Administrativo</td><td>R 120</td><td>R 60</td><td>R 90</td><td>R 120</td></tr><tr><td>Comercial, Pública concurrencia, Hospitalario</td><td>R 120*</td><td>R 90</td><td>R 120</td><td>R 180</td></tr></tbody></table></div><p class=\"note\">* En sótano, R 180 si la altura de evacuación del edificio excede de 28 m. Las alturas de las columnas corresponden al edificio.</p><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Caso</th><th scope=\"col\">Resistencia destacada</th></tr></thead><tbody><tr><td>Vivienda unifamiliar</td><td>R 30; la estructura común de agrupadas/adosadas sigue las exigencias de Residencial Vivienda.</td></tr><tr><td>Aparcamiento exclusivo o sobre otro uso</td><td>R 90.</td></tr><tr><td>Aparcamiento bajo otro uso</td><td>R 120; si es robotizado, R 180.</td></tr><tr><td>Riesgo especial bajo / medio / alto</td><td>R 90 / R 120 / R 180, con la condición de no reducir la exigencia de la planta y su excepción de cubierta.</td></tr><tr><td>Elementos contenidos en escalera o pasillo protegido</td><td>R 30 como mínimo. En escaleras especialmente protegidas no se exige resistencia a sus elementos estructurales.</td></tr></tbody></table></div><div class=\"extra\"><p>La comprobación puede hacerse mediante clases de las tablas, tiempo equivalente de exposición al fuego, métodos simplificados de los anejos o ensayos, según los casos. Los métodos simplificados permiten no considerar las acciones indirectas del incendio.</p><p>Las cubiertas ligeras no usadas para evacuar y de altura ≤ 28 m pueden ser R 30 si su fallo no causa daños graves a edificios próximos, ni compromete otras plantas o la sectorización. A estos efectos se considera ligera la cubierta con cerramiento de carga permanente ≤ 1 kN/m².</p><p>Los elementos secundarios quedan sin exigencia solo si su colapso no daña ocupantes ni compromete estabilidad global, evacuación o compartimentación. SI 6 <b>no evalúa la capacidad portante después del incendio</b>.</p></div>",
+      "recall": "¿R 120 predice dos horas de estabilidad en cualquier incendio real? ¿Qué queda fuera de SI 6?",
+      "answer": "La clase se verifica con una exposición normalizada y condiciones definidas; no predice de forma universal un incendio real. SI 6 no considera la capacidad portante después del incendio.",
+      "questions": [
+        [
+          39,
+          "La estructura de un aparcamiento situado bajo otro uso exige como regla…",
+          "R 120",
+          [
+            "R 30",
+            "R 60"
+          ],
+          "Si el aparcamiento es robotizado bajo otro uso, R 180. El exclusivo o situado sobre otro uso tiene R 90."
+        ],
+        [
+          39,
+          "En Administrativo sobre rasante, con altura de evacuación de 20 m, la tabla exige…",
+          "R 90",
+          [
+            "R 60",
+            "R 180"
+          ],
+          "El tramo es mayor de 15 y hasta 28 m. No uses la fila de Comercial/Hospitalario."
+        ],
+        [
+          39,
+          "SI 6 considera la capacidad portante de la estructura tras el incendio…",
+          "No, queda fuera de su evaluación",
+          [
+            "Sí, para cualquier daño residual",
+            "Solo si el incendio duró menos de 30 minutos"
+          ],
+          "SI 6 evalúa la resistencia durante el incendio; no acredita la capacidad portante residual."
+        ]
+      ]
+    },
+    {
+      "id": "anejos",
+      "title": "Anejos A–G y repaso final",
+      "heading": "Saber dónde buscar también es estudiar",
+      "pages": [
+        53,
+        53,
+        57,
+        57,
+        69,
+        69,
+        73,
+        73,
+        85,
+        86
+      ],
+      "essential": "<b>A:</b> terminología. <b>B:</b> tiempo equivalente. <b>C:</b> hormigón. <b>D:</b> acero. <b>E:</b> madera. <b>F:</b> fábrica. <b>G:</b> normas. Curva normalizada: <b>θg = 20 + 345 log₁₀(8t + 1)</b>, con t en minutos y temperatura en °C.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Anejo</th><th scope=\"col\">Páginas del PDF</th><th scope=\"col\">Para qué consultarlo</th></tr></thead><tbody><tr><td>A</td><td>42–52</td><td>Definiciones: escaleras, salidas, refugio, usos y espacio exterior seguro.</td></tr><tr><td>B</td><td>53–56</td><td>Curva normalizada y tiempo equivalente; geometría, ventilación y carga de fuego.</td></tr><tr><td>C</td><td>57–68</td><td>Hormigón: tablas de dimensiones y distancia al eje de armaduras, métodos simplificados.</td></tr><tr><td>D</td><td>69–72</td><td>Acero: protección, factor de forma y comportamiento resistente.</td></tr><tr><td>E</td><td>73–84</td><td>Madera: sección reducida y profundidad eficaz de carbonización.</td></tr><tr><td>F</td><td>85</td><td>Fábrica: tablas por material, espesor y revestimiento.</td></tr><tr><td>G</td><td>86–92</td><td>Referencias de normas de clasificación, ensayo, productos, humo y herrajes.</td></tr></tbody></table></div><div class=\"extra\"><h3>Lectura de los métodos</h3><p>La curva normalizada es un modelo convencional, no la evolución de todos los incendios reales. El Anejo B cita aproximadamente 840 °C a 30 min y 950 °C a 60 min. El tiempo equivalente iguala el efecto térmico del incendio de cálculo con el de una duración de exposición normalizada.</p><p>En acero, A<sub>m</sub>/V representa superficie expuesta por volumen; para sección constante, perímetro expuesto dividido entre área. En madera, se comprueba una sección reducida eliminando la profundidad eficaz: d<sub>ef</sub> = d<sub>char,n</sub> + k₀d₀, con d₀ = 7 mm. En fábrica, las tablas dependen también del revestimiento y de las caras tratadas.</p><p>Este bloque orienta la consulta de los métodos. Las tablas de cálculo y todas sus condiciones se conservan completas en el PDF; el cuaderno no las sustituye.</p><h3>Un recorrido final por el edificio</h3><ol><li>Define uso y ocupación.</li><li>Separa sectores, riesgos y pasos de instalaciones.</li><li>Comprueba fachadas y cubiertas.</li><li>Asigna salidas, recorridos, anchuras y protección de escaleras.</li><li>Resuelve humo y accesibilidad.</li><li>Selecciona dotación y señalización.</li><li>Facilita llegada, maniobra y acceso de bomberos.</li><li>Verifica resistencia estructural.</li></ol><p>Las tarjetas y preguntas son material de repaso creado para este cuaderno; no son preguntas oficiales.</p></div>",
+      "recall": "Localiza hormigón, acero, madera y fábrica. Explica qué representa la curva normalizada.",
+      "answer": "C hormigón; D acero; E madera; F fábrica. La curva normalizada es un modelo de exposición térmica para clasificación y comprobación, con t en minutos.",
+      "questions": [
+        [
+          53,
+          "En la curva θg = 20 + 345 log₁₀(8t + 1), t se mide en…",
+          "Minutos",
+          [
+            "Segundos",
+            "Horas"
+          ],
+          "La temperatura se expresa en grados Celsius y t es el tiempo desde el inicio en minutos."
+        ],
+        [
+          73,
+          "El método de la sección reducida corresponde al anejo de…",
+          "Madera, Anejo E",
+          [
+            "Acero, Anejo D",
+            "Fábrica, Anejo F"
+          ],
+          "La sección eficaz se obtiene eliminando la profundidad de carbonización eficaz en las caras expuestas."
+        ],
+        [
+          85,
+          "Para tablas de resistencia de muros de ladrillo y bloques de hormigón consultarías…",
+          "Anejo F",
+          [
+            "Anejo B",
+            "Anejo D"
+          ],
+          "El Anejo F trata de elementos de fábrica; B, del tiempo equivalente; D, del acero."
+        ]
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "cte-marco-1",
+      "block": "marco",
+      "page": 3,
+      "q": "¿Qué sección facilita la intervención de rescate y extinción?",
+      "a": "<b>SI 5</b>. SI 5 trata de la intervención de los bomberos; SI 3, de evacuación; SI 6, de resistencia estructural."
+    },
+    {
+      "id": "cte-marco-2",
+      "block": "marco",
+      "page": 5,
+      "q": "Un centro sanitario exclusivamente ambulatorio sigue las condiciones de uso…",
+      "a": "<b>Administrativo</b>. La introducción distingue la asistencia ambulatoria de los usos con ocupantes que necesitan ayuda para evacuar."
+    },
+    {
+      "id": "cte-marco-3",
+      "block": "marco",
+      "page": 7,
+      "q": "En productos sin marcado CE, los informes de ensayo de reacción y resistencia deben tener, respectivamente, antigüedad…",
+      "a": "<b>Menor que 5 y menor que 10 años</b>. La fecha de referencia es el suministro a la obra. Reacción y resistencia tienen plazos diferentes."
+    },
+    {
+      "id": "cte-terminos-1",
+      "block": "terminos",
+      "page": 46,
+      "q": "La contribución de un material al desarrollo del incendio define su…",
+      "a": "<b>Reacción al fuego</b>. La reacción se refiere a la contribución del material por su propia combustión. La resistencia se refiere a funciones mantenidas por un elemento durante un tiempo."
+    },
+    {
+      "id": "cte-terminos-2",
+      "block": "terminos",
+      "page": 48,
+      "q": "Dos recorridos pueden ser alternativos si forman un ángulo…",
+      "a": "<b>Mayor que 45°</b>. La otra opción es separarlos mediante elementos EI 30 que eviten el bloqueo simultáneo por humo."
+    },
+    {
+      "id": "cte-terminos-3",
+      "block": "terminos",
+      "page": 45,
+      "q": "Para P > 50, la comprobación geométrica de dispersión del espacio exterior seguro utiliza…",
+      "a": "<b>0,5P m² dentro de un radio 0,1P m</b>. Esta comprobación se suma a las demás condiciones del espacio exterior seguro. Con P ≤ 50 no es necesario comprobar esa condición concreta."
+    },
+    {
+      "id": "cte-sectores-1",
+      "block": "sectores",
+      "page": 11,
+      "q": "En Docente con más de una planta, la superficie máxima base por sector es…",
+      "a": "<b>4.000 m²</b>. La tabla diferencia los edificios docentes de una sola planta, donde no exige compartimentación en sectores."
+    },
+    {
+      "id": "cte-sectores-2",
+      "block": "sectores",
+      "page": 12,
+      "q": "En un aparcamiento robotizado bajo otro uso, el límite por sector es…",
+      "a": "<b>10.000 m³</b>. La unidad es volumen construido, no superficie."
+    },
+    {
+      "id": "cte-sectores-3",
+      "block": "sectores",
+      "page": 12,
+      "q": "Como regla, una planta con hospitalización se divide en…",
+      "a": "<b>Al menos dos sectores, cada uno de hasta 1.500 m²</b>. Cada sector debe poder albergar a los pacientes de un sector contiguo. Existe la excepción para planta ≤ 1.500 m² con salidas directas a exterior seguro y recorridos ≤ 25 m."
+    },
+    {
+      "id": "cte-resistencia-sector-1",
+      "block": "resistencia-sector",
+      "page": 13,
+      "q": "Una puerta directa entre sectores en una pared EI 120 será, por la regla general…",
+      "a": "<b>EI₂ 60-C5</b>. El tiempo de la puerta directa es la mitad del requerido a la pared."
+    },
+    {
+      "id": "cte-resistencia-sector-2",
+      "block": "resistencia-sector",
+      "page": 13,
+      "q": "Con vestíbulo y dos puertas en una separación EI 120, cada puerta puede ser…",
+      "a": "<b>EI₂ 30-C5</b>. La cuarta parte se aplica cuando el paso se realiza mediante vestíbulo de independencia y dos puertas."
+    },
+    {
+      "id": "cte-resistencia-sector-3",
+      "block": "resistencia-sector",
+      "page": 13,
+      "q": "Un techo portante que separa el sector de una planta superior debe aportar…",
+      "a": "<b>REI, con el tiempo exigible a la separación</b>. Además de separar y aislar, el elemento tiene función portante; por eso la clasificación pasa de EI a REI."
+    },
+    {
+      "id": "cte-riesgo-1",
+      "block": "riesgo",
+      "page": 16,
+      "q": "Las puertas de una zona de riesgo especial medio son…",
+      "a": "<b>Dos EI₂ 30-C5 con vestíbulo</b>. El riesgo alto exige dos EI₂ 45-C5. El medio exige dos EI₂ 30-C5 y vestíbulo."
+    },
+    {
+      "id": "cte-riesgo-2",
+      "block": "riesgo",
+      "page": 14,
+      "q": "Según la fila de potencia, una cocina de exactamente 50 kW se clasifica como…",
+      "a": "<b>Riesgo medio</b>. El tramo medio es 30 &lt; P ≤ 50; el alto comienza por encima de 50. Se aplican además las excepciones de la nota 2."
+    },
+    {
+      "id": "cte-riesgo-3",
+      "block": "riesgo",
+      "page": 16,
+      "q": "El recorrido máximo base hasta alguna salida del local de riesgo especial es…",
+      "a": "<b>25 m</b>. Puede aumentarse un 25% con extinción automática. No confundas este recorrido de evacuación con los 10 o 15 m hasta extintores de SI 4."
+    },
+    {
+      "id": "cte-reaccion-1",
+      "block": "reaccion",
+      "page": 16,
+      "q": "La exclusión por sección de paso de una penetración llega hasta…",
+      "a": "<b>50 cm² inclusive</b>. SI 1-3 excluye las penetraciones cuya sección no excede de 50 cm²."
+    },
+    {
+      "id": "cte-reaccion-2",
+      "block": "reaccion",
+      "page": 17,
+      "q": "El revestimiento de suelo de un pasillo protegido será, según tabla 4.1…",
+      "a": "<b>C_FL-s1</b>. C_FL-s1 corresponde a suelos de pasillos y escaleras protegidos; B-s1,d0 a sus paredes y techos."
+    },
+    {
+      "id": "cte-reaccion-3",
+      "block": "reaccion",
+      "page": 17,
+      "q": "El porcentaje que activa las condiciones de revestimientos de la tabla 4.1 es…",
+      "a": "<b>Más del 5% de la superficie del conjunto correspondiente</b>. Se comprueba por separado el conjunto de paredes, el de techos o el de suelos del recinto."
+    },
+    {
+      "id": "cte-exterior-1",
+      "block": "exterior",
+      "page": 19,
+      "q": "La separación mínima de puntos no EI 60 en fachadas a 90° es…",
+      "a": "<b>2 m</b>. La tabla SI 2-1 relaciona ángulo y distancia: a 90°, 2 m; a 0°, 3 m; a 180°, 0,50 m."
+    },
+    {
+      "id": "cte-exterior-2",
+      "block": "exterior",
+      "page": 20,
+      "q": "La franja base para limitar propagación vertical por fachada es…",
+      "a": "<b>EI 60 y 1 m de altura</b>. Su altura puede reducirse en la dimensión de un saliente apto para impedir el paso de las llamas."
+    },
+    {
+      "id": "cte-exterior-3",
+      "block": "exterior",
+      "page": 20,
+      "q": "En una cámara ventilada de fachada de más de 28 m, el aislamiento será al menos…",
+      "a": "<b>A2-s3,d0</b>. No confundas la clasificación del aislamiento de la cámara con la del sistema constructivo de fachada."
+    },
+    {
+      "id": "cte-ocupacion-1",
+      "block": "ocupacion",
+      "page": 23,
+      "q": "La densidad para plantas de vivienda es…",
+      "a": "<b>20 m²/persona</b>. La tabla usa superficie útil por persona. Las zonas de alojamiento residencial público también tienen 20 m²/persona."
+    },
+    {
+      "id": "cte-ocupacion-2",
+      "block": "ocupacion",
+      "page": 23,
+      "q": "Un aula ordinaria de 90 m² útiles, con la densidad de tabla y sin otras condiciones, tiene…",
+      "a": "<b>60 ocupantes</b>. Se divide la superficie útil entre 1,5 m²/persona."
+    },
+    {
+      "id": "cte-ocupacion-3",
+      "block": "ocupacion",
+      "page": 23,
+      "q": "0,25 m²/persona para espectadores de pie equivale a…",
+      "a": "<b>4 personas/m²</b>. La densidad está expresada en superficie por persona; para invertirla, 1 / 0,25 = 4."
+    },
+    {
+      "id": "cte-salidas-1",
+      "block": "salidas",
+      "page": 25,
+      "q": "Con una única salida, el recorrido máximo específico en Aparcamiento es…",
+      "a": "<b>35 m</b>. La regla general de una salida es 25 m; Aparcamiento tiene 35 m. Hay además el supuesto de salida directa a exterior seguro y ≤ 25 personas."
+    },
+    {
+      "id": "cte-salidas-2",
+      "block": "salidas",
+      "page": 25,
+      "q": "Con varias salidas, el recorrido máximo en zonas donde se prevé que duerman ocupantes es…",
+      "a": "<b>35 m</b>. Los 15 m son el tramo hasta alternativas en plantas de hospitalización/tratamiento intensivo, no el recorrido total de todas las zonas donde se duerme."
+    },
+    {
+      "id": "cte-salidas-3",
+      "block": "salidas",
+      "page": 25,
+      "q": "La extinción automática permite aumentar las longitudes de la tabla 3.1 en…",
+      "a": "<b>25%</b>. La nota 1 se refiere a sectores protegidos con instalación automática de extinción. No duplica automáticamente las longitudes."
+    },
+    {
+      "id": "cte-anchuras-1",
+      "block": "anchuras",
+      "page": 26,
+      "q": "Para P = 240 asignadas a una puerta, P/200 da…",
+      "a": "<b>1,20 m</b>. El mínimo de 0,80 m no sustituye a la anchura que resulte del número de personas."
+    },
+    {
+      "id": "cte-anchuras-2",
+      "block": "anchuras",
+      "page": 26,
+      "q": "La fórmula de una escalera no protegida para evacuación ascendente es…",
+      "a": "<b>A ≥ P/(160 − 10h)</b>. El término de altura h reduce la capacidad de la escalera ascendente."
+    },
+    {
+      "id": "cte-anchuras-3",
+      "block": "anchuras",
+      "page": 25,
+      "q": "Si deben existir varias escaleras protegidas, el cálculo…",
+      "a": "<b>No exige inutilizar completamente una de ellas</b>. La excepción al bloqueo total se aplica a protegidas, especialmente protegidas y compartimentadas como sector; no elimina el resto de hipótesis de asignación."
+    },
+    {
+      "id": "cte-escaleras-1",
+      "block": "escaleras",
+      "page": 28,
+      "q": "Una escalera descendente de vivienda con h = 18 m exige como mínimo…",
+      "a": "<b>Protegida</b>. La no protegida llega hasta 14 m; la protegida se admite hasta 28 m."
+    },
+    {
+      "id": "cte-escaleras-2",
+      "block": "escaleras",
+      "page": 28,
+      "q": "En Aparcamiento, las escaleras de evacuación deben ser…",
+      "a": "<b>Especialmente protegidas</b>. La tabla no admite las dos categorías inferiores en Aparcamiento, tanto para evacuación descendente como ascendente."
+    },
+    {
+      "id": "cte-escaleras-3",
+      "block": "escaleras",
+      "page": 45,
+      "q": "La opción de ventilación natural de una escalera protegida exige, por planta…",
+      "a": "<b>Al menos 1 m² útil de ventilación</b>. Es una de las tres opciones de protección frente al humo; no es la definición de escalera abierta al exterior."
+    },
+    {
+      "id": "cte-puertas-1",
+      "block": "puertas",
+      "page": 29,
+      "q": "Una puerta de salida de un recinto con 60 ocupantes debe abrir…",
+      "a": "<b>En el sentido de evacuación</b>. El criterio de más de 50 ocupantes del recinto es independiente del de 100 o 200 personas por puerta."
+    },
+    {
+      "id": "cte-puertas-2",
+      "block": "puertas",
+      "page": 29,
+      "q": "Para usuarios no familiarizados, la barra horizontal de apertura se asocia a…",
+      "a": "<b>UNE-EN 1125</b>. UNE-EN 179 corresponde a manilla o pulsador para usuarios familiarizados. La señalización se regula en UNE 23034."
+    },
+    {
+      "id": "cte-puertas-3",
+      "block": "puertas",
+      "page": 30,
+      "q": "La señal «Sin salida» se coloca…",
+      "a": "<b>Junto a la puerta, nunca sobre sus hojas</b>. Debe ser fácilmente visible sin colocarse sobre las hojas de la puerta."
+    },
+    {
+      "id": "cte-humo-refugio-1",
+      "block": "humo-refugio",
+      "page": 31,
+      "q": "Para 220 ocupantes, cuando procede refugio en uso distinto de vivienda, la dotación es…",
+      "a": "<b>3 plazas de silla y 7 de otra movilidad reducida</b>. Se aplica una plaza por cada 100 y por cada 33 ocupantes o fracción. La excepción de la segunda dotación corresponde a vivienda."
+    },
+    {
+      "id": "cte-humo-refugio-2",
+      "block": "humo-refugio",
+      "page": 30,
+      "q": "En Comercial o Pública concurrencia, SI 3 exige control de humo por ocupación cuando esta…",
+      "a": "<b>Excede de 1.000 personas</b>. El umbral de 500 se refiere a los atrios en los términos del apartado, no a estos dos usos en general."
+    },
+    {
+      "id": "cte-humo-refugio-3",
+      "block": "humo-refugio",
+      "page": 30,
+      "q": "La solución mecánica de aparcamiento de SI 3 indica extracción y aportación máxima de…",
+      "a": "<b>150 y 120 l/(plaza·s), respectivamente</b>. No intercambies los valores ni cambies litros por metros cúbicos. Se requiere activación automática por detección."
+    },
+    {
+      "id": "cte-instalaciones-1",
+      "block": "instalaciones",
+      "page": 32,
+      "q": "La referencia general de eficacia y recorrido hasta extintor es…",
+      "a": "<b>21A-113B y máximo 15 m</b>. Se mide recorrido desde todo origen de evacuación, en cada planta."
+    },
+    {
+      "id": "cte-instalaciones-2",
+      "block": "instalaciones",
+      "page": 33,
+      "q": "En una cocina de uso Hospitalario, la extinción automática se exige si la potencia…",
+      "a": "<b>Excede de 20 kW</b>. El umbral para Hospitalario y Residencial Público es mayor que 20 kW; para los demás usos, mayor que 50 kW."
+    },
+    {
+      "id": "cte-instalaciones-3",
+      "block": "instalaciones",
+      "page": 35,
+      "q": "En riesgo especial alto, el recorrido real hasta algún extintor no será mayor que…",
+      "a": "<b>10 m</b>. Se cuenta también el extintor exterior próximo a la puerta. Los 25 m de SI 1 se refieren a evacuación hasta alguna salida del local."
+    },
+    {
+      "id": "cte-dotacion-usos-1",
+      "block": "dotacion-usos",
+      "page": 33,
+      "q": "La columna seca se exige en Hospitalario si la altura de evacuación…",
+      "a": "<b>Excede de 15 m</b>. El umbral hospitalario es distinto al de vivienda y varios de los demás usos."
+    },
+    {
+      "id": "cte-dotacion-usos-2",
+      "block": "dotacion-usos",
+      "page": 34,
+      "q": "En Pública concurrencia, el sistema de alarma con megafonía se exige si…",
+      "a": "<b>La ocupación excede de 500 personas</b>. No confundas el umbral de ocupación de alarma con el de superficie para BIE."
+    },
+    {
+      "id": "cte-dotacion-usos-3",
+      "block": "dotacion-usos",
+      "page": 35,
+      "q": "Un aparcamiento robotizado debe disponer en todo caso de…",
+      "a": "<b>Pulsadores de alarma y extinción automática</b>. La tabla impone estos dos sistemas sin umbral de superficie para el robotizado."
+    },
+    {
+      "id": "cte-aproximacion-1",
+      "block": "aproximacion",
+      "page": 36,
+      "q": "El vial de aproximación debe tener anchura y gálibo mínimos de…",
+      "a": "<b>3,5 y 4,5 m</b>. La anchura de 5 m pertenece al espacio de maniobra, no al vial."
+    },
+    {
+      "id": "cte-aproximacion-2",
+      "block": "aproximacion",
+      "page": 36,
+      "q": "La capacidad portante del vial de aproximación es…",
+      "a": "<b>20 kN/m²</b>. Es una carga por superficie. El requisito de punzonamiento del espacio de maniobra usa otra magnitud."
+    },
+    {
+      "id": "cte-aproximacion-3",
+      "block": "aproximacion",
+      "page": 36,
+      "q": "En curva, los radios mínimos interior y exterior son…",
+      "a": "<b>5,30 y 12,50 m</b>. La anchura libre de circulación correspondiente es 7,20 m."
+    },
+    {
+      "id": "cte-maniobra-1",
+      "block": "maniobra",
+      "page": 36,
+      "q": "Para altura de evacuación de 18 m, la separación máxima a fachada es…",
+      "a": "<b>18 m</b>. 18 m pertenece al tramo mayor de 15 y hasta 20 m de altura de evacuación."
+    },
+    {
+      "id": "cte-maniobra-2",
+      "block": "maniobra",
+      "page": 36,
+      "q": "El espacio de maniobra se exige por el apartado 1.2 con altura descendente…",
+      "a": "<b>Mayor que 9 m</b>. No confundas la altura que activa el requisito con los tramos que fijan la separación a fachada."
+    },
+    {
+      "id": "cte-maniobra-3",
+      "block": "maniobra",
+      "page": 37,
+      "q": "La distancia del equipo de bombeo a cada conexión de columna seca debe ser…",
+      "a": "<b>Menor que 18 m</b>. Además, el punto de conexión debe ser visible desde el camión de bombeo. Los 30 m se refieren al acceso al edificio."
+    },
+    {
+      "id": "cte-fachada-forestal-1",
+      "block": "fachada-forestal",
+      "page": 37,
+      "q": "Las dimensiones mínimas horizontal y vertical del hueco de acceso son…",
+      "a": "<b>0,80 × 1,20 m</b>. Además, alféizar ≤ 1,20 m y separación entre ejes consecutivos ≤ 25 m."
+    },
+    {
+      "id": "cte-fachada-forestal-2",
+      "block": "fachada-forestal",
+      "page": 37,
+      "q": "El camino perimetral de 5 m en entorno forestal…",
+      "a": "<b>Puede estar incluido en la franja de 25 m</b>. La franja y el camino son requisitos relacionados; el texto permite incluir el camino en la franja."
+    },
+    {
+      "id": "cte-fachada-forestal-3",
+      "block": "fachada-forestal",
+      "page": 37,
+      "q": "Si no hay dos vías de acceso alternativas en la zona forestal, el acceso único acaba en…",
+      "a": "<b>Fondo de saco circular de radio 12,50 m</b>. 12,50 m es el radio, no el diámetro. También se mantienen las condiciones de espacio sin obstáculos."
+    },
+    {
+      "id": "cte-estructura-1",
+      "block": "estructura",
+      "page": 39,
+      "q": "La estructura de un aparcamiento situado bajo otro uso exige como regla…",
+      "a": "<b>R 120</b>. Si el aparcamiento es robotizado bajo otro uso, R 180. El exclusivo o situado sobre otro uso tiene R 90."
+    },
+    {
+      "id": "cte-estructura-2",
+      "block": "estructura",
+      "page": 39,
+      "q": "En Administrativo sobre rasante, con altura de evacuación de 20 m, la tabla exige…",
+      "a": "<b>R 90</b>. El tramo es mayor de 15 y hasta 28 m. No uses la fila de Comercial/Hospitalario."
+    },
+    {
+      "id": "cte-estructura-3",
+      "block": "estructura",
+      "page": 39,
+      "q": "SI 6 considera la capacidad portante de la estructura tras el incendio…",
+      "a": "<b>No, queda fuera de su evaluación</b>. SI 6 evalúa la resistencia durante el incendio; no acredita la capacidad portante residual."
+    },
+    {
+      "id": "cte-anejos-1",
+      "block": "anejos",
+      "page": 53,
+      "q": "En la curva θg = 20 + 345 log₁₀(8t + 1), t se mide en…",
+      "a": "<b>Minutos</b>. La temperatura se expresa en grados Celsius y t es el tiempo desde el inicio en minutos."
+    },
+    {
+      "id": "cte-anejos-2",
+      "block": "anejos",
+      "page": 73,
+      "q": "El método de la sección reducida corresponde al anejo de…",
+      "a": "<b>Madera, Anejo E</b>. La sección eficaz se obtiene eliminando la profundidad de carbonización eficaz en las caras expuestas."
+    },
+    {
+      "id": "cte-anejos-3",
+      "block": "anejos",
+      "page": 85,
+      "q": "Para tablas de resistencia de muros de ladrillo y bloques de hormigón consultarías…",
+      "a": "<b>Anejo F</b>. El Anejo F trata de elementos de fábrica; B, del tiempo equivalente; D, del acero."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "cte-q1",
+      "block": "marco",
+      "page": 3,
+      "q": "¿Qué sección facilita la intervención de rescate y extinción?",
+      "options": [
+        "SI 5",
+        "SI 3",
+        "SI 6"
+      ],
+      "correct": 0,
+      "explanation": "SI 5 trata de la intervención de los bomberos; SI 3, de evacuación; SI 6, de resistencia estructural."
+    },
+    {
+      "id": "cte-q2",
+      "block": "marco",
+      "page": 5,
+      "q": "Un centro sanitario exclusivamente ambulatorio sigue las condiciones de uso…",
+      "options": [
+        "Hospitalario en todo caso",
+        "Administrativo",
+        "Residencial Público"
+      ],
+      "correct": 1,
+      "explanation": "La introducción distingue la asistencia ambulatoria de los usos con ocupantes que necesitan ayuda para evacuar."
+    },
+    {
+      "id": "cte-q3",
+      "block": "marco",
+      "page": 7,
+      "q": "En productos sin marcado CE, los informes de ensayo de reacción y resistencia deben tener, respectivamente, antigüedad…",
+      "options": [
+        "Menor que 10 y menor que 5 años",
+        "Menor que 5 años en ambos casos",
+        "Menor que 5 y menor que 10 años"
+      ],
+      "correct": 2,
+      "explanation": "La fecha de referencia es el suministro a la obra. Reacción y resistencia tienen plazos diferentes."
+    },
+    {
+      "id": "cte-q4",
+      "block": "terminos",
+      "page": 46,
+      "q": "La contribución de un material al desarrollo del incendio define su…",
+      "options": [
+        "Reacción al fuego",
+        "Resistencia al fuego",
+        "Altura de evacuación"
+      ],
+      "correct": 0,
+      "explanation": "La reacción se refiere a la contribución del material por su propia combustión. La resistencia se refiere a funciones mantenidas por un elemento durante un tiempo."
+    },
+    {
+      "id": "cte-q5",
+      "block": "terminos",
+      "page": 48,
+      "q": "Dos recorridos pueden ser alternativos si forman un ángulo…",
+      "options": [
+        "Igual a 45° en todos los casos",
+        "Mayor que 45°",
+        "Mayor que 15°"
+      ],
+      "correct": 1,
+      "explanation": "La otra opción es separarlos mediante elementos EI 30 que eviten el bloqueo simultáneo por humo."
+    },
+    {
+      "id": "cte-q6",
+      "block": "terminos",
+      "page": 45,
+      "q": "Para P > 50, la comprobación geométrica de dispersión del espacio exterior seguro utiliza…",
+      "options": [
+        "0,1P m² dentro de un radio 0,5P m",
+        "1 m² por persona sin condición de radio",
+        "0,5P m² dentro de un radio 0,1P m"
+      ],
+      "correct": 2,
+      "explanation": "Esta comprobación se suma a las demás condiciones del espacio exterior seguro. Con P ≤ 50 no es necesario comprobar esa condición concreta."
+    },
+    {
+      "id": "cte-q7",
+      "block": "sectores",
+      "page": 11,
+      "q": "En Docente con más de una planta, la superficie máxima base por sector es…",
+      "options": [
+        "4.000 m²",
+        "2.500 m²",
+        "1.500 m²"
+      ],
+      "correct": 0,
+      "explanation": "La tabla diferencia los edificios docentes de una sola planta, donde no exige compartimentación en sectores."
+    },
+    {
+      "id": "cte-q8",
+      "block": "sectores",
+      "page": 12,
+      "q": "En un aparcamiento robotizado bajo otro uso, el límite por sector es…",
+      "options": [
+        "10.000 m²",
+        "10.000 m³",
+        "2.500 m³"
+      ],
+      "correct": 1,
+      "explanation": "La unidad es volumen construido, no superficie."
+    },
+    {
+      "id": "cte-q9",
+      "block": "sectores",
+      "page": 12,
+      "q": "Como regla, una planta con hospitalización se divide en…",
+      "options": [
+        "Un sector de 4.000 m²",
+        "Dos sectores de hasta 5.000 m² cada uno",
+        "Al menos dos sectores, cada uno de hasta 1.500 m²"
+      ],
+      "correct": 2,
+      "explanation": "Cada sector debe poder albergar a los pacientes de un sector contiguo. Existe la excepción para planta ≤ 1.500 m² con salidas directas a exterior seguro y recorridos ≤ 25 m."
+    },
+    {
+      "id": "cte-q10",
+      "block": "resistencia-sector",
+      "page": 13,
+      "q": "Una puerta directa entre sectores en una pared EI 120 será, por la regla general…",
+      "options": [
+        "EI₂ 60-C5",
+        "EI₂ 30-C5",
+        "R 120"
+      ],
+      "correct": 0,
+      "explanation": "El tiempo de la puerta directa es la mitad del requerido a la pared."
+    },
+    {
+      "id": "cte-q11",
+      "block": "resistencia-sector",
+      "page": 13,
+      "q": "Con vestíbulo y dos puertas en una separación EI 120, cada puerta puede ser…",
+      "options": [
+        "EI₂ 15-C5",
+        "EI₂ 30-C5",
+        "EI₂ 120-C5 obligatoriamente"
+      ],
+      "correct": 1,
+      "explanation": "La cuarta parte se aplica cuando el paso se realiza mediante vestíbulo de independencia y dos puertas."
+    },
+    {
+      "id": "cte-q12",
+      "block": "resistencia-sector",
+      "page": 13,
+      "q": "Un techo portante que separa el sector de una planta superior debe aportar…",
+      "options": [
+        "Solo E",
+        "Solo reacción al fuego clase B",
+        "REI, con el tiempo exigible a la separación"
+      ],
+      "correct": 2,
+      "explanation": "Además de separar y aislar, el elemento tiene función portante; por eso la clasificación pasa de EI a REI."
+    },
+    {
+      "id": "cte-q13",
+      "block": "riesgo",
+      "page": 16,
+      "q": "Las puertas de una zona de riesgo especial medio son…",
+      "options": [
+        "Dos EI₂ 30-C5 con vestíbulo",
+        "Una EI₂ 30-C5 sin vestíbulo",
+        "Dos EI₂ 45-C5 obligatoriamente"
+      ],
+      "correct": 0,
+      "explanation": "El riesgo alto exige dos EI₂ 45-C5. El medio exige dos EI₂ 30-C5 y vestíbulo."
+    },
+    {
+      "id": "cte-q14",
+      "block": "riesgo",
+      "page": 14,
+      "q": "Según la fila de potencia, una cocina de exactamente 50 kW se clasifica como…",
+      "options": [
+        "Riesgo bajo",
+        "Riesgo medio",
+        "Riesgo alto"
+      ],
+      "correct": 1,
+      "explanation": "El tramo medio es 30 < P ≤ 50; el alto comienza por encima de 50. Se aplican además las excepciones de la nota 2."
+    },
+    {
+      "id": "cte-q15",
+      "block": "riesgo",
+      "page": 16,
+      "q": "El recorrido máximo base hasta alguna salida del local de riesgo especial es…",
+      "options": [
+        "10 m",
+        "50 m",
+        "25 m"
+      ],
+      "correct": 2,
+      "explanation": "Puede aumentarse un 25% con extinción automática. No confundas este recorrido de evacuación con los 10 o 15 m hasta extintores de SI 4."
+    },
+    {
+      "id": "cte-q16",
+      "block": "reaccion",
+      "page": 16,
+      "q": "La exclusión por sección de paso de una penetración llega hasta…",
+      "options": [
+        "50 cm² inclusive",
+        "50 m²",
+        "5 cm²"
+      ],
+      "correct": 0,
+      "explanation": "SI 1-3 excluye las penetraciones cuya sección no excede de 50 cm²."
+    },
+    {
+      "id": "cte-q17",
+      "block": "reaccion",
+      "page": 17,
+      "q": "El revestimiento de suelo de un pasillo protegido será, según tabla 4.1…",
+      "options": [
+        "E_FL",
+        "C_FL-s1",
+        "B-s3,d0"
+      ],
+      "correct": 1,
+      "explanation": "C_FL-s1 corresponde a suelos de pasillos y escaleras protegidos; B-s1,d0 a sus paredes y techos."
+    },
+    {
+      "id": "cte-q18",
+      "block": "reaccion",
+      "page": 17,
+      "q": "El porcentaje que activa las condiciones de revestimientos de la tabla 4.1 es…",
+      "options": [
+        "Más del 50%",
+        "Cualquier porcentaje en todos los casos",
+        "Más del 5% de la superficie del conjunto correspondiente"
+      ],
+      "correct": 2,
+      "explanation": "Se comprueba por separado el conjunto de paredes, el de techos o el de suelos del recinto."
+    },
+    {
+      "id": "cte-q19",
+      "block": "exterior",
+      "page": 19,
+      "q": "La separación mínima de puntos no EI 60 en fachadas a 90° es…",
+      "options": [
+        "2 m",
+        "3 m",
+        "0,50 m"
+      ],
+      "correct": 0,
+      "explanation": "La tabla SI 2-1 relaciona ángulo y distancia: a 90°, 2 m; a 0°, 3 m; a 180°, 0,50 m."
+    },
+    {
+      "id": "cte-q20",
+      "block": "exterior",
+      "page": 20,
+      "q": "La franja base para limitar propagación vertical por fachada es…",
+      "options": [
+        "EI 120 y 0,50 m",
+        "EI 60 y 1 m de altura",
+        "REI 30 y 2 m"
+      ],
+      "correct": 1,
+      "explanation": "Su altura puede reducirse en la dimensión de un saliente apto para impedir el paso de las llamas."
+    },
+    {
+      "id": "cte-q21",
+      "block": "exterior",
+      "page": 20,
+      "q": "En una cámara ventilada de fachada de más de 28 m, el aislamiento será al menos…",
+      "options": [
+        "C-s3,d0",
+        "D-s3,d0",
+        "A2-s3,d0"
+      ],
+      "correct": 2,
+      "explanation": "No confundas la clasificación del aislamiento de la cámara con la del sistema constructivo de fachada."
+    },
+    {
+      "id": "cte-q22",
+      "block": "ocupacion",
+      "page": 23,
+      "q": "La densidad para plantas de vivienda es…",
+      "options": [
+        "20 m²/persona",
+        "10 m²/persona",
+        "2 m²/persona"
+      ],
+      "correct": 0,
+      "explanation": "La tabla usa superficie útil por persona. Las zonas de alojamiento residencial público también tienen 20 m²/persona."
+    },
+    {
+      "id": "cte-q23",
+      "block": "ocupacion",
+      "page": 23,
+      "q": "Un aula ordinaria de 90 m² útiles, con la densidad de tabla y sin otras condiciones, tiene…",
+      "options": [
+        "135 ocupantes",
+        "60 ocupantes",
+        "45 ocupantes"
+      ],
+      "correct": 1,
+      "explanation": "Se divide la superficie útil entre 1,5 m²/persona."
+    },
+    {
+      "id": "cte-q24",
+      "block": "ocupacion",
+      "page": 23,
+      "q": "0,25 m²/persona para espectadores de pie equivale a…",
+      "options": [
+        "0,25 personas/m²",
+        "2 personas/m²",
+        "4 personas/m²"
+      ],
+      "correct": 2,
+      "explanation": "La densidad está expresada en superficie por persona; para invertirla, 1 / 0,25 = 4."
+    },
+    {
+      "id": "cte-q25",
+      "block": "salidas",
+      "page": 25,
+      "q": "Con una única salida, el recorrido máximo específico en Aparcamiento es…",
+      "options": [
+        "35 m",
+        "25 m en todos los casos",
+        "75 m"
+      ],
+      "correct": 0,
+      "explanation": "La regla general de una salida es 25 m; Aparcamiento tiene 35 m. Hay además el supuesto de salida directa a exterior seguro y ≤ 25 personas."
+    },
+    {
+      "id": "cte-q26",
+      "block": "salidas",
+      "page": 25,
+      "q": "Con varias salidas, el recorrido máximo en zonas donde se prevé que duerman ocupantes es…",
+      "options": [
+        "50 m sin excepción",
+        "35 m",
+        "15 m"
+      ],
+      "correct": 1,
+      "explanation": "Los 15 m son el tramo hasta alternativas en plantas de hospitalización/tratamiento intensivo, no el recorrido total de todas las zonas donde se duerme."
+    },
+    {
+      "id": "cte-q27",
+      "block": "salidas",
+      "page": 25,
+      "q": "La extinción automática permite aumentar las longitudes de la tabla 3.1 en…",
+      "options": [
+        "50%",
+        "100%",
+        "25%"
+      ],
+      "correct": 2,
+      "explanation": "La nota 1 se refiere a sectores protegidos con instalación automática de extinción. No duplica automáticamente las longitudes."
+    },
+    {
+      "id": "cte-q28",
+      "block": "anchuras",
+      "page": 26,
+      "q": "Para P = 240 asignadas a una puerta, P/200 da…",
+      "options": [
+        "1,20 m",
+        "0,80 m",
+        "1,50 m"
+      ],
+      "correct": 0,
+      "explanation": "El mínimo de 0,80 m no sustituye a la anchura que resulte del número de personas."
+    },
+    {
+      "id": "cte-q29",
+      "block": "anchuras",
+      "page": 26,
+      "q": "La fórmula de una escalera no protegida para evacuación ascendente es…",
+      "options": [
+        "A ≥ P/200",
+        "A ≥ P/(160 − 10h)",
+        "A ≥ P/600"
+      ],
+      "correct": 1,
+      "explanation": "El término de altura h reduce la capacidad de la escalera ascendente."
+    },
+    {
+      "id": "cte-q30",
+      "block": "anchuras",
+      "page": 25,
+      "q": "Si deben existir varias escaleras protegidas, el cálculo…",
+      "options": [
+        "Exige cerrar todas excepto una",
+        "Ignora la asignación de ocupantes",
+        "No exige inutilizar completamente una de ellas"
+      ],
+      "correct": 2,
+      "explanation": "La excepción al bloqueo total se aplica a protegidas, especialmente protegidas y compartimentadas como sector; no elimina el resto de hipótesis de asignación."
+    },
+    {
+      "id": "cte-q31",
+      "block": "escaleras",
+      "page": 28,
+      "q": "Una escalera descendente de vivienda con h = 18 m exige como mínimo…",
+      "options": [
+        "Protegida",
+        "No protegida",
+        "Ninguna condición por altura"
+      ],
+      "correct": 0,
+      "explanation": "La no protegida llega hasta 14 m; la protegida se admite hasta 28 m."
+    },
+    {
+      "id": "cte-q32",
+      "block": "escaleras",
+      "page": 28,
+      "q": "En Aparcamiento, las escaleras de evacuación deben ser…",
+      "options": [
+        "No protegidas si h < 14 m",
+        "Especialmente protegidas",
+        "Protegidas sin vestíbulo en todo caso"
+      ],
+      "correct": 1,
+      "explanation": "La tabla no admite las dos categorías inferiores en Aparcamiento, tanto para evacuación descendente como ascendente."
+    },
+    {
+      "id": "cte-q33",
+      "block": "escaleras",
+      "page": 45,
+      "q": "La opción de ventilación natural de una escalera protegida exige, por planta…",
+      "options": [
+        "0,20 m² en total",
+        "5 m² por cada ocupante",
+        "Al menos 1 m² útil de ventilación"
+      ],
+      "correct": 2,
+      "explanation": "Es una de las tres opciones de protección frente al humo; no es la definición de escalera abierta al exterior."
+    },
+    {
+      "id": "cte-q34",
+      "block": "puertas",
+      "page": 29,
+      "q": "Una puerta de salida de un recinto con 60 ocupantes debe abrir…",
+      "options": [
+        "En el sentido de evacuación",
+        "En cualquier sentido por no llegar a 100",
+        "Solo hacia dentro"
+      ],
+      "correct": 0,
+      "explanation": "El criterio de más de 50 ocupantes del recinto es independiente del de 100 o 200 personas por puerta."
+    },
+    {
+      "id": "cte-q35",
+      "block": "puertas",
+      "page": 29,
+      "q": "Para usuarios no familiarizados, la barra horizontal de apertura se asocia a…",
+      "options": [
+        "UNE-EN 179",
+        "UNE-EN 1125",
+        "UNE 23034"
+      ],
+      "correct": 1,
+      "explanation": "UNE-EN 179 corresponde a manilla o pulsador para usuarios familiarizados. La señalización se regula en UNE 23034."
+    },
+    {
+      "id": "cte-q36",
+      "block": "puertas",
+      "page": 30,
+      "q": "La señal «Sin salida» se coloca…",
+      "options": [
+        "Sobre la hoja a la altura de la manilla",
+        "Solo en el techo del recinto",
+        "Junto a la puerta, nunca sobre sus hojas"
+      ],
+      "correct": 2,
+      "explanation": "Debe ser fácilmente visible sin colocarse sobre las hojas de la puerta."
+    },
+    {
+      "id": "cte-q37",
+      "block": "humo-refugio",
+      "page": 31,
+      "q": "Para 220 ocupantes, cuando procede refugio en uso distinto de vivienda, la dotación es…",
+      "options": [
+        "3 plazas de silla y 7 de otra movilidad reducida",
+        "2 plazas de silla y 6 de otra movilidad reducida",
+        "3 plazas de silla y ninguna otra"
+      ],
+      "correct": 0,
+      "explanation": "Se aplica una plaza por cada 100 y por cada 33 ocupantes o fracción. La excepción de la segunda dotación corresponde a vivienda."
+    },
+    {
+      "id": "cte-q38",
+      "block": "humo-refugio",
+      "page": 30,
+      "q": "En Comercial o Pública concurrencia, SI 3 exige control de humo por ocupación cuando esta…",
+      "options": [
+        "Excede de 100 personas",
+        "Excede de 1.000 personas",
+        "Alcanza exactamente 500 personas"
+      ],
+      "correct": 1,
+      "explanation": "El umbral de 500 se refiere a los atrios en los términos del apartado, no a estos dos usos en general."
+    },
+    {
+      "id": "cte-q39",
+      "block": "humo-refugio",
+      "page": 30,
+      "q": "La solución mecánica de aparcamiento de SI 3 indica extracción y aportación máxima de…",
+      "options": [
+        "120 y 150 l/(plaza·s)",
+        "150 y 120 m³/(plaza·s)",
+        "150 y 120 l/(plaza·s), respectivamente"
+      ],
+      "correct": 2,
+      "explanation": "No intercambies los valores ni cambies litros por metros cúbicos. Se requiere activación automática por detección."
+    },
+    {
+      "id": "cte-q40",
+      "block": "instalaciones",
+      "page": 32,
+      "q": "La referencia general de eficacia y recorrido hasta extintor es…",
+      "options": [
+        "21A-113B y máximo 15 m",
+        "13A-89B y máximo 25 m",
+        "21A-113B y máximo 50 m"
+      ],
+      "correct": 0,
+      "explanation": "Se mide recorrido desde todo origen de evacuación, en cada planta."
+    },
+    {
+      "id": "cte-q41",
+      "block": "instalaciones",
+      "page": 33,
+      "q": "En una cocina de uso Hospitalario, la extinción automática se exige si la potencia…",
+      "options": [
+        "Alcanza 50 kW exclusivamente",
+        "Excede de 20 kW",
+        "Excede de 80 kW"
+      ],
+      "correct": 1,
+      "explanation": "El umbral para Hospitalario y Residencial Público es mayor que 20 kW; para los demás usos, mayor que 50 kW."
+    },
+    {
+      "id": "cte-q42",
+      "block": "instalaciones",
+      "page": 35,
+      "q": "En riesgo especial alto, el recorrido real hasta algún extintor no será mayor que…",
+      "options": [
+        "15 m",
+        "25 m",
+        "10 m"
+      ],
+      "correct": 2,
+      "explanation": "Se cuenta también el extintor exterior próximo a la puerta. Los 25 m de SI 1 se refieren a evacuación hasta alguna salida del local."
+    },
+    {
+      "id": "cte-q43",
+      "block": "dotacion-usos",
+      "page": 33,
+      "q": "La columna seca se exige en Hospitalario si la altura de evacuación…",
+      "options": [
+        "Excede de 15 m",
+        "Excede de 24 m",
+        "Excede de 50 m"
+      ],
+      "correct": 0,
+      "explanation": "El umbral hospitalario es distinto al de vivienda y varios de los demás usos."
+    },
+    {
+      "id": "cte-q44",
+      "block": "dotacion-usos",
+      "page": 34,
+      "q": "En Pública concurrencia, el sistema de alarma con megafonía se exige si…",
+      "options": [
+        "La superficie supera 500 m² en todos los casos",
+        "La ocupación excede de 500 personas",
+        "La altura alcanza 28 m"
+      ],
+      "correct": 1,
+      "explanation": "No confundas el umbral de ocupación de alarma con el de superficie para BIE."
+    },
+    {
+      "id": "cte-q45",
+      "block": "dotacion-usos",
+      "page": 35,
+      "q": "Un aparcamiento robotizado debe disponer en todo caso de…",
+      "options": [
+        "Solo BIE de 25 mm",
+        "Solo detectores si supera 2.000 m²",
+        "Pulsadores de alarma y extinción automática"
+      ],
+      "correct": 2,
+      "explanation": "La tabla impone estos dos sistemas sin umbral de superficie para el robotizado."
+    },
+    {
+      "id": "cte-q46",
+      "block": "aproximacion",
+      "page": 36,
+      "q": "El vial de aproximación debe tener anchura y gálibo mínimos de…",
+      "options": [
+        "3,5 y 4,5 m",
+        "5 y 3,5 m",
+        "4,5 y 3,5 m"
+      ],
+      "correct": 0,
+      "explanation": "La anchura de 5 m pertenece al espacio de maniobra, no al vial."
+    },
+    {
+      "id": "cte-q47",
+      "block": "aproximacion",
+      "page": 36,
+      "q": "La capacidad portante del vial de aproximación es…",
+      "options": [
+        "100 kN/m²",
+        "20 kN/m²",
+        "20 kN sobre Ø 20 cm"
+      ],
+      "correct": 1,
+      "explanation": "Es una carga por superficie. El requisito de punzonamiento del espacio de maniobra usa otra magnitud."
+    },
+    {
+      "id": "cte-q48",
+      "block": "aproximacion",
+      "page": 36,
+      "q": "En curva, los radios mínimos interior y exterior son…",
+      "options": [
+        "3,50 y 4,50 m",
+        "7,20 y 20 m",
+        "5,30 y 12,50 m"
+      ],
+      "correct": 2,
+      "explanation": "La anchura libre de circulación correspondiente es 7,20 m."
+    },
+    {
+      "id": "cte-q49",
+      "block": "maniobra",
+      "page": 36,
+      "q": "Para altura de evacuación de 18 m, la separación máxima a fachada es…",
+      "options": [
+        "18 m",
+        "23 m",
+        "10 m"
+      ],
+      "correct": 0,
+      "explanation": "18 m pertenece al tramo mayor de 15 y hasta 20 m de altura de evacuación."
+    },
+    {
+      "id": "cte-q50",
+      "block": "maniobra",
+      "page": 36,
+      "q": "El espacio de maniobra se exige por el apartado 1.2 con altura descendente…",
+      "options": [
+        "Mayor que 28 m",
+        "Mayor que 9 m",
+        "Igual o mayor que 3,5 m"
+      ],
+      "correct": 1,
+      "explanation": "No confundas la altura que activa el requisito con los tramos que fijan la separación a fachada."
+    },
+    {
+      "id": "cte-q51",
+      "block": "maniobra",
+      "page": 37,
+      "q": "La distancia del equipo de bombeo a cada conexión de columna seca debe ser…",
+      "options": [
+        "Hasta 30 m inclusive",
+        "Menor que 23 m",
+        "Menor que 18 m"
+      ],
+      "correct": 2,
+      "explanation": "Además, el punto de conexión debe ser visible desde el camión de bombeo. Los 30 m se refieren al acceso al edificio."
+    },
+    {
+      "id": "cte-q52",
+      "block": "fachada-forestal",
+      "page": 37,
+      "q": "Las dimensiones mínimas horizontal y vertical del hueco de acceso son…",
+      "options": [
+        "0,80 × 1,20 m",
+        "1,20 × 0,80 m",
+        "1,00 × 1,00 m"
+      ],
+      "correct": 0,
+      "explanation": "Además, alféizar ≤ 1,20 m y separación entre ejes consecutivos ≤ 25 m."
+    },
+    {
+      "id": "cte-q53",
+      "block": "fachada-forestal",
+      "page": 37,
+      "q": "El camino perimetral de 5 m en entorno forestal…",
+      "options": [
+        "Debe sumarse siempre a la franja para llegar a 30 m",
+        "Puede estar incluido en la franja de 25 m",
+        "Sustituye por sí solo a la franja"
+      ],
+      "correct": 1,
+      "explanation": "La franja y el camino son requisitos relacionados; el texto permite incluir el camino en la franja."
+    },
+    {
+      "id": "cte-q54",
+      "block": "fachada-forestal",
+      "page": 37,
+      "q": "Si no hay dos vías de acceso alternativas en la zona forestal, el acceso único acaba en…",
+      "options": [
+        "Fondo de saco de diámetro 12,50 m",
+        "Un pasillo de 0,80 m",
+        "Fondo de saco circular de radio 12,50 m"
+      ],
+      "correct": 2,
+      "explanation": "12,50 m es el radio, no el diámetro. También se mantienen las condiciones de espacio sin obstáculos."
+    },
+    {
+      "id": "cte-q55",
+      "block": "estructura",
+      "page": 39,
+      "q": "La estructura de un aparcamiento situado bajo otro uso exige como regla…",
+      "options": [
+        "R 120",
+        "R 30",
+        "R 60"
+      ],
+      "correct": 0,
+      "explanation": "Si el aparcamiento es robotizado bajo otro uso, R 180. El exclusivo o situado sobre otro uso tiene R 90."
+    },
+    {
+      "id": "cte-q56",
+      "block": "estructura",
+      "page": 39,
+      "q": "En Administrativo sobre rasante, con altura de evacuación de 20 m, la tabla exige…",
+      "options": [
+        "R 60",
+        "R 90",
+        "R 180"
+      ],
+      "correct": 1,
+      "explanation": "El tramo es mayor de 15 y hasta 28 m. No uses la fila de Comercial/Hospitalario."
+    },
+    {
+      "id": "cte-q57",
+      "block": "estructura",
+      "page": 39,
+      "q": "SI 6 considera la capacidad portante de la estructura tras el incendio…",
+      "options": [
+        "Sí, para cualquier daño residual",
+        "Solo si el incendio duró menos de 30 minutos",
+        "No, queda fuera de su evaluación"
+      ],
+      "correct": 2,
+      "explanation": "SI 6 evalúa la resistencia durante el incendio; no acredita la capacidad portante residual."
+    },
+    {
+      "id": "cte-q58",
+      "block": "anejos",
+      "page": 53,
+      "q": "En la curva θg = 20 + 345 log₁₀(8t + 1), t se mide en…",
+      "options": [
+        "Minutos",
+        "Segundos",
+        "Horas"
+      ],
+      "correct": 0,
+      "explanation": "La temperatura se expresa en grados Celsius y t es el tiempo desde el inicio en minutos."
+    },
+    {
+      "id": "cte-q59",
+      "block": "anejos",
+      "page": 73,
+      "q": "El método de la sección reducida corresponde al anejo de…",
+      "options": [
+        "Acero, Anejo D",
+        "Madera, Anejo E",
+        "Fábrica, Anejo F"
+      ],
+      "correct": 1,
+      "explanation": "La sección eficaz se obtiene eliminando la profundidad de carbonización eficaz en las caras expuestas."
+    },
+    {
+      "id": "cte-q60",
+      "block": "anejos",
+      "page": 85,
+      "q": "Para tablas de resistencia de muros de ladrillo y bloques de hormigón consultarías…",
+      "options": [
+        "Anejo B",
+        "Anejo D",
+        "Anejo F"
+      ],
+      "correct": 2,
+      "explanation": "El Anejo F trata de elementos de fábrica; B, del tiempo equivalente; D, del acero."
+    }
+  ]
+}
