@@ -1,0 +1,13 @@
+{
+  "blocks": 28,
+  "cards": 84,
+  "questions": 84,
+  "screenshots": [
+    "desktop.png",
+    "mobile.png",
+    "mobile-quiz.png"
+  ],
+  "checks": "progress persistence, search, essential view, quick review, spaced cards, all quiz corrections, failure correction, BOE links, casillero, print, 390px/320px overflow, index navigation",
+  "errors": [],
+  "failures": []
+}

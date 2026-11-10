@@ -1,0 +1,615 @@
+[
+  {
+    "id": "academia-interior-1-01",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 1,
+    "q": "El ataque directo puede aplicarse desde:",
+    "options": [
+      "el interior exclusivamente",
+      "el exterior exclusivamente",
+      "el interior o el exterior",
+      "ninguna es correcta"
+    ],
+    "correct": 2,
+    "block": "metodos",
+    "page": 12,
+    "explanation": "La clave es el interior o el exterior. El ataque directo se distingue por aplicar agua al contenido y al foco; la posición desde la que se aplica no lo define por sí sola."
+  },
+  {
+    "id": "academia-interior-1-02",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 2,
+    "q": "Para evitar la escorrentia con un ataque directo en un incendio de interior, el bombero deberá seleccionar un caudal en la lanza…:",
+    "options": [
+      "muy alto",
+      "no muy alto",
+      "muy bajo",
+      "el caudal no influye en el efecto de escorrentía"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": 12,
+    "explanation": "El test señala «no muy alto». Relaciona esta respuesta con evitar agua que escurra sin aprovecharse sobre el combustible.",
+    "contrast": "La pregunta no proporciona un caudal numérico: «no muy alto» no equivale a memorizar un valor fijo."
+  },
+  {
+    "id": "academia-interior-1-03",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 3,
+    "q": "El ataque al incendio cuyo objetivo es reducir la inflamabilidad del colchón de gases para proporcionar seguridad al equipo de bomberos se denomina:",
+    "options": [
+      "enfriamiento de gases",
+      "ataque ofensivo",
+      "ataque defensivo",
+      "ataque ampliado"
+    ],
+    "correct": 0,
+    "block": "metodos",
+    "page": 13,
+    "explanation": "Es enfriamiento de gases: el objetivo del enunciado es reducir la temperatura y la inflamabilidad del colchón de humos para mejorar las condiciones del equipo.",
+    "contrast": "Ataque directo → foco y contenido. Enfriamiento de gases → gases calientes, sin alcanzar paredes ni contenido."
+  },
+  {
+    "id": "academia-interior-1-04",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 4,
+    "q": "El agua tiene un calor específico con respecto a los gases del incendio:",
+    "options": [
+      "el doble",
+      "inferior",
+      "el triple",
+      "cuatro veces superior"
+    ],
+    "correct": 3,
+    "block": "agua",
+    "page": null,
+    "explanation": "La corrección compartida marca «cuatro veces superior». Conserva la comparación que pide este test: calor específico del agua respecto al de los gases del incendio.",
+    "contrast": "El calor específico y el calor necesario para evaporar agua son magnitudes diferentes; esta pregunta solo pide la primera comparación."
+  },
+  {
+    "id": "academia-interior-1-05",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 5,
+    "q": "Señala la respuesta incorrecta:",
+    "options": [
+      "la técnica de enfriamiento de gases no es una técnica de extinción",
+      "una excesiva aplicación de enfriamiento de gases puede retrasar el acceso al foco del incendio",
+      "la técnica de enfriamiento de gases no mantiene el equilibrio térmico del recinto",
+      "la técnica de enfriamiento de gases permite un progresión más segura frente a fenómenos de rápido desarrollo (flashover y backdraft)"
+    ],
+    "correct": 2,
+    "block": "metodos",
+    "page": 13,
+    "explanation": "Se pide la afirmación incorrecta: «no mantiene el equilibrio térmico». Los apuntes describen que un enfriamiento de gases adecuado mantiene o eleva el plano neutro y mejora las condiciones.",
+    "contrast": "La clave está en la negación del enunciado. El agua se dirige a los gases, evitando alcanzar los límites y el contenido del recinto."
+  },
+  {
+    "id": "academia-interior-1-06",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 6,
+    "q": "La técnica de ataque que persigue la extinción del incendio de interior mediante la inundación del recinto con vapor de agua desde un punto exterior se denomina:",
+    "options": [
+      "ataque directo",
+      "ataque indirecto",
+      "ataque ampliado",
+      "ataque defensivo"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": 13,
+    "explanation": "Es ataque indirecto. El agua alcanza gases y superficies calientes del recinto, y el vapor generado participa en la extinción.",
+    "contrast": "Enfriamiento de gases se dirige solo al colchón de gases. El indirecto también alcanza paredes y techo calientes."
+  },
+  {
+    "id": "academia-interior-1-07",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 7,
+    "q": "¿Cuál de los siguientes inconvenientes, no es producido por un ataque indirecto?",
+    "options": [
+      "perdida de visibilidad",
+      "quemaduras por vapor de agua",
+      "desplazamiento de los gases de incendio a otras estancias",
+      "todas son producidas por ataque indirecto"
+    ],
+    "correct": 3,
+    "block": "metodos",
+    "page": 13,
+    "explanation": "La respuesta es «todas son producidas por ataque indirecto»: el test incluye pérdida de visibilidad, quemaduras por vapor y desplazamiento de gases entre sus inconvenientes.",
+    "contrast": "Aunque el enunciado pregunta cuál NO se produce, la última opción indica que ninguno de los tres queda excluido."
+  },
+  {
+    "id": "academia-interior-1-08",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 8,
+    "q": "En un ataque indirecto, dado que el objetivo es inundar el recinto de vapor de agua, se buscará bastante profundidad en el chorro con patrones de cono:",
+    "options": [
+      "abiertos",
+      "cerrados",
+      "intermedios",
+      "de 45º"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": 13,
+    "explanation": "La clave es conos cerrados. La pista del enunciado es buscar profundidad en el chorro; los apuntes también describen barridos cuando un cono estrecho no cubre toda la anchura del recinto."
+  },
+  {
+    "id": "academia-interior-1-09",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 9,
+    "q": "El ataque indirecto es una aplicación de media a larga duración, el chorro aplicado deberá describir un movimiento, el cual es preferible durante las primeras pulsaciones con un patrón en:",
+    "options": [
+      "T",
+      "O",
+      "X",
+      "C"
+    ],
+    "correct": 0,
+    "block": "metodos",
+    "page": null,
+    "explanation": "El test marca el patrón en T para las primeras pulsaciones del ataque indirecto. Se conserva esa asociación concreta del cuestionario.",
+    "contrast": "La pregunta se refiere a la forma del movimiento del chorro, no a la apertura del cono ni al tiempo de aplicación."
+  },
+  {
+    "id": "academia-interior-1-10",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 10,
+    "q": "La técnica que persigue la extinción del incendio mediante la aplicación de una película de agua sobre los combustibles incendiados se denomina:",
+    "options": [
+      "ataque indirecto",
+      "ataque directo",
+      "ataque ampliado",
+      "ataque defensivo"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": 12,
+    "explanation": "Es ataque directo: el agua se aplica sobre los combustibles incendiados. Los apuntes lo relacionan con enfriar el contenido, frenar la pirólisis y extinguir el foco."
+  },
+  {
+    "id": "academia-interior-1-11",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 11,
+    "q": "Para una correcta aplicación de la técnica de enfriamiento de gases, el punta de lanza deberá:",
+    "options": [
+      "realizar pulsaciones de 1 a 5 segundos con un cono de 30º",
+      "realizar pulsaciones inferiores a 1 segundo y con un cono de 40º",
+      "realizar pulsaciones de 1 a 2 segundos y con un cono de 40º",
+      "realizar pulsaciones superiores a 5 segundos y un cono de 30º"
+    ],
+    "correct": 0,
+    "block": "agua",
+    "page": null,
+    "explanation": "La corrección del test indica pulsaciones de 1 a 5 segundos con un cono de 30°. Es la combinación exacta que distingue esta opción de las demás.",
+    "contrast": "No la confundas con el cono aproximado de 20° de la comprobación de temperatura del cuaderno: son preguntas sobre aplicaciones distintas.",
+    "review": {
+      "title": "Parámetros del test y comprobación de temperatura",
+      "text": "Se conservan 1–5 s y 30° como clave del cuestionario compartido. El cuaderno describe por separado una comprobación con un cono de unos 20°; esa cifra no sustituye la respuesta de esta pregunta."
+    }
+  },
+  {
+    "id": "academia-interior-1-12",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 12,
+    "q": "¿Qué pasará durante el enfriamiento de gases si las gotas de agua impactan contra las paredes del entorno?",
+    "options": [
+      "el plano neutro descendería",
+      "se refrigerará igualmente el colchón de gases",
+      "el equilibrio térmico permanecerá igual",
+      "el vapor de agua se contrae en el recinto generando una expansión del colchón de gases"
+    ],
+    "correct": 0,
+    "block": "agua",
+    "page": 11,
+    "explanation": "La clave es que el plano neutro descendería. El agua que alcanza superficies calientes puede generar vapor y empeorar las condiciones, en lugar de lograr el efecto buscado al enfriar solo los gases.",
+    "contrast": "Aplicación adecuada a los gases → contracción y mantenimiento o elevación del plano neutro. Exceso de vapor → posible descenso."
+  },
+  {
+    "id": "academia-interior-1-13",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 13,
+    "q": "Consiguiendo una efectividad del 50% (mitad del agua se evapora en el colchón y la otra mitad en contacto con superficies del recinto) mediante el enfriamiento de gases implica llegar a reducir la temperatura desde los 600ºC hasta los:",
+    "options": [
+      "400ºC y una contracción del colchón de gases de un 20%",
+      "300ºC y una contracción del colchón de gases de un 20%",
+      "200ºC y una contracción del colchón de gases de un 20%",
+      "por debajo de los 101ºC y una contracción del colchón de gases de un 20%"
+    ],
+    "correct": 2,
+    "block": "agua",
+    "page": null,
+    "explanation": "En el supuesto del test, la respuesta es 200 °C y una contracción del 20 %. Las cuatro opciones comparten la contracción; la temperatura final es el dato que permite elegir.",
+    "contrast": "Se parte de 600 °C y de la efectividad del 50 % indicada en el enunciado.",
+    "review": {
+      "title": "Resultado del supuesto del cuestionario",
+      "text": "Los valores 600 °C → 200 °C y 20 % se conservan según la corrección recibida. El resumen del cuaderno no desarrolla este cálculo; se presentan como resultado de ese supuesto, sin asignarles una página de origen ni generalizarlos a cualquier recinto."
+    }
+  },
+  {
+    "id": "academia-interior-1-14",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 14,
+    "q": "La técnica que busca limitar la propagación del incendio a zonas no afectadas mediante la aplicación de agua sobre las superficies combustibles se denomina:",
+    "options": [
+      "ataque ampliado",
+      "ataque defensivo",
+      "ataque ofensivo",
+      "ataque transicional"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": null,
+    "explanation": "La clave es ataque defensivo: el objetivo descrito es limitar la propagación hacia zonas todavía no afectadas mediante agua sobre superficies combustibles.",
+    "contrast": "Reconoce el objetivo: proteger frente a la propagación, en vez de aplicar agua directamente al combustible que ya está ardiendo."
+  },
+  {
+    "id": "academia-interior-1-15",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 15,
+    "q": "En un ataque defensivo contra la propagación, durante la progresión interior para asegurar zonas frente a la propagación del incendio por detrás de la zona recorrida es conveniente y común:",
+    "options": [
+      "pintado de paredes",
+      "enfriamiento de los gases",
+      "ataque transicional",
+      "ablandado"
+    ],
+    "correct": 0,
+    "block": "ofensivo",
+    "page": 15,
+    "explanation": "Es pintado de paredes. Los apuntes lo describen como pequeñas aplicaciones de agua sobre superficies calientes y combustibles para interrumpir la pirólisis.",
+    "contrast": "Enfriamiento de gases → colchón de humos. Pintado → superficies. Ataque directo → foco."
+  },
+  {
+    "id": "academia-interior-1-16",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 16,
+    "q": "La técnica cuyo objetivo es reducir la potencia del incendio desde una posición segura exterior mediante la aplicación de chorro de agua de forma que no se altere el flujo de gases de incendio existente se denomina comúnmente:",
+    "options": [
+      "pintado de paredes",
+      "ataque indirecto defensivo",
+      "ablandado",
+      "ninguna es correcta"
+    ],
+    "correct": 2,
+    "block": "metodos",
+    "page": null,
+    "explanation": "El test denomina ablandado a la reducción de la potencia del incendio desde una posición exterior segura, conservando el flujo de salida de gases que describe el enunciado.",
+    "contrast": "La pista es reducir potencia desde el exterior antes de continuar la intervención."
+  },
+  {
+    "id": "academia-interior-1-17",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 17,
+    "q": "Al aplicar agua al interior a través de una ventana donde existe un flujo de salida de gases hay que tener precaución de no bloquear dicha salida ya que:",
+    "options": [
+      "el vapor de agua puede afectar a las víctimas",
+      "el vapor de agua puede afectar a los bomberos en progresión interior",
+      "desplaza el incendio a zonas no afectadas",
+      "todas son correctas"
+    ],
+    "correct": 3,
+    "block": "metodos",
+    "page": null,
+    "explanation": "La corrección marca «todas son correctas»: el enunciado vincula el bloqueo de la salida con efectos sobre víctimas, bomberos que progresan por el interior y zonas no afectadas.",
+    "contrast": "La condición que se está preguntando es no bloquear el flujo de salida de gases al aplicar agua por la ventana."
+  },
+  {
+    "id": "academia-interior-1-18",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 18,
+    "q": "En la técnica del ablandado, una vez localizada la apertura a la zona de mayor desarrollo del incendio e identificado el flujo de salida de gases, el bombero en punta de lanza realizará pulsaciones de:",
+    "options": [
+      "1 a 5 segundos",
+      "0,5 a 1 segundos",
+      "2 a 3 segundos",
+      "5 a 30 segundos"
+    ],
+    "correct": 3,
+    "block": "metodos",
+    "page": null,
+    "explanation": "La clave recibida para las pulsaciones de ablandado es de 5 a 30 segundos.",
+    "contrast": "Distingue duración de la aplicación y pausa: en la siguiente pregunta, el intervalo sin aplicar agua es de 15 a 45 segundos.",
+    "review": {
+      "title": "Duración según el test compartido",
+      "text": "Este intervalo procede de la corrección del cuestionario. No se atribuye a las pulsaciones de enfriamiento de gases ni a una página del cuaderno que no desarrolla el ablandado con estas cifras."
+    }
+  },
+  {
+    "id": "academia-interior-1-19",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 19,
+    "q": "Los periodos de pausa entre pulsaciones en un ataque ablandado deberán de ser de:",
+    "options": [
+      "5 a 10 segundos",
+      "10 a 15 segundos",
+      "15 a 45 segundos",
+      "no hay periodos de pausa en un ataque ablandado"
+    ],
+    "correct": 2,
+    "block": "metodos",
+    "page": null,
+    "explanation": "Las pausas que marca el test son de 15 a 45 segundos.",
+    "contrast": "Pulsación de ablandado → 5–30 s. Pausa entre pulsaciones → 15–45 s. Se preguntan tiempos diferentes."
+  },
+  {
+    "id": "academia-interior-1-20",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 20,
+    "q": "Para el acceso a través de una puerta en un incendio de interior, antes de abrirla hay que comprobar la temperatura dentro de la habitación, para ello el bombero en punta de lanza efectuará una pulsación sobre:",
+    "options": [
+      "el tercio superior de la puerta cerrada",
+      "el tercio inferior de la puerta cerrada",
+      "la mitad inferior de la puerta cerrada",
+      "en la zona de las bisagras de la puerta cerrada"
+    ],
+    "correct": 0,
+    "block": "puerta",
+    "page": null,
+    "explanation": "La corrección sitúa la pulsación en el tercio superior de la puerta cerrada, antes de abrirla.",
+    "contrast": "No confundas esta comprobación previa sobre la puerta con la comprobación de temperatura a través de la abertura descrita después en el cuaderno."
+  },
+  {
+    "id": "academia-interior-1-21",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 21,
+    "q": "El volumen de agua empleado a lo largo de una intervención es:",
+    "options": [
+      "caudal medio",
+      "caudal crítico",
+      "caudal óptimo",
+      "gasto de agua"
+    ],
+    "correct": 3,
+    "block": "metodos",
+    "page": null,
+    "explanation": "Es el gasto de agua: el volumen total empleado durante la intervención.",
+    "contrast": "Volumen total → gasto. Volumen dividido por tiempo → caudal medio."
+  },
+  {
+    "id": "academia-interior-1-22",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 22,
+    "q": "El gasto de agua dividido entre el tiempo de intervención es:",
+    "options": [
+      "gasto de agua",
+      "caudal medio",
+      "caudal disponible",
+      "caudal crítico"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": null,
+    "explanation": "Es el caudal medio: gasto de agua dividido entre tiempo de intervención. Por ejemplo, 600 litros en 10 minutos equivalen a 60 l/min de media.",
+    "contrast": "La unidad debe ser volumen por tiempo; el gasto de agua, en cambio, se expresa como volumen."
+  },
+  {
+    "id": "academia-interior-1-23",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 23,
+    "q": "El máximo caudal disponible en punta de lanza en cualquier momento de la intervención es:",
+    "options": [
+      "caudal medio",
+      "caudal crítico",
+      "caudal disponible",
+      "caudal óptimo"
+    ],
+    "correct": 2,
+    "block": "metodos",
+    "page": null,
+    "explanation": "Es el caudal disponible: el máximo caudal que puede obtenerse en punta de lanza en un momento de la intervención.",
+    "contrast": "Disponible → capacidad en ese momento. Medio → volumen total dividido por duración."
+  },
+  {
+    "id": "academia-interior-1-24",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 24,
+    "q": "El mínimo caudal disponible para conseguir la extinción de un incendio es:",
+    "options": [
+      "caudal crítico",
+      "caudal medio",
+      "caudal óptimo",
+      "caudal disponible"
+    ],
+    "correct": 0,
+    "block": "metodos",
+    "page": null,
+    "explanation": "Es el caudal crítico: el mínimo caudal disponible con el que se consigue la extinción, según la definición del test.",
+    "contrast": "Crítico → mínimo necesario. Óptimo → el que permite extinguir con el menor gasto total de agua."
+  },
+  {
+    "id": "academia-interior-1-25",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 25,
+    "q": "El caudal disponible con el que se consigue la extinción de un incendio con el mínimo gasto de agua es:",
+    "options": [
+      "caudal disponible",
+      "caudal óptimo",
+      "caudal crítico",
+      "caudal medio"
+    ],
+    "correct": 1,
+    "block": "metodos",
+    "page": null,
+    "explanation": "Es el caudal óptimo: el test lo define por conseguir la extinción con el mínimo gasto total de agua.",
+    "contrast": "No confundir mínimo caudal con mínimo volumen total: el caudal crítico y el óptimo se distinguen por ese criterio."
+  },
+  {
+    "id": "academia-interior-1-26",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 26,
+    "q": "La ecuación que vincula directamente la potencia de un incendio limitado por la ventilación al área y la geometría de la apertura del incendio al exterior es la de:",
+    "options": [
+      "Kagawoe",
+      "Bernoulli",
+      "Venturi",
+      "Schultzer"
+    ],
+    "correct": 0,
+    "block": "desarrollo",
+    "page": null,
+    "explanation": "La corrección señala la opción escrita «Kagawoe». El enunciado la relaciona con la potencia de un incendio limitado por la ventilación y con el área y la geometría de la abertura.",
+    "contrast": "La pista es el control por la ventilación. Se conserva literalmente la grafía de la opción del test."
+  },
+  {
+    "id": "academia-interior-1-27",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 27,
+    "q": "La antiventilación de un incendio consiste en:",
+    "options": [
+      "confinar el incendio",
+      "una extracción de los humos con un extractor",
+      "una sobrepresión con ventilación sin salida al exterior",
+      "una ventilación con un ventilador eléctrico dentro del recinto incendiado"
+    ],
+    "correct": 0,
+    "block": "ventilacion",
+    "page": 4,
+    "explanation": "La clave del test es confinar el incendio. Relaciónalo con el concepto del cuaderno: puertas y ventanas cerradas e intactas, con intercambio gaseoso exterior prácticamente despreciable.",
+    "contrast": "Antiventilación se asocia aquí a limitar el intercambio; las otras respuestas describen extracción o impulsión de aire."
+  },
+  {
+    "id": "academia-interior-1-28",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 28,
+    "q": "¿Qué ventilación natural es más efectiva ante un incendio de interior?",
+    "options": [
+      "horizontal",
+      "vertical",
+      "inclinada",
+      "ninguna ventilación natural puede ser efectiva"
+    ],
+    "correct": 1,
+    "block": "ventilacion",
+    "page": 18,
+    "explanation": "El test señala la vertical. En el cuaderno, la salida se sitúa en techo o cubierta y se describe como efectiva, aunque compleja y con mayor riesgo.",
+    "contrast": "Vertical describe la geometría de la salida; natural describe la fuerza que mueve el aire. Son criterios diferentes."
+  },
+  {
+    "id": "academia-interior-1-29",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 29,
+    "q": "Los ventiladores térmicos:",
+    "options": [
+      "se pueden utilizar tanto en el exterior como en el interior",
+      "son para uso interior con espacios inundados de humo",
+      "se pueden utilizar como extractores",
+      "ninguna es correcta"
+    ],
+    "correct": 3,
+    "block": "ventilacion",
+    "page": null,
+    "explanation": "La corrección recibida es «ninguna es correcta»: el test rechaza las tres descripciones propuestas para los ventiladores térmicos.",
+    "contrast": "No marques una ubicación o un uso como extractor que este cuestionario no acepta. Los apuntes relacionados tratan la ventilación mecánica, sin desarrollar esta comparación de motores."
+  },
+  {
+    "id": "academia-interior-1-30",
+    "origin": "academia",
+    "test": "academia-1",
+    "sourceTest": "Incendios de interior 1",
+    "sourceLabel": "Academia · Interior 1",
+    "sourceNumber": 30,
+    "q": "Los ventiladores eléctricos conectados a la red:",
+    "options": [
+      "son más silenciosos",
+      "son aislables a nivel ATEX",
+      "se pueden utilizar como extractores",
+      "todas son correctas"
+    ],
+    "correct": 3,
+    "block": "ventilacion",
+    "page": null,
+    "explanation": "La corrección agrupa las tres características en «todas son correctas»: menor ruido, posibilidad de aislamiento ATEX y uso como extractor.",
+    "contrast": "Se conserva la caracterización de los ventiladores eléctricos conectados a red que utiliza el cuestionario.",
+    "review": {
+      "title": "Características según el cuestionario",
+      "text": "La clave recibida no acredita las prestaciones de un modelo concreto. Esta pregunta se incorpora como contenido del test compartido; el cuaderno no aporta una ficha de equipo para contrastar esas tres características."
+    }
+  }
+]

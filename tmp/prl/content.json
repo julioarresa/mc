@@ -1,0 +1,3272 @@
+{
+  "blocks": [
+    {
+      "id": "marco",
+      "title": "Las dos normas y su estructura",
+      "refs": [
+        "ley:a1",
+        "ley:a2",
+        "ley:dfsegunda",
+        "rd:segunda-3"
+      ],
+      "essential": "<b>Ley 31/1995, de 8 de noviembre:</b> marco de derechos, obligaciones y participación. <b>RD 39/1997, de 17 de enero:</b> Reglamento de los Servicios de Prevención (RSP), que concreta integración, evaluación, organización y formación.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Norma</th><th scope=\"col\">Publicación</th><th scope=\"col\">Entrada en vigor</th><th scope=\"col\">Mapa</th></tr></thead><tbody><tr><td>LPRL</td><td>BOE de 10/11/1995</td><td>10/02/1996</td><td>7 capítulos; numeración hasta el art. 54, con preceptos derogados y un art. 32 bis.</td></tr><tr><td>RSP</td><td>BOE de 31/01/1997</td><td>31/03/1997</td><td>7 capítulos, arts. 1–39 con artículos bis y 8 anexos. El art. 35 tuvo entrada diferida al 31/01/1998.</td></tr></tbody></table></div><p>La prevención persigue promover la seguridad y salud mediante medidas y actividades para prevenir los riesgos del trabajo. Sus disposiciones laborales son <b>mínimas, indisponibles y mejorables por convenio colectivo</b>.</p><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Capítulo LPRL</th><th scope=\"col\">Contenido</th></tr></thead><tbody><tr><td>I · 1–4</td><td>Objeto, ámbito y definiciones.</td></tr><tr><td>II · 5–13</td><td>Política preventiva y Administraciones.</td></tr><tr><td>III · 14–29</td><td>Derechos y obligaciones.</td></tr><tr><td>IV · 30–32 bis</td><td>Servicios y recursos preventivos.</td></tr><tr><td>V · 33–40</td><td>Consulta y participación.</td></tr><tr><td>VI · 41</td><td>Fabricantes, importadores y suministradores.</td></tr><tr><td>VII · 42–54</td><td>Responsabilidades y sanciones; varios artículos derogados.</td></tr></tbody></table></div><p class=\"note\">Revisión: 10/11/2026. Textos consolidados consultados: LPRL, última actualización publicada el 09/04/2026; RSP, el 17/10/2025. Los test son preguntas propias de práctica. La prioridad de repaso se centra en definiciones, sujetos, excepciones, cifras y plazos.</p>",
+      "trap": "No intercambies fecha de la norma, publicación y entrada en vigor. La fecha del RD no es la de la Ley.",
+      "questions": [
+        [
+          "ley:a2",
+          "Las disposiciones laborales preventivas tienen carácter de…",
+          "Mínimo indisponible, mejorable por convenio",
+          [
+            "Máximo que no puede superarse",
+            "Orientación voluntaria",
+            "Mínimo que el trabajador puede renunciar a aplicar"
+          ],
+          "El art. 2.2 permite mejorar y desarrollar la protección mediante convenios colectivos."
+        ],
+        [
+          "ley:dfsegunda",
+          "La LPRL entró en vigor el…",
+          "10 de febrero de 1996",
+          [
+            "8 de noviembre de 1995",
+            "10 de noviembre de 1995",
+            "31 de marzo de 1997"
+          ],
+          "Su entrada se fijó a los tres meses de la publicación de 10/11/1995."
+        ],
+        [
+          "rd:segunda-3",
+          "La entrada en vigor general del RSP fue el…",
+          "31 de marzo de 1997",
+          [
+            "17 de enero de 1997",
+            "31 de enero de 1997",
+            "10 de febrero de 1996"
+          ],
+          "El art. 35 se exceptuó: entró en vigor doce meses después de la publicación, el 31/01/1998."
+        ]
+      ]
+    },
+    {
+      "id": "ambito",
+      "title": "Aplicación a bomberos y Administraciones",
+      "refs": [
+        "ley:a3",
+        "rd:cuarta"
+      ],
+      "essential": "La LPRL se aplica al personal laboral y al personal <b>administrativo o estatutario de las Administraciones públicas</b>. La excepción del art. 3.2 se refiere a <b>actividades cuyas particularidades impidan su aplicación</b>, dentro de las funciones indicadas.",
+      "body": "<ul><li>Policía, seguridad y resguardo aduanero.</li><li>Servicios operativos de protección civil y peritaje forense en casos de <b>grave riesgo, catástrofe y calamidad pública</b>.</li><li>Fuerzas Armadas y actividades militares de la Guardia Civil.</li></ul><p>En esas actividades la Ley <b>inspira la normativa específica de protección</b>. Los centros militares están sujetos a la Ley con particularidades; en establecimientos penitenciarios se adaptan las actividades que requieran regulación especial. También se incluyen cooperativas con socios que prestan trabajo personal.</p><div class=\"caution\"><b>Aplicación a bomberos.</b> La pertenencia al cuerpo no produce una exclusión general. La jurisprudencia europea incluye normalmente las actividades de intervención realizadas en condiciones habituales, aunque sean imprevisibles y con riesgos. La excepción atiende a cometidos extraordinarios incompatibles con la aplicación de las reglas. <a href=\"https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:62004CO0052\" target=\"_blank\" rel=\"noopener noreferrer\">TJUE, C-52/04, apartados 51–55 ↗</a></div><p><b>RSP y empleo público:</b> la organización y cualificación se adaptan por normativa específica; en su defecto se aplica el Reglamento. Las obligaciones de auditoría de su capítulo V <b>no son aplicables a las Administraciones públicas</b>; su normativa específica debe prever instrumentos de control.</p>",
+      "trap": "«Los bomberos están excluidos de la LPRL» es una generalización incorrecta. Tampoco traslades sin matices a una Administración el régimen de auditorías de las empresas.",
+      "questions": [
+        [
+          "ley:a3",
+          "¿Queda excluido todo el personal de bomberos por su profesión?",
+          "No; la excepción depende de las actividades y de sus particularidades",
+          [
+            "Sí, por pertenecer a protección civil",
+            "Sí, incluso en mantenimiento y formación",
+            "Solo se aplica al personal administrativo del parque"
+          ],
+          "El art. 3.2 condiciona la excepción a que las particularidades de ciertas actividades impidan aplicar la Ley."
+        ],
+        [
+          "ley:a3",
+          "En las actividades exceptuadas por el art. 3.2, la LPRL…",
+          "Inspirará la normativa específica de protección",
+          [
+            "No tiene ninguna función",
+            "Se sustituye siempre por un convenio",
+            "Solo protege a mandos"
+          ],
+          "La excepción no elimina el mandato de proteger la seguridad y salud mediante normativa específica."
+        ],
+        [
+          "rd:cuarta",
+          "Las obligaciones de auditoría del capítulo V del RSP se aplican a las Administraciones públicas…",
+          "No; su normativa específica debe establecer instrumentos de control",
+          [
+            "Sí, cada cuatro años sin excepción",
+            "Sí, cada dos años en todos los servicios",
+            "Solo si hay más de 50 empleados"
+          ],
+          "La disposición adicional cuarta.2 excluye esas obligaciones y exige instrumentos adecuados de control."
+        ]
+      ]
+    },
+    {
+      "id": "conceptos",
+      "title": "Definiciones que cambian una respuesta",
+      "refs": [
+        "ley:a4"
+      ],
+      "essential": "<b>Riesgo laboral:</b> posibilidad de sufrir un daño derivado del trabajo. Para calificar su gravedad se valoran conjuntamente <b>probabilidad y severidad</b>. <b>Daños:</b> enfermedades, patologías o lesiones con motivo u ocasión del trabajo.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Concepto</th><th scope=\"col\">Qué debes conservar</th></tr></thead><tbody><tr><td>Prevención</td><td>Medidas y actividades adoptadas o previstas en todas las fases para evitar o disminuir riesgos.</td></tr><tr><td>Grave e inminente</td><td>Probabilidad racional de materialización en un futuro inmediato y posibilidad de daño grave. Con agentes dañinos, puede ser inmediata la exposición aunque el daño aparezca después.</td></tr><tr><td>Potencialmente peligroso</td><td>Origina riesgos en ausencia de medidas preventivas específicas.</td></tr><tr><td>Equipo de trabajo</td><td>Máquina, aparato, instrumento o instalación utilizada en el trabajo.</td></tr><tr><td>Condición de trabajo</td><td>Característica que puede influir significativamente en generar riesgos: instalaciones, agentes, procedimientos y organización del trabajo.</td></tr><tr><td>EPI</td><td>Equipo destinado a ser llevado o sujetado para proteger frente a riesgos, incluidos complementos y accesorios destinados a ello.</td></tr></tbody></table></div>",
+      "trap": "Grave e inminente no exige que los síntomas aparezcan de inmediato. No confundas riesgo (posibilidad) con daño (enfermedad, patología o lesión).",
+      "questions": [
+        [
+          "ley:a4",
+          "Para calificar la gravedad de un riesgo se valoran conjuntamente…",
+          "La probabilidad y la severidad del daño",
+          [
+            "Solo el número de expuestos",
+            "La duración y el precio del equipo",
+            "La urgencia y el coste económico"
+          ],
+          "El art. 4.2 utiliza ambos factores, no exclusivamente la probabilidad."
+        ],
+        [
+          "ley:a4",
+          "Una exposición inmediata a un agente con daño grave diferido…",
+          "Puede constituir riesgo grave e inminente",
+          [
+            "Nunca es inminente si no hay síntomas",
+            "Solo es riesgo leve",
+            "No constituye riesgo laboral"
+          ],
+          "El art. 4.4 permite que el daño no se manifieste de forma inmediata."
+        ],
+        [
+          "ley:a4",
+          "La organización y ordenación del trabajo…",
+          "Pueden ser condiciones de trabajo que generen riesgos",
+          [
+            "Están excluidas de la definición",
+            "Solo son relevantes en oficinas",
+            "Solo cuentan si causan lesiones físicas"
+          ],
+          "La definición incluye características organizativas que influyen en la magnitud de los riesgos."
+        ]
+      ]
+    },
+    {
+      "id": "organismos",
+      "title": "Quién asesora, vigila y participa",
+      "refs": [
+        "ley:a5",
+        "ley:a6",
+        "ley:a7",
+        "ley:a8",
+        "ley:a9",
+        "ley:a10",
+        "ley:a13"
+      ],
+      "essential": "<b>Gobierno:</b> desarrollo reglamentario, previa consulta a organizaciones empresariales y sindicales más representativas. <b>Instituto técnico:</b> estudio, asesoramiento y apoyo. <b>Inspección:</b> vigilancia y control. <b>CNSST:</b> asesoramiento y participación institucional.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Sujeto</th><th scope=\"col\">Función / dato de test</th></tr></thead><tbody><tr><td>Administraciones laborales</td><td>Promoción, asistencia, vigilancia, control y sanción. El art. 7.1.a vigente incluye asesoramiento y seguimiento respecto de personas autónomas.</td></tr><tr><td>Instituto del art. 8</td><td>Órgano científico técnico especializado de la AGE; analiza condiciones y apoya su mejora. El literal de la Ley conserva la denominación Instituto Nacional de Seguridad e Higiene en el Trabajo.</td></tr><tr><td>ITSS</td><td>Vigila cumplimiento, asesora, informa y puede ordenar paralización inmediata ante riesgo grave e inminente.</td></tr><tr><td>Administración sanitaria</td><td>Salud laboral, vigilancia epidemiológica, información y formación sanitaria.</td></tr><tr><td>CNSST · art. 13</td><td>Órgano colegiado asesor y de participación. Acuerdos por mayoría; cada representante de las Administraciones tiene 1 voto y cada representante empresarial o sindical, 2.</td></tr></tbody></table></div><p>La CNSST integra un representante por comunidad autónoma y un número igual de la AGE; los representantes empresariales y sindicales se incorporan paritariamente con el conjunto de los anteriores. Funciona en <b>Pleno, Comisión Permanente o Grupos de Trabajo</b>. Cuenta con presidente y <b>cuatro vicepresidentes</b>.</p>",
+      "trap": "El órgano técnico no se convierte por ello en la Inspección. Conserva las denominaciones del artículo cuando la pregunta pida su literal.",
+      "questions": [
+        [
+          "ley:a9",
+          "La vigilancia y control de la normativa preventiva corresponde específicamente a…",
+          "La Inspección de Trabajo y Seguridad Social",
+          [
+            "La CNSST exclusivamente",
+            "El Comité de empresa en exclusiva",
+            "El servicio médico exclusivamente"
+          ],
+          "El art. 9 atribuye esa función a la ITSS, sin perjuicio de las competencias de otros órganos."
+        ],
+        [
+          "ley:a13",
+          "En los acuerdos de la CNSST, cada representante empresarial o sindical tiene…",
+          "Dos votos",
+          [
+            "Un voto",
+            "Tres votos",
+            "Voto solo consultivo"
+          ],
+          "Los representantes de las Administraciones tienen un voto cada uno; los empresariales y sindicales, dos."
+        ],
+        [
+          "ley:a6",
+          "El desarrollo reglamentario del art. 6 corresponde al Gobierno…",
+          "Previa consulta a las organizaciones empresariales y sindicales más representativas",
+          [
+            "Con autorización individual de cada empresa",
+            "Sin consulta alguna",
+            "Solo a propuesta del Comité de Seguridad y Salud"
+          ],
+          "El art. 6 regula materias como evaluación, organización preventiva y cualificación de servicios."
+        ]
+      ]
+    },
+    {
+      "id": "principios",
+      "title": "Deber de protección y nueve principios",
+      "refs": [
+        "ley:a14",
+        "ley:a15"
+      ],
+      "essential": "El trabajador tiene derecho a una <b>protección eficaz</b>; el empresario debe garantizarla en todos los aspectos del trabajo. La Administración tiene el mismo deber respecto de su personal. <b>El coste de la seguridad no recae en los trabajadores.</b>",
+      "body": "<ol><li><b>Evitar</b> los riesgos.</li><li><b>Evaluar</b> los que no se puedan evitar.</li><li><b>Combatir</b> los riesgos en su origen.</li><li><b>Adaptar el trabajo a la persona</b>, incluyendo concepción de puestos, equipos y métodos, para atenuar trabajo monótono y repetitivo.</li><li>Tener en cuenta la <b>evolución de la técnica</b>.</li><li><b>Sustituir</b> lo peligroso por lo que entrañe poco o ningún peligro.</li><li><b>Planificar</b> la prevención integrando técnica, organización, condiciones, relaciones sociales y factores ambientales.</li><li>Anteponer la <b>protección colectiva a la individual</b>.</li><li>Dar las debidas <b>instrucciones</b> a los trabajadores.</li></ol><p>El empresario considera las capacidades profesionales al encomendar tareas y limita el acceso a zonas de riesgo grave y específico a quienes reciban información suficiente y adecuada. La efectividad de las medidas debe prever las <b>distracciones o imprudencias no temerarias</b>. Recurrir a servicios externos no exime del deber de protección.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>14 · El taco protector; 15 · La tela colectiva</h3><p>Un <b>taco (14)</b> sostiene el deber de protección. Una <b>tela (15)</b> cubre a toda la dotación antes de repartir los equipos individuales.</p><p class=\"note\"><b>Dato exacto:</b> Art. 14: protección eficaz y sin coste al trabajador. Art. 15: nueve principios; protección colectiva antes que individual.</p></div>",
+      "trap": "Primero se intenta evitar; después se evalúa lo que no se ha podido evitar. «Adaptar la persona al trabajo» invierte el principio legal.",
+      "questions": [
+        [
+          "ley:a15",
+          "Según los principios preventivos, la primera actuación es…",
+          "Evitar los riesgos",
+          [
+            "Evaluar todos los riesgos antes de intentar evitarlos",
+            "Entregar siempre un EPI como primera medida",
+            "Compensar económicamente el riesgo"
+          ],
+          "El art. 15 comienza por evitar; se evalúan los riesgos que no puedan evitarse."
+        ],
+        [
+          "ley:a15",
+          "¿Qué protección debe anteponerse?",
+          "La colectiva a la individual",
+          [
+            "La individual a la colectiva",
+            "La más barata en todo caso",
+            "La voluntaria a la obligatoria"
+          ],
+          "La prioridad aparece en el art. 15.1.h; no elimina la necesidad de EPI cuando procedan."
+        ],
+        [
+          "ley:a14",
+          "Contratar un servicio de prevención ajeno…",
+          "No exime al empresario de su deber de protección",
+          [
+            "Transfiere toda responsabilidad al servicio",
+            "Permite cobrar la prevención a los trabajadores",
+            "Sustituye la obligación de integrar la prevención"
+          ],
+          "El deber empresarial subsiste aunque se recurra a entidades especializadas."
+        ]
+      ]
+    },
+    {
+      "id": "plan",
+      "title": "Integrar, evaluar y planificar",
+      "refs": [
+        "ley:a16",
+        "rd:a1",
+        "rd:a2"
+      ],
+      "essential": "<b>Plan de prevención:</b> herramienta de integración en todas las actividades y niveles jerárquicos. <b>Instrumentos esenciales:</b> evaluación de riesgos y planificación de la actividad preventiva.",
+      "body": "<div class=\"chain\"><div class=\"step\"><b>Plan</b><span>Organización y política</span></div><span class=\"arrow\">→</span><div class=\"step\"><b>Evaluación</b><span>Riesgos que no se evitan</span></div><span class=\"arrow\">→</span><div class=\"step\"><b>Planificación</b><span>Medidas, responsables y medios</span></div></div><p>El plan lo <b>aprueba la dirección</b>, lo asume toda la estructura y lo conocen todos los trabajadores. Documenta identificación de empresa y centros, estructura y responsabilidades, procesos productivos, organización preventiva, política, objetivos y recursos.</p><p>Las empresas de <b>hasta 50 trabajadores</b> sin actividades del <b>anexo I</b> pueden reunir plan, evaluación y planificación en <b>un único documento</b>, reducido y comprensible, adaptado a sus riesgos, con medidas jerarquizadas y plazos. Simplificar no permite reducir la protección.</p>",
+      "trap": "Plan, evaluación y planificación se relacionan, pero son conceptos distintos. El documento único no equivale a que el empresario pueda asumir personalmente la prevención.",
+      "questions": [
+        [
+          "rd:a2",
+          "¿Quién aprueba el plan de prevención?",
+          "La dirección de la empresa",
+          [
+            "La ITSS en todo caso",
+            "Los delegados por unanimidad",
+            "Cada trabajador individualmente"
+          ],
+          "Debe ser asumido por toda la estructura y conocido por los trabajadores."
+        ],
+        [
+          "ley:a16",
+          "Los instrumentos esenciales para gestionar y aplicar el plan son…",
+          "La evaluación y la planificación preventiva",
+          [
+            "La auditoría y la sanción",
+            "El convenio y el contrato",
+            "El comité y la mutua"
+          ],
+          "El art. 16.2 diferencia el plan de sus dos instrumentos esenciales."
+        ],
+        [
+          "rd:a2",
+          "El documento único simplificado del RSP se admite en empresas…",
+          "De hasta 50 trabajadores y sin actividades del anexo I",
+          [
+            "De hasta 500 trabajadores de cualquier actividad",
+            "De menos de 25 sin más requisitos",
+            "De hasta 50 aunque realicen actividades del anexo I"
+          ],
+          "El art. 2.4 exige ambos requisitos y medidas adaptadas con plazos de ejecución."
+        ]
+      ]
+    },
+    {
+      "id": "evaluacion",
+      "title": "Evaluación inicial y revisión",
+      "refs": [
+        "ley:a16",
+        "rd:a3",
+        "rd:a4",
+        "rd:a5",
+        "rd:a6",
+        "rd:a7"
+      ],
+      "essential": "Evaluar es estimar la magnitud de los riesgos no evitados para decidir las medidas. Se consideran <b>actividad, puestos y características de las personas</b>. Deben evaluarse los puestos con riesgos que no hayan podido evitarse.",
+      "body": "<ul><li><b>Reevaluación por cambios:</b> equipos, sustancias, tecnologías, acondicionamiento, condiciones o incorporación de personas especialmente sensibles.</li><li><b>Revisión:</b> cuando lo exija una disposición específica; daños a la salud o indicios de insuficiencia preventiva; y periodicidad acordada con la representación, atendiendo al deterioro.</li><li><b>Método fiable:</b> información de trabajadores, mediciones cuando procedan y normativa específica. Si hay dudas, se adoptan las medidas más favorables para la prevención.</li><li><b>Documentar:</b> puesto, riesgo y afectados, resultado, medidas, criterios y métodos utilizados cuando sean pertinentes.</li></ul>",
+      "trap": "El RSP no fija una revisión anual universal para todas las evaluaciones. Daños e insuficiencias obligan a revisar los puestos afectados.",
+      "questions": [
+        [
+          "rd:a6",
+          "Si se detectan daños a la salud, la evaluación de los puestos afectados…",
+          "Debe revisarse",
+          [
+            "Solo se revisa si lo pide el accidentado",
+            "Se destruye y sustituye por el parte",
+            "Se mantiene hasta el siguiente plazo fijo de cinco años"
+          ],
+          "El art. 6.1 exige revisar, considerando entre otros elementos la investigación del daño."
+        ],
+        [
+          "rd:a5",
+          "Si existen dudas sobre el resultado de una evaluación…",
+          "Se adoptan las medidas más favorables desde el punto de vista preventivo",
+          [
+            "Se elige siempre la solución más económica",
+            "No se actúa hasta que ocurra un daño",
+            "Se presume ausencia de riesgo"
+          ],
+          "El procedimiento debe proporcionar confianza en su resultado."
+        ],
+        [
+          "rd:a4",
+          "La evaluación debe considerar que el trabajador sea especialmente sensible…",
+          "A los riesgos por sus características personales o estado biológico conocido",
+          [
+            "Solo si existe incapacidad reconocida",
+            "Únicamente si lo exige por escrito",
+            "Solo después de un accidente"
+          ],
+          "Se valoran tanto las condiciones del trabajo como las características de quienes lo desempeñan."
+        ]
+      ]
+    },
+    {
+      "id": "planificacion",
+      "title": "De la evaluación a las medidas",
+      "refs": [
+        "ley:a16",
+        "rd:a8",
+        "rd:a9"
+      ],
+      "essential": "Si se detectan riesgos, se planifican actividades para <b>eliminarlos, reducirlos y controlarlos</b>. Cada medida necesita <b>plazo, responsable y recursos humanos y materiales</b>; el RSP exige además asignación económica.",
+      "body": "<p>Las prioridades dependen de la <b>magnitud del riesgo y del número de personas expuestas</b>. Se integran emergencias, vigilancia de la salud, información, formación y su coordinación. El empresario realiza seguimiento continuo y modifica las medidas si son inadecuadas.</p><p>La planificación abarca un período determinado. Si dura <b>más de un año</b>, debe establecerse un <b>programa anual de actividades</b>.</p>",
+      "trap": "Un listado de compras sin responsables, plazos ni seguimiento no reúne el contenido de la planificación preventiva.",
+      "questions": [
+        [
+          "ley:a16",
+          "Para cada actividad preventiva deben figurar…",
+          "Plazo, responsables y recursos humanos y materiales",
+          [
+            "Solo presupuesto total",
+            "Solo nombre del evaluador",
+            "Únicamente fecha de la auditoría"
+          ],
+          "El art. 16.2.b exige esas concreciones; el art. 9 RSP añade recursos económicos."
+        ],
+        [
+          "rd:a9",
+          "Si la actividad preventiva se planifica para más de un año…",
+          "Se establece un programa anual de actividades",
+          [
+            "Se aplaza toda revisión hasta el final",
+            "No se necesita planificación",
+            "Se sustituye el plan por una auditoría"
+          ],
+          "El art. 9.3 exige ese programa sin eliminar seguimiento y control periódico."
+        ],
+        [
+          "rd:a8",
+          "Las prioridades de la planificación atienden a…",
+          "Magnitud del riesgo y número de trabajadores expuestos",
+          [
+            "Solo antigüedad de la plantilla",
+            "Solo precio de las medidas",
+            "Solo orden de llegada de las solicitudes"
+          ],
+          "El art. 8 prioriza la eliminación o control de riesgos atendiendo a esos dos factores."
+        ]
+      ]
+    },
+    {
+      "id": "equipos",
+      "title": "Equipos de trabajo y EPI",
+      "refs": [
+        "ley:a17",
+        "ley:a41"
+      ],
+      "essential": "El empresario proporciona equipos de trabajo adecuados y adaptados para un uso seguro. Los <b>EPI</b> se utilizan cuando los riesgos no puedan evitarse o limitarse suficientemente mediante <b>protección colectiva u organización del trabajo</b>.",
+      "body": "<p>Si el equipo presenta un riesgo específico, su uso se reserva a los encargados; reparación, transformación, mantenimiento o conservación corresponden a trabajadores <b>específicamente capacitados</b>. Debe velarse por el uso efectivo de los EPI cuando sean necesarios.</p><p>Fabricantes, importadores y suministradores deben asegurar la seguridad de sus productos correctamente utilizados y facilitar información de uso, riesgos y medidas. El empresario debe obtenerla y hacerla comprensible a los trabajadores.</p>",
+      "trap": "Entregar un EPI no sustituye el resto de la prevención. «Uso reservado» y «mantenimiento por capacitados» son reglas distintas del art. 17.",
+      "questions": [
+        [
+          "ley:a17",
+          "Los EPI se utilizan cuando…",
+          "El riesgo no pueda evitarse o limitarse suficientemente por protección colectiva u organización",
+          [
+            "Siempre como única medida",
+            "Solo si el trabajador los compra",
+            "Solo tras un accidente"
+          ],
+          "El art. 17.2 establece su función dentro del conjunto de medidas preventivas."
+        ],
+        [
+          "ley:a17",
+          "El mantenimiento de equipos con riesgos específicos lo realizan…",
+          "Trabajadores específicamente capacitados",
+          [
+            "Cualquier usuario sin formación",
+            "Solo los delegados de prevención",
+            "Exclusivamente el empresario personalmente"
+          ],
+          "El art. 17.1 diferencia el uso reservado y las tareas técnicas por personal capacitado."
+        ],
+        [
+          "ley:a41",
+          "La información sobre utilización y riesgos de los productos debe…",
+          "Facilitarla el suministrador y hacerla llegar el empresario de forma comprensible",
+          [
+            "Mantenerse solo en poder del fabricante",
+            "Sustituir la formación preventiva",
+            "Ser accesible solo a mandos"
+          ],
+          "El art. 41 distribuye obligaciones entre fabricantes, importadores, suministradores y empresario."
+        ]
+      ]
+    },
+    {
+      "id": "informacion",
+      "title": "Información, consulta y formación",
+      "refs": [
+        "ley:a18",
+        "ley:a19"
+      ],
+      "essential": "<b>Información:</b> riesgos de la empresa y del puesto, medidas de prevención y emergencia. <b>Formación:</b> teórica y práctica, suficiente, adecuada y centrada en el puesto o función.",
+      "body": "<p>Si hay representantes, la información general se facilita a través de ellos; <b>cada trabajador recibe directamente</b> la relativa a los riesgos específicos de su puesto y sus medidas. La consulta y participación se reconocen en las cuestiones que afecten a seguridad y salud.</p><p>La formación se imparte al contratar, cualquiera que sea modalidad y duración, y al cambiar funciones, tecnologías o equipos. Debe adaptarse a la evolución y nuevos riesgos y repetirse si es necesario. Preferentemente <b>dentro de la jornada</b>; si se realiza fuera, se descuenta el tiempo invertido. Puede impartirse con medios propios o externos y <b>no cuesta al trabajador</b>.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>18 · El techo informa; 19 · El tubo enseña</h3><p>Un <b>techo (18)</b> proyecta los riesgos del puesto. Un <b>tubo (19)</b> se convierte en aula donde practicas y después recuperas el tiempo de formación.</p><p class=\"note\"><b>Dato exacto:</b> Art. 18: información y participación. Art. 19: formación teórica y práctica, suficiente y adecuada, sin coste.</p></div>",
+      "trap": "Informar no equivale a formar. La información específica del puesto llega directamente al trabajador aunque existan representantes.",
+      "questions": [
+        [
+          "ley:a18",
+          "La información de riesgos específicos del puesto se facilita…",
+          "Directamente a cada trabajador",
+          [
+            "Solo al comité",
+            "Solo al delegado sindical",
+            "Únicamente si el trabajador la solicita"
+          ],
+          "El cauce representativo para información general no sustituye la información directa del puesto."
+        ],
+        [
+          "ley:a19",
+          "Si la formación preventiva se realiza fuera de jornada…",
+          "Se descuenta de la jornada el tiempo invertido",
+          [
+            "La paga el trabajador",
+            "No se compensa en ningún caso",
+            "Solo se compensa si hubo examen"
+          ],
+          "El art. 19.2 mantiene la ausencia de coste y prevé esa compensación de tiempo."
+        ],
+        [
+          "ley:a19",
+          "La formación debe darse al contratar…",
+          "Cualquiera que sea la modalidad o duración del contrato",
+          [
+            "Solo en contratos indefinidos",
+            "Solo si dura más de un año",
+            "Solo después del período de prueba"
+          ],
+          "También se imparte ante cambios de funciones, nuevas tecnologías o equipos."
+        ]
+      ]
+    },
+    {
+      "id": "emergencias",
+      "title": "Las medidas de emergencia del artículo 20",
+      "refs": [
+        "ley:a20"
+      ],
+      "essential": "El empresario analiza las posibles emergencias atendiendo a <b>tamaño, actividad y posible presencia de personas ajenas</b>. Adopta medidas en <b>primeros auxilios, lucha contra incendios y evacuación</b>.",
+      "body": "<p>Designa personal para ponerlas en práctica y comprueba periódicamente su funcionamiento. Ese personal tiene <b>formación necesaria, número suficiente y material adecuado</b>. Organiza relaciones con servicios externos, especialmente primeros auxilios, asistencia médica de urgencia, salvamento y lucha contra incendios, para garantizar rapidez y eficacia.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>20 · La noria de la emergencia</h3><p>Una <b>noria (20)</b> gira por tres paradas: botiquín, extinción y salida. En cada parada espera personal formado con el material necesario.</p><p class=\"note\"><b>Dato exacto:</b> Art. 20: primeros auxilios + lucha contra incendios + evacuación; personal formado, suficiente y equipado.</p></div>",
+      "trap": "El art. 20 regula emergencias de la organización. El art. 21 regula los derechos y actuaciones frente al riesgo grave e inminente.",
+      "questions": [
+        [
+          "ley:a20",
+          "El artículo 20 contempla expresamente…",
+          "Primeros auxilios, lucha contra incendios y evacuación",
+          [
+            "Solo extinción y rescate técnico",
+            "Solo evacuación de empleados",
+            "Solo contratación de una ambulancia"
+          ],
+          "Son las tres materias citadas para las medidas de emergencia."
+        ],
+        [
+          "ley:a20",
+          "Al analizar emergencias debe tenerse en cuenta…",
+          "La posible presencia de personas ajenas a la empresa",
+          [
+            "Solo la plantilla fija",
+            "Solo el turno de mañana",
+            "Únicamente el valor de los bienes"
+          ],
+          "El art. 20 añade este factor al tamaño y actividad de la empresa."
+        ],
+        [
+          "ley:a20",
+          "El personal designado para emergencias debe…",
+          "Tener formación, número suficiente y material adecuado",
+          [
+            "Ser necesariamente delegado de prevención",
+            "Carecer de otras funciones en todo caso",
+            "Actuar sin comprobaciones periódicas"
+          ],
+          "La empresa también comprueba periódicamente el funcionamiento de las medidas."
+        ]
+      ]
+    },
+    {
+      "id": "paralizacion",
+      "title": "Riesgo grave e inminente: quién puede parar",
+      "refs": [
+        "ley:a21",
+        "ley:a44"
+      ],
+      "essential": "<b>Trabajador:</b> puede interrumpir y abandonar, si es necesario, ante riesgo grave e inminente para su vida o salud. <b>Representantes:</b> pueden acordar paralización si el empresario no adopta o no permite las medidas necesarias. <b>ITSS:</b> puede ordenar paralización inmediata.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Vía</th><th scope=\"col\">Regla y plazo</th></tr></thead><tbody><tr><td>Art. 21 · representantes</td><td>Mayoría de los miembros de la representación legal. Si no pueden reunirse urgentemente, mayoría de los delegados de prevención. Comunicación inmediata a empresa y autoridad laboral; esta anula o ratifica en <b>24 h</b>.</td></tr><tr><td>Art. 21 · trabajador</td><td>Si no puede contactar con el superior, debe estar en condiciones de adoptar medidas ante peligro grave e inminente, según conocimientos y medios. No hay perjuicio salvo <b>mala fe o negligencia grave</b>.</td></tr><tr><td>Art. 44 · Inspección</td><td>Paralización de cumplimiento inmediato. La empresa puede impugnar en <b>3 días hábiles</b>; la autoridad resuelve en máximo <b>24 h</b>.</td></tr><tr><td>Levantamiento de la orden ITSS</td><td>Por la Inspección o por el empresario tras subsanar las causas; este debe comunicarlo inmediatamente a la ITSS.</td></tr></tbody></table></div><p>El empresario informa lo antes posible e instruye para interrumpir y abandonar ante peligro grave, inminente e inevitable. No puede exigir reanudar mientras persista, salvo excepción de seguridad debidamente justificada y determinada reglamentariamente. En bomberos, relaciona estas reglas con el <a href=\"#ambito\">ámbito y excepciones</a>.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>21 · El nido detiene; 24 · La nuca marca el reloj</h3><p>Un <b>nido (21)</b> bloquea la actividad peligrosa. Una <b>nuca (24)</b> lleva un reloj que obliga a la autoridad a decidir.</p><p class=\"note\"><b>Dato exacto:</b> Art. 21: autoridad laboral anula o ratifica en 24 horas. Art. 44: impugnación en 3 días hábiles; resolución en 24 horas.</p></div>",
+      "trap": "No confundas las dos vías de paralización ni sus trámites. Impugnar una orden inspectora no suspende su cumplimiento inmediato.",
+      "questions": [
+        [
+          "ley:a21",
+          "La autoridad laboral ratifica o anula la paralización acordada por representantes en…",
+          "24 horas",
+          [
+            "15 días",
+            "3 días hábiles",
+            "Un mes"
+          ],
+          "La comunicación a empresa y autoridad es inmediata; el plazo de decisión es 24 horas."
+        ],
+        [
+          "ley:a21",
+          "Si no se reúne con urgencia la representación legal, pueden acordar paralizar…",
+          "Los delegados de prevención por decisión mayoritaria",
+          [
+            "Un delegado por sí solo en cualquier caso",
+            "Solo todos los trabajadores por unanimidad",
+            "Solo el director del servicio de prevención"
+          ],
+          "Es la vía subsidiaria prevista en el art. 21.3."
+        ],
+        [
+          "ley:a44",
+          "La empresa puede impugnar una paralización inspectora en…",
+          "3 días hábiles, sin dejar de cumplirla inmediatamente",
+          [
+            "24 horas, suspendiendo la orden",
+            "15 días naturales, suspendiendo la orden",
+            "Un mes, sin comunicación"
+          ],
+          "La autoridad laboral debe resolver la impugnación en un máximo de 24 horas."
+        ]
+      ]
+    },
+    {
+      "id": "salud",
+      "title": "Vigilancia de la salud: consentimiento y límites",
+      "refs": [
+        "ley:a22",
+        "rd:a37"
+      ],
+      "essential": "El empresario garantiza vigilancia <b>periódica y en función de los riesgos</b>. Regla: <b>consentimiento del trabajador</b>. Las excepciones a la voluntariedad requieren <b>informe previo de sus representantes</b>.",
+      "body": "<ol><li>Reconocimiento imprescindible para evaluar los efectos de las condiciones de trabajo en la salud.</li><li>Necesario para verificar si el estado de salud supone peligro para el propio trabajador, otros trabajadores o personas relacionadas con la empresa.</li><li>Establecido por una disposición legal para riesgos específicos o actividades especialmente peligrosas.</li></ol><p>Se eligen pruebas proporcionales y con menores molestias. Se respetan intimidad, dignidad y confidencialidad; los datos no se usan de forma discriminatoria. El trabajador recibe sus resultados.</p><p>La información médica personal queda limitada al personal médico y autoridades sanitarias; comunicarla a otros exige consentimiento expreso. El empresario recibe <b>conclusiones sobre aptitud y necesidad de medidas</b>. Puede prolongarse la vigilancia tras finalizar la relación si la naturaleza del riesgo lo exige.</p><p>El RSP contempla evaluación inicial tras incorporación o asignación de tareas con nuevos riesgos, tras ausencia prolongada por salud y vigilancia periódica con protocolos. La realizan profesionales sanitarios competentes.</p>",
+      "trap": "«Siempre voluntaria» y «siempre obligatoria por ser bombero» omiten los requisitos legales. La norma no fija para toda plantilla un reconocimiento anual universal.",
+      "questions": [
+        [
+          "ley:a22",
+          "La regla general de la vigilancia de la salud es…",
+          "El consentimiento del trabajador, con excepciones legales",
+          [
+            "La obligatoriedad absoluta",
+            "La exclusión del personal temporal",
+            "La libre elección del empresario sin límites"
+          ],
+          "Las excepciones del art. 22.1 exigen informe previo de los representantes."
+        ],
+        [
+          "ley:a22",
+          "El empresario recibe ordinariamente…",
+          "Conclusiones de aptitud y necesidad de medidas preventivas",
+          [
+            "La historia clínica completa",
+            "Todos los diagnósticos sin consentimiento",
+            "Ninguna conclusión sobre el puesto"
+          ],
+          "El acceso a información médica personal está limitado por confidencialidad."
+        ],
+        [
+          "rd:a37",
+          "Después de una ausencia prolongada por motivos de salud, el RSP contempla…",
+          "Una evaluación de salud para detectar posibles orígenes profesionales y recomendar protección",
+          [
+            "Solo formación administrativa",
+            "Una sanción automática",
+            "Excluir toda evaluación hasta el año siguiente"
+          ],
+          "El art. 37.3.b incluye ese supuesto junto a evaluación inicial y vigilancia periódica."
+        ]
+      ]
+    },
+    {
+      "id": "documentacion",
+      "title": "Documentación y coordinación de empresas",
+      "refs": [
+        "ley:a23",
+        "ley:a24"
+      ],
+      "essential": "<b>Documentación:</b> plan, evaluación y controles, planificación y medidas, práctica y conclusiones de vigilancia sanitaria, y relación de accidentes y enfermedades con <b>incapacidad superior a un día de trabajo</b>.",
+      "body": "<p>Se conserva a disposición de la autoridad laboral y también se facilita a la sanitaria. Al cesar la actividad se remite a la autoridad laboral. Los daños producidos con motivo del trabajo se notifican por escrito conforme al procedimiento reglamentario.</p><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Concurrencia · art. 24</th><th scope=\"col\">Obligación</th></tr></thead><tbody><tr><td>Empresas concurrentes</td><td>Cooperar y establecer medios de coordinación e información sobre riesgos.</td></tr><tr><td>Titular del centro</td><td>Informar e instruir a las otras empresas sobre riesgos, medidas preventivas y de emergencia del centro.</td></tr><tr><td>Empresario principal</td><td>Vigilar cumplimiento de contratistas y subcontratistas de su propia actividad en sus propios centros.</td></tr><tr><td>Personas autónomas</td><td>También quedan sujetas a los deberes de cooperación e información e instrucción que les resulten aplicables.</td></tr></tbody></table></div><p class=\"note\">El desarrollo de la coordinación de actividades empresariales se encuentra en el RD 171/2004, citado como referencia complementaria al tema.</p>",
+      "trap": "El umbral del art. 23.1.e es superior a un día; no lo conviertas en «igual o superior». La obligación del principal tiene las condiciones de propia actividad y propio centro.",
+      "questions": [
+        [
+          "ley:a23",
+          "La relación del art. 23.1.e incluye daños con incapacidad…",
+          "Superior a un día de trabajo",
+          [
+            "Igual o superior a un mes",
+            "Solo superior a 15 días",
+            "De cualquier duración, como literal de esa letra"
+          ],
+          "Es el umbral específico de esa relación; no elimina los deberes de notificación de daños."
+        ],
+        [
+          "ley:a24",
+          "El empresario titular del centro debe…",
+          "Informar e instruir sobre riesgos, medidas y emergencias del centro",
+          [
+            "Asumir siempre todos los contratos de las otras empresas",
+            "Sustituir sus evaluaciones sin coordinación",
+            "Limitarse a permitir el acceso"
+          ],
+          "El art. 24.2 establece ese deber hacia los empresarios que desarrollan actividades en el centro."
+        ],
+        [
+          "ley:a24",
+          "La vigilancia del empresario principal del art. 24.3 se refiere a…",
+          "Contratas de su propia actividad en sus propios centros",
+          [
+            "Cualquier proveedor en cualquier lugar",
+            "Solo empresas sin asalariados",
+            "Solo trabajos administrativos"
+          ],
+          "Conserva ambas condiciones para no ampliar indebidamente la regla."
+        ]
+      ]
+    },
+    {
+      "id": "proteccion",
+      "title": "Sensibilidad, maternidad, menores y temporales",
+      "refs": [
+        "ley:a25",
+        "ley:a26",
+        "ley:a27",
+        "ley:a28",
+        "rd:anvii",
+        "rd:anviii"
+      ],
+      "essential": "La evaluación contempla características personales, estado biológico y discapacidad conocida. No se emplea a personas en puestos donde esas condiciones puedan poner en peligro a ellas o a otras, ni en estados transitorios incompatibles con las exigencias psicofísicas.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Situación</th><th scope=\"col\">Reglas clave</th></tr></thead><tbody><tr><td>Embarazo / parto reciente</td><td>Evaluar naturaleza, grado y duración de exposición. <b>Adaptar condiciones o tiempo → cambiar a puesto compatible → suspensión por riesgo si el cambio no es posible o exigible</b>, con requisitos del art. 26. Puede excluir nocturnidad o turnos si es necesario.</td></tr><tr><td>Lactancia natural</td><td>Protección de los apartados 1 y 2; posible suspensión por riesgo durante lactancia de hijos menores de <b>9 meses</b> si concurren requisitos.</td></tr><tr><td>Exámenes prenatales</td><td>Ausencia retribuida con aviso y justificación de necesidad dentro de jornada.</td></tr><tr><td>Menores de 18 años</td><td>Evaluación antes de incorporarse y antes de cambios importantes, atendiendo a inexperiencia, inmadurez y desarrollo. Información al joven y a padres o tutores que intervengan en la contratación.</td></tr><tr><td>Temporales y ETT</td><td>Mismo nivel de protección. Información previa de riesgos, formación y vigilancia. En ETT, usuaria responde de condiciones de ejecución; ETT, de formación y vigilancia de salud.</td></tr></tbody></table></div>",
+      "trap": "La maternidad no lleva directamente a suspensión: primero se intenta adaptar y después cambiar de puesto. Si debe destinarse a un puesto fuera de su grupo o categoría equivalente, conserva el conjunto de retribuciones de origen. En empleo público, atiende además al régimen estatutario aplicable.",
+      "questions": [
+        [
+          "ley:a26",
+          "La secuencia protectora de la maternidad es…",
+          "Adaptación, cambio compatible y, si procede, suspensión por riesgo",
+          [
+            "Suspensión automática, formación y cambio",
+            "Cambio y despido si no hay vacante",
+            "Permiso sin sueldo como primera medida"
+          ],
+          "Los pasos y sus requisitos se regulan en los apartados 1 a 3 del art. 26."
+        ],
+        [
+          "ley:a27",
+          "La evaluación especial de menores se refiere a quienes tienen…",
+          "Menos de 18 años",
+          [
+            "Menos de 16 exclusivamente",
+            "Menos de 21",
+            "Menos de 25"
+          ],
+          "Se realiza antes de incorporarse y ante modificaciones importantes de sus condiciones."
+        ],
+        [
+          "ley:a28",
+          "En una ETT, formación y vigilancia de la salud corresponden a…",
+          "La empresa de trabajo temporal",
+          [
+            "La usuaria en exclusiva en todos los casos",
+            "El trabajador por su cuenta",
+            "La ITSS como prestadora"
+          ],
+          "La usuaria es responsable de las condiciones de ejecución; el artículo distribuye las obligaciones."
+        ]
+      ]
+    },
+    {
+      "id": "obligaciones",
+      "title": "Los seis deberes del trabajador",
+      "refs": [
+        "ley:a29"
+      ],
+      "essential": "Cada trabajador vela, <b>según sus posibilidades, formación e instrucciones</b>, por su seguridad y por la de quienes puedan verse afectados por sus actos u omisiones.",
+      "body": "<ol><li>Usar adecuadamente máquinas, herramientas, sustancias, transporte y otros medios.</li><li>Utilizar correctamente los medios y equipos de protección facilitados.</li><li>No anular y utilizar correctamente los dispositivos de seguridad.</li><li>Informar <b>de inmediato</b> al superior directo y a trabajadores designados o servicio de prevención de situaciones con riesgo razonablemente apreciado.</li><li>Contribuir al cumplimiento de las obligaciones de la autoridad competente.</li><li>Cooperar con el empresario para garantizar condiciones seguras.</li></ol><p>El incumplimiento tiene la consideración de incumplimiento laboral o de falta según el régimen disciplinario aplicable al personal funcionario o estatutario.</p>",
+      "trap": "Las obligaciones del trabajador complementan el deber empresarial de protección; no lo sustituyen ni trasladan su coste.",
+      "questions": [
+        [
+          "ley:a29",
+          "Ante una situación que razonablemente entrañe riesgo, el trabajador informa…",
+          "De inmediato a los destinatarios previstos en el art. 29",
+          [
+            "Solo al acabar el turno",
+            "En 15 días",
+            "Solo después de sufrir un daño"
+          ],
+          "Los destinatarios son el superior directo y los trabajadores designados o, en su caso, el servicio de prevención."
+        ],
+        [
+          "ley:a29",
+          "Los dispositivos de seguridad deben…",
+          "Utilizarse correctamente y no ponerse fuera de funcionamiento",
+          [
+            "Anularse si ralentizan el trabajo",
+            "Desconectarse a criterio del usuario sin instrucciones",
+            "Utilizarse solo durante inspecciones"
+          ],
+          "Es un deber expreso del art. 29.2.3.º."
+        ],
+        [
+          "ley:a29",
+          "El incumplimiento preventivo de un funcionario puede ser…",
+          "Falta conforme a su régimen disciplinario",
+          [
+            "Siempre delito automáticamente",
+            "Siempre una infracción de tráfico",
+            "Una conducta sin consecuencias"
+          ],
+          "El art. 29.3 remite al régimen disciplinario aplicable, sin establecer delito automático."
+        ]
+      ]
+    },
+    {
+      "id": "modalidades",
+      "title": "Organización y asunción por el empresario",
+      "refs": [
+        "ley:a30",
+        "ley:a31",
+        "ley:a32",
+        "rd:a10",
+        "rd:a11",
+        "rd:a12",
+        "rd:a13"
+      ],
+      "essential": "Cuatro modalidades del RSP: <b>asunción personal, trabajadores designados, servicio propio y servicio ajeno</b>. El servicio de prevención asesora y asiste; la responsabilidad de integrar la prevención sigue en la organización.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Asunción personal · art. 11 RSP</th><th scope=\"col\">Condición acumulativa</th></tr></thead><tbody><tr><td>Plantilla</td><td>Hasta <b>10</b> trabajadores; o hasta <b>25</b> si hay <b>un único centro</b>.</td></tr><tr><td>Actividad</td><td>No incluida en el <b>anexo I</b>.</td></tr><tr><td>Presencia</td><td>El empresario trabaja habitualmente en el centro.</td></tr><tr><td>Capacidad</td><td>Posee la capacitación correspondiente a sus funciones.</td></tr><tr><td>Límite</td><td><b>No puede asumir la vigilancia de la salud</b>; esta y lo no asumido se cubren con otra modalidad.</td></tr></tbody></table></div><p>Los designados necesitan capacidad, tiempo, medios y número suficiente. Acceden a la información necesaria, colaboran y gozan de las garantías legales. Si son insuficientes se recurre a servicios de prevención. Las mutuas colaboradoras no pueden desarrollar directamente funciones de servicio de prevención ajeno (art. 32).</p>",
+      "trap": "25 exige único centro; 10 es el otro umbral. No lo confundas con los 50 del documento único o con los 50 del comité.",
+      "questions": [
+        [
+          "rd:a11",
+          "Un empresario con 25 trabajadores puede asumir personalmente la prevención si…",
+          "Hay único centro y cumple el resto de requisitos, excluida vigilancia de salud",
+          [
+            "Tiene varios centros y actividad del anexo I",
+            "Asume también todos los reconocimientos médicos",
+            "Lo decide sin formación ni presencia habitual"
+          ],
+          "Se exigen simultáneamente plantilla, centro único en ese tramo, actividad no anexo I, presencia y capacidad."
+        ],
+        [
+          "rd:a11",
+          "La asunción personal por el empresario excluye siempre…",
+          "Las actividades de vigilancia de la salud",
+          [
+            "La información de riesgos",
+            "Todas las evaluaciones elementales",
+            "La planificación de cualquier medida"
+          ],
+          "Deben cubrirse por otra modalidad preventiva."
+        ],
+        [
+          "rd:a13",
+          "Los trabajadores designados deben contar con…",
+          "Capacidad, tiempo, medios y número suficiente",
+          [
+            "Solo un nombramiento escrito sin recursos",
+            "Exclusivamente formación sanitaria",
+            "Facultad para trasladar el coste a la plantilla"
+          ],
+          "La adecuación depende del tamaño, riesgos y distribución de la empresa."
+        ]
+      ]
+    },
+    {
+      "id": "propio",
+      "title": "Cuándo es obligatorio el servicio propio",
+      "refs": [
+        "rd:a14",
+        "rd:a15"
+      ],
+      "essential": "<b>Servicio de prevención propio (SPP):</b> obligatorio con <b>más de 500</b> trabajadores; con <b>250–500</b> si hay actividades del <b>anexo I</b>; o por decisión de la autoridad en los términos del art. 14.c.",
+      "body": "<p>En el supuesto de decisión administrativa se valora peligrosidad o siniestralidad, con informes previos, salvo opción por concierto ajeno conforme al art. 16. Si se constituye SPP en ese caso, la autoridad fija plazo <b>no superior a un año</b>; entretanto se cubren las actividades según el artículo.</p><p>El SPP es <b>unidad organizativa específica</b>; sus integrantes dedican de forma <b>exclusiva</b> su actividad a esta finalidad. Cuenta con instalaciones, medios y, al menos, <b>dos especialidades o disciplinas preventivas</b>. Lo no asumido se concierta con uno o más servicios ajenos. Se elabora memoria y programación anual.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>500 no basta por sí solo</h3><p>Un <b>loro (50)</b> enorme sujeta un cero: pone 500 en la puerta. Solo deja pasar al SPP obligatorio general cuando la plantilla <b>supera</b> esa cifra.</p><p class=\"note\"><b>Dato exacto:</b> Más de 500 en general; 250–500 si anexo I. El SPP cubre al menos dos disciplinas.</p></div>",
+      "trap": "Exactamente 500 trabajadores no activa por sí solo la letra a: exige más de 500. A 500, si hay anexo I, sí opera la letra b.",
+      "questions": [
+        [
+          "rd:a14",
+          "El umbral general que obliga a servicio propio por tamaño es…",
+          "Más de 500 trabajadores",
+          [
+            "500 o más en todos los casos",
+            "Más de 250 en toda actividad",
+            "50 o más"
+          ],
+          "La letra a usa más de 500; la letra b abarca 250–500 con actividades del anexo I."
+        ],
+        [
+          "rd:a14",
+          "Una empresa de 250 trabajadores con actividad del anexo I debe…",
+          "Constituir servicio de prevención propio",
+          [
+            "Asumir personalmente la prevención",
+            "Constituir solo un comité y nada más",
+            "Esperar a superar 500"
+          ],
+          "El tramo de 250 a 500 incluye sus extremos."
+        ],
+        [
+          "rd:a15",
+          "El servicio propio contará al menos con…",
+          "Dos especialidades o disciplinas preventivas",
+          [
+            "Una disciplina",
+            "Tres en todo caso",
+            "Cuatro obligatoriamente como mínimo de SPP"
+          ],
+          "El art. 15 fija dos; no lo confundas con mancomunados o ajenos."
+        ]
+      ]
+    },
+    {
+      "id": "ajeno",
+      "title": "Ajeno y mancomunado: 4 frente a 3",
+      "refs": [
+        "ley:a31",
+        "rd:a16",
+        "rd:a17",
+        "rd:a18",
+        "rd:a20",
+        "rd:a21",
+        "rd:a23",
+        "rd:a25"
+      ],
+      "essential": "<b>Ajeno:</b> entidad especializada acreditada, con las <b>cuatro disciplinas</b>. <b>Mancomunado:</b> tiene consideración de servicio propio de las empresas que lo constituyen y cuenta al menos con <b>tres</b>.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Modalidad</th><th scope=\"col\">Diferencias que fijan el test</th></tr></thead><tbody><tr><td>Ajeno</td><td>Acreditación por autoridad laboral con aprobación sanitaria de los aspectos de salud; validez nacional. Concierto por escrito. Disciplinas: medicina del trabajo, seguridad, higiene, ergonomía y psicosociología aplicada.</td></tr><tr><td>Mancomunado</td><td>Entre empresas del mismo centro, edificio o centro comercial; también por los cauces previstos para sector, grupo, polígono o área limitada. Actividad limitada a empresas participantes; previa consulta a representantes.</td></tr><tr><td>Restricción del mancomunado</td><td>Quienes estén obligados legalmente a SPP no se integran en mancomunados de sector, pero sí en los del mismo grupo empresarial.</td></tr><tr><td>Solicitud de acreditación SPA</td><td>Resolución en 3 meses; ampliación a 6 en el supuesto territorial del art. 25.3. Silencio desestimatorio. Seguro o garantía con mínimo de 1.841.000 € según art. 23.f, sin limitar responsabilidad.</td></tr></tbody></table></div><p>Se recurre a ajeno cuando la designación es insuficiente y no es obligatorio SPP, en el supuesto administrativo correspondiente o para cubrir actividades no asumidas. Se consulta previamente a la representación. El concierto detalla actividades, centros y medios según el art. 20.</p>",
+      "trap": "«Mancomunado» no es sinónimo de ajeno: se considera propio. La ergonomía y psicosociología aplicada forman una sola disciplina en este cómputo.",
+      "questions": [
+        [
+          "rd:a21",
+          "El servicio mancomunado tiene consideración de…",
+          "Servicio propio de las empresas participantes",
+          [
+            "Servicio ajeno en todos los casos",
+            "Órgano de la autoridad laboral",
+            "Comité de Seguridad y Salud"
+          ],
+          "Debe contar al menos con tres disciplinas preventivas."
+        ],
+        [
+          "rd:a18",
+          "Un servicio de prevención ajeno debe contar con…",
+          "Las cuatro especialidades o disciplinas preventivas",
+          [
+            "Solo dos a su elección",
+            "Solo medicina del trabajo",
+            "Solo tres sin vigilancia de salud"
+          ],
+          "El mínimo de dos es del SPP y el de tres del mancomunado."
+        ],
+        [
+          "rd:a25",
+          "El silencio en la solicitud de acreditación como SPA es…",
+          "Desestimatorio",
+          [
+            "Estimatorio siempre",
+            "Una acreditación provisional automática",
+            "La autorización sanitaria automática"
+          ],
+          "El plazo ordinario es tres meses, ampliado a seis en el supuesto del art. 25.3."
+        ]
+      ]
+    },
+    {
+      "id": "recursos",
+      "title": "Presencia de recursos preventivos",
+      "refs": [
+        "ley:a32bis",
+        "rd:a22bis"
+      ],
+      "essential": "Se exige presencia cuando la concurrencia de operaciones <b>agrava o modifica riesgos</b> y requiere controlar métodos; en actividades o procesos <b>peligrosos o con riesgos especiales</b>; o cuando lo requiere la <b>ITSS</b>.",
+      "body": "<p>Pueden ser designados, miembros del servicio propio o del ajeno. También pueden asignarse expresamente otros trabajadores con conocimientos, cualificación y experiencia necesarios y formación preventiva al menos de <b>nivel básico</b>. Deben disponer de capacidad, medios y número suficiente, colaborar y permanecer mientras dure la situación que exige su presencia.</p><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Art. 22 bis.1.b RSP</th><th scope=\"col\">Casos expresos</th></tr></thead><tbody><tr><td>Altura</td><td>Riesgos <b>especialmente graves</b> de caída, por características, procedimientos o entorno.</td></tr><tr><td>Terreno</td><td>Sepultamiento o hundimiento.</td></tr><tr><td>Máquinas antiguas</td><td>Supuesto condicionado de máquinas sin declaración CE, del tipo que requiere organismo notificado y con protección insuficiente pese a medidas reglamentarias.</td></tr><tr><td>Espacios confinados</td><td>Aberturas limitadas, ventilación natural desfavorable, posibles contaminantes o déficit de oxígeno y no concebidos para ocupación continuada.</td></tr><tr><td>Agua</td><td>Riesgo de ahogamiento por inmersión, con la salvedad de trabajos con equipo subacuático sometidos a disposiciones específicas.</td></tr></tbody></table></div><p>La presencia es <b>complementaria</b>. El recurso hace indicaciones para corregir incumplimientos e informa al empresario de deficiencias; este corrige y modifica planificación o evaluación si procede. No sustituye las medidas de seguridad. La ubicación debe ser segura.</p>",
+      "trap": "No todo trabajo en altura se describe automáticamente como riesgo especialmente grave. Recurso preventivo y delegado de prevención tienen funciones diferentes.",
+      "questions": [
+        [
+          "ley:a32bis",
+          "¿Qué puede exigir la presencia de recursos preventivos?",
+          "Un requerimiento de la ITSS por las condiciones detectadas",
+          [
+            "Solo superar 500 trabajadores",
+            "La mera existencia de un comité",
+            "Solo una petición del fabricante"
+          ],
+          "Es uno de los tres supuestos del art. 32 bis.1."
+        ],
+        [
+          "ley:a32bis",
+          "Otro trabajador asignado expresamente a presencia preventiva necesita, como mínimo…",
+          "Formación de nivel básico, además de conocimientos, cualificación y experiencia necesarios",
+          [
+            "Solo experiencia sin formación",
+            "Siempre nivel superior en las cuatro disciplinas",
+            "Ser delegado sindical"
+          ],
+          "El art. 32 bis.4 exige ese conjunto de condiciones."
+        ],
+        [
+          "rd:a22bis",
+          "La presencia del recurso preventivo es una medida…",
+          "Complementaria a las restantes medidas preventivas",
+          [
+            "Sustitutiva de la protección colectiva",
+            "Que elimina la necesidad de evaluación",
+            "Que transfiere el deber empresarial al recurso"
+          ],
+          "Su finalidad es vigilar cumplimiento y eficacia mientras se mantiene la situación."
+        ]
+      ]
+    },
+    {
+      "id": "consulta",
+      "title": "Consulta previa y vías de participación",
+      "refs": [
+        "ley:a33",
+        "ley:a34"
+      ],
+      "essential": "El empresario consulta <b>con la debida antelación</b> las decisiones que afecten de manera sustancial a seguridad y salud. En empresas con <b>seis o más trabajadores</b>, la participación se canaliza por sus representantes y la representación especializada.",
+      "body": "<ul><li>Planificación y organización del trabajo e introducción de tecnologías con efectos sobre seguridad y salud.</li><li>Organización y desarrollo de actividades preventivas, designación o contratación de servicios.</li><li>Designación de encargados de emergencias.</li><li>Procedimientos de información y documentación; proyecto y organización de la formación preventiva.</li><li>Cualquier otra acción con efectos sustanciales en seguridad y salud.</li></ul><p>Si existen representantes, la consulta se hace con ellos. Para las Administraciones públicas, el art. 34 prevé adaptaciones por diversidad de actividades, condiciones y estructura, respetando los criterios legales.</p>",
+      "trap": "Consulta previa no significa informar después de ejecutar. El umbral de participación representativa de seis no es el del comité de cincuenta.",
+      "questions": [
+        [
+          "ley:a33",
+          "Las decisiones preventivas del art. 33 se consultan…",
+          "Con la debida antelación",
+          [
+            "Solo después de ejecutarlas",
+            "Solo cada cuatro años",
+            "Únicamente si existe un accidente"
+          ],
+          "La consulta debe permitir participación efectiva antes de la decisión."
+        ],
+        [
+          "ley:a34",
+          "El cauce representativo del art. 34 se prevé en empresas con…",
+          "Seis o más trabajadores",
+          [
+            "Más de 50",
+            "Más de 500",
+            "Exactamente 25"
+          ],
+          "No se debe confundir ese umbral con el del Comité de Seguridad y Salud."
+        ],
+        [
+          "ley:a33",
+          "La designación de trabajadores para medidas de emergencia…",
+          "Está incluida entre las cuestiones objeto de consulta",
+          [
+            "No puede consultarse",
+            "Solo se consulta a la mutua",
+            "Exige siempre referéndum vinculante"
+          ],
+          "El art. 33.1.c la incluye expresamente."
+        ]
+      ]
+    },
+    {
+      "id": "delegados",
+      "title": "Escala de delegados de prevención",
+      "refs": [
+        "ley:a35"
+      ],
+      "essential": "Son representantes con funciones específicas de prevención; regla general de designación: <b>por y entre representantes del personal</b>. Memoriza los saltos de la escala, incluidos sus extremos.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Plantilla</th><th scope=\"col\">Delegados de prevención</th></tr></thead><tbody><tr><td>Hasta 30</td><td>El delegado de personal será delegado de prevención, cuando exista representación.</td></tr><tr><td>31–49</td><td>1, elegido por y entre delegados de personal.</td></tr><tr><td>50–100</td><td>2</td></tr><tr><td>101–500</td><td>3</td></tr><tr><td>501–1.000</td><td>4</td></tr><tr><td>1.001–2.000</td><td>5</td></tr><tr><td>2.001–3.000</td><td>6</td></tr><tr><td>3.001–4.000</td><td>7</td></tr><tr><td>4.001 en adelante</td><td>8</td></tr></tbody></table></div><p><b>Cómputo:</b> contratos de duración determinada superior a un año como fijos; hasta un año, días trabajados en el año anterior: cada <b>200 días o fracción = un trabajador</b>. Los convenios y acuerdos pueden establecer otros sistemas de designación en las condiciones legales, también con particularidades en Administraciones.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>35 · La mula cuenta delegados</h3><p>Una <b>mula (35)</b> lleva dos delegados al llegar a 50. Al cruzar 100, sube un tercero; al cruzar 500, sube el cuarto.</p><p class=\"note\"><b>Dato exacto:</b> 50–100: 2; 101–500: 3; 501–1.000: 4. Artículo 35: escala de delegados.</p></div>",
+      "trap": "100 todavía tiene 2 delegados; 500 tiene 3; 1.000 tiene 4. «Cada 200 días o fracción» obliga a redondear al alza el resto.",
+      "questions": [
+        [
+          "ley:a35",
+          "A una empresa con exactamente 100 trabajadores le corresponden, según escala general…",
+          "2 delegados de prevención",
+          [
+            "1",
+            "3",
+            "4"
+          ],
+          "El primer tramo es 50–100; 101 abre el tramo de tres."
+        ],
+        [
+          "ley:a35",
+          "Con exactamente 500 trabajadores, la escala general establece…",
+          "3 delegados de prevención",
+          [
+            "2",
+            "4",
+            "5"
+          ],
+          "500 cierra el tramo 101–500; a partir de 501 son cuatro."
+        ],
+        [
+          "ley:a35",
+          "En contratos de hasta un año, cada 200 días trabajados o fracción computa como…",
+          "Un trabajador más",
+          [
+            "Dos trabajadores",
+            "Medio trabajador",
+            "Un delegado de prevención"
+          ],
+          "Se cuentan los días del año anterior a la designación, no solo el día de la elección."
+        ]
+      ]
+    },
+    {
+      "id": "facultades",
+      "title": "Facultades y garantías de los delegados",
+      "refs": [
+        "ley:a36",
+        "ley:a37"
+      ],
+      "essential": "<b>Colaboran, promueven cooperación, son consultados y vigilan.</b> Pueden acompañar a técnicos e inspectores, acceder a documentación con límites de confidencialidad, visitar centros y proponer mejoras y paralización.",
+      "body": "<p>Los informes de consulta del art. 36.1.c se emiten en <b>15 días</b>, o en el tiempo imprescindible para prevenir riesgos inminentes. Transcurrido el plazo sin informe, el empresario puede ejecutar su decisión. La negativa a adoptar medidas propuestas por un delegado debe estar <b>motivada</b>.</p><p>Reuniones del comité y otras convocadas por el empresario, y visitas de los apartados 36.2.a y c, son <b>tiempo de trabajo efectivo sin consumir crédito horario</b>. Los demás cometidos representativos siguen la regla del crédito. Su formación necesaria cuenta como trabajo, no tiene coste y se adapta a nuevos riesgos. Deben guardar sigilo profesional.</p>",
+      "trap": "No todas las visitas ni todas las tareas quedan fuera del crédito: conserva la referencia legal a 36.2.a y c. El plazo de informe no es una autorización previa del delegado.",
+      "questions": [
+        [
+          "ley:a36",
+          "El plazo ordinario para los informes de consulta de delegados es…",
+          "15 días",
+          [
+            "24 horas",
+            "3 días hábiles",
+            "Un mes"
+          ],
+          "Para medidas contra riesgos inminentes se reduce al tiempo imprescindible."
+        ],
+        [
+          "ley:a36",
+          "La negativa empresarial a adoptar medidas propuestas por el delegado debe ser…",
+          "Motivada",
+          [
+            "Siempre verbal",
+            "Aprobada por unanimidad del comité",
+            "Automáticamente sancionada por el delegado"
+          ],
+          "El art. 36.4 exige motivación."
+        ],
+        [
+          "ley:a37",
+          "Las reuniones del Comité de Seguridad y Salud son…",
+          "Trabajo efectivo sin imputación al crédito horario",
+          [
+            "Tiempo personal sin compensación",
+            "Siempre consumo de crédito horario",
+            "Formación voluntaria"
+          ],
+          "El art. 37.1 establece expresamente esa excepción al crédito."
+        ]
+      ]
+    },
+    {
+      "id": "comite",
+      "title": "Comité de Seguridad y Salud",
+      "refs": [
+        "ley:a38",
+        "ley:a39",
+        "ley:a40"
+      ],
+      "essential": "Órgano <b>paritario y colegiado de participación</b> para consulta regular y periódica. Se constituye en empresas o centros con <b>50 o más trabajadores</b>. Delegados de prevención y empresario o representantes en <b>igual número</b>.",
+      "body": "<p>Se reúne <b>trimestralmente</b> y cuando lo solicite alguna de sus representaciones. Adopta sus normas de funcionamiento. Delegados sindicales y técnicos no integrantes participan <b>con voz y sin voto</b>; también especialistas internos o técnicos externos si lo pide alguna representación.</p><p>Participa en elaboración, aplicación y evaluación de planes y programas; promueve iniciativas, conoce la situación preventiva, daños, documentos, memoria y programación anual. Donde no se constituye por plantilla inferior a 50, sus competencias las ejercen los delegados de prevención. Puede acordarse comité intercentros.</p><p>Los representantes pueden acudir a la ITSS si las medidas son insuficientes; en sus visitas el inspector comunica su presencia para facilitar acompañamiento, salvo que perjudique el éxito de sus funciones.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>38 · La mecha reúne al comité</h3><p>Una <b>mecha (38)</b> se apaga al sentar a ambos lados de la mesa el mismo número de representantes. Un <b>loro (50)</b> anuncia la reunión cada tres meses.</p><p class=\"note\"><b>Dato exacto:</b> Art. 38: órgano paritario; desde 50 trabajadores; reunión trimestral y a petición de alguna representación.</p></div>",
+      "trap": "Paritario significa igual número de cada parte. Quienes participan con voz y sin voto no se añaden como miembros con voto.",
+      "questions": [
+        [
+          "ley:a38",
+          "El Comité de Seguridad y Salud se constituye con…",
+          "50 o más trabajadores",
+          [
+            "Más de 50 exclusivamente",
+            "Más de 500",
+            "25 o más en todo caso"
+          ],
+          "El umbral incluye exactamente 50 y puede referirse a empresa o centro de trabajo."
+        ],
+        [
+          "ley:a38",
+          "El comité se reúne ordinariamente…",
+          "Trimestralmente",
+          [
+            "Mensualmente",
+            "Semestralmente",
+            "Cada cuatro años"
+          ],
+          "También cuando lo solicite alguna de sus representaciones."
+        ],
+        [
+          "ley:a38",
+          "Los técnicos de prevención que no integran el comité participan…",
+          "Con voz y sin voto",
+          [
+            "Siempre con voz y voto",
+            "Sin voz ni voto",
+            "Solo con autorización judicial"
+          ],
+          "La misma regla se prevé para delegados sindicales no integrantes en los términos del artículo."
+        ]
+      ]
+    },
+    {
+      "id": "responsabilidades",
+      "title": "Requerimientos, responsabilidades y derogaciones",
+      "refs": [
+        "ley:a42",
+        "ley:a43",
+        "ley:a44",
+        "ley:a45",
+        "ley:a53",
+        "ley:a54"
+      ],
+      "essential": "El incumplimiento empresarial puede originar responsabilidad <b>administrativa y, en su caso, penal y civil</b>. La administrativa es compatible con indemnizaciones y recargo de prestaciones conforme al art. 42.3.",
+      "body": "<p>La ITSS requiere por escrito subsanar deficiencias, indicando plazo e informando a delegados; ello no impide proponer sanción. Ante riesgo grave e inminente puede paralizar inmediatamente. En infracciones de excepcional gravedad, Gobierno u órgano autonómico competente pueden suspender actividades o, en caso extremo, cerrar el centro, sin perjuicio de salarios e indemnizaciones.</p><div class=\"caution\"><b>Texto vigente:</b> los arts. <b>45–52 están derogados</b>, además del art. 42.2. No memorices como vigentes sus antiguas cuantías, clasificación o prescripción. El régimen sancionador se consulta en el texto refundido de la LISOS (RDL 5/2000). El art. 54 conserva una remisión histórica a contratación pública; estudia su consecuencia con la legislación de contratación vigente cuando lo exija la convocatoria.</div>",
+      "trap": "Requerir que se corrija no impide sancionar. La paralización protectora no equivale por sí misma a una sanción.",
+      "questions": [
+        [
+          "ley:a42",
+          "La responsabilidad administrativa preventiva puede ser compatible con…",
+          "Indemnizaciones y recargo de prestaciones",
+          [
+            "Solo una amonestación verbal",
+            "Ninguna otra consecuencia en ningún caso",
+            "La eliminación del deber de reparación"
+          ],
+          "El art. 42.3 declara esa compatibilidad en los términos de la normativa aplicable."
+        ],
+        [
+          "ley:a43",
+          "Un requerimiento de subsanación de la ITSS…",
+          "No impide la propuesta de sanción correspondiente",
+          [
+            "Elimina toda posibilidad de sanción",
+            "Siempre suspende la actividad",
+            "Solo se comunica de palabra"
+          ],
+          "El art. 43 exige requerimiento escrito con deficiencias y plazo, sin perjuicio de sanción."
+        ],
+        [
+          "ley:a45",
+          "Los artículos 45–52 de la LPRL están…",
+          "Derogados",
+          [
+            "Todos vigentes con las cuantías de 1995",
+            "Suspendidos solo durante emergencias",
+            "Sustituidos por decisiones del comité"
+          ],
+          "La consolidación los identifica como derogados; evita estudiar sus versiones históricas como vigentes."
+        ]
+      ]
+    },
+    {
+      "id": "auditoria",
+      "title": "Auditorías: 12 meses, 4 y 2 años",
+      "refs": [
+        "rd:a29",
+        "rd:a30",
+        "rd:a31bis",
+        "rd:a32",
+        "rd:a33",
+        "rd:cuarta"
+      ],
+      "essential": "La auditoría es un análisis <b>sistemático, documentado y objetivo</b> del sistema preventivo. Se exige en los supuestos de organización con recursos propios y también para la parte propia e integración en sistemas mixtos.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Plazo / condición</th><th scope=\"col\">Regla del RSP</th></tr></thead><tbody><tr><td>Primera auditoría</td><td>Dentro de <b>12 meses</b> desde que se dispone de la planificación preventiva.</td></tr><tr><td>Repetición</td><td>Cada <b>4 años</b>; cada <b>2 años</b> con actividades del anexo I.</td></tr><tr><td>Ampliación</td><td>Los plazos de revisión aumentan en <b>2 años</b> si la modalidad de organización se acordó con la representación especializada: 6 o 4 años, respectivamente.</td></tr><tr><td>Excepción condicionada</td><td>Hasta <b>50</b> trabajadores, sin anexo I, prevención con recursos propios y eficacia evidente por escasa complejidad y plantilla: notificación del anexo II a autoridad laboral. Esta puede requerir auditoría.</td></tr><tr><td>Administraciones públicas</td><td>Excluidas de las obligaciones del capítulo V; instrumentos de control en su normativa específica.</td></tr></tbody></table></div><p>La autoridad puede exigir repetición por siniestralidad u otras circunstancias. El auditor no puede mantener vinculaciones que afecten a independencia u objetividad. El informe se conserva a disposición de la autoridad y representantes.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>12 · La tina; 4 · La oca; 2 · Noé</h3><p>Una <b>tina (12)</b> estrena la auditoría. Una <b>oca (4)</b> cuenta las repeticiones normales; <b>Noé (2)</b> corre más deprisa por el anexo I.</p><p class=\"note\"><b>Dato exacto:</b> Primera: dentro de 12 meses desde planificación. Repetición: 4 años; anexo I: 2. La ampliación de 2 afecta a la revisión.</p></div>",
+      "trap": "No cuentes los 12 meses desde la creación de la empresa. La excepción de hasta 50 exige todos sus requisitos y notificación; no es automática.",
+      "questions": [
+        [
+          "rd:a30",
+          "La primera auditoría se realiza dentro de los 12 meses siguientes a…",
+          "Disponer de la planificación de la actividad preventiva",
+          [
+            "La contratación del primer trabajador en todo caso",
+            "La última reunión del comité",
+            "La primera sanción"
+          ],
+          "El inicio del cómputo se fija en el art. 30.4."
+        ],
+        [
+          "rd:a30",
+          "La repetición ordinaria es cada…",
+          "4 años, o 2 si hay actividades del anexo I",
+          [
+            "2 años en todas las empresas",
+            "12 meses en todos los casos",
+            "5 años, o 3 con anexo I"
+          ],
+          "Puede ampliarse la revisión en dos años por acuerdo sobre modalidad con representación especializada."
+        ],
+        [
+          "rd:a29",
+          "La excepción de auditoría de empresas pequeñas exige…",
+          "Hasta 50, sin anexo I, recursos propios, eficacia evidente y notificación, con posibilidad de requerimiento",
+          [
+            "Solo tener menos de 500",
+            "Solo un acuerdo verbal con la plantilla",
+            "Únicamente contratar un EPI adecuado"
+          ],
+          "El art. 29.3 recoge requisitos acumulativos; la autoridad puede exigir auditoría según el apartado 4."
+        ]
+      ]
+    },
+    {
+      "id": "formacion",
+      "title": "Niveles y cuatro disciplinas preventivas",
+      "refs": [
+        "rd:a34",
+        "rd:a35",
+        "rd:a36",
+        "rd:a37",
+        "rd:aniv",
+        "rd:anv",
+        "rd:anvi"
+      ],
+      "essential": "<b>Básico:</b> 30 h en general, 50 h en empresas con actividades del anexo I por la vía formativa del art. 35.2.a. <b>Intermedio:</b> mínimo 300 h. <b>Superior:</b> titulación universitaria oficial y formación acreditada por universidad de al menos 600 h.",
+      "body": "<div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Nivel</th><th scope=\"col\">Función que lo distingue</th></tr></thead><tbody><tr><td>Básico</td><td>Promueve seguridad, orden, limpieza y uso de equipos; evaluaciones elementales compatibles con su formación; colabora en control y gestiona primeras intervenciones de emergencia.</td></tr><tr><td>Intermedio</td><td>Evalúa salvo lo reservado al superior; propone medidas, informa y forma a nivel básico, participa en planificación y dirige actuaciones de emergencia y primeros auxilios.</td></tr><tr><td>Superior</td><td>Evaluaciones con estrategia de medición o interpretación no mecánica; formación de su especialidad; planificación con distintos especialistas; vigilancia sanitaria por personal sanitario competente.</td></tr></tbody></table></div><p>El art. 35 también contempla cualificación profesional o académica equivalente y experiencia no inferior a dos años con responsabilidad equivalente, con mejora formativa progresiva cuando proceda. No conviertas la vía del curso en la única prevista en el literal.</p><p><b>Cuatro disciplinas:</b> medicina del trabajo, seguridad en el trabajo, higiene industrial, ergonomía y psicosociología aplicada. La vigilancia sanitaria exige la competencia y habilitación propias; las 600 horas por sí solas no habilitan para medicina.</p><div class=\"story\"><div class=\"overline\">Tu casillero · Una escena</div><h3>30 · Meru; 50 · Loro</h3><p><b>Meru (30)</b> aprende el nivel básico habitual. Un <b>loro (50)</b> le exige más horas cuando aparecen actividades del anexo I.</p><p class=\"note\"><b>Dato exacto:</b> Vía del programa básico: 30 h general / 50 h anexo I. Intermedio: 300 h. Superior: 600 h y titulación universitaria oficial.</p></div>",
+      "trap": "Las horas de los anexos describen requisitos del RSP para funciones preventivas; no son la duración universal de toda formación del art. 19 LPRL.",
+      "questions": [
+        [
+          "rd:a35",
+          "La duración mínima del programa básico para actividades del anexo I es…",
+          "50 horas",
+          [
+            "30 horas",
+            "300 horas",
+            "600 horas"
+          ],
+          "En las demás empresas la vía formativa básica es de al menos 30 horas."
+        ],
+        [
+          "rd:a36",
+          "El programa de nivel intermedio tiene duración no inferior a…",
+          "300 horas",
+          [
+            "30 horas",
+            "50 horas",
+            "600 horas"
+          ],
+          "El art. 36 remite al programa del anexo V."
+        ],
+        [
+          "rd:a37",
+          "Para funciones de nivel superior, el art. 37.2 exige…",
+          "Titulación universitaria oficial y formación universitaria acreditada de al menos 600 horas",
+          [
+            "Solo 600 horas sin titulación",
+            "Solo experiencia de dos años",
+            "Solo nivel básico y nombramiento"
+          ],
+          "Los requisitos sanitarios específicos se añaden para vigilancia y control de la salud."
+        ]
+      ]
+    },
+    {
+      "id": "anexos",
+      "title": "Anexo I y mapa de anexos",
+      "refs": [
+        "rd:ani",
+        "rd:anii",
+        "rd:aniii",
+        "rd:aniv",
+        "rd:anv",
+        "rd:anvi",
+        "rd:anvii",
+        "rd:anviii"
+      ],
+      "essential": "El <b>anexo I</b> enumera actividades relevantes para asunción personal, servicio propio, simplificación, formación básica y auditoría. No se identifica automáticamente con todos los supuestos de presencia del art. 22 bis.",
+      "body": "<ul><li>Radiaciones ionizantes en zonas controladas.</li><li>Agentes de toxicidad aguda categorías <b>1, 2 y 3</b>; en particular cancerígenos, mutágenos o tóxicos para reproducción <b>1A y 1B</b>.</li><li>Química de alto riesgo y accidentes mayores; biológicos grupos <b>3 y 4</b>.</li><li>Fabricación, manipulación y uso de explosivos y pirotecnia.</li><li>Minería y sondeos; inmersión bajo agua.</li><li>Construcción, excavación, tierras y túneles con caída de altura o sepultamiento.</li><li>Siderurgia y construcción naval.</li><li>Producción de gases comprimidos, licuados o disueltos o utilización significativa.</li><li>Concentraciones elevadas de polvo silíceo; riesgos eléctricos en <b>alta tensión</b>.</li></ul><div class=\"tablewrap\"><table><thead><tr><th scope=\"col\">Anexo</th><th scope=\"col\">Qué contiene</th></tr></thead><tbody><tr><td>I</td><td>Actividades de especial riesgo enumeradas.</td></tr><tr><td>II</td><td>Notificación sobre condiciones que no hacen necesaria la auditoría.</td></tr><tr><td>III</td><td>Criterios generales para proyectos y programas formativos.</td></tr><tr><td>IV</td><td>Programa de nivel básico: 50 / 30 horas.</td></tr><tr><td>V</td><td>Programa de nivel intermedio: 300 horas.</td></tr><tr><td>VI</td><td>Programa de nivel superior: 600 horas.</td></tr><tr><td>VII</td><td>Lista no exhaustiva de agentes, procedimientos y condiciones que pueden influir negativamente en embarazo o lactancia.</td></tr><tr><td>VIII</td><td>Lista no exhaustiva de agentes y condiciones a los que no puede haber riesgo de exposición en embarazo o lactancia, en los términos del art. 4.1.b.</td></tr></tbody></table></div><p><b>Traslado a bomberos:</b> identifica la tarea y la exposición concreta (inmersión, alta tensión, explosivos, agentes biológicos, etc.) y después aplica el precepto correspondiente. Las referencias históricas a otras normas que conserva el literal del anexo no sustituyen su regulación específica vigente.</p>",
+      "trap": "Anexo I y art. 22 bis son listas distintas con efectos distintos. VII se refiere a posibles influencias negativas; VIII a supuestos de no exposición en las condiciones legales.",
+      "questions": [
+        [
+          "rd:ani",
+          "El anexo I incluye exposición a agentes biológicos de los grupos…",
+          "3 y 4",
+          [
+            "1 y 2 exclusivamente",
+            "2 y 3 exclusivamente",
+            "Solo 4"
+          ],
+          "El apartado d recoge los grupos 3 y 4."
+        ],
+        [
+          "rd:aniv",
+          "El programa de formación de nivel básico figura en el anexo…",
+          "IV",
+          [
+            "II",
+            "V",
+            "VI"
+          ],
+          "II es notificación sobre auditoría; V intermedio; VI superior."
+        ],
+        [
+          "rd:anviii",
+          "¿Qué anexos tratan específicamente de embarazo o lactancia?",
+          "VII y VIII",
+          [
+            "I y II",
+            "III y IV",
+            "V y VI"
+          ],
+          "El VII recoge posibles influencias negativas; el VIII, agentes y condiciones de no exposición en los términos legales."
+        ]
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "prl-marco-1",
+      "block": "marco",
+      "page": "ley:a2",
+      "ref": "LPRL · art. 2",
+      "q": "Las disposiciones laborales preventivas tienen carácter de…",
+      "a": "<b>Mínimo indisponible, mejorable por convenio</b>. El art. 2.2 permite mejorar y desarrollar la protección mediante convenios colectivos."
+    },
+    {
+      "id": "prl-marco-2",
+      "block": "marco",
+      "page": "ley:dfsegunda",
+      "ref": "LPRL · disposiciones / anexos",
+      "q": "La LPRL entró en vigor el…",
+      "a": "<b>10 de febrero de 1996</b>. Su entrada se fijó a los tres meses de la publicación de 10/11/1995."
+    },
+    {
+      "id": "prl-marco-3",
+      "block": "marco",
+      "page": "rd:segunda-3",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "La entrada en vigor general del RSP fue el…",
+      "a": "<b>31 de marzo de 1997</b>. El art. 35 se exceptuó: entró en vigor doce meses después de la publicación, el 31/01/1998."
+    },
+    {
+      "id": "prl-ambito-1",
+      "block": "ambito",
+      "page": "ley:a3",
+      "ref": "LPRL · art. 3",
+      "q": "¿Queda excluido todo el personal de bomberos por su profesión?",
+      "a": "<b>No; la excepción depende de las actividades y de sus particularidades</b>. El art. 3.2 condiciona la excepción a que las particularidades de ciertas actividades impidan aplicar la Ley."
+    },
+    {
+      "id": "prl-ambito-2",
+      "block": "ambito",
+      "page": "ley:a3",
+      "ref": "LPRL · art. 3",
+      "q": "En las actividades exceptuadas por el art. 3.2, la LPRL…",
+      "a": "<b>Inspirará la normativa específica de protección</b>. La excepción no elimina el mandato de proteger la seguridad y salud mediante normativa específica."
+    },
+    {
+      "id": "prl-ambito-3",
+      "block": "ambito",
+      "page": "rd:cuarta",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "Las obligaciones de auditoría del capítulo V del RSP se aplican a las Administraciones públicas…",
+      "a": "<b>No; su normativa específica debe establecer instrumentos de control</b>. La disposición adicional cuarta.2 excluye esas obligaciones y exige instrumentos adecuados de control."
+    },
+    {
+      "id": "prl-conceptos-1",
+      "block": "conceptos",
+      "page": "ley:a4",
+      "ref": "LPRL · art. 4",
+      "q": "Para calificar la gravedad de un riesgo se valoran conjuntamente…",
+      "a": "<b>La probabilidad y la severidad del daño</b>. El art. 4.2 utiliza ambos factores, no exclusivamente la probabilidad."
+    },
+    {
+      "id": "prl-conceptos-2",
+      "block": "conceptos",
+      "page": "ley:a4",
+      "ref": "LPRL · art. 4",
+      "q": "Una exposición inmediata a un agente con daño grave diferido…",
+      "a": "<b>Puede constituir riesgo grave e inminente</b>. El art. 4.4 permite que el daño no se manifieste de forma inmediata."
+    },
+    {
+      "id": "prl-conceptos-3",
+      "block": "conceptos",
+      "page": "ley:a4",
+      "ref": "LPRL · art. 4",
+      "q": "La organización y ordenación del trabajo…",
+      "a": "<b>Pueden ser condiciones de trabajo que generen riesgos</b>. La definición incluye características organizativas que influyen en la magnitud de los riesgos."
+    },
+    {
+      "id": "prl-organismos-1",
+      "block": "organismos",
+      "page": "ley:a9",
+      "ref": "LPRL · art. 9",
+      "q": "La vigilancia y control de la normativa preventiva corresponde específicamente a…",
+      "a": "<b>La Inspección de Trabajo y Seguridad Social</b>. El art. 9 atribuye esa función a la ITSS, sin perjuicio de las competencias de otros órganos."
+    },
+    {
+      "id": "prl-organismos-2",
+      "block": "organismos",
+      "page": "ley:a13",
+      "ref": "LPRL · art. 13",
+      "q": "En los acuerdos de la CNSST, cada representante empresarial o sindical tiene…",
+      "a": "<b>Dos votos</b>. Los representantes de las Administraciones tienen un voto cada uno; los empresariales y sindicales, dos."
+    },
+    {
+      "id": "prl-organismos-3",
+      "block": "organismos",
+      "page": "ley:a6",
+      "ref": "LPRL · art. 6",
+      "q": "El desarrollo reglamentario del art. 6 corresponde al Gobierno…",
+      "a": "<b>Previa consulta a las organizaciones empresariales y sindicales más representativas</b>. El art. 6 regula materias como evaluación, organización preventiva y cualificación de servicios."
+    },
+    {
+      "id": "prl-principios-1",
+      "block": "principios",
+      "page": "ley:a15",
+      "ref": "LPRL · art. 15",
+      "q": "Según los principios preventivos, la primera actuación es…",
+      "a": "<b>Evitar los riesgos</b>. El art. 15 comienza por evitar; se evalúan los riesgos que no puedan evitarse."
+    },
+    {
+      "id": "prl-principios-2",
+      "block": "principios",
+      "page": "ley:a15",
+      "ref": "LPRL · art. 15",
+      "q": "¿Qué protección debe anteponerse?",
+      "a": "<b>La colectiva a la individual</b>. La prioridad aparece en el art. 15.1.h; no elimina la necesidad de EPI cuando procedan."
+    },
+    {
+      "id": "prl-principios-3",
+      "block": "principios",
+      "page": "ley:a14",
+      "ref": "LPRL · art. 14",
+      "q": "Contratar un servicio de prevención ajeno…",
+      "a": "<b>No exime al empresario de su deber de protección</b>. El deber empresarial subsiste aunque se recurra a entidades especializadas."
+    },
+    {
+      "id": "prl-plan-1",
+      "block": "plan",
+      "page": "rd:a2",
+      "ref": "RSP · art. 2",
+      "q": "¿Quién aprueba el plan de prevención?",
+      "a": "<b>La dirección de la empresa</b>. Debe ser asumido por toda la estructura y conocido por los trabajadores."
+    },
+    {
+      "id": "prl-plan-2",
+      "block": "plan",
+      "page": "ley:a16",
+      "ref": "LPRL · art. 16",
+      "q": "Los instrumentos esenciales para gestionar y aplicar el plan son…",
+      "a": "<b>La evaluación y la planificación preventiva</b>. El art. 16.2 diferencia el plan de sus dos instrumentos esenciales."
+    },
+    {
+      "id": "prl-plan-3",
+      "block": "plan",
+      "page": "rd:a2",
+      "ref": "RSP · art. 2",
+      "q": "El documento único simplificado del RSP se admite en empresas…",
+      "a": "<b>De hasta 50 trabajadores y sin actividades del anexo I</b>. El art. 2.4 exige ambos requisitos y medidas adaptadas con plazos de ejecución."
+    },
+    {
+      "id": "prl-evaluacion-1",
+      "block": "evaluacion",
+      "page": "rd:a6",
+      "ref": "RSP · art. 6",
+      "q": "Si se detectan daños a la salud, la evaluación de los puestos afectados…",
+      "a": "<b>Debe revisarse</b>. El art. 6.1 exige revisar, considerando entre otros elementos la investigación del daño."
+    },
+    {
+      "id": "prl-evaluacion-2",
+      "block": "evaluacion",
+      "page": "rd:a5",
+      "ref": "RSP · art. 5",
+      "q": "Si existen dudas sobre el resultado de una evaluación…",
+      "a": "<b>Se adoptan las medidas más favorables desde el punto de vista preventivo</b>. El procedimiento debe proporcionar confianza en su resultado."
+    },
+    {
+      "id": "prl-evaluacion-3",
+      "block": "evaluacion",
+      "page": "rd:a4",
+      "ref": "RSP · art. 4",
+      "q": "La evaluación debe considerar que el trabajador sea especialmente sensible…",
+      "a": "<b>A los riesgos por sus características personales o estado biológico conocido</b>. Se valoran tanto las condiciones del trabajo como las características de quienes lo desempeñan."
+    },
+    {
+      "id": "prl-planificacion-1",
+      "block": "planificacion",
+      "page": "ley:a16",
+      "ref": "LPRL · art. 16",
+      "q": "Para cada actividad preventiva deben figurar…",
+      "a": "<b>Plazo, responsables y recursos humanos y materiales</b>. El art. 16.2.b exige esas concreciones; el art. 9 RSP añade recursos económicos."
+    },
+    {
+      "id": "prl-planificacion-2",
+      "block": "planificacion",
+      "page": "rd:a9",
+      "ref": "RSP · art. 9",
+      "q": "Si la actividad preventiva se planifica para más de un año…",
+      "a": "<b>Se establece un programa anual de actividades</b>. El art. 9.3 exige ese programa sin eliminar seguimiento y control periódico."
+    },
+    {
+      "id": "prl-planificacion-3",
+      "block": "planificacion",
+      "page": "rd:a8",
+      "ref": "RSP · art. 8",
+      "q": "Las prioridades de la planificación atienden a…",
+      "a": "<b>Magnitud del riesgo y número de trabajadores expuestos</b>. El art. 8 prioriza la eliminación o control de riesgos atendiendo a esos dos factores."
+    },
+    {
+      "id": "prl-equipos-1",
+      "block": "equipos",
+      "page": "ley:a17",
+      "ref": "LPRL · art. 17",
+      "q": "Los EPI se utilizan cuando…",
+      "a": "<b>El riesgo no pueda evitarse o limitarse suficientemente por protección colectiva u organización</b>. El art. 17.2 establece su función dentro del conjunto de medidas preventivas."
+    },
+    {
+      "id": "prl-equipos-2",
+      "block": "equipos",
+      "page": "ley:a17",
+      "ref": "LPRL · art. 17",
+      "q": "El mantenimiento de equipos con riesgos específicos lo realizan…",
+      "a": "<b>Trabajadores específicamente capacitados</b>. El art. 17.1 diferencia el uso reservado y las tareas técnicas por personal capacitado."
+    },
+    {
+      "id": "prl-equipos-3",
+      "block": "equipos",
+      "page": "ley:a41",
+      "ref": "LPRL · art. 41",
+      "q": "La información sobre utilización y riesgos de los productos debe…",
+      "a": "<b>Facilitarla el suministrador y hacerla llegar el empresario de forma comprensible</b>. El art. 41 distribuye obligaciones entre fabricantes, importadores, suministradores y empresario."
+    },
+    {
+      "id": "prl-informacion-1",
+      "block": "informacion",
+      "page": "ley:a18",
+      "ref": "LPRL · art. 18",
+      "q": "La información de riesgos específicos del puesto se facilita…",
+      "a": "<b>Directamente a cada trabajador</b>. El cauce representativo para información general no sustituye la información directa del puesto."
+    },
+    {
+      "id": "prl-informacion-2",
+      "block": "informacion",
+      "page": "ley:a19",
+      "ref": "LPRL · art. 19",
+      "q": "Si la formación preventiva se realiza fuera de jornada…",
+      "a": "<b>Se descuenta de la jornada el tiempo invertido</b>. El art. 19.2 mantiene la ausencia de coste y prevé esa compensación de tiempo."
+    },
+    {
+      "id": "prl-informacion-3",
+      "block": "informacion",
+      "page": "ley:a19",
+      "ref": "LPRL · art. 19",
+      "q": "La formación debe darse al contratar…",
+      "a": "<b>Cualquiera que sea la modalidad o duración del contrato</b>. También se imparte ante cambios de funciones, nuevas tecnologías o equipos."
+    },
+    {
+      "id": "prl-emergencias-1",
+      "block": "emergencias",
+      "page": "ley:a20",
+      "ref": "LPRL · art. 20",
+      "q": "El artículo 20 contempla expresamente…",
+      "a": "<b>Primeros auxilios, lucha contra incendios y evacuación</b>. Son las tres materias citadas para las medidas de emergencia."
+    },
+    {
+      "id": "prl-emergencias-2",
+      "block": "emergencias",
+      "page": "ley:a20",
+      "ref": "LPRL · art. 20",
+      "q": "Al analizar emergencias debe tenerse en cuenta…",
+      "a": "<b>La posible presencia de personas ajenas a la empresa</b>. El art. 20 añade este factor al tamaño y actividad de la empresa."
+    },
+    {
+      "id": "prl-emergencias-3",
+      "block": "emergencias",
+      "page": "ley:a20",
+      "ref": "LPRL · art. 20",
+      "q": "El personal designado para emergencias debe…",
+      "a": "<b>Tener formación, número suficiente y material adecuado</b>. La empresa también comprueba periódicamente el funcionamiento de las medidas."
+    },
+    {
+      "id": "prl-paralizacion-1",
+      "block": "paralizacion",
+      "page": "ley:a21",
+      "ref": "LPRL · art. 21",
+      "q": "La autoridad laboral ratifica o anula la paralización acordada por representantes en…",
+      "a": "<b>24 horas</b>. La comunicación a empresa y autoridad es inmediata; el plazo de decisión es 24 horas."
+    },
+    {
+      "id": "prl-paralizacion-2",
+      "block": "paralizacion",
+      "page": "ley:a21",
+      "ref": "LPRL · art. 21",
+      "q": "Si no se reúne con urgencia la representación legal, pueden acordar paralizar…",
+      "a": "<b>Los delegados de prevención por decisión mayoritaria</b>. Es la vía subsidiaria prevista en el art. 21.3."
+    },
+    {
+      "id": "prl-paralizacion-3",
+      "block": "paralizacion",
+      "page": "ley:a44",
+      "ref": "LPRL · art. 44",
+      "q": "La empresa puede impugnar una paralización inspectora en…",
+      "a": "<b>3 días hábiles, sin dejar de cumplirla inmediatamente</b>. La autoridad laboral debe resolver la impugnación en un máximo de 24 horas."
+    },
+    {
+      "id": "prl-salud-1",
+      "block": "salud",
+      "page": "ley:a22",
+      "ref": "LPRL · art. 22",
+      "q": "La regla general de la vigilancia de la salud es…",
+      "a": "<b>El consentimiento del trabajador, con excepciones legales</b>. Las excepciones del art. 22.1 exigen informe previo de los representantes."
+    },
+    {
+      "id": "prl-salud-2",
+      "block": "salud",
+      "page": "ley:a22",
+      "ref": "LPRL · art. 22",
+      "q": "El empresario recibe ordinariamente…",
+      "a": "<b>Conclusiones de aptitud y necesidad de medidas preventivas</b>. El acceso a información médica personal está limitado por confidencialidad."
+    },
+    {
+      "id": "prl-salud-3",
+      "block": "salud",
+      "page": "rd:a37",
+      "ref": "RSP · art. 37",
+      "q": "Después de una ausencia prolongada por motivos de salud, el RSP contempla…",
+      "a": "<b>Una evaluación de salud para detectar posibles orígenes profesionales y recomendar protección</b>. El art. 37.3.b incluye ese supuesto junto a evaluación inicial y vigilancia periódica."
+    },
+    {
+      "id": "prl-documentacion-1",
+      "block": "documentacion",
+      "page": "ley:a23",
+      "ref": "LPRL · art. 23",
+      "q": "La relación del art. 23.1.e incluye daños con incapacidad…",
+      "a": "<b>Superior a un día de trabajo</b>. Es el umbral específico de esa relación; no elimina los deberes de notificación de daños."
+    },
+    {
+      "id": "prl-documentacion-2",
+      "block": "documentacion",
+      "page": "ley:a24",
+      "ref": "LPRL · art. 24",
+      "q": "El empresario titular del centro debe…",
+      "a": "<b>Informar e instruir sobre riesgos, medidas y emergencias del centro</b>. El art. 24.2 establece ese deber hacia los empresarios que desarrollan actividades en el centro."
+    },
+    {
+      "id": "prl-documentacion-3",
+      "block": "documentacion",
+      "page": "ley:a24",
+      "ref": "LPRL · art. 24",
+      "q": "La vigilancia del empresario principal del art. 24.3 se refiere a…",
+      "a": "<b>Contratas de su propia actividad en sus propios centros</b>. Conserva ambas condiciones para no ampliar indebidamente la regla."
+    },
+    {
+      "id": "prl-proteccion-1",
+      "block": "proteccion",
+      "page": "ley:a26",
+      "ref": "LPRL · art. 26",
+      "q": "La secuencia protectora de la maternidad es…",
+      "a": "<b>Adaptación, cambio compatible y, si procede, suspensión por riesgo</b>. Los pasos y sus requisitos se regulan en los apartados 1 a 3 del art. 26."
+    },
+    {
+      "id": "prl-proteccion-2",
+      "block": "proteccion",
+      "page": "ley:a27",
+      "ref": "LPRL · art. 27",
+      "q": "La evaluación especial de menores se refiere a quienes tienen…",
+      "a": "<b>Menos de 18 años</b>. Se realiza antes de incorporarse y ante modificaciones importantes de sus condiciones."
+    },
+    {
+      "id": "prl-proteccion-3",
+      "block": "proteccion",
+      "page": "ley:a28",
+      "ref": "LPRL · art. 28",
+      "q": "En una ETT, formación y vigilancia de la salud corresponden a…",
+      "a": "<b>La empresa de trabajo temporal</b>. La usuaria es responsable de las condiciones de ejecución; el artículo distribuye las obligaciones."
+    },
+    {
+      "id": "prl-obligaciones-1",
+      "block": "obligaciones",
+      "page": "ley:a29",
+      "ref": "LPRL · art. 29",
+      "q": "Ante una situación que razonablemente entrañe riesgo, el trabajador informa…",
+      "a": "<b>De inmediato a los destinatarios previstos en el art. 29</b>. Los destinatarios son el superior directo y los trabajadores designados o, en su caso, el servicio de prevención."
+    },
+    {
+      "id": "prl-obligaciones-2",
+      "block": "obligaciones",
+      "page": "ley:a29",
+      "ref": "LPRL · art. 29",
+      "q": "Los dispositivos de seguridad deben…",
+      "a": "<b>Utilizarse correctamente y no ponerse fuera de funcionamiento</b>. Es un deber expreso del art. 29.2.3.º."
+    },
+    {
+      "id": "prl-obligaciones-3",
+      "block": "obligaciones",
+      "page": "ley:a29",
+      "ref": "LPRL · art. 29",
+      "q": "El incumplimiento preventivo de un funcionario puede ser…",
+      "a": "<b>Falta conforme a su régimen disciplinario</b>. El art. 29.3 remite al régimen disciplinario aplicable, sin establecer delito automático."
+    },
+    {
+      "id": "prl-modalidades-1",
+      "block": "modalidades",
+      "page": "rd:a11",
+      "ref": "RSP · art. 11",
+      "q": "Un empresario con 25 trabajadores puede asumir personalmente la prevención si…",
+      "a": "<b>Hay único centro y cumple el resto de requisitos, excluida vigilancia de salud</b>. Se exigen simultáneamente plantilla, centro único en ese tramo, actividad no anexo I, presencia y capacidad."
+    },
+    {
+      "id": "prl-modalidades-2",
+      "block": "modalidades",
+      "page": "rd:a11",
+      "ref": "RSP · art. 11",
+      "q": "La asunción personal por el empresario excluye siempre…",
+      "a": "<b>Las actividades de vigilancia de la salud</b>. Deben cubrirse por otra modalidad preventiva."
+    },
+    {
+      "id": "prl-modalidades-3",
+      "block": "modalidades",
+      "page": "rd:a13",
+      "ref": "RSP · art. 13",
+      "q": "Los trabajadores designados deben contar con…",
+      "a": "<b>Capacidad, tiempo, medios y número suficiente</b>. La adecuación depende del tamaño, riesgos y distribución de la empresa."
+    },
+    {
+      "id": "prl-propio-1",
+      "block": "propio",
+      "page": "rd:a14",
+      "ref": "RSP · art. 14",
+      "q": "El umbral general que obliga a servicio propio por tamaño es…",
+      "a": "<b>Más de 500 trabajadores</b>. La letra a usa más de 500; la letra b abarca 250–500 con actividades del anexo I."
+    },
+    {
+      "id": "prl-propio-2",
+      "block": "propio",
+      "page": "rd:a14",
+      "ref": "RSP · art. 14",
+      "q": "Una empresa de 250 trabajadores con actividad del anexo I debe…",
+      "a": "<b>Constituir servicio de prevención propio</b>. El tramo de 250 a 500 incluye sus extremos."
+    },
+    {
+      "id": "prl-propio-3",
+      "block": "propio",
+      "page": "rd:a15",
+      "ref": "RSP · art. 15",
+      "q": "El servicio propio contará al menos con…",
+      "a": "<b>Dos especialidades o disciplinas preventivas</b>. El art. 15 fija dos; no lo confundas con mancomunados o ajenos."
+    },
+    {
+      "id": "prl-ajeno-1",
+      "block": "ajeno",
+      "page": "rd:a21",
+      "ref": "RSP · art. 21",
+      "q": "El servicio mancomunado tiene consideración de…",
+      "a": "<b>Servicio propio de las empresas participantes</b>. Debe contar al menos con tres disciplinas preventivas."
+    },
+    {
+      "id": "prl-ajeno-2",
+      "block": "ajeno",
+      "page": "rd:a18",
+      "ref": "RSP · art. 18",
+      "q": "Un servicio de prevención ajeno debe contar con…",
+      "a": "<b>Las cuatro especialidades o disciplinas preventivas</b>. El mínimo de dos es del SPP y el de tres del mancomunado."
+    },
+    {
+      "id": "prl-ajeno-3",
+      "block": "ajeno",
+      "page": "rd:a25",
+      "ref": "RSP · art. 25",
+      "q": "El silencio en la solicitud de acreditación como SPA es…",
+      "a": "<b>Desestimatorio</b>. El plazo ordinario es tres meses, ampliado a seis en el supuesto del art. 25.3."
+    },
+    {
+      "id": "prl-recursos-1",
+      "block": "recursos",
+      "page": "ley:a32bis",
+      "ref": "LPRL · art. 32 bis",
+      "q": "¿Qué puede exigir la presencia de recursos preventivos?",
+      "a": "<b>Un requerimiento de la ITSS por las condiciones detectadas</b>. Es uno de los tres supuestos del art. 32 bis.1."
+    },
+    {
+      "id": "prl-recursos-2",
+      "block": "recursos",
+      "page": "ley:a32bis",
+      "ref": "LPRL · art. 32 bis",
+      "q": "Otro trabajador asignado expresamente a presencia preventiva necesita, como mínimo…",
+      "a": "<b>Formación de nivel básico, además de conocimientos, cualificación y experiencia necesarios</b>. El art. 32 bis.4 exige ese conjunto de condiciones."
+    },
+    {
+      "id": "prl-recursos-3",
+      "block": "recursos",
+      "page": "rd:a22bis",
+      "ref": "RSP · art. 22 bis",
+      "q": "La presencia del recurso preventivo es una medida…",
+      "a": "<b>Complementaria a las restantes medidas preventivas</b>. Su finalidad es vigilar cumplimiento y eficacia mientras se mantiene la situación."
+    },
+    {
+      "id": "prl-consulta-1",
+      "block": "consulta",
+      "page": "ley:a33",
+      "ref": "LPRL · art. 33",
+      "q": "Las decisiones preventivas del art. 33 se consultan…",
+      "a": "<b>Con la debida antelación</b>. La consulta debe permitir participación efectiva antes de la decisión."
+    },
+    {
+      "id": "prl-consulta-2",
+      "block": "consulta",
+      "page": "ley:a34",
+      "ref": "LPRL · art. 34",
+      "q": "El cauce representativo del art. 34 se prevé en empresas con…",
+      "a": "<b>Seis o más trabajadores</b>. No se debe confundir ese umbral con el del Comité de Seguridad y Salud."
+    },
+    {
+      "id": "prl-consulta-3",
+      "block": "consulta",
+      "page": "ley:a33",
+      "ref": "LPRL · art. 33",
+      "q": "La designación de trabajadores para medidas de emergencia…",
+      "a": "<b>Está incluida entre las cuestiones objeto de consulta</b>. El art. 33.1.c la incluye expresamente."
+    },
+    {
+      "id": "prl-delegados-1",
+      "block": "delegados",
+      "page": "ley:a35",
+      "ref": "LPRL · art. 35",
+      "q": "A una empresa con exactamente 100 trabajadores le corresponden, según escala general…",
+      "a": "<b>2 delegados de prevención</b>. El primer tramo es 50–100; 101 abre el tramo de tres."
+    },
+    {
+      "id": "prl-delegados-2",
+      "block": "delegados",
+      "page": "ley:a35",
+      "ref": "LPRL · art. 35",
+      "q": "Con exactamente 500 trabajadores, la escala general establece…",
+      "a": "<b>3 delegados de prevención</b>. 500 cierra el tramo 101–500; a partir de 501 son cuatro."
+    },
+    {
+      "id": "prl-delegados-3",
+      "block": "delegados",
+      "page": "ley:a35",
+      "ref": "LPRL · art. 35",
+      "q": "En contratos de hasta un año, cada 200 días trabajados o fracción computa como…",
+      "a": "<b>Un trabajador más</b>. Se cuentan los días del año anterior a la designación, no solo el día de la elección."
+    },
+    {
+      "id": "prl-facultades-1",
+      "block": "facultades",
+      "page": "ley:a36",
+      "ref": "LPRL · art. 36",
+      "q": "El plazo ordinario para los informes de consulta de delegados es…",
+      "a": "<b>15 días</b>. Para medidas contra riesgos inminentes se reduce al tiempo imprescindible."
+    },
+    {
+      "id": "prl-facultades-2",
+      "block": "facultades",
+      "page": "ley:a36",
+      "ref": "LPRL · art. 36",
+      "q": "La negativa empresarial a adoptar medidas propuestas por el delegado debe ser…",
+      "a": "<b>Motivada</b>. El art. 36.4 exige motivación."
+    },
+    {
+      "id": "prl-facultades-3",
+      "block": "facultades",
+      "page": "ley:a37",
+      "ref": "LPRL · art. 37",
+      "q": "Las reuniones del Comité de Seguridad y Salud son…",
+      "a": "<b>Trabajo efectivo sin imputación al crédito horario</b>. El art. 37.1 establece expresamente esa excepción al crédito."
+    },
+    {
+      "id": "prl-comite-1",
+      "block": "comite",
+      "page": "ley:a38",
+      "ref": "LPRL · art. 38",
+      "q": "El Comité de Seguridad y Salud se constituye con…",
+      "a": "<b>50 o más trabajadores</b>. El umbral incluye exactamente 50 y puede referirse a empresa o centro de trabajo."
+    },
+    {
+      "id": "prl-comite-2",
+      "block": "comite",
+      "page": "ley:a38",
+      "ref": "LPRL · art. 38",
+      "q": "El comité se reúne ordinariamente…",
+      "a": "<b>Trimestralmente</b>. También cuando lo solicite alguna de sus representaciones."
+    },
+    {
+      "id": "prl-comite-3",
+      "block": "comite",
+      "page": "ley:a38",
+      "ref": "LPRL · art. 38",
+      "q": "Los técnicos de prevención que no integran el comité participan…",
+      "a": "<b>Con voz y sin voto</b>. La misma regla se prevé para delegados sindicales no integrantes en los términos del artículo."
+    },
+    {
+      "id": "prl-responsabilidades-1",
+      "block": "responsabilidades",
+      "page": "ley:a42",
+      "ref": "LPRL · art. 42",
+      "q": "La responsabilidad administrativa preventiva puede ser compatible con…",
+      "a": "<b>Indemnizaciones y recargo de prestaciones</b>. El art. 42.3 declara esa compatibilidad en los términos de la normativa aplicable."
+    },
+    {
+      "id": "prl-responsabilidades-2",
+      "block": "responsabilidades",
+      "page": "ley:a43",
+      "ref": "LPRL · art. 43",
+      "q": "Un requerimiento de subsanación de la ITSS…",
+      "a": "<b>No impide la propuesta de sanción correspondiente</b>. El art. 43 exige requerimiento escrito con deficiencias y plazo, sin perjuicio de sanción."
+    },
+    {
+      "id": "prl-responsabilidades-3",
+      "block": "responsabilidades",
+      "page": "ley:a45",
+      "ref": "LPRL · art. 45",
+      "q": "Los artículos 45–52 de la LPRL están…",
+      "a": "<b>Derogados</b>. La consolidación los identifica como derogados; evita estudiar sus versiones históricas como vigentes."
+    },
+    {
+      "id": "prl-auditoria-1",
+      "block": "auditoria",
+      "page": "rd:a30",
+      "ref": "RSP · art. 30",
+      "q": "La primera auditoría se realiza dentro de los 12 meses siguientes a…",
+      "a": "<b>Disponer de la planificación de la actividad preventiva</b>. El inicio del cómputo se fija en el art. 30.4."
+    },
+    {
+      "id": "prl-auditoria-2",
+      "block": "auditoria",
+      "page": "rd:a30",
+      "ref": "RSP · art. 30",
+      "q": "La repetición ordinaria es cada…",
+      "a": "<b>4 años, o 2 si hay actividades del anexo I</b>. Puede ampliarse la revisión en dos años por acuerdo sobre modalidad con representación especializada."
+    },
+    {
+      "id": "prl-auditoria-3",
+      "block": "auditoria",
+      "page": "rd:a29",
+      "ref": "RSP · art. 29",
+      "q": "La excepción de auditoría de empresas pequeñas exige…",
+      "a": "<b>Hasta 50, sin anexo I, recursos propios, eficacia evidente y notificación, con posibilidad de requerimiento</b>. El art. 29.3 recoge requisitos acumulativos; la autoridad puede exigir auditoría según el apartado 4."
+    },
+    {
+      "id": "prl-formacion-1",
+      "block": "formacion",
+      "page": "rd:a35",
+      "ref": "RSP · art. 35",
+      "q": "La duración mínima del programa básico para actividades del anexo I es…",
+      "a": "<b>50 horas</b>. En las demás empresas la vía formativa básica es de al menos 30 horas."
+    },
+    {
+      "id": "prl-formacion-2",
+      "block": "formacion",
+      "page": "rd:a36",
+      "ref": "RSP · art. 36",
+      "q": "El programa de nivel intermedio tiene duración no inferior a…",
+      "a": "<b>300 horas</b>. El art. 36 remite al programa del anexo V."
+    },
+    {
+      "id": "prl-formacion-3",
+      "block": "formacion",
+      "page": "rd:a37",
+      "ref": "RSP · art. 37",
+      "q": "Para funciones de nivel superior, el art. 37.2 exige…",
+      "a": "<b>Titulación universitaria oficial y formación universitaria acreditada de al menos 600 horas</b>. Los requisitos sanitarios específicos se añaden para vigilancia y control de la salud."
+    },
+    {
+      "id": "prl-anexos-1",
+      "block": "anexos",
+      "page": "rd:ani",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "El anexo I incluye exposición a agentes biológicos de los grupos…",
+      "a": "<b>3 y 4</b>. El apartado d recoge los grupos 3 y 4."
+    },
+    {
+      "id": "prl-anexos-2",
+      "block": "anexos",
+      "page": "rd:aniv",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "El programa de formación de nivel básico figura en el anexo…",
+      "a": "<b>IV</b>. II es notificación sobre auditoría; V intermedio; VI superior."
+    },
+    {
+      "id": "prl-anexos-3",
+      "block": "anexos",
+      "page": "rd:anviii",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "¿Qué anexos tratan específicamente de embarazo o lactancia?",
+      "a": "<b>VII y VIII</b>. El VII recoge posibles influencias negativas; el VIII, agentes y condiciones de no exposición en los términos legales."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "prl-q1",
+      "block": "marco",
+      "page": "ley:a2",
+      "ref": "LPRL · art. 2",
+      "q": "Las disposiciones laborales preventivas tienen carácter de…",
+      "options": [
+        "Máximo que no puede superarse",
+        "Orientación voluntaria",
+        "Mínimo que el trabajador puede renunciar a aplicar",
+        "Mínimo indisponible, mejorable por convenio"
+      ],
+      "correct": 3,
+      "explanation": "El art. 2.2 permite mejorar y desarrollar la protección mediante convenios colectivos."
+    },
+    {
+      "id": "prl-q2",
+      "block": "marco",
+      "page": "ley:dfsegunda",
+      "ref": "LPRL · disposiciones / anexos",
+      "q": "La LPRL entró en vigor el…",
+      "options": [
+        "10 de febrero de 1996",
+        "8 de noviembre de 1995",
+        "10 de noviembre de 1995",
+        "31 de marzo de 1997"
+      ],
+      "correct": 0,
+      "explanation": "Su entrada se fijó a los tres meses de la publicación de 10/11/1995."
+    },
+    {
+      "id": "prl-q3",
+      "block": "marco",
+      "page": "rd:segunda-3",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "La entrada en vigor general del RSP fue el…",
+      "options": [
+        "10 de febrero de 1996",
+        "31 de marzo de 1997",
+        "17 de enero de 1997",
+        "31 de enero de 1997"
+      ],
+      "correct": 1,
+      "explanation": "El art. 35 se exceptuó: entró en vigor doce meses después de la publicación, el 31/01/1998."
+    },
+    {
+      "id": "prl-q4",
+      "block": "ambito",
+      "page": "ley:a3",
+      "ref": "LPRL · art. 3",
+      "q": "¿Queda excluido todo el personal de bomberos por su profesión?",
+      "options": [
+        "Sí, incluso en mantenimiento y formación",
+        "Solo se aplica al personal administrativo del parque",
+        "No; la excepción depende de las actividades y de sus particularidades",
+        "Sí, por pertenecer a protección civil"
+      ],
+      "correct": 2,
+      "explanation": "El art. 3.2 condiciona la excepción a que las particularidades de ciertas actividades impidan aplicar la Ley."
+    },
+    {
+      "id": "prl-q5",
+      "block": "ambito",
+      "page": "ley:a3",
+      "ref": "LPRL · art. 3",
+      "q": "En las actividades exceptuadas por el art. 3.2, la LPRL…",
+      "options": [
+        "No tiene ninguna función",
+        "Se sustituye siempre por un convenio",
+        "Solo protege a mandos",
+        "Inspirará la normativa específica de protección"
+      ],
+      "correct": 3,
+      "explanation": "La excepción no elimina el mandato de proteger la seguridad y salud mediante normativa específica."
+    },
+    {
+      "id": "prl-q6",
+      "block": "ambito",
+      "page": "rd:cuarta",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "Las obligaciones de auditoría del capítulo V del RSP se aplican a las Administraciones públicas…",
+      "options": [
+        "No; su normativa específica debe establecer instrumentos de control",
+        "Sí, cada cuatro años sin excepción",
+        "Sí, cada dos años en todos los servicios",
+        "Solo si hay más de 50 empleados"
+      ],
+      "correct": 0,
+      "explanation": "La disposición adicional cuarta.2 excluye esas obligaciones y exige instrumentos adecuados de control."
+    },
+    {
+      "id": "prl-q7",
+      "block": "conceptos",
+      "page": "ley:a4",
+      "ref": "LPRL · art. 4",
+      "q": "Para calificar la gravedad de un riesgo se valoran conjuntamente…",
+      "options": [
+        "La urgencia y el coste económico",
+        "La probabilidad y la severidad del daño",
+        "Solo el número de expuestos",
+        "La duración y el precio del equipo"
+      ],
+      "correct": 1,
+      "explanation": "El art. 4.2 utiliza ambos factores, no exclusivamente la probabilidad."
+    },
+    {
+      "id": "prl-q8",
+      "block": "conceptos",
+      "page": "ley:a4",
+      "ref": "LPRL · art. 4",
+      "q": "Una exposición inmediata a un agente con daño grave diferido…",
+      "options": [
+        "Solo es riesgo leve",
+        "No constituye riesgo laboral",
+        "Puede constituir riesgo grave e inminente",
+        "Nunca es inminente si no hay síntomas"
+      ],
+      "correct": 2,
+      "explanation": "El art. 4.4 permite que el daño no se manifieste de forma inmediata."
+    },
+    {
+      "id": "prl-q9",
+      "block": "conceptos",
+      "page": "ley:a4",
+      "ref": "LPRL · art. 4",
+      "q": "La organización y ordenación del trabajo…",
+      "options": [
+        "Están excluidas de la definición",
+        "Solo son relevantes en oficinas",
+        "Solo cuentan si causan lesiones físicas",
+        "Pueden ser condiciones de trabajo que generen riesgos"
+      ],
+      "correct": 3,
+      "explanation": "La definición incluye características organizativas que influyen en la magnitud de los riesgos."
+    },
+    {
+      "id": "prl-q10",
+      "block": "organismos",
+      "page": "ley:a9",
+      "ref": "LPRL · art. 9",
+      "q": "La vigilancia y control de la normativa preventiva corresponde específicamente a…",
+      "options": [
+        "La Inspección de Trabajo y Seguridad Social",
+        "La CNSST exclusivamente",
+        "El Comité de empresa en exclusiva",
+        "El servicio médico exclusivamente"
+      ],
+      "correct": 0,
+      "explanation": "El art. 9 atribuye esa función a la ITSS, sin perjuicio de las competencias de otros órganos."
+    },
+    {
+      "id": "prl-q11",
+      "block": "organismos",
+      "page": "ley:a13",
+      "ref": "LPRL · art. 13",
+      "q": "En los acuerdos de la CNSST, cada representante empresarial o sindical tiene…",
+      "options": [
+        "Voto solo consultivo",
+        "Dos votos",
+        "Un voto",
+        "Tres votos"
+      ],
+      "correct": 1,
+      "explanation": "Los representantes de las Administraciones tienen un voto cada uno; los empresariales y sindicales, dos."
+    },
+    {
+      "id": "prl-q12",
+      "block": "organismos",
+      "page": "ley:a6",
+      "ref": "LPRL · art. 6",
+      "q": "El desarrollo reglamentario del art. 6 corresponde al Gobierno…",
+      "options": [
+        "Sin consulta alguna",
+        "Solo a propuesta del Comité de Seguridad y Salud",
+        "Previa consulta a las organizaciones empresariales y sindicales más representativas",
+        "Con autorización individual de cada empresa"
+      ],
+      "correct": 2,
+      "explanation": "El art. 6 regula materias como evaluación, organización preventiva y cualificación de servicios."
+    },
+    {
+      "id": "prl-q13",
+      "block": "principios",
+      "page": "ley:a15",
+      "ref": "LPRL · art. 15",
+      "q": "Según los principios preventivos, la primera actuación es…",
+      "options": [
+        "Evaluar todos los riesgos antes de intentar evitarlos",
+        "Entregar siempre un EPI como primera medida",
+        "Compensar económicamente el riesgo",
+        "Evitar los riesgos"
+      ],
+      "correct": 3,
+      "explanation": "El art. 15 comienza por evitar; se evalúan los riesgos que no puedan evitarse."
+    },
+    {
+      "id": "prl-q14",
+      "block": "principios",
+      "page": "ley:a15",
+      "ref": "LPRL · art. 15",
+      "q": "¿Qué protección debe anteponerse?",
+      "options": [
+        "La colectiva a la individual",
+        "La individual a la colectiva",
+        "La más barata en todo caso",
+        "La voluntaria a la obligatoria"
+      ],
+      "correct": 0,
+      "explanation": "La prioridad aparece en el art. 15.1.h; no elimina la necesidad de EPI cuando procedan."
+    },
+    {
+      "id": "prl-q15",
+      "block": "principios",
+      "page": "ley:a14",
+      "ref": "LPRL · art. 14",
+      "q": "Contratar un servicio de prevención ajeno…",
+      "options": [
+        "Sustituye la obligación de integrar la prevención",
+        "No exime al empresario de su deber de protección",
+        "Transfiere toda responsabilidad al servicio",
+        "Permite cobrar la prevención a los trabajadores"
+      ],
+      "correct": 1,
+      "explanation": "El deber empresarial subsiste aunque se recurra a entidades especializadas."
+    },
+    {
+      "id": "prl-q16",
+      "block": "plan",
+      "page": "rd:a2",
+      "ref": "RSP · art. 2",
+      "q": "¿Quién aprueba el plan de prevención?",
+      "options": [
+        "Los delegados por unanimidad",
+        "Cada trabajador individualmente",
+        "La dirección de la empresa",
+        "La ITSS en todo caso"
+      ],
+      "correct": 2,
+      "explanation": "Debe ser asumido por toda la estructura y conocido por los trabajadores."
+    },
+    {
+      "id": "prl-q17",
+      "block": "plan",
+      "page": "ley:a16",
+      "ref": "LPRL · art. 16",
+      "q": "Los instrumentos esenciales para gestionar y aplicar el plan son…",
+      "options": [
+        "La auditoría y la sanción",
+        "El convenio y el contrato",
+        "El comité y la mutua",
+        "La evaluación y la planificación preventiva"
+      ],
+      "correct": 3,
+      "explanation": "El art. 16.2 diferencia el plan de sus dos instrumentos esenciales."
+    },
+    {
+      "id": "prl-q18",
+      "block": "plan",
+      "page": "rd:a2",
+      "ref": "RSP · art. 2",
+      "q": "El documento único simplificado del RSP se admite en empresas…",
+      "options": [
+        "De hasta 50 trabajadores y sin actividades del anexo I",
+        "De hasta 500 trabajadores de cualquier actividad",
+        "De menos de 25 sin más requisitos",
+        "De hasta 50 aunque realicen actividades del anexo I"
+      ],
+      "correct": 0,
+      "explanation": "El art. 2.4 exige ambos requisitos y medidas adaptadas con plazos de ejecución."
+    },
+    {
+      "id": "prl-q19",
+      "block": "evaluacion",
+      "page": "rd:a6",
+      "ref": "RSP · art. 6",
+      "q": "Si se detectan daños a la salud, la evaluación de los puestos afectados…",
+      "options": [
+        "Se mantiene hasta el siguiente plazo fijo de cinco años",
+        "Debe revisarse",
+        "Solo se revisa si lo pide el accidentado",
+        "Se destruye y sustituye por el parte"
+      ],
+      "correct": 1,
+      "explanation": "El art. 6.1 exige revisar, considerando entre otros elementos la investigación del daño."
+    },
+    {
+      "id": "prl-q20",
+      "block": "evaluacion",
+      "page": "rd:a5",
+      "ref": "RSP · art. 5",
+      "q": "Si existen dudas sobre el resultado de una evaluación…",
+      "options": [
+        "No se actúa hasta que ocurra un daño",
+        "Se presume ausencia de riesgo",
+        "Se adoptan las medidas más favorables desde el punto de vista preventivo",
+        "Se elige siempre la solución más económica"
+      ],
+      "correct": 2,
+      "explanation": "El procedimiento debe proporcionar confianza en su resultado."
+    },
+    {
+      "id": "prl-q21",
+      "block": "evaluacion",
+      "page": "rd:a4",
+      "ref": "RSP · art. 4",
+      "q": "La evaluación debe considerar que el trabajador sea especialmente sensible…",
+      "options": [
+        "Solo si existe incapacidad reconocida",
+        "Únicamente si lo exige por escrito",
+        "Solo después de un accidente",
+        "A los riesgos por sus características personales o estado biológico conocido"
+      ],
+      "correct": 3,
+      "explanation": "Se valoran tanto las condiciones del trabajo como las características de quienes lo desempeñan."
+    },
+    {
+      "id": "prl-q22",
+      "block": "planificacion",
+      "page": "ley:a16",
+      "ref": "LPRL · art. 16",
+      "q": "Para cada actividad preventiva deben figurar…",
+      "options": [
+        "Plazo, responsables y recursos humanos y materiales",
+        "Solo presupuesto total",
+        "Solo nombre del evaluador",
+        "Únicamente fecha de la auditoría"
+      ],
+      "correct": 0,
+      "explanation": "El art. 16.2.b exige esas concreciones; el art. 9 RSP añade recursos económicos."
+    },
+    {
+      "id": "prl-q23",
+      "block": "planificacion",
+      "page": "rd:a9",
+      "ref": "RSP · art. 9",
+      "q": "Si la actividad preventiva se planifica para más de un año…",
+      "options": [
+        "Se sustituye el plan por una auditoría",
+        "Se establece un programa anual de actividades",
+        "Se aplaza toda revisión hasta el final",
+        "No se necesita planificación"
+      ],
+      "correct": 1,
+      "explanation": "El art. 9.3 exige ese programa sin eliminar seguimiento y control periódico."
+    },
+    {
+      "id": "prl-q24",
+      "block": "planificacion",
+      "page": "rd:a8",
+      "ref": "RSP · art. 8",
+      "q": "Las prioridades de la planificación atienden a…",
+      "options": [
+        "Solo precio de las medidas",
+        "Solo orden de llegada de las solicitudes",
+        "Magnitud del riesgo y número de trabajadores expuestos",
+        "Solo antigüedad de la plantilla"
+      ],
+      "correct": 2,
+      "explanation": "El art. 8 prioriza la eliminación o control de riesgos atendiendo a esos dos factores."
+    },
+    {
+      "id": "prl-q25",
+      "block": "equipos",
+      "page": "ley:a17",
+      "ref": "LPRL · art. 17",
+      "q": "Los EPI se utilizan cuando…",
+      "options": [
+        "Siempre como única medida",
+        "Solo si el trabajador los compra",
+        "Solo tras un accidente",
+        "El riesgo no pueda evitarse o limitarse suficientemente por protección colectiva u organización"
+      ],
+      "correct": 3,
+      "explanation": "El art. 17.2 establece su función dentro del conjunto de medidas preventivas."
+    },
+    {
+      "id": "prl-q26",
+      "block": "equipos",
+      "page": "ley:a17",
+      "ref": "LPRL · art. 17",
+      "q": "El mantenimiento de equipos con riesgos específicos lo realizan…",
+      "options": [
+        "Trabajadores específicamente capacitados",
+        "Cualquier usuario sin formación",
+        "Solo los delegados de prevención",
+        "Exclusivamente el empresario personalmente"
+      ],
+      "correct": 0,
+      "explanation": "El art. 17.1 diferencia el uso reservado y las tareas técnicas por personal capacitado."
+    },
+    {
+      "id": "prl-q27",
+      "block": "equipos",
+      "page": "ley:a41",
+      "ref": "LPRL · art. 41",
+      "q": "La información sobre utilización y riesgos de los productos debe…",
+      "options": [
+        "Ser accesible solo a mandos",
+        "Facilitarla el suministrador y hacerla llegar el empresario de forma comprensible",
+        "Mantenerse solo en poder del fabricante",
+        "Sustituir la formación preventiva"
+      ],
+      "correct": 1,
+      "explanation": "El art. 41 distribuye obligaciones entre fabricantes, importadores, suministradores y empresario."
+    },
+    {
+      "id": "prl-q28",
+      "block": "informacion",
+      "page": "ley:a18",
+      "ref": "LPRL · art. 18",
+      "q": "La información de riesgos específicos del puesto se facilita…",
+      "options": [
+        "Solo al delegado sindical",
+        "Únicamente si el trabajador la solicita",
+        "Directamente a cada trabajador",
+        "Solo al comité"
+      ],
+      "correct": 2,
+      "explanation": "El cauce representativo para información general no sustituye la información directa del puesto."
+    },
+    {
+      "id": "prl-q29",
+      "block": "informacion",
+      "page": "ley:a19",
+      "ref": "LPRL · art. 19",
+      "q": "Si la formación preventiva se realiza fuera de jornada…",
+      "options": [
+        "La paga el trabajador",
+        "No se compensa en ningún caso",
+        "Solo se compensa si hubo examen",
+        "Se descuenta de la jornada el tiempo invertido"
+      ],
+      "correct": 3,
+      "explanation": "El art. 19.2 mantiene la ausencia de coste y prevé esa compensación de tiempo."
+    },
+    {
+      "id": "prl-q30",
+      "block": "informacion",
+      "page": "ley:a19",
+      "ref": "LPRL · art. 19",
+      "q": "La formación debe darse al contratar…",
+      "options": [
+        "Cualquiera que sea la modalidad o duración del contrato",
+        "Solo en contratos indefinidos",
+        "Solo si dura más de un año",
+        "Solo después del período de prueba"
+      ],
+      "correct": 0,
+      "explanation": "También se imparte ante cambios de funciones, nuevas tecnologías o equipos."
+    },
+    {
+      "id": "prl-q31",
+      "block": "emergencias",
+      "page": "ley:a20",
+      "ref": "LPRL · art. 20",
+      "q": "El artículo 20 contempla expresamente…",
+      "options": [
+        "Solo contratación de una ambulancia",
+        "Primeros auxilios, lucha contra incendios y evacuación",
+        "Solo extinción y rescate técnico",
+        "Solo evacuación de empleados"
+      ],
+      "correct": 1,
+      "explanation": "Son las tres materias citadas para las medidas de emergencia."
+    },
+    {
+      "id": "prl-q32",
+      "block": "emergencias",
+      "page": "ley:a20",
+      "ref": "LPRL · art. 20",
+      "q": "Al analizar emergencias debe tenerse en cuenta…",
+      "options": [
+        "Solo el turno de mañana",
+        "Únicamente el valor de los bienes",
+        "La posible presencia de personas ajenas a la empresa",
+        "Solo la plantilla fija"
+      ],
+      "correct": 2,
+      "explanation": "El art. 20 añade este factor al tamaño y actividad de la empresa."
+    },
+    {
+      "id": "prl-q33",
+      "block": "emergencias",
+      "page": "ley:a20",
+      "ref": "LPRL · art. 20",
+      "q": "El personal designado para emergencias debe…",
+      "options": [
+        "Ser necesariamente delegado de prevención",
+        "Carecer de otras funciones en todo caso",
+        "Actuar sin comprobaciones periódicas",
+        "Tener formación, número suficiente y material adecuado"
+      ],
+      "correct": 3,
+      "explanation": "La empresa también comprueba periódicamente el funcionamiento de las medidas."
+    },
+    {
+      "id": "prl-q34",
+      "block": "paralizacion",
+      "page": "ley:a21",
+      "ref": "LPRL · art. 21",
+      "q": "La autoridad laboral ratifica o anula la paralización acordada por representantes en…",
+      "options": [
+        "24 horas",
+        "15 días",
+        "3 días hábiles",
+        "Un mes"
+      ],
+      "correct": 0,
+      "explanation": "La comunicación a empresa y autoridad es inmediata; el plazo de decisión es 24 horas."
+    },
+    {
+      "id": "prl-q35",
+      "block": "paralizacion",
+      "page": "ley:a21",
+      "ref": "LPRL · art. 21",
+      "q": "Si no se reúne con urgencia la representación legal, pueden acordar paralizar…",
+      "options": [
+        "Solo el director del servicio de prevención",
+        "Los delegados de prevención por decisión mayoritaria",
+        "Un delegado por sí solo en cualquier caso",
+        "Solo todos los trabajadores por unanimidad"
+      ],
+      "correct": 1,
+      "explanation": "Es la vía subsidiaria prevista en el art. 21.3."
+    },
+    {
+      "id": "prl-q36",
+      "block": "paralizacion",
+      "page": "ley:a44",
+      "ref": "LPRL · art. 44",
+      "q": "La empresa puede impugnar una paralización inspectora en…",
+      "options": [
+        "15 días naturales, suspendiendo la orden",
+        "Un mes, sin comunicación",
+        "3 días hábiles, sin dejar de cumplirla inmediatamente",
+        "24 horas, suspendiendo la orden"
+      ],
+      "correct": 2,
+      "explanation": "La autoridad laboral debe resolver la impugnación en un máximo de 24 horas."
+    },
+    {
+      "id": "prl-q37",
+      "block": "salud",
+      "page": "ley:a22",
+      "ref": "LPRL · art. 22",
+      "q": "La regla general de la vigilancia de la salud es…",
+      "options": [
+        "La obligatoriedad absoluta",
+        "La exclusión del personal temporal",
+        "La libre elección del empresario sin límites",
+        "El consentimiento del trabajador, con excepciones legales"
+      ],
+      "correct": 3,
+      "explanation": "Las excepciones del art. 22.1 exigen informe previo de los representantes."
+    },
+    {
+      "id": "prl-q38",
+      "block": "salud",
+      "page": "ley:a22",
+      "ref": "LPRL · art. 22",
+      "q": "El empresario recibe ordinariamente…",
+      "options": [
+        "Conclusiones de aptitud y necesidad de medidas preventivas",
+        "La historia clínica completa",
+        "Todos los diagnósticos sin consentimiento",
+        "Ninguna conclusión sobre el puesto"
+      ],
+      "correct": 0,
+      "explanation": "El acceso a información médica personal está limitado por confidencialidad."
+    },
+    {
+      "id": "prl-q39",
+      "block": "salud",
+      "page": "rd:a37",
+      "ref": "RSP · art. 37",
+      "q": "Después de una ausencia prolongada por motivos de salud, el RSP contempla…",
+      "options": [
+        "Excluir toda evaluación hasta el año siguiente",
+        "Una evaluación de salud para detectar posibles orígenes profesionales y recomendar protección",
+        "Solo formación administrativa",
+        "Una sanción automática"
+      ],
+      "correct": 1,
+      "explanation": "El art. 37.3.b incluye ese supuesto junto a evaluación inicial y vigilancia periódica."
+    },
+    {
+      "id": "prl-q40",
+      "block": "documentacion",
+      "page": "ley:a23",
+      "ref": "LPRL · art. 23",
+      "q": "La relación del art. 23.1.e incluye daños con incapacidad…",
+      "options": [
+        "Solo superior a 15 días",
+        "De cualquier duración, como literal de esa letra",
+        "Superior a un día de trabajo",
+        "Igual o superior a un mes"
+      ],
+      "correct": 2,
+      "explanation": "Es el umbral específico de esa relación; no elimina los deberes de notificación de daños."
+    },
+    {
+      "id": "prl-q41",
+      "block": "documentacion",
+      "page": "ley:a24",
+      "ref": "LPRL · art. 24",
+      "q": "El empresario titular del centro debe…",
+      "options": [
+        "Asumir siempre todos los contratos de las otras empresas",
+        "Sustituir sus evaluaciones sin coordinación",
+        "Limitarse a permitir el acceso",
+        "Informar e instruir sobre riesgos, medidas y emergencias del centro"
+      ],
+      "correct": 3,
+      "explanation": "El art. 24.2 establece ese deber hacia los empresarios que desarrollan actividades en el centro."
+    },
+    {
+      "id": "prl-q42",
+      "block": "documentacion",
+      "page": "ley:a24",
+      "ref": "LPRL · art. 24",
+      "q": "La vigilancia del empresario principal del art. 24.3 se refiere a…",
+      "options": [
+        "Contratas de su propia actividad en sus propios centros",
+        "Cualquier proveedor en cualquier lugar",
+        "Solo empresas sin asalariados",
+        "Solo trabajos administrativos"
+      ],
+      "correct": 0,
+      "explanation": "Conserva ambas condiciones para no ampliar indebidamente la regla."
+    },
+    {
+      "id": "prl-q43",
+      "block": "proteccion",
+      "page": "ley:a26",
+      "ref": "LPRL · art. 26",
+      "q": "La secuencia protectora de la maternidad es…",
+      "options": [
+        "Permiso sin sueldo como primera medida",
+        "Adaptación, cambio compatible y, si procede, suspensión por riesgo",
+        "Suspensión automática, formación y cambio",
+        "Cambio y despido si no hay vacante"
+      ],
+      "correct": 1,
+      "explanation": "Los pasos y sus requisitos se regulan en los apartados 1 a 3 del art. 26."
+    },
+    {
+      "id": "prl-q44",
+      "block": "proteccion",
+      "page": "ley:a27",
+      "ref": "LPRL · art. 27",
+      "q": "La evaluación especial de menores se refiere a quienes tienen…",
+      "options": [
+        "Menos de 21",
+        "Menos de 25",
+        "Menos de 18 años",
+        "Menos de 16 exclusivamente"
+      ],
+      "correct": 2,
+      "explanation": "Se realiza antes de incorporarse y ante modificaciones importantes de sus condiciones."
+    },
+    {
+      "id": "prl-q45",
+      "block": "proteccion",
+      "page": "ley:a28",
+      "ref": "LPRL · art. 28",
+      "q": "En una ETT, formación y vigilancia de la salud corresponden a…",
+      "options": [
+        "La usuaria en exclusiva en todos los casos",
+        "El trabajador por su cuenta",
+        "La ITSS como prestadora",
+        "La empresa de trabajo temporal"
+      ],
+      "correct": 3,
+      "explanation": "La usuaria es responsable de las condiciones de ejecución; el artículo distribuye las obligaciones."
+    },
+    {
+      "id": "prl-q46",
+      "block": "obligaciones",
+      "page": "ley:a29",
+      "ref": "LPRL · art. 29",
+      "q": "Ante una situación que razonablemente entrañe riesgo, el trabajador informa…",
+      "options": [
+        "De inmediato a los destinatarios previstos en el art. 29",
+        "Solo al acabar el turno",
+        "En 15 días",
+        "Solo después de sufrir un daño"
+      ],
+      "correct": 0,
+      "explanation": "Los destinatarios son el superior directo y los trabajadores designados o, en su caso, el servicio de prevención."
+    },
+    {
+      "id": "prl-q47",
+      "block": "obligaciones",
+      "page": "ley:a29",
+      "ref": "LPRL · art. 29",
+      "q": "Los dispositivos de seguridad deben…",
+      "options": [
+        "Utilizarse solo durante inspecciones",
+        "Utilizarse correctamente y no ponerse fuera de funcionamiento",
+        "Anularse si ralentizan el trabajo",
+        "Desconectarse a criterio del usuario sin instrucciones"
+      ],
+      "correct": 1,
+      "explanation": "Es un deber expreso del art. 29.2.3.º."
+    },
+    {
+      "id": "prl-q48",
+      "block": "obligaciones",
+      "page": "ley:a29",
+      "ref": "LPRL · art. 29",
+      "q": "El incumplimiento preventivo de un funcionario puede ser…",
+      "options": [
+        "Siempre una infracción de tráfico",
+        "Una conducta sin consecuencias",
+        "Falta conforme a su régimen disciplinario",
+        "Siempre delito automáticamente"
+      ],
+      "correct": 2,
+      "explanation": "El art. 29.3 remite al régimen disciplinario aplicable, sin establecer delito automático."
+    },
+    {
+      "id": "prl-q49",
+      "block": "modalidades",
+      "page": "rd:a11",
+      "ref": "RSP · art. 11",
+      "q": "Un empresario con 25 trabajadores puede asumir personalmente la prevención si…",
+      "options": [
+        "Tiene varios centros y actividad del anexo I",
+        "Asume también todos los reconocimientos médicos",
+        "Lo decide sin formación ni presencia habitual",
+        "Hay único centro y cumple el resto de requisitos, excluida vigilancia de salud"
+      ],
+      "correct": 3,
+      "explanation": "Se exigen simultáneamente plantilla, centro único en ese tramo, actividad no anexo I, presencia y capacidad."
+    },
+    {
+      "id": "prl-q50",
+      "block": "modalidades",
+      "page": "rd:a11",
+      "ref": "RSP · art. 11",
+      "q": "La asunción personal por el empresario excluye siempre…",
+      "options": [
+        "Las actividades de vigilancia de la salud",
+        "La información de riesgos",
+        "Todas las evaluaciones elementales",
+        "La planificación de cualquier medida"
+      ],
+      "correct": 0,
+      "explanation": "Deben cubrirse por otra modalidad preventiva."
+    },
+    {
+      "id": "prl-q51",
+      "block": "modalidades",
+      "page": "rd:a13",
+      "ref": "RSP · art. 13",
+      "q": "Los trabajadores designados deben contar con…",
+      "options": [
+        "Facultad para trasladar el coste a la plantilla",
+        "Capacidad, tiempo, medios y número suficiente",
+        "Solo un nombramiento escrito sin recursos",
+        "Exclusivamente formación sanitaria"
+      ],
+      "correct": 1,
+      "explanation": "La adecuación depende del tamaño, riesgos y distribución de la empresa."
+    },
+    {
+      "id": "prl-q52",
+      "block": "propio",
+      "page": "rd:a14",
+      "ref": "RSP · art. 14",
+      "q": "El umbral general que obliga a servicio propio por tamaño es…",
+      "options": [
+        "Más de 250 en toda actividad",
+        "50 o más",
+        "Más de 500 trabajadores",
+        "500 o más en todos los casos"
+      ],
+      "correct": 2,
+      "explanation": "La letra a usa más de 500; la letra b abarca 250–500 con actividades del anexo I."
+    },
+    {
+      "id": "prl-q53",
+      "block": "propio",
+      "page": "rd:a14",
+      "ref": "RSP · art. 14",
+      "q": "Una empresa de 250 trabajadores con actividad del anexo I debe…",
+      "options": [
+        "Asumir personalmente la prevención",
+        "Constituir solo un comité y nada más",
+        "Esperar a superar 500",
+        "Constituir servicio de prevención propio"
+      ],
+      "correct": 3,
+      "explanation": "El tramo de 250 a 500 incluye sus extremos."
+    },
+    {
+      "id": "prl-q54",
+      "block": "propio",
+      "page": "rd:a15",
+      "ref": "RSP · art. 15",
+      "q": "El servicio propio contará al menos con…",
+      "options": [
+        "Dos especialidades o disciplinas preventivas",
+        "Una disciplina",
+        "Tres en todo caso",
+        "Cuatro obligatoriamente como mínimo de SPP"
+      ],
+      "correct": 0,
+      "explanation": "El art. 15 fija dos; no lo confundas con mancomunados o ajenos."
+    },
+    {
+      "id": "prl-q55",
+      "block": "ajeno",
+      "page": "rd:a21",
+      "ref": "RSP · art. 21",
+      "q": "El servicio mancomunado tiene consideración de…",
+      "options": [
+        "Comité de Seguridad y Salud",
+        "Servicio propio de las empresas participantes",
+        "Servicio ajeno en todos los casos",
+        "Órgano de la autoridad laboral"
+      ],
+      "correct": 1,
+      "explanation": "Debe contar al menos con tres disciplinas preventivas."
+    },
+    {
+      "id": "prl-q56",
+      "block": "ajeno",
+      "page": "rd:a18",
+      "ref": "RSP · art. 18",
+      "q": "Un servicio de prevención ajeno debe contar con…",
+      "options": [
+        "Solo medicina del trabajo",
+        "Solo tres sin vigilancia de salud",
+        "Las cuatro especialidades o disciplinas preventivas",
+        "Solo dos a su elección"
+      ],
+      "correct": 2,
+      "explanation": "El mínimo de dos es del SPP y el de tres del mancomunado."
+    },
+    {
+      "id": "prl-q57",
+      "block": "ajeno",
+      "page": "rd:a25",
+      "ref": "RSP · art. 25",
+      "q": "El silencio en la solicitud de acreditación como SPA es…",
+      "options": [
+        "Estimatorio siempre",
+        "Una acreditación provisional automática",
+        "La autorización sanitaria automática",
+        "Desestimatorio"
+      ],
+      "correct": 3,
+      "explanation": "El plazo ordinario es tres meses, ampliado a seis en el supuesto del art. 25.3."
+    },
+    {
+      "id": "prl-q58",
+      "block": "recursos",
+      "page": "ley:a32bis",
+      "ref": "LPRL · art. 32 bis",
+      "q": "¿Qué puede exigir la presencia de recursos preventivos?",
+      "options": [
+        "Un requerimiento de la ITSS por las condiciones detectadas",
+        "Solo superar 500 trabajadores",
+        "La mera existencia de un comité",
+        "Solo una petición del fabricante"
+      ],
+      "correct": 0,
+      "explanation": "Es uno de los tres supuestos del art. 32 bis.1."
+    },
+    {
+      "id": "prl-q59",
+      "block": "recursos",
+      "page": "ley:a32bis",
+      "ref": "LPRL · art. 32 bis",
+      "q": "Otro trabajador asignado expresamente a presencia preventiva necesita, como mínimo…",
+      "options": [
+        "Ser delegado sindical",
+        "Formación de nivel básico, además de conocimientos, cualificación y experiencia necesarios",
+        "Solo experiencia sin formación",
+        "Siempre nivel superior en las cuatro disciplinas"
+      ],
+      "correct": 1,
+      "explanation": "El art. 32 bis.4 exige ese conjunto de condiciones."
+    },
+    {
+      "id": "prl-q60",
+      "block": "recursos",
+      "page": "rd:a22bis",
+      "ref": "RSP · art. 22 bis",
+      "q": "La presencia del recurso preventivo es una medida…",
+      "options": [
+        "Que elimina la necesidad de evaluación",
+        "Que transfiere el deber empresarial al recurso",
+        "Complementaria a las restantes medidas preventivas",
+        "Sustitutiva de la protección colectiva"
+      ],
+      "correct": 2,
+      "explanation": "Su finalidad es vigilar cumplimiento y eficacia mientras se mantiene la situación."
+    },
+    {
+      "id": "prl-q61",
+      "block": "consulta",
+      "page": "ley:a33",
+      "ref": "LPRL · art. 33",
+      "q": "Las decisiones preventivas del art. 33 se consultan…",
+      "options": [
+        "Solo después de ejecutarlas",
+        "Solo cada cuatro años",
+        "Únicamente si existe un accidente",
+        "Con la debida antelación"
+      ],
+      "correct": 3,
+      "explanation": "La consulta debe permitir participación efectiva antes de la decisión."
+    },
+    {
+      "id": "prl-q62",
+      "block": "consulta",
+      "page": "ley:a34",
+      "ref": "LPRL · art. 34",
+      "q": "El cauce representativo del art. 34 se prevé en empresas con…",
+      "options": [
+        "Seis o más trabajadores",
+        "Más de 50",
+        "Más de 500",
+        "Exactamente 25"
+      ],
+      "correct": 0,
+      "explanation": "No se debe confundir ese umbral con el del Comité de Seguridad y Salud."
+    },
+    {
+      "id": "prl-q63",
+      "block": "consulta",
+      "page": "ley:a33",
+      "ref": "LPRL · art. 33",
+      "q": "La designación de trabajadores para medidas de emergencia…",
+      "options": [
+        "Exige siempre referéndum vinculante",
+        "Está incluida entre las cuestiones objeto de consulta",
+        "No puede consultarse",
+        "Solo se consulta a la mutua"
+      ],
+      "correct": 1,
+      "explanation": "El art. 33.1.c la incluye expresamente."
+    },
+    {
+      "id": "prl-q64",
+      "block": "delegados",
+      "page": "ley:a35",
+      "ref": "LPRL · art. 35",
+      "q": "A una empresa con exactamente 100 trabajadores le corresponden, según escala general…",
+      "options": [
+        "3",
+        "4",
+        "2 delegados de prevención",
+        "1"
+      ],
+      "correct": 2,
+      "explanation": "El primer tramo es 50–100; 101 abre el tramo de tres."
+    },
+    {
+      "id": "prl-q65",
+      "block": "delegados",
+      "page": "ley:a35",
+      "ref": "LPRL · art. 35",
+      "q": "Con exactamente 500 trabajadores, la escala general establece…",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3 delegados de prevención"
+      ],
+      "correct": 3,
+      "explanation": "500 cierra el tramo 101–500; a partir de 501 son cuatro."
+    },
+    {
+      "id": "prl-q66",
+      "block": "delegados",
+      "page": "ley:a35",
+      "ref": "LPRL · art. 35",
+      "q": "En contratos de hasta un año, cada 200 días trabajados o fracción computa como…",
+      "options": [
+        "Un trabajador más",
+        "Dos trabajadores",
+        "Medio trabajador",
+        "Un delegado de prevención"
+      ],
+      "correct": 0,
+      "explanation": "Se cuentan los días del año anterior a la designación, no solo el día de la elección."
+    },
+    {
+      "id": "prl-q67",
+      "block": "facultades",
+      "page": "ley:a36",
+      "ref": "LPRL · art. 36",
+      "q": "El plazo ordinario para los informes de consulta de delegados es…",
+      "options": [
+        "Un mes",
+        "15 días",
+        "24 horas",
+        "3 días hábiles"
+      ],
+      "correct": 1,
+      "explanation": "Para medidas contra riesgos inminentes se reduce al tiempo imprescindible."
+    },
+    {
+      "id": "prl-q68",
+      "block": "facultades",
+      "page": "ley:a36",
+      "ref": "LPRL · art. 36",
+      "q": "La negativa empresarial a adoptar medidas propuestas por el delegado debe ser…",
+      "options": [
+        "Aprobada por unanimidad del comité",
+        "Automáticamente sancionada por el delegado",
+        "Motivada",
+        "Siempre verbal"
+      ],
+      "correct": 2,
+      "explanation": "El art. 36.4 exige motivación."
+    },
+    {
+      "id": "prl-q69",
+      "block": "facultades",
+      "page": "ley:a37",
+      "ref": "LPRL · art. 37",
+      "q": "Las reuniones del Comité de Seguridad y Salud son…",
+      "options": [
+        "Tiempo personal sin compensación",
+        "Siempre consumo de crédito horario",
+        "Formación voluntaria",
+        "Trabajo efectivo sin imputación al crédito horario"
+      ],
+      "correct": 3,
+      "explanation": "El art. 37.1 establece expresamente esa excepción al crédito."
+    },
+    {
+      "id": "prl-q70",
+      "block": "comite",
+      "page": "ley:a38",
+      "ref": "LPRL · art. 38",
+      "q": "El Comité de Seguridad y Salud se constituye con…",
+      "options": [
+        "50 o más trabajadores",
+        "Más de 50 exclusivamente",
+        "Más de 500",
+        "25 o más en todo caso"
+      ],
+      "correct": 0,
+      "explanation": "El umbral incluye exactamente 50 y puede referirse a empresa o centro de trabajo."
+    },
+    {
+      "id": "prl-q71",
+      "block": "comite",
+      "page": "ley:a38",
+      "ref": "LPRL · art. 38",
+      "q": "El comité se reúne ordinariamente…",
+      "options": [
+        "Cada cuatro años",
+        "Trimestralmente",
+        "Mensualmente",
+        "Semestralmente"
+      ],
+      "correct": 1,
+      "explanation": "También cuando lo solicite alguna de sus representaciones."
+    },
+    {
+      "id": "prl-q72",
+      "block": "comite",
+      "page": "ley:a38",
+      "ref": "LPRL · art. 38",
+      "q": "Los técnicos de prevención que no integran el comité participan…",
+      "options": [
+        "Sin voz ni voto",
+        "Solo con autorización judicial",
+        "Con voz y sin voto",
+        "Siempre con voz y voto"
+      ],
+      "correct": 2,
+      "explanation": "La misma regla se prevé para delegados sindicales no integrantes en los términos del artículo."
+    },
+    {
+      "id": "prl-q73",
+      "block": "responsabilidades",
+      "page": "ley:a42",
+      "ref": "LPRL · art. 42",
+      "q": "La responsabilidad administrativa preventiva puede ser compatible con…",
+      "options": [
+        "Solo una amonestación verbal",
+        "Ninguna otra consecuencia en ningún caso",
+        "La eliminación del deber de reparación",
+        "Indemnizaciones y recargo de prestaciones"
+      ],
+      "correct": 3,
+      "explanation": "El art. 42.3 declara esa compatibilidad en los términos de la normativa aplicable."
+    },
+    {
+      "id": "prl-q74",
+      "block": "responsabilidades",
+      "page": "ley:a43",
+      "ref": "LPRL · art. 43",
+      "q": "Un requerimiento de subsanación de la ITSS…",
+      "options": [
+        "No impide la propuesta de sanción correspondiente",
+        "Elimina toda posibilidad de sanción",
+        "Siempre suspende la actividad",
+        "Solo se comunica de palabra"
+      ],
+      "correct": 0,
+      "explanation": "El art. 43 exige requerimiento escrito con deficiencias y plazo, sin perjuicio de sanción."
+    },
+    {
+      "id": "prl-q75",
+      "block": "responsabilidades",
+      "page": "ley:a45",
+      "ref": "LPRL · art. 45",
+      "q": "Los artículos 45–52 de la LPRL están…",
+      "options": [
+        "Sustituidos por decisiones del comité",
+        "Derogados",
+        "Todos vigentes con las cuantías de 1995",
+        "Suspendidos solo durante emergencias"
+      ],
+      "correct": 1,
+      "explanation": "La consolidación los identifica como derogados; evita estudiar sus versiones históricas como vigentes."
+    },
+    {
+      "id": "prl-q76",
+      "block": "auditoria",
+      "page": "rd:a30",
+      "ref": "RSP · art. 30",
+      "q": "La primera auditoría se realiza dentro de los 12 meses siguientes a…",
+      "options": [
+        "La última reunión del comité",
+        "La primera sanción",
+        "Disponer de la planificación de la actividad preventiva",
+        "La contratación del primer trabajador en todo caso"
+      ],
+      "correct": 2,
+      "explanation": "El inicio del cómputo se fija en el art. 30.4."
+    },
+    {
+      "id": "prl-q77",
+      "block": "auditoria",
+      "page": "rd:a30",
+      "ref": "RSP · art. 30",
+      "q": "La repetición ordinaria es cada…",
+      "options": [
+        "2 años en todas las empresas",
+        "12 meses en todos los casos",
+        "5 años, o 3 con anexo I",
+        "4 años, o 2 si hay actividades del anexo I"
+      ],
+      "correct": 3,
+      "explanation": "Puede ampliarse la revisión en dos años por acuerdo sobre modalidad con representación especializada."
+    },
+    {
+      "id": "prl-q78",
+      "block": "auditoria",
+      "page": "rd:a29",
+      "ref": "RSP · art. 29",
+      "q": "La excepción de auditoría de empresas pequeñas exige…",
+      "options": [
+        "Hasta 50, sin anexo I, recursos propios, eficacia evidente y notificación, con posibilidad de requerimiento",
+        "Solo tener menos de 500",
+        "Solo un acuerdo verbal con la plantilla",
+        "Únicamente contratar un EPI adecuado"
+      ],
+      "correct": 0,
+      "explanation": "El art. 29.3 recoge requisitos acumulativos; la autoridad puede exigir auditoría según el apartado 4."
+    },
+    {
+      "id": "prl-q79",
+      "block": "formacion",
+      "page": "rd:a35",
+      "ref": "RSP · art. 35",
+      "q": "La duración mínima del programa básico para actividades del anexo I es…",
+      "options": [
+        "600 horas",
+        "50 horas",
+        "30 horas",
+        "300 horas"
+      ],
+      "correct": 1,
+      "explanation": "En las demás empresas la vía formativa básica es de al menos 30 horas."
+    },
+    {
+      "id": "prl-q80",
+      "block": "formacion",
+      "page": "rd:a36",
+      "ref": "RSP · art. 36",
+      "q": "El programa de nivel intermedio tiene duración no inferior a…",
+      "options": [
+        "50 horas",
+        "600 horas",
+        "300 horas",
+        "30 horas"
+      ],
+      "correct": 2,
+      "explanation": "El art. 36 remite al programa del anexo V."
+    },
+    {
+      "id": "prl-q81",
+      "block": "formacion",
+      "page": "rd:a37",
+      "ref": "RSP · art. 37",
+      "q": "Para funciones de nivel superior, el art. 37.2 exige…",
+      "options": [
+        "Solo 600 horas sin titulación",
+        "Solo experiencia de dos años",
+        "Solo nivel básico y nombramiento",
+        "Titulación universitaria oficial y formación universitaria acreditada de al menos 600 horas"
+      ],
+      "correct": 3,
+      "explanation": "Los requisitos sanitarios específicos se añaden para vigilancia y control de la salud."
+    },
+    {
+      "id": "prl-q82",
+      "block": "anexos",
+      "page": "rd:ani",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "El anexo I incluye exposición a agentes biológicos de los grupos…",
+      "options": [
+        "3 y 4",
+        "1 y 2 exclusivamente",
+        "2 y 3 exclusivamente",
+        "Solo 4"
+      ],
+      "correct": 0,
+      "explanation": "El apartado d recoge los grupos 3 y 4."
+    },
+    {
+      "id": "prl-q83",
+      "block": "anexos",
+      "page": "rd:aniv",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "El programa de formación de nivel básico figura en el anexo…",
+      "options": [
+        "VI",
+        "IV",
+        "II",
+        "V"
+      ],
+      "correct": 1,
+      "explanation": "II es notificación sobre auditoría; V intermedio; VI superior."
+    },
+    {
+      "id": "prl-q84",
+      "block": "anexos",
+      "page": "rd:anviii",
+      "ref": "RSP · disposiciones / anexos",
+      "q": "¿Qué anexos tratan específicamente de embarazo o lactancia?",
+      "options": [
+        "III y IV",
+        "V y VI",
+        "VII y VIII",
+        "I y II"
+      ],
+      "correct": 2,
+      "explanation": "El VII recoge posibles influencias negativas; el VIII, agentes y condiciones de no exposición en los términos legales."
+    }
+  ]
+}
