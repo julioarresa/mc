@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#23483f">
+  <meta name="description" content="Tema 5 del cuaderno. Normativa, estructuras, riesgos industriales, espumas, ventilación y tácticas de intervención, con tarjetas y test.">
+  <title>Incendios Industriales · Cuaderno de estudio</title>
+  <link rel="stylesheet" href="industriales-assets/cuaderno.css">
+  <script src="industriales-assets/practica.js" defer></script>
+  <script src="industriales-assets/cuaderno.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip">Saltar al contenido</a>
+  <header class="top">
+    <div class="brand">
+      <div><small>Cuaderno · Tema 05</small><b>Incendios industriales</b></div>
+    </div>
+    <a class="home-link" href="index.html">← Todos los temas</a>
+    <button id="print" type="button">Imprimir resumen</button>
+  </header>
+  <div class="workspace">
+    <aside class="sidebar">
+      <h2>Tu recorrido</h2>
+      <div class="progress" role="progressbar" aria-label="Bloques repasados" aria-valuemin="0" aria-valuemax="18" aria-valuenow="0"><span id="progressbar"></span></div>
+      <p id="progresslabel" aria-live="polite">Empieza por un bloque</p>
+      <nav id="index" class="index" aria-label="Índice del resumen"></nav>
+      <p class="note">El progreso se guarda en este navegador.</p>
+    </aside>
+    <main id="main">
+      <div class="intro">
+        <div><h1>Incendios Industriales</h1><p>Del riesgo intrínseco a la elección de la táctica. 18 bloques, 55 tarjetas y 55 preguntas.</p></div>
+      </div>
+      <p class="scope">El tema reúne las páginas impresas 2–35 del temario. Queda pendiente la p. 36, dedicada a la bibliografía. La normativa se revisó en el BOE el 11 de noviembre de 2026.</p>
+      <div class="toolbar">
+        <nav class="tabs" role="tablist" aria-label="Modos de estudio">
+          <button type="button" role="tab" id="tab-study" data-view="study" aria-controls="study" aria-selected="true">Estudiar</button>
+          <button type="button" role="tab" id="tab-quick" data-view="quick" aria-controls="quick" aria-selected="false" tabindex="-1">Repaso rápido</button>
+          <button type="button" role="tab" id="tab-flash" data-view="flash" aria-controls="flash" aria-selected="false" tabindex="-1">Tarjetas</button>
+          <button type="button" role="tab" id="tab-quiz" data-view="quiz" aria-controls="quiz" aria-selected="false" tabindex="-1">Test</button>
+          <button type="button" role="tab" id="tab-memory" data-view="memory" aria-controls="memory" aria-selected="false" tabindex="-1">Casillero</button>
+          <button type="button" role="tab" id="tab-sources" data-view="sources" aria-controls="sources" aria-selected="false" tabindex="-1">Fuentes</button>
+        </nav>
+        <div class="studytools" id="studytools">
+          <label class="search"><span class="skip">Buscar en el resumen</span><input id="search" type="search" placeholder="Buscar por concepto o cifra"></label>
+          <label class="toggle"><input type="checkbox" id="essentials"> Solo lo esencial</label>
+          <span class="note" id="resultcount" aria-live="polite"></span>
+        </div>
+      </div>
+      <details class="mobileindex"><summary>Índice y progreso <span id="mobileprogress"></span></summary><nav id="mobilelinks" aria-label="Índice móvil"></nav></details>
+      <div id="study" class="view" role="tabpanel" aria-labelledby="tab-study">
+        <section id="vigencia" data-title="Marco normativo">
+          <div class="sectiontop"><span class="number">01 · Marco normativo</span><span class="source">PDF · p. impresa 5 + BOE</span></div>
+          <h2>Qué norma consultar</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El <b>Real Decreto 164/2025</b> aprueba el actual Reglamento de seguridad contra incendios en los establecimientos industriales (<b>RSCIEI</b>). Entró en vigor el <b>10 de mayo de 2025</b> y derogó el RD 2267/2004 citado en el temario de 2020.</div>
+          <div class="extra">
+            <p><b>Establecimientos existentes.</b> La disposición transitoria primera conserva, como regla general, los requisitos previos. Regula la aplicación del nuevo régimen en materias como mantenimiento e inspección, y la adaptación de la parte afectada por determinadas ampliaciones, reformas o cambios de actividad.</p>
+            <p><b>CTE DB-SI.</b> El artículo 11 del Código Técnico de la Edificación enmarca la seguridad en caso de incendio. Si conviven usos industriales y otros usos, el artículo 4 del RSCIEI regula la compatibilidad con el DB-SI.</p>
+            <p><b>RIPCI.</b> El RD 513/2017 regula los equipos, sistemas y componentes de protección activa, incluidas sus condiciones de instalación, mantenimiento e inspección.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué decreto sustituyó al de 2004 y desde cuándo?
+            <details><summary>Comprobar</summary><p>El RD 164/2025, en vigor desde el 10 de mayo de 2025.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/inds-1.pdf#page=2" target="_blank" rel="noopener">Escaneo · p. impresa 5 ↗</a> · <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190#dt" target="_blank" rel="noopener">RSCIEI · transitoria primera ↗</a> · <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515#a11" target="_blank" rel="noopener">CTE · art. 11 ↗</a></p>
+        </section>
+        <section id="ambito" data-title="Ámbito y almacenes">
+          <div class="sectiontop"><span class="number">02 · Ámbito y almacenes</span><span class="source">RSCIEI · arts. 2 y 3</span></div>
+          <h2>Cuándo se aplica el RSCIEI</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El RSCIEI se aplica a los establecimientos cuyo <b>uso principal es industrial</b>. Incluye las actividades industriales definidas en la Ley de Industria, los almacenes industriales, los talleres de reparación de vehículos y los servicios auxiliares o complementarios.</div>
+          <div class="extra">
+            <p>El artículo 3 incluye como almacén industrial el recinto destinado principalmente a almacenar productos dentro de un establecimiento industrial que reúna las condiciones del artículo 2.1.a), c) o d), o que sea auxiliar a él. Para los almacenes logísticos y los derivados de determinadas actividades industriales de transporte, exige una <b>carga de fuego total ponderada y corregida (Q<sub>T</sub>) ≥ 3.000.000 MJ</b>.</p>
+            <p>El artículo 2.2 excluye las actividades nucleares y radiactivas, la extracción de minerales, las actividades agrarias y ganaderas, las instalaciones de uso militar y las instalaciones de servicio ferroviario que identifica la ley del sector.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿En qué supuestos del artículo 3 aparece el umbral de 3.000.000 MJ?
+            <details><summary>Comprobar</summary><p>Para los almacenes logísticos y los que derivan de la actividad industrial de transporte indicada en el artículo 3.b). Se mide en Q<sub>T</sub>.</p></details>
+          </div>
+          <p class="references"><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190#a2" target="_blank" rel="noopener">RSCIEI · art. 2 ↗</a> · <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190#a3" target="_blank" rel="noopener">RSCIEI · art. 3 ↗</a></p>
+        </section>
+        <section id="configuracion" data-title="Configuración y sectorización">
+          <div class="sectiontop"><span class="number">03 · Configuración y sectorización</span><span class="source">RSCIEI · anexo I, §§ 1–2</span></div>
+          <h2>Del entorno al sector o área</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>Primero clasifica el <b>edificio o espacio abierto</b>. Luego identifica sus <b>sectores</b> en edificios o <b>áreas de incendio</b> en espacios abiertos. Por último, determina el riesgo intrínseco de cada sector o área.</div>
+          <div class="extra grid">
+            <div class="card"><h3>A<sub>V</sub> y A<sub>H</sub> · Edificio compartido</h3><p>El establecimiento ocupa parte del edificio. La separación respecto a otros establecimientos es vertical en A<sub>V</sub> y horizontal en A<sub>H</sub>. Si reúne ambas configuraciones, se clasifica como A<sub>V</sub>.</p></div>
+            <div class="card"><h3>B · Edificio completo próximo</h3><p>Estructura portante y cerramiento independientes. Es adyacente a otro edificio de distinto establecimiento o está a <b>3 m o menos</b> de él.</p></div>
+            <div class="card"><h3>C · Edificio completo separado</h3><p>El edificio más próximo de otro establecimiento está a <b>más de 3 m</b>. La separación debe quedar libre de mercancías combustibles y de elementos que puedan propagar el incendio.</p></div>
+            <div class="card"><h3>D · Espacio abierto</h3><p>Puede estar descubierto. Si tiene zonas cubiertas, deben cumplir las condiciones de aberturas laterales del anexo I para clasificarse como D.</p></div>
+          </div>
+          <div class="story extra"><h3>Humo en la separación</h3><p>Imagina una cortina de <b>Humo (3)</b> entre dos edificios independientes de distintos establecimientos. <b>Hasta 3 m</b> corresponde a B. <b>Más de 3 m</b> con la separación libre de elementos que propaguen el fuego corresponde a C.</p></div>
+          <div class="recall"><b>Sin mirar.</b> Si dos edificios independientes de distintos establecimientos están justo a 3 m, ¿cuál es su tipo?
+            <details><summary>Comprobar</summary><p>Tipo B. El límite de 3 m está incluido en B.</p></details>
+          </div>
+          <p class="references"><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190#ai" target="_blank" rel="noopener">RSCIEI · anexo I y figuras de configuración ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=1" target="_blank" rel="noopener">Temario · pp. 6–7 ↗</a></p>
+        </section>
+        <section id="riesgo" data-title="Riesgo intrínseco">
+          <div class="sectiontop"><span class="number">04 · Riesgo intrínseco</span><span class="source">RSCIEI · anexo I, § 3</span></div>
+          <h2>De la carga de fuego al nivel de riesgo</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>La <b>densidad de carga de fuego ponderada y corregida (Q<sub>s</sub>)</b>, en <b>MJ/m²</b>, determina el nivel de riesgo intrínseco del sector o área. Hay ocho niveles: <b>bajo 1–2, medio 3–5 y alto 6–8</b>.</div>
+          <div class="extra">
+            <table class="risk-table">
+              <caption>Rangos de Q<sub>s</sub> según la tabla 1.3.1</caption>
+              <thead><tr><th scope="col">Nivel</th><th scope="col">Q<sub>s</sub> (MJ/m²)</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Bajo 1</th><td>≤ 425</td></tr>
+                <tr><th scope="row">Bajo 2</th><td>&gt; 425 y ≤ 850</td></tr>
+                <tr><th scope="row">Medio 3</th><td>&gt; 850 y ≤ 1.275</td></tr>
+                <tr><th scope="row">Medio 4</th><td>&gt; 1.275 y ≤ 1.700</td></tr>
+                <tr><th scope="row">Medio 5</th><td>&gt; 1.700 y ≤ 3.400</td></tr>
+                <tr><th scope="row">Alto 6</th><td>&gt; 3.400 y ≤ 6.800</td></tr>
+                <tr><th scope="row">Alto 7</th><td>&gt; 6.800 y ≤ 13.600</td></tr>
+                <tr><th scope="row">Alto 8</th><td>&gt; 13.600</td></tr>
+              </tbody>
+            </table>
+            <p>El anexo I permite calcular Q<sub>s</sub> con datos de combustibilidad de materiales, de zonas de fabricación o de zonas de almacenamiento. También permite combinar esos métodos. La carga <b>total</b> Q<sub>T</sub> se expresa en <b>MJ</b>.</p>
+            <p>La p. 8 del temario menciona el tipo E. El anexo I del RD 164/2025 clasifica los espacios abiertos como tipo D y determina el riesgo a partir de Q<sub>s</sub>.</p>
+          </div>
+          <div class="story extra"><h3>La Hamaca marca el techo del riesgo medio</h3><p>Una <b>Hamaca (34)</b> sujeta dos <b>Aros (0 y 0)</b> al borde de una pasarela. <b>34 | 00 → 3.400 MJ/m²</b>. El borde aún es <b>medio 5</b>. A partir de valores superiores empieza <b>alto 6</b>, hasta 6.800 MJ/m².</p></div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué nivel corresponde a 3.400 MJ/m² exactos?
+            <details><summary>Comprobar</summary><p>Medio 5. El límite superior del intervalo está incluido.</p></details>
+          </div>
+          <p class="references"><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190#ai" target="_blank" rel="noopener">RSCIEI · anexo I, tabla 1.3.1 ↗</a></p>
+        </section>
+        <section id="proteccion" data-title="Protección activa y pasiva">
+          <div class="sectiontop"><span class="number">05 · Protección activa y pasiva</span><span class="source">RSCIEI · arts. 3 y 7–9</span></div>
+          <h2>De la caracterización a las medidas</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El <b>anexo II</b> fija los requisitos constructivos. El <b>anexo III</b> determina qué instalaciones de protección activa hacen falta. Influyen la configuración, el riesgo intrínseco, la superficie y la actividad del sector o área.</div>
+          <div class="extra">
+            <div class="grid">
+              <div class="card"><h3>Pasiva</h3><p>La compartimentación y la resistencia al fuego son ejemplos de medidas constructivas que ayudan a limitar la propagación y a mantener las condiciones para evacuar e intervenir.</p></div>
+              <div class="card"><h3>Activa</h3><p>Detectores y pulsadores activan la alarma. Los extintores, las bocas de incendio equipadas y los sistemas fijos intervienen en el control o la extinción, según la instalación.</p></div>
+            </div>
+            <p>El <b>anexo IV</b> recoge requisitos para casos singulares. Los componentes de protección activa se rigen por el <b>RIPCI</b>.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué anexo consultas para saber si son necesarios detectores?
+            <details><summary>Comprobar</summary><p>El anexo III, apartado 1. El umbral depende de la configuración, la superficie y la actividad, y en varios casos también del nivel de riesgo.</p></details>
+          </div>
+          <p class="references"><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190#a8" target="_blank" rel="noopener">RSCIEI · arts. 8 y 9 ↗</a> · <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606" target="_blank" rel="noopener">RIPCI ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=2" target="_blank" rel="noopener">Temario · pp. 8–9 ↗</a></p>
+        </section>
+        <section id="autoproteccion" data-title="Autoprotección">
+          <div class="sectiontop"><span class="number">06 · Autoprotección</span><span class="source">Orden INT/1068/2026</span></div>
+          <h2>Del documento al plan operativo</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>La <b>Orden INT/1068/2026</b> publica el acuerdo que aprueba la Directriz Básica de Planificación de Autoprotección. La Norma Básica de Autoprotección de 2007 citada en el escaneo dejó de aplicarse al publicarse el acuerdo el <b>10 de octubre de 2026</b>.</div>
+          <div class="extra">
+            <p>El <b>anexo I</b> de la Directriz identifica las actividades incluidas y el <b>anexo II</b> define el contenido mínimo del plan. Las autoridades competentes también pueden exigir un plan para actividades con especial riesgo o vulnerabilidad.</p>
+            <p>El titular debe elaborar el plan, implantarlo, mantener su eficacia y prever su integración en la planificación de protección civil. El apartado 2.6.3 da un máximo de <b>cuatro años</b> para adaptar los planes vigentes a la entrada en vigor de la Directriz.</p>
+          </div>
+          <div class="story extra"><h3>Una Oca con el calendario de adaptación</h3><p>Una <b>Oca (4)</b> arrastra cuatro calendarios anuales junto al plan vigente. Recuerda el plazo máximo de <b>4 años</b> de adaptación a la Directriz.</p></div>
+          <div class="recall"><b>Sin mirar.</b> ¿Dónde buscas las actividades afectadas y el contenido mínimo?
+            <details><summary>Comprobar</summary><p>En los anexos I y II de la Directriz, respectivamente.</p></details>
+          </div>
+          <p class="references"><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2026-21144#cu" target="_blank" rel="noopener">Acuerdo · cese de la aplicación del RD 393/2007 ↗</a> · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21144" target="_blank" rel="noopener">Directriz y anexos ↗</a></p>
+        </section>
+        <section id="estructuras" data-title="Estructuras expuestas al fuego">
+          <div class="sectiontop"><span class="number">07 · Estructuras</span><span class="source">Temario · pp. 10–11 y 27</span></div>
+          <h2>Cómo pierde capacidad cada estructura</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El <b>acero</b> se dilata y pierde resistencia con el calor. En el <b>hormigón armado</b>, el recubrimiento retrasa el calentamiento de las barras. La <b>madera</b> pierde sección resistente a medida que se carboniza.</div>
+          <div class="extra grid">
+            <div class="card"><h3>Acero</h3><p>Conduce bien el calor. La dilatación de piezas horizontales puede empujar pilares o muros y alterar apoyos de cerchas. La pérdida de rigidez y los esfuerzos inducidos favorecen el pandeo.</p></div>
+            <div class="card"><h3>Hormigón armado</h3><p>La masa y el recubrimiento frenan el calentamiento de la armadura. Fisuras y desprendimientos pueden reducir esa protección y dejar el acero expuesto.</p></div>
+            <div class="card"><h3>Madera</h3><p>La capa carbonizada aísla parcialmente el núcleo. Al avanzar la carbonización queda menos sección útil para soportar la carga.</p></div>
+            <div class="card"><h3>Qué más condiciona la estabilidad</h3><p>Influyen el esquema estructural, las uniones, los apoyos, las cargas y la posibilidad de dilatación. El material por sí solo aporta una primera orientación.</p></div>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué papel tiene el recubrimiento en el hormigón armado?
+            <details><summary>Comprobar</summary><p>Retrasa la llegada del calor a la armadura. Su deterioro puede dejarla expuesta.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=3" target="_blank" rel="noopener">Temario · pp. 10–11 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=11" target="_blank" rel="noopener">Temario · p. 27 ↗</a></p>
+        </section>
+        <section id="escenarios" data-title="Maquinaria y combustibles">
+          <div class="sectiontop"><span class="number">08 · Maquinaria y combustibles</span><span class="source">Temario · pp. 12–13</span></div>
+          <h2>Reconoce qué está ardiendo</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>En maquinaria, identifica la energía eléctrica y los aceites. En almacenamientos, el tipo, la cantidad y la disposición del combustible condicionan la propagación. Distingue <b>charco</b>, <b>tanque</b> y <b>dardo de fuego</b>.</div>
+          <div class="extra">
+            <ul>
+              <li><b>Maquinaria.</b> Cortocircuitos, sobrecargas, mantenimiento deficiente o fugas de aceite caliente pueden originar el incendio.</li>
+              <li><b>Sólidos.</b> La continuidad de las pilas y la cantidad de combustible influyen en la propagación. El temario relaciona la separación de materiales con su control.</li>
+              <li><b>Charco (pool fire).</b> Arde la superficie de un vertido de líquido inflamable. La extensión del derrame condiciona la superficie expuesta.</li>
+              <li><b>Tanque.</b> En ciertos incendios de crudo, el frente térmico puede alcanzar el agua del fondo. Su vaporización súbita puede expulsar combustible ardiendo (<i>boilover</i>).</li>
+              <li><b>Dardo (jet fire).</b> Llama direccional alimentada por una fuga de gas o vapor inflamable a presión.</li>
+            </ul>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué fenómeno se asocia a la vaporización súbita del agua del fondo de ciertos tanques?
+            <details><summary>Comprobar</summary><p>El <i>boilover</i>, que puede expulsar violentamente combustible ardiendo.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=4" target="_blank" rel="noopener">Temario · pp. 12–13 ↗</a></p>
+        </section>
+        <section id="polvo" data-title="Polvo combustible">
+          <div class="sectiontop"><span class="number">09 · Polvo combustible</span><span class="source">Temario · pp. 14–15 e INSST</span></div>
+          <h2>Del depósito de polvo a la nube explosiva</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>Las partículas finas ofrecen más superficie de contacto por unidad de masa. Si el polvo combustible se dispersa en el aire, alcanza una concentración adecuada y encuentra una fuente de ignición, la combustión puede propagarse rápidamente por la nube.</div>
+          <div class="extra">
+            <p><b>Explosiones secundarias.</b> Una primera explosión puede levantar polvo acumulado y formar nuevas nubes inflamables. El valor de <b>0,5 mm (500 µm)</b> del temario es orientativo. Importan también la naturaleza del producto, su fracción fina y la concentración de la nube.</p>
+            <p><b>Elección del agente.</b> Depende del polvo, su reactividad, el grado de confinamiento y los medios. El agua nebulizada se cita para determinados polvos vegetales o sintéticos compatibles. Las masas profundas son difíciles de penetrar y la espuma física actúa principalmente sobre la superficie.</p>
+            <p><b>Metales y recintos cerrados.</b> Los fuegos de metales requieren un agente de clase D compatible con el metal implicado. El temario describe la inertización con gases en recintos cerrados adecuados, como silos, donde se pueda mantener la atmósfera prevista. Los gases extintores históricos se describen en la p. 15.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Cómo puede un depósito de polvo originar una segunda explosión?
+            <details><summary>Comprobar</summary><p>La onda de una explosión previa puede poner el polvo en suspensión y generar otra nube capaz de inflamarse.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=5" target="_blank" rel="noopener">Temario · pp. 14–15 ↗</a> · <a href="https://www.insst.es/documents/94886/203536/Gu%C3%ADa%2Bt%C3%A9cnica%2Bpara%2Bla%2Bevaluaci%C3%B3n%2By%2Bprevenci%C3%B3n%2Bde%2Blos%2Briesgos%2Bderivados%2Bde%2Batm%C3%B3sferas%2Bexplosivas%2Ben%2Bel%2Blugar%2Bde%2Btrabajo.pdf/d54dcb4f-2814-4b12-a591-ba9be3b4b0da" target="_blank" rel="noopener">INSST · Guía técnica de atmósferas explosivas ↗</a></p>
+        </section>
+        <section id="dosificacion" data-title="Generación y dosificación de espuma">
+          <div class="sectiontop"><span class="number">10 · Generación de espuma</span><span class="source">Temario · pp. 15–18</span></div>
+          <h2>Del espumógeno a la espuma</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>Agua y <b>espumógeno</b> dosificado forman la <b>solución espumante</b>. Al incorporar aire se obtiene la <b>espuma expandida</b>. Un proporcionador en línea puede aspirar el concentrado mediante el <b>efecto Venturi</b>.</div>
+          <div class="extra">
+            <ul>
+              <li><b>Premezcla.</b> El agua y el concentrado se almacenan ya mezclados, como en algunos extintores o vehículos. La espuma se forma al incorporar aire a esa solución.</li>
+              <li><b>Proporcionador.</b> El estrechamiento aumenta la velocidad del agua y reduce la presión en la cámara de mezcla. La línea de succión comunica esa depresión al depósito de concentrado. Una válvula de retención impide el retorno de agua hacia él.</li>
+              <li><b>Depósito a presión.</b> Con membrana, el agua presiona la bolsa y expulsa el espumógeno. Sin membrana, parte del agua entra en el depósito y se mezcla con el espumógeno.</li>
+              <li><b>Dosificación por bomba.</b> La bomba introduce concentrado según la demanda. El temario también describe proporcionadores de presión balanceada, boquillas con proporcionador integrado, bombas hidráulicas y equipos portátiles.</li>
+            </ul>
+            <p>El <b>porcentaje de dosificación</b> indica cuánto concentrado hay en la solución. La <b>relación de expansión</b> divide el volumen de espuma resultante por el volumen de solución.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué diferencia hay entre dosificar e incorporar aire?
+            <details><summary>Comprobar</summary><p>Dosificar fija la proporción de espumógeno en agua. Incorporar aire convierte esa solución en espuma.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=5" target="_blank" rel="noopener">Temario · p. 15 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=6" target="_blank" rel="noopener">Temario · pp. 16–17 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=7" target="_blank" rel="noopener">Temario · p. 18 ↗</a></p>
+        </section>
+        <section id="espuma" data-title="Expansión y aplicación de espuma">
+          <div class="sectiontop"><span class="number">11 · Expansión y aplicación</span><span class="source">Temario · pp. 18–20 y 24–25</span></div>
+          <h2>Cubrir la superficie o llenar el recinto</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>Según el temario, la expansión es <b>baja &lt; 20:1</b>, <b>media de 20:1 a 200:1</b> y <b>alta &gt; 200:1</b>. La cubrición forma una manta sobre el combustible. La inundación con alta expansión busca llenar un volumen.</div>
+          <div class="extra">
+            <p><b>Baja expansión.</b> Adecuada para cubrir determinados líquidos inflamables con una manta que reduce la emisión de vapores y aporta enfriamiento. La compatibilidad depende del producto implicado y del espumógeno.</p>
+            <p><b>Media y alta expansión.</b> La media facilita la extensión de espuma sobre derrames y alrededor de obstáculos. La alta permite llenar recintos adecuados. La ventilación de salida, el calor y las pérdidas por huecos condicionan el llenado.</p>
+            <p><b>Cubrición simple y por rebote.</b> El temario diferencia el avance de la espuma desde el suelo delante del derrame y el deslizamiento desde un obstáculo, como una pared, para depositarla suavemente.</p>
+            <p><b>Ejercicio de la p. 19.</b> Caudal de solución (L/min) = superficie (m²) × densidad de aplicación (L/min/m²). Con la tasa didáctica de <b>5 L/min/m²</b>, un derrame de 80 m² requiere 400 L/min de solución en el ejercicio. La tasa real depende del combustible, del producto y del sistema.</p>
+          </div>
+          <div class="story extra"><h3>La Noria reparte burbujas</h3><p>Una <b>Noria (20)</b> separa baja y media expansión. Añádele un <b>Aro (0)</b> al lado para leer <b>20 | 0 → 200</b>, el límite superior de la media según el temario.</p></div>
+          <div class="recall"><b>Sin mirar.</b> ¿La tasa de aplicación se mide con espuma expandida o con solución?
+            <details><summary>Comprobar</summary><p>Con el caudal de solución de agua y concentrado que llega a cada metro cuadrado.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=7" target="_blank" rel="noopener">Temario · pp. 18–19 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=8" target="_blank" rel="noopener">Temario · p. 20 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=10" target="_blank" rel="noopener">Temario · pp. 24–25 ↗</a></p>
+        </section>
+        <section id="propagacion" data-title="Defensa contra la propagación">
+          <div class="sectiontop"><span class="number">12 · Control de la propagación</span><span class="source">Temario · pp. 20–21</span></div>
+          <h2>Protege el espacio y las superficies expuestas</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>La <b>presurización</b> dificulta la entrada de humo en una zona protegida. La <b>refrigeración</b> limita el calentamiento de superficies expuestas por radiación, convección o contacto directo de la llama.</div>
+          <div class="extra">
+            <p><b>Presurización.</b> La diferencia de presión favorece el flujo desde la zona protegida hacia la de menor presión. Los grandes volúmenes, las fugas y la interacción con las corrientes naturales condicionan su eficacia.</p>
+            <p><b>Refrigeración.</b> La p. 21 diferencia calor radiante, llama directa incipiente y llama de dardo. Para dimensionar el abastecimiento, el escenario de exposición y la superficie protegida importan junto con la demanda simultánea de otros medios.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué técnica actúa sobre la entrada del humo y cuál sobre el calentamiento de un depósito vecino?
+            <details><summary>Comprobar</summary><p>Presurización para el humo. Refrigeración para la superficie expuesta del depósito.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=8" target="_blank" rel="noopener">Temario · pp. 20–21 ↗</a> · <a href="https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/12-serie-ntp-numeros-401-a-435-ano-1997/ntp-420-instalaciones-de-abastecimiento-de-agua-contra-incendios" target="_blank" rel="noopener">INSST · NTP 420 ↗</a></p>
+        </section>
+        <section id="agua" data-title="Ataque con agua y caudales">
+          <div class="sectiontop"><span class="number">13 · Extinción con agua</span><span class="source">Temario · pp. 22–24</span></div>
+          <h2>Qué se enfría y con qué caudal</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El <b>ataque directo</b> aplica agua al combustible. El <b>indirecto</b> descrito por el temario aprovecha la generación de vapor en un espacio confinado. El <b>caudal crítico</b> es el mínimo necesario para lograr la extinción. El <b>óptimo</b> minimiza el volumen total gastado.</div>
+          <div class="extra">
+            <div class="grid">
+              <div class="card"><h3>Gasto y caudal medio</h3><p>El gasto es el volumen total de agua empleado. El caudal medio resulta de dividir ese volumen por el tiempo de intervención.</p></div>
+              <div class="card"><h3>Caudal disponible</h3><p>Es el máximo caudal que puede entregarse en punta de lanza en un momento dado. La potencia del fuego, la ventilación, el combustible, el área y la fase influyen en la demanda.</p></div>
+            </div>
+            <p>El agua absorbe calor al calentarse y al evaporarse. La superficie de contacto de las gotas influye en el intercambio térmico. Aplicar poco caudal durante más tiempo puede dejar que el fuego siga creciendo si la absorción de calor resulta insuficiente.</p>
+            <p>La p. 24 advierte del peligro del vapor y del desplazamiento de gases en el ataque indirecto, especialmente con víctimas atrapadas o vías de propagación hacia espacios sin afectar.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué diferencia el caudal crítico del óptimo?
+            <details><summary>Comprobar</summary><p>El crítico marca el mínimo para extinguir. El óptimo permite extinguir con el menor volumen total de agua.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=9" target="_blank" rel="noopener">Temario · pp. 22–23 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=10" target="_blank" rel="noopener">Temario · p. 24 ↗</a></p>
+        </section>
+        <section id="ventilacion" data-title="Ventilación y recorrido del humo">
+          <div class="sectiontop"><span class="number">14 · Ventilación</span><span class="source">Temario · pp. 25–26</span></div>
+          <h2>Qué recorrido tendrán los gases</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>La ventilación natural usa aberturas y diferencias de presión. La <b>ventilación por presión positiva (VPP)</b> añade un ventilador. Cambiar las entradas y salidas de aire modifica tanto el recorrido del humo como el aporte de oxígeno al incendio.</div>
+          <div class="extra grid">
+            <div class="card"><h3>Horizontal natural</h3><p>El humo y el aire circulan por aberturas laterales. Una misma abertura puede tener flujos en ambos sentidos. El viento y el tamaño y la ubicación de las aberturas alteran el recorrido.</p></div>
+            <div class="card"><h3>Vertical natural</h3><p>El gradiente térmico y de presión puede impulsar humo por cajas de escalera, huecos de ascensor y otros conductos verticales. Es el efecto chimenea.</p></div>
+            <div class="card"><h3>Presión positiva</h3><p>El ventilador impulsa aire y establece una diferencia de presión. La posición de la salida condiciona el recorrido de los gases, su paso por zonas ocupadas y la coordinación con la extinción.</p></div>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Por qué importa coordinar ventilación y extinción?
+            <details><summary>Comprobar</summary><p>La apertura puede aumentar el oxígeno disponible y la intensidad del fuego. También modifica por dónde circulan el humo y el calor.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=10" target="_blank" rel="noopener">Temario · p. 25 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=11" target="_blank" rel="noopener">Temario · p. 26 ↗</a></p>
+        </section>
+        <section id="valoracion" data-title="Valoración y búsqueda">
+          <div class="sectiontop"><span class="number">15 · Valoración y búsqueda</span><span class="source">Temario · pp. 27–29</span></div>
+          <h2>Qué datos cambian la valoración</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>Relaciona <b>ocupantes y recuento</b>, <b>combustible y proceso</b>, <b>estructura y entorno</b>, <b>propagación</b> y <b>recursos disponibles</b>. La posibilidad de víctimas y el riesgo de colapso condicionan las opciones de búsqueda y extinción.</div>
+          <div class="extra">
+            <ul>
+              <li><b>Ocupantes.</b> El punto de encuentro y el recuento de trabajadores y otras personas ayudan a saber si falta alguien. Un recuento incompleto cambia la valoración del mando.</li>
+              <li><b>Búsqueda.</b> El temario vincula la simultaneidad de búsqueda y ataque al personal y a los medios disponibles. La cámara térmica ayuda a orientar el rastreo con baja visibilidad.</li>
+              <li><b>Riesgos inmediatos.</b> Identifica lo que se fabrica, manipula o almacena y la posibilidad de colapso. La estructura compartida puede transmitir el fallo a naves contiguas.</li>
+              <li><b>Exposiciones.</b> Considera la proximidad de otras naves, los accesos y las vías de propagación. El tipo y la cantidad de combustible influyen en la potencia y el desarrollo.</li>
+            </ul>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Por qué interesa saber si dos naves comparten estructura?
+            <details><summary>Comprobar</summary><p>El fallo de elementos comunes puede comprometer también las naves contiguas.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=11" target="_blank" rel="noopener">Temario · p. 27 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=12" target="_blank" rel="noopener">Temario · pp. 28–29 ↗</a> · <a href="https://www.cdc.gov/niosh/docs/wp-solutions/2014-120/default.html" target="_blank" rel="noopener">NIOSH · Riesgo de colapso ↗</a></p>
+        </section>
+        <section id="recursos" data-title="Recursos y valoración dinámica">
+          <div class="sectiontop"><span class="number">16 · Recursos y valoración dinámica</span><span class="source">Temario · pp. 30–32</span></div>
+          <h2>Comprueba si los medios sostienen el plan</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El mando prioriza la <b>protección de vidas</b> y distribuye recursos entre <b>rescate, evacuación o confinamiento</b>, <b>control de la propagación</b> y <b>extinción</b>. Reevalúa el plan al cambiar las condiciones o la disponibilidad de los medios.</div>
+          <div class="extra">
+            <ul>
+              <li><b>Personas.</b> Dimensiona el personal para localizar, rescatar o proteger a los ocupantes. El rescate puede requerir medios de altura según el acceso.</li>
+              <li><b>Propagación.</b> Identifica exposiciones, puntos de difícil acceso y medios disponibles para protegerlos.</li>
+              <li><b>Extinción.</b> Cuantifica volumen de agua o agente, caudal mínimo, personal, puntos de ataque y relevos. El plan de emergencia de la empresa puede aportar personal conocedor de las instalaciones, los combustibles, las vías de escape y sus propios medios.</li>
+            </ul>
+            <p><b>Reevaluación.</b> Un cambio del viento o de la ventilación, indicios de colapso, la avería de un equipo o una respuesta del incendio distinta a la prevista obligan a revisar el objetivo y la táctica. El temario sitúa la reparación de daños y la vuelta a la normalidad después del control de la emergencia.</p>
+            <p>La p. 31 menciona tipos E y F. Para repasar las categorías vigentes, consulta <a href="#configuracion">Configuración y sectorización</a>.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué dos datos hidráulicos cuantifica el mando para prever la extinción?
+            <details><summary>Comprobar</summary><p>El volumen necesario de agua o agente y el caudal mínimo. También debe prever personal, puntos de ataque y relevos.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=13" target="_blank" rel="noopener">Temario · pp. 30–31 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=14" target="_blank" rel="noopener">Temario · p. 32 ↗</a></p>
+        </section>
+        <section id="tacticas" data-title="Elección de técnicas de ataque">
+          <div class="sectiontop"><span class="number">17 · Técnicas de ataque</span><span class="source">Temario · pp. 33–34</span></div>
+          <h2>Distingue el objetivo de cada técnica</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>El <b>control exterior de propagación</b> protege exposiciones. El <b>ataque directo</b> enfría el combustible. El <b>indirecto</b> aprovecha la evaporación del agua y la dilución de gases en el recinto. Con <b>espuma</b>, la cubrición actúa sobre una superficie y la inundación ocupa un volumen.</div>
+          <div class="extra">
+            <div class="grid">
+              <div class="card"><h3>Control exterior</h3><p>El temario lo vincula a la protección de superficies amenazadas y a posiciones desde las que puedan alcanzarse las exposiciones.</p></div>
+              <div class="card"><h3>Directo exterior o interior</h3><p>El temario distingue el enfriamiento desde el exterior, útil cuando el acceso interior resulta difícil, del ataque interior sobre el foco para reducir la pirólisis. El acceso y el riesgo de colapso condicionan la posición de trabajo.</p></div>
+              <div class="card"><h3>Indirecto con agua</h3><p>El impreso describe un patrón en <b>T</b>, con recorridos superiores y uno vertical central, y otro en <b>O</b>, de recorrido circular. El vapor reduce la visibilidad, puede desplazar gases hacia otras zonas y pone en riesgo a posibles víctimas.</p></div>
+              <div class="card"><h3>Espuma</h3><p>La p. 34 asocia la cubrición con baja o media expansión y la inundación con alta expansión. En la inundación, el volumen del recinto y los medios disponibles limitan la viabilidad.</p></div>
+            </div>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué técnica protege la nave contigua y qué técnica actúa sobre el foco para reducir la pirólisis?
+            <details><summary>Comprobar</summary><p>Control exterior de propagación para proteger la nave contigua. Ataque directo para enfriar el foco.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=14" target="_blank" rel="noopener">Temario · p. 33 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=15" target="_blank" rel="noopener">Temario · p. 34 ↗</a> · <a href="https://www.cdc.gov/niosh/docs/2010-153/" target="_blank" rel="noopener">NIOSH · Valoración del riesgo estructural ↗</a></p>
+        </section>
+        <section id="presion-positiva" data-title="Presión positiva en la intervención">
+          <div class="sectiontop"><span class="number">18 · Presión positiva</span><span class="source">Temario · pp. 32 y 35</span></div>
+          <h2>Sigue el flujo desde la entrada hasta la salida</h2>
+          <div class="essential"><div class="overline">Lo esencial</div>En la <b>VPP defensiva</b> del temario, el flujo evita el foco para proteger zonas y recorridos. En la <b>VPP ofensiva</b>, el flujo pasa por la zona del incendio y puede aportar aire al fuego. Esa diferencia condiciona la coordinación con la extinción.</div>
+          <div class="extra">
+            <p><b>Contra la propagación.</b> La finalidad es proteger sectores o edificios próximos. Importan la estanqueidad, el caudal de aire disponible y la dirección de la ventilación natural.</p>
+            <p><b>Para la progresión.</b> Se busca retirar humo de pasillos o escaleras con el incendio aislado del itinerario y con una salida de gases diferenciada de la entrada de aire. La valoración continua de entrada y salida permite detectar cambios del flujo o desplazamiento de gases a otras zonas.</p>
+            <p><b>Ofensiva.</b> La mejor visibilidad inicial puede ser temporal. El aire fresco que alcanza el foco puede intensificar el incendio. La salida elegida y la coordinación con los equipos de extinción condicionan el resultado.</p>
+          </div>
+          <div class="recall"><b>Sin mirar.</b> ¿Qué pregunta distingue la VPP defensiva de la ofensiva?
+            <details><summary>Comprobar</summary><p>¿Atraviesa el flujo la zona del incendio? En la defensiva la evita. En la ofensiva la atraviesa.</p></details>
+          </div>
+          <p class="references"><a href="industriales-assets/tema-05-recuperado.pdf#page=14" target="_blank" rel="noopener">Temario · p. 32 ↗</a> · <a href="industriales-assets/tema-05-recuperado.pdf#page=15" target="_blank" rel="noopener">Temario · p. 35 ↗</a> · <a href="https://fsri.org/resource/fire-service-summary-report-study-effectiveness-fire-service-positive-pressure-ventilation" target="_blank" rel="noopener">FSRI · Estudio de presión positiva en viviendas ↗</a></p>
+        </section>
+        <p id="noresults" class="empty" hidden>No hay bloques que coincidan con la búsqueda.</p>
+      </div>
+      <div id="quick" class="view" role="tabpanel" aria-labelledby="tab-quick" hidden>
+        <div class="panel"><h2 class="viewtitle">Repaso rápido</h2><div id="quickgrid" class="quickgrid"></div></div>
+      </div>
+      <div id="flash" class="view" role="tabpanel" aria-labelledby="tab-flash" hidden>
+        <div class="panel">
+          <h2 class="viewtitle">Tarjetas de repaso</h2>
+          <p class="note">Responde antes de abrir la tarjeta. «Lo recuerdo» programa el siguiente repaso en 1, 3, 7 o 14 días.</p>
+          <div class="controls">
+            <label for="deck">Mazo</label><select id="deck"><option value="all">Todas las tarjetas</option><option value="due">Pendientes hoy</option><option value="repeat">Para repetir</option></select>
+            <label for="cardtopic">Bloque</label><select id="cardtopic"><option value="all">Todos</option></select>
+            <button type="button" id="shuffle">Mezclar</button>
+          </div>
+          <p class="note" id="flashcount" aria-live="polite"></p>
+          <div class="flashbox">
+            <div class="overline" id="flashtag"></div>
+            <h3 id="flashq"></h3>
+            <button type="button" id="reveal">Ver respuesta</button>
+            <div class="answer" id="flasha" tabindex="-1" hidden></div>
+          </div>
+          <div class="controls">
+            <button type="button" id="prev">← Anterior</button><button type="button" id="again" disabled>Repetir hoy</button>
+            <button type="button" id="remember" class="primary" disabled>Lo recuerdo</button><button type="button" id="next">Siguiente →</button>
+          </div>
+          <p class="note" id="flashstatus" aria-live="polite"></p>
+        </div>
+      </div>
+      <div id="quiz" class="view" role="tabpanel" aria-labelledby="tab-quiz" hidden>
+        <div class="panel">
+          <h2 class="viewtitle">Test de incendios industriales</h2>
+          <p class="note">Preguntas del cuaderno, con explicación y enlace a la fuente al responder.</p>
+          <div class="controls quiz-controls">
+            <label for="quiztopic">Bloque</label><select id="quiztopic"><option value="all">Todos los bloques</option></select>
+            <button type="button" id="resetquiz">Reiniciar selección</button><span id="score" class="score" aria-live="polite"></span>
+          </div>
+          <div id="quizlist"></div>
+        </div>
+      </div>
+      <div id="memory" class="view" role="tabpanel" aria-labelledby="tab-memory" hidden>
+        <div class="panel">
+          <h2 class="viewtitle">Tu casillero</h2>
+          <p>Visualiza la escena y recupera la cifra, la unidad y la condición que la acompaña.</p>
+          <div id="stories"></div>
+        </div>
+      </div>
+      <div id="sources" class="view" role="tabpanel" aria-labelledby="tab-sources" hidden>
+        <div class="panel">
+          <h2 class="viewtitle">Fuentes del tema</h2>
+          <div class="documentgrid">
+            <div class="card">
+              <h3>Academia Bomberos · Tema 5 (2020)</h3>
+              <ul>
+                <li><a href="industriales-assets/inds-1.pdf" target="_blank" rel="noopener">PDF aportado · pp. impresas 2–5 ↗</a></li>
+                <li><a href="industriales-assets/tema-05-recuperado.pdf" target="_blank" rel="noopener">Escaneo reunido · pp. impresas 6–35 ↗</a></li>
+              </ul>
+              <p>Cada hoja digital muestra dos páginas impresas. El segundo PDF tiene marcadores con la numeración impresa. La esquina superior izquierda de la p. 30 está tapada en el escaneo.</p>
+            </div>
+            <div class="card">
+              <h3>Normativa en el BOE</h3>
+              <ul>
+                <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190" target="_blank" rel="noopener">RD 164/2025 · RSCIEI ↗</a></li>
+                <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606" target="_blank" rel="noopener">RD 513/2017 · RIPCI ↗</a></li>
+                <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515#a11" target="_blank" rel="noopener">RD 314/2006 · CTE, art. 11 ↗</a></li>
+                <li><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21144" target="_blank" rel="noopener">Orden INT/1068/2026 · Autoprotección ↗</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>Incendios Industriales · Tema 05 · Mi cuaderno</footer>
+</body>
+</html>
