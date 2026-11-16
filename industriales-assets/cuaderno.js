@@ -7,17 +7,22 @@ const search = $("#search");
 const essentials = $("#essentials");
 const study = $("#study");
 const mobileIndex = $(".mobileindex");
+const storagePrefix = (document.documentElement.dataset.studyKey || "industriales") + "-";
+const toolbar = $(".toolbar");
+new ResizeObserver(() => {
+  document.documentElement.style.setProperty("--toolbar-clearance", `${toolbar.offsetHeight + 12}px`);
+}).observe(toolbar);
 const state = {
   get(key, fallback) {
     try {
-      return JSON.parse(localStorage.getItem("industriales-" + key)) ?? fallback;
+      return JSON.parse(localStorage.getItem(storagePrefix + key)) ?? fallback;
     } catch {
       return fallback;
     }
   },
   set(key, value) {
     try {
-      localStorage.setItem("industriales-" + key, JSON.stringify(value));
+      localStorage.setItem(storagePrefix + key, JSON.stringify(value));
     } catch {
       // The current session still works when storage is unavailable.
     }
@@ -85,7 +90,7 @@ tabs.forEach((tab, index) => {
 });
 
 function normalize(value) {
-  return value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return value.toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
 }
 
 function searchBlocks() {
@@ -217,7 +222,13 @@ $("#shuffle").addEventListener("click", () => {
 });
 
 function externalLink(url) {
-  const label = url.startsWith("industriales-assets/") ? "Consultar temario" : "Consultar BOE";
+  const photo = url.match(/^extintores-assets\/paginas\/([0-9]+)\.jpg$/);
+  const pdfPage = url.match(/^[\w-]+-assets\/[^#]+\.pdf#page=([0-9]+)$/i);
+  let label = "Consultar fuente";
+  if (photo) label = `Ver foto de la p. ${Number(photo[1])}`;
+  else if (url.startsWith("industriales-assets/")) label = "Consultar temario";
+  else if (pdfPage) label = `Consultar p. ${Number(pdfPage[1])} del temario`;
+  else if (url.startsWith("https://www.boe.es/")) label = "Consultar BOE";
   return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
 }
 

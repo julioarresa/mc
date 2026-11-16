@@ -1,0 +1,47 @@
+html { scroll-padding-top: var(--toolbar-clearance, 115px); }
+.intro { align-items: flex-start; }
+.photos-link { align-self: center; flex-shrink: 0; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: var(--paper); font-size: .9rem; }
+.photos-link:hover { border-color: var(--green); }
+.sidebar .help { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); }
+#study .essential { border-left-width: 1px; }
+#study .source { font-size: 12px; }
+#study .sectiontop { flex-wrap: wrap; }
+#study .extra > p, .panel > p, .steps { max-width: 75ch; }
+.comparison .card { padding: 14px 16px; }
+.comparison .card p { font-size: .94rem; }
+.steps li + li { margin-top: .65rem; }
+.data-table { margin: 1rem 0; overflow-wrap: anywhere; }
+.data-table th[scope="row"] { background: transparent; font-size: inherit; letter-spacing: normal; }
+.data-table td:first-of-type { font-weight: normal; }
+#agentes .data-table th:first-child { white-space: nowrap; }
+.reference-links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 8px; }
+.story b { color: #8c3f28; }
+.photo-controls { align-items: end; }
+.photo-controls label { align-self: center; }
+.photo-controls select { min-width: 0; flex: 1 1 260px; }
+.photo-buttons { display: flex; gap: 8px; }
+.photo { margin: 18px 0 24px; max-width: 720px; }
+.photo figcaption { display: flex; gap: 8px 16px; flex-wrap: wrap; justify-content: space-between; align-items: baseline; padding: 10px 12px; background: var(--mint); border-radius: 7px 7px 0 0; font-size: .9rem; }
+.photo img { display: block; width: 100%; height: auto; background: #e4e7db; border-radius: 0 0 7px 7px; }
+.pegsearch { max-width: 100%; border: 1px solid var(--line); color: var(--ink); background: var(--paper); border-radius: 6px; padding: 8px; }
+.peglist { display: grid; grid-template-columns: repeat(auto-fit,minmax(125px,1fr)); gap: 6px; }
+.peg { padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.peg b { display: inline-block; margin-right: 6px; color: var(--green); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 710px) {
+  .intro { display: block; }
+  .photos-link { display: inline-block; margin-top: 9px; }
+  .photo-controls select { max-width: 100%; }
+}
+@media (max-width: 550px) {
+  .tabs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 2px 4px; }
+  .tabs button { min-height: 38px; }
+  .photo-controls { display: flex; flex-direction: column; align-items: stretch; }
+  .photo-controls label { align-self: flex-start; }
+  .photo-controls select { flex: initial; width: 100%; }
+  .data-table td, .data-table th { padding: 8px 7px; }
+}
+@media print {
+  .photos-link, #study .references { display: none !important; }
+  .comparison .card { break-inside: avoid; }
+}

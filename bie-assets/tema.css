@@ -1,0 +1,41 @@
+html { scroll-padding-top: var(--toolbar-clearance, 115px); }
+.intro { align-items: flex-start; }
+.pdf-link { flex-shrink: 0; align-self: center; }
+.pdf-link a { display: inline-block; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: var(--paper); font-size: .9rem; }
+.pdf-link a:hover { border-color: var(--green); }
+.sidebar .help { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); }
+#study .essential { border-left-width: 1px; }
+#study .source { font-size: 12px; }
+#study .extra > p, .panel > p, .steps { max-width: 75ch; }
+#study .comparison { max-width: 820px; }
+.comparison .card { padding: 14px 16px; }
+.comparison .card p { font-size: .94rem; }
+.comparison a { font-size: .875rem; }
+.data-table { margin: 1rem 0; }
+.data-table th[scope="row"] { background: transparent; font-size: inherit; letter-spacing: normal; }
+.data-table td:first-of-type { font-weight: normal; }
+.reference-links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 8px; }
+.steps li + li { margin-top: .65rem; }
+.story b { color: #8c3f28; }
+.source-columns ul { padding-left: 20px; }
+.source-columns h3 { margin-top: 12px; }
+.pegsearch { max-width: 100%; border: 1px solid var(--line); color: var(--ink); background: var(--paper); border-radius: 6px; padding: 8px; }
+.peglist { display: grid; grid-template-columns: repeat(auto-fit,minmax(125px,1fr)); gap: 6px; }
+.peg { padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.peg b { display: inline-block; margin-right: 6px; color: var(--green); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 710px) {
+  .intro { display: block; }
+  .pdf-link { margin-top: 9px; }
+}
+@media (max-width: 550px) {
+  .top .brand small { display: block; }
+  .tabs { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 2px 4px; }
+  .tabs button { min-height: 38px; }
+  .data-table td, .data-table th { padding: 8px 7px; overflow-wrap: break-word; }
+  #hidraulica .data-table th[scope="row"] { white-space: nowrap; }
+}
+@media print {
+  .pdf-link, #study .references { display: none !important; }
+  .comparison .card { break-inside: avoid; }
+}
